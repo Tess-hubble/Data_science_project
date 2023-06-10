@@ -1,0 +1,1495 @@
+purchase_id,mooc_id,date,focal_good,good_desc,type,mooc_set,count,price,unit_price,bundle,group,old,new
+MOOC10/3.46/10,MOOC10/3.46,17231025,1 boterkarn,1 groote traanpot en 1 boterkarn,horse_cart,3,1,1.0,1.0,1,0,0,0
+MOOC10/3.50/25,MOOC10/3.50,17240612,1 carrie steen,1 carrie steen,horse_cart,3,1,1.0,1.0,0,0,0,0
+MOOC10/3.65/168,MOOC10/3.65,17240606,1 karn,1 karn met 1 botervat,horse_cart,3,1,1.0,1.0,1,0,0,0
+MOOC10/5.5/18,MOOC10/5.5,17380217,1 glase carabas,1 glase carabas,horse_cart,5,1,1.0,1.0,0,0,0,0
+MOOC10/5.5/112,MOOC10/5.5,17380217,1 carabijn,1 carabijn,horse_cart,5,1,1.0,1.0,0,0,0,0
+MOOC10/5.52/227,MOOC10/5.52,17450913,1 carette doos,1 carette doos met 1 silver charnier,horse_cart,5,1,1.0,1.0,1,0,0,0
+MOOC10/10.6/126,MOOC10/10.6,17700319,1 boter karn,1 boter karn,horse_cart,10,1,1.0,1.0,0,0,0,0
+MOOC10/10.34/38,MOOC10/10.34,17710819,1 botercarn,1 botercarn,horse_cart,10,1,1.0,1.0,0,0,0,0
+MOOC10/11.29/14,MOOC10/11.29,17741004,1 karn,1 karn,horse_cart,11,1,1.0,1.0,0,0,0,0
+MOOC10/11.46/57,MOOC10/11.46,17761023,4 glase caraffen,4 glase caraffen,horse_cart,11,4,1.0,0.25,0,0,0,0
+MOOC10/12.25/94,MOOC10/12.25,[...]0201/[...]0202,1 karn,1 karn,horse_cart,12,1,1.0,1.0,0,0,0,0
+MOOC10/12.35/13,MOOC10/12.35,17790322,1 oude carijn,1 capstok en 1 oude carijn,horse_cart,12,1,1.0,1.0,1,0,1,0
+MOOC10/14.18/120,MOOC10/14.18,17830924/17830925,2 glaze liquercaraffen,2 glaze liquercaraffen,horse_cart,14,2,1.0,0.5,0,0,0,0
+MOOC10/14.18/121,MOOC10/14.18,17830924/17830925,2 glaze liquercaraffen,2 glaze liquercaraffen,horse_cart,14,2,1.0,0.5,0,0,0,0
+MOOC10/14.23/106,MOOC10/14.23,17831128,4 cardoesen tabak,4 cardoesen tabak,horse_cart,14,4,1.0,0.25,0,0,0,0
+MOOC10/14.23/107,MOOC10/14.23,17831128,4 cardoesen tabak,4 cardoesen tabak,horse_cart,14,4,1.0,0.25,0,0,0,0
+MOOC10/14.23/108,MOOC10/14.23,17831128,4 cardoesen tabak,4 cardoesen tabak,horse_cart,14,4,1.0,0.25,0,0,0,0
+MOOC10/15.7/123,MOOC10/15.7,17860113,1 carette lit ringetje,2 sawasse en 1 carette lit ringetje,horse_cart,15,1,1.0,1.0,1,0,0,0
+MOOC10/15.40/49,MOOC10/15.40,17870623,7 cardoese tabak,7 cardoese tabak,horse_cart,15,7,1.0,0.14,0,0,0,0
+MOOC10/16.26/67,MOOC10/16.26,17910325,2 glase caraffen,2 glase caraffen en 7 wijnkelken in soort,horse_cart,16,2,1.0,0.5,1,0,0,0
+MOOC10/16.36/817,MOOC10/16.36,17940219/17940221,13 lb: cardoes tobak,13 lb: cardoes tobak,horse_cart,16,13,1.0,0.08,0,0,0,0
+MOOC10/17.14/98,MOOC10/17.14,17940920,3 carafjes,3 carafjes,horse_cart,17,3,1.0,0.33,0,0,0,0
+MOOC10/17.29/505,MOOC10/17.29,17950126/17950128,1 karaft,1 karaft,horse_cart,17,1,1.0,1.0,0,0,0,0
+MOOC10/18.56/46,MOOC10/18.56,17981129,1 boter karn,1 boter karn,horse_cart,18,1,1.0,1.0,0,0,0,0
+MOOC10/19.24/154,MOOC10/19.24,18011027,1 carafje,1 tee potje en 1 carafje,horse_cart,19,1,1.0,1.0,1,0,0,0
+MOOC10/2.18/162,MOOC10/2.18,17191106,1 cardoes kruijt,1 cardoes kruijt,horse_cart,2,1,1.0,1.0,0,0,0,0
+MOOC10/2.26/22,MOOC10/2.26,17210115,1 karn,1 baletje met een karn,horse_cart,2,1,1.0,1.0,1,0,0,0
+MOOC10/20.24/151,MOOC10/20.24,18040628/18040702/18040703,4 cardoesen tabak,4 cardoesen tabak,horse_cart,20,4,1.0,0.25,0,0,0,0
+MOOC10/21.16/46,MOOC10/21.16,18050306,1 boterkarn,1 boterkarn,horse_cart,21,1,1.0,1.0,0,0,0,0
+MOOC10/22.30/4,MOOC10/22.30,18060224/18060225,1 melk karn,1 melk karn,horse_cart,22,1,1.0,1.0,0,0,0,0
+MOOC10/22.42/8,MOOC10/22.42,18060516,1 p:r karleeren,1 p:r karleeren en buik,horse_cart,22,1,1.0,1.0,1,0,0,0
+MOOC10/22.55/68,MOOC10/22.55,18071005,1 karaf,1 schenkblad met 1 karaf en 4 zoutvaatjes,horse_cart,22,1,1.0,1.0,1,0,0,0
+MOOC10/22.66/157,MOOC10/22.66,18060218/18060219,4 karaffen,4 karaffen,horse_cart,22,4,1.0,0.25,0,0,0,0
+MOOC10/22.73/100,MOOC10/22.73,18071115,1 karnetje,1 karnetje,horse_cart,22,1,1.0,1.0,0,0,0,0
+MOOC10/6.20/104,MOOC10/6.20,17491021/17491022,1 carette snuijfdoosje,1 carette snuijfdoosje met silver beslag,horse_cart,6,1,1.0,1.0,1,0,0,0
+MOOC10/7.17/658,MOOC10/7.17,17520327/17520330,1 parthij cardoes papier,1 parthij cardoes papier,horse_cart,7,1,1.0,1.0,0,1,0,0
+MOOC10/8.5/121,MOOC10/8.5,17580320,2 karns,2 karns,horse_cart,8,2,1.0,0.5,0,0,0,0
+MOOC10/4.118/4,MOOC10/4.118,17330328,1 carabijn,1 carabijn,horse_cart,4,1,2.0,2.0,0,0,0,0
+MOOC10/4.119/436,MOOC10/4.119,17330713,2 carabassen,2 carabassen,horse_cart,4,2,2.0,1.0,0,0,0,0
+MOOC10/4.161/36,MOOC10/4.161,17361123,2 carabassen,2 carabassen,horse_cart,4,2,2.0,1.0,0,0,0,0
+MOOC10/5.7/2,MOOC10/5.7,17380923,1 karn,"3 vatjes, 3 sickels en 1 karn",horse_cart,5,1,2.0,2.0,1,0,0,0
+MOOC10/5.20/30,MOOC10/5.20,17380324,1 karn,1 karn met 3 vaten en 2 balijs,horse_cart,5,1,2.0,2.0,1,0,0,0
+MOOC10/5.20/349,MOOC10/5.20,17380324,1 kar,1 tuijg van een kar en 1 lap zijl,horse_cart,5,1,2.0,2.0,1,0,0,0
+MOOC10/5.63/170,MOOC10/5.63,17410420,2 carabassen,2 carabassen,horse_cart,5,2,2.0,1.0,0,0,0,0
+MOOC10/10.49/95,MOOC10/10.49,17711104,1 booter karn,1 booter karn,horse_cart,10,1,2.0,2.0,0,0,0,0
+MOOC10/11.16/31,MOOC10/11.16,17750515,1 boter karn,1 boter karn,horse_cart,11,1,2.0,2.0,0,0,0,0
+MOOC10/12.29/50,MOOC10/12.29,17790526,1 bolcarijn,1 bolcarijn,horse_cart,12,1,2.0,2.0,0,0,0,0
+MOOC10/12.40/125,MOOC10/12.40,17790909,1 botercarn,1 botercarn,horse_cart,12,1,2.0,2.0,0,0,0,0
+MOOC10/13.52/62,MOOC10/13.52,17821211,4 glaze caraffen in soort,1 porc: soupcom en 4 glaze caraffen in soort,horse_cart,13,4,2.0,0.5,1,0,0,0
+MOOC10/13.54/268,MOOC10/13.54,17820816/17820817,1 snoer carolijne,1 snoer carolijne en eenige valse steentjes,horse_cart,13,1,2.0,2.0,1,0,0,0
+MOOC10/14.18/126,MOOC10/14.18,17830924/17830925,2 glaze liquercaraffen verguld,2 glaze liquercaraffen verguld,horse_cart,14,2,2.0,1.0,0,0,0,0
+MOOC10/15.42/331,MOOC10/15.42,17870824/17870825,2 carraffen,2 carraffen,horse_cart,15,2,2.0,1.0,0,0,0,0
+MOOC10/15.83/41,MOOC10/15.83,17890418,2 glase carraffen,2 glase carraffen,horse_cart,15,2,2.0,1.0,0,0,0,0
+MOOC10/16.7/65,MOOC10/16.7,17901118,1 boterkarn,"1 boterkarn, 1 boterbak en 1 melkbaletje",horse_cart,16,1,2.0,2.0,1,0,0,0
+MOOC10/17.15/407,MOOC10/17.15,17940327/17940329,3 clase caraffen,3 clase caraffen,horse_cart,17,3,2.0,0.67,0,0,0,0
+MOOC10/18.13/119,MOOC10/18.13,17940819,1 karn,1 karn,horse_cart,18,1,2.0,2.0,0,0,0,0
+MOOC10/18.15/19,MOOC10/18.15,17970708,1 glaze caraf,"1 kom, 1 glaze caraf, 1 bierglas en 3 kelken",horse_cart,18,1,2.0,2.0,1,0,0,0
+MOOC10/19.27/342,MOOC10/19.27,18020115/18020116,2 carafjes,2 carafjes,horse_cart,19,2,2.0,1.0,0,0,0,0
+MOOC10/19.36/233,MOOC10/19.36,18000508/18000509,2 glaze karaffen,2 glaze karaffen,horse_cart,19,2,2.0,1.0,0,0,0,0
+MOOC10/2.9/621,MOOC10/2.9,17190315,1 carrabas,1 carrabas,horse_cart,2,1,2.0,2.0,0,0,0,0
+MOOC10/2.19/19,MOOC10/2.19,17200309,1 stel voor een kar,1 stel voor een kar met een as,horse_cart,2,1,2.0,2.0,1,1,0,0
+MOOC10/2.22/5,MOOC10/2.22,17201202,1 karn,1 karn met sijn deksel,horse_cart,2,1,2.0,2.0,1,0,0,0
+MOOC10/20.34/44,MOOC10/20.34,18030217,1 caraff,1 caraff en 2 glase,horse_cart,20,1,2.0,2.0,1,0,0,0
+MOOC10/20.50/62,MOOC10/20.50,18040402,1 karn,1 karn,horse_cart,20,1,2.0,2.0,0,0,0,0
+MOOC10/22.30/177,MOOC10/22.30,18060224/18060225,1 caraf,1 caraf en 1 bottel,horse_cart,22,1,2.0,2.0,1,0,0,0
+MOOC10/22.74/23,MOOC10/22.74,18060619,2 kardoesen tobak,2 kardoesen tobak,horse_cart,22,2,2.0,1.0,0,0,0,0
+MOOC10/26.13/155,MOOC10/26.13,18100928,1 karn,"1 dissel, 1 snij mes, 1 karn",horse_cart,26,1,2.0,2.0,1,0,0,0
+MOOC10/6.17/111,MOOC10/6.17,17500916,1 carette doos,1 carette doos met wat silver beslag,horse_cart,6,1,2.0,2.0,1,0,0,0
+MOOC10/7.17/217,MOOC10/7.17,17520327/17520330,4 bosjes carlijne kraalen,4 bosjes carlijne kraalen,horse_cart,7,4,2.0,0.5,0,0,0,0
+MOOC10/8.2/65,MOOC10/8.2,17551104/17551106,1 p:s kokarde lindt,1 p:s kokarde lindt,horse_cart,8,1,2.0,2.0,0,0,0,0
+MOOC10/8.52/82,MOOC10/8.52,17640330,1 carette snuijfdoos in silver gevat,1 carette snuijfdoos in silver gevat,horse_cart,8,1,2.0,2.0,0,0,0,0
+MOOC10/9.13/78,MOOC10/9.13,17641006,1 booter karn,1 booter karn,horse_cart,9,1,2.0,2.0,0,0,0,0
+MOOC10/9.59/1,MOOC10/9.59,17681010,1 kar,1 bovenstel van een kar,horse_cart,9,1,2.0,2.0,1,0,0,0
+MOOC10/3.53/87,MOOC10/3.53,17240512,1 boterkarn,1 boterkarn met wat zout en eenige rommelingh,horse_cart,3,1,3.0,3.0,1,0,0,0
+MOOC10/4.119/432,MOOC10/4.119,17330713,2 carabassen,2 carabassen,horse_cart,4,2,3.0,1.5,0,0,0,0
+MOOC10/4.126/21,MOOC10/4.126,17340716,2 ledige carabassen,2 ledige carabassen,horse_cart,4,2,3.0,1.5,0,0,0,0
+MOOC10/4.129/2,MOOC10/4.129,17341005,1 karn,1 karn,horse_cart,4,1,3.0,3.0,0,0,0,0
+MOOC10/5.26/117,MOOC10/5.26,17390427,1 karbijn,1 karbijn,horse_cart,5,1,3.0,3.0,0,0,0,0
+MOOC10/5.68/403,MOOC10/5.68,17430418,1 carette doos,1 carette doos met silver ingelegt,horse_cart,5,1,3.0,3.0,1,0,0,0
+MOOC10/10.21/189,MOOC10/10.21,17690109/17690110,1 boter karn,1 boter karn,horse_cart,10,1,3.0,3.0,0,0,0,0
+MOOC10/12.17/308,MOOC10/12.17,17780421/17780422,1 boter carn,1 boter carn,horse_cart,12,1,3.0,3.0,0,0,0,0
+MOOC10/14.28/22,MOOC10/14.28,1783,1 karn,1 karn,horse_cart,14,1,3.0,3.0,0,0,0,0
+MOOC10/14.39/80,MOOC10/14.39,17841006,1 botercarn,1 botercarn,horse_cart,14,1,3.0,3.0,0,0,0,0
+MOOC10/14.48/145,MOOC10/14.48,17840406,1 cartesiane lamp,1 cartesiane lamp,horse_cart,14,1,3.0,3.0,0,0,0,0
+MOOC10/15.12/197,MOOC10/15.12,17860505/17860506,1 karn,1 karn,horse_cart,15,1,3.0,3.0,0,0,0,0
+MOOC10/16.41/4,MOOC10/16.41,17921001,1 karwiel,een karwiel,horse_cart,16,1,3.0,3.0,0,0,0,0
+MOOC10/16.47/9,MOOC10/16.47,17931004/17931005/17931007,1 booterkarn,"1 beeld, 1 booterkarn en 1 booterbak",horse_cart,16,1,3.0,3.0,1,0,0,0
+MOOC10/18.1/19,MOOC10/18.1,17971127,1 kar zonder onderstel,1 kar zonder onderstel,horse_cart,18,1,3.0,3.0,0,0,0,0
+MOOC10/19.42/213,MOOC10/19.42,18010910/18010912,1 karnvaatje,1 karnvaatje,horse_cart,19,1,3.0,3.0,0,0,0,0
+MOOC10/20.87/47,MOOC10/20.87,18040607/18040608,2 glase karaffen,2 glase karaffen,horse_cart,20,2,3.0,1.5,0,0,0,0
+MOOC10/21.36/261,MOOC10/21.36,18060414,1 carette snuijfdoos,1 carette snuijfdoos,horse_cart,21,1,3.0,3.0,0,0,0,0
+MOOC10/22.30/5,MOOC10/22.30,18060224/18060225,1 melk karn,1 melk karn,horse_cart,22,1,3.0,3.0,0,0,0,0
+MOOC10/22.51/227,MOOC10/22.51,18070625/18070627,1 karaf,1 karaf en 9 glaazen in zoort,horse_cart,22,1,3.0,3.0,1,0,0,0
+MOOC10/23.51/66,MOOC10/23.51,18081222,2 karaffen,2 karaffen,horse_cart,23,2,3.0,1.5,0,0,0,0
+MOOC10/24.31/166,MOOC10/24.31,18100820/18100821,1 boterkarn,1 boterkarn en 1 boter vaatje,horse_cart,24,1,3.0,3.0,1,0,0,0
+MOOC10/24.35/141,MOOC10/24.35,18100723/18100724,2 karaffen,2 karaffen,horse_cart,24,2,3.0,1.5,0,0,0,0
+MOOC10/6.55/226,MOOC10/6.55,17551127/17551128,2 boter carns,2 boter carns,horse_cart,6,2,3.0,1.5,0,0,0,0
+MOOC10/6.55/227,MOOC10/6.55,17551127/17551128,2 boter carns,2 boter carns,horse_cart,6,2,3.0,1.5,0,0,0,0
+MOOC10/6.57_1/2/1303,MOOC10/6.57_1/2,"17551030/17551031, 17551101",1 carette doosje,1 carette doosje met wat klijnigheeden,horse_cart,6,1,3.0,3.0,1,0,0,0
+MOOC10/6.57_1/2/1375,MOOC10/6.57_1/2,"17551030/17551031, 17551101",1 carette kistje,1 carette kistje en wat romm:g,horse_cart,6,1,3.0,3.0,1,0,0,0
+MOOC10/6.57_1/2/1378,MOOC10/6.57_1/2,"17551030/17551031, 17551101",1 carette kistje,1 carette kistje,horse_cart,6,1,3.0,3.0,0,0,0,0
+MOOC10/8.49/517,MOOC10/8.49,17620329/17620330,2 karrens,2 karrens en 2 oude vaaten,horse_cart,8,2,3.0,1.5,1,0,0,0
+MOOC10/3.46/237,MOOC10/3.46,17231025,1 karabijnder,1 karabijnder met zijn riem,horse_cart,3,1,4.0,4.0,1,0,0,0
+MOOC10/3.64/18,MOOC10/3.64,17241108,1 karn,1 karn met 2 melk vaaten,horse_cart,3,1,4.0,4.0,1,0,0,0
+MOOC10/4.113/22,MOOC10/4.113,17330527,2 carabassen,2 carabassen,horse_cart,4,2,4.0,2.0,0,0,0,0
+MOOC10/4.119/435,MOOC10/4.119,17330713,2 carabassen,2 carabassen,horse_cart,4,2,4.0,2.0,0,0,0,0
+MOOC10/4.136/13,MOOC10/4.136,17341124,1 kleijne karn,1 kleijne karn,horse_cart,4,1,4.0,4.0,0,0,0,0
+MOOC10/5.67/20,MOOC10/5.67,17451025,1 karbats,1 rottang en 1 karbats met agaath steenen,horse_cart,5,1,4.0,4.0,1,0,0,0
+MOOC10/5.70/234,MOOC10/5.70,17460224,1 snoer carlijn,1 snoer carlijn,horse_cart,5,1,4.0,4.0,0,0,0,0
+MOOC10/10.22/1915,MOOC10/10.22,17690123/17690130,1 carette doosje,1 carette doosje met silvere beslag en 6 ⅜ loot oud silver,horse_cart,10,1,4.0,4.0,1,0,0,0
+MOOC10/10.34/102,MOOC10/10.34,17710819,1 carn,1 botervat en 1 carn,horse_cart,10,1,4.0,4.0,1,0,0,0
+MOOC10/11.2/125,MOOC10/11.2,17730326,1 booter karn,1 booter karn,horse_cart,11,1,4.0,4.0,0,0,0,0
+MOOC10/12.17/309,MOOC10/12.17,17780421/17780422,1 boter carn,1 boter carn,horse_cart,12,1,4.0,4.0,0,0,0,0
+MOOC10/13.5/7,MOOC10/13.5,17791227/17791228,1 kar,1 kar,horse_cart,13,1,4.0,4.0,0,0,0,0
+MOOC10/13.8/112,MOOC10/13.8,17800619/17800620,1 botercarn,1 botercarn en 1 botervatje,horse_cart,13,1,4.0,4.0,1,0,0,0
+MOOC10/13.9/95,MOOC10/13.9,17800615/17800616,1 booter car,1 booter car,horse_cart,13,1,4.0,4.0,0,0,0,0
+MOOC10/13.18/11,MOOC10/13.18,17810720,1 botercarn,1 botercarn,horse_cart,13,1,4.0,4.0,0,0,0,0
+MOOC10/13.39/29,MOOC10/13.39,17820103,1 karn,1 karn,horse_cart,13,1,4.0,4.0,0,0,0,0
+MOOC10/15.1/26,MOOC10/15.1,17850812/17850813,1 parthij carolijntjes,1 parthij carolijntjes met 1 goud halsslootje,horse_cart,15,1,4.0,4.0,1,1,0,0
+MOOC10/15.63/82,MOOC10/15.63,17880708,1 karn,1 karn,horse_cart,15,1,4.0,4.0,0,0,0,0
+MOOC10/15.75/1,MOOC10/15.75,17881108,1 karn,1 karn,horse_cart,15,1,4.0,4.0,0,0,0,0
+MOOC10/15.103/82,MOOC10/15.103,17890914,1 boter karn,1 boter karn,horse_cart,15,1,4.0,4.0,0,0,0,0
+MOOC10/16.19_1/2/59,MOOC10/16.19_1/2,17910104,1 booter karn,1 booter karn,horse_cart,16,1,4.0,4.0,0,0,0,0
+MOOC10/19.55/144,MOOC10/19.55,18020520,1 glaase karaf,1 glaase karaf en 2 bierglasen,horse_cart,19,1,4.0,4.0,1,0,0,0
+MOOC10/19.66/6,MOOC10/19.66,18020127/18020128,1 karnvat,1 karnvat,horse_cart,19,1,4.0,4.0,0,0,0,0
+MOOC10/2.33/12,MOOC10/2.33,17211023,1 karn,"1 karn, booter vat en een halv aam",horse_cart,2,1,4.0,4.0,1,0,0,0
+MOOC10/20.41/174,MOOC10/20.41,18041001/18041004,4 kleinder caraffen,4 kleinder caraffen,horse_cart,20,4,4.0,1.0,0,0,0,0
+MOOC10/20.44/23,MOOC10/20.44,18041014/18041019,12 cardoesen tabak,12 cardoesen tabak,horse_cart,20,12,4.0,0.33,0,0,0,0
+MOOC10/20.48/174,MOOC10/20.48,18050325/18050326,2 caraffen,2 caraffen,horse_cart,20,2,4.0,2.0,0,0,0,0
+MOOC10/20.51/181,MOOC10/20.51,18041203/18041204,4 caraffen in zoort,4 caraffen in zoort,horse_cart,20,4,4.0,1.0,0,0,0,0
+MOOC10/22.101/119,MOOC10/22.101,18070812/18070813,1 karn vat,1 karn vat,horse_cart,22,1,4.0,4.0,0,0,0,0
+MOOC10/24.33/187,MOOC10/24.33,18100810/18100811,2 karaffen,2 karaffen,horse_cart,24,2,4.0,2.0,0,0,0,0
+MOOC10/24.35/171,MOOC10/24.35,18100723/18100724,1 carette inktkoker,1 carette inktkoker,horse_cart,24,1,4.0,4.0,0,0,0,0
+MOOC10/3.94/10,MOOC10/3.94,17310405,1 karn,"1 karn, 1 boter vat en wat rommeling",horse_cart,3,1,5.0,5.0,1,0,0,0
+MOOC10/4.156/34,MOOC10/4.156,17360317,2 kardoesen,"2 kisten, 2 kardoesen met kruijt, 1 kaas en rommeling",horse_cart,4,2,5.0,2.5,1,0,0,0
+MOOC10/4.157/34,MOOC10/4.157,17370617,1 karns,1 karns en 1 botervatje,horse_cart,4,1,5.0,5.0,1,0,0,0
+MOOC10/5.22/160,MOOC10/5.22,17380428,1 karn,"1 legger, 1 karn, 2 vleijsvaten,1 halfaam, 1 ankervatje en 4 emmers",horse_cart,5,1,5.0,5.0,1,0,0,0
+MOOC10/5.54/124,MOOC10/5.54,17450611,1 karbyn,1 karbyn,horse_cart,5,1,5.0,5.0,0,0,0,0
+MOOC10/11.17/24,MOOC10/11.17,17741205/17741206,1 kar,1 kar,horse_cart,11,1,5.0,5.0,0,0,0,0
+MOOC10/12.1/215,MOOC10/12.1,17760528/17760530,1 lap rood carzaaij,1 lap rood carzaaij,horse_cart,12,1,5.0,5.0,0,0,0,0
+MOOC10/13.42/149,MOOC10/13.42,17820415,1 carrabas,1 carrabas,horse_cart,13,1,5.0,5.0,0,0,0,0
+MOOC10/14.10/296,MOOC10/14.10,17830519/17830510/17830521,3 glaase caraffen,3 glaase caraffen,horse_cart,14,3,5.0,1.67,0,0,0,0
+MOOC10/19.42/214,MOOC10/19.42,18010910/18010912,1 karnvaatje,1 karnvaatje,horse_cart,19,1,5.0,5.0,0,0,0,0
+MOOC10/20.34/17,MOOC10/20.34,18030217,1 karnvaatje,"1 karnvaatje, 1 balie en 1 emmer",horse_cart,20,1,5.0,5.0,1,0,0,0
+MOOC10/26.19/29,MOOC10/26.19,18110801,1 karen,een karen,horse_cart,26,1,5.0,5.0,0,0,0,0
+MOOC10/26.19/56,MOOC10/26.19,18110801,1 carren,een carren,horse_cart,26,1,5.0,5.0,0,0,0,0
+MOOC10/6.41/626,MOOC10/6.41,"17520323/17520325, 17520327",1 parthij carlijnen,1 parthij carlijnen,horse_cart,6,1,5.0,5.0,0,1,0,0
+MOOC10/8.2/70,MOOC10/8.2,17551104/17551106,4 p:s kokarde lindt,4 p:s kokarde lindt,horse_cart,8,4,5.0,1.25,0,0,0,0
+MOOC10/8.54/99,MOOC10/8.54,17640319,1 caret,"2 vengster cousijns, 1 wiel, 1 caret",horse_cart,8,1,5.0,5.0,1,0,0,0
+MOOC10/8.56/91,MOOC10/8.56,17640620,1 lap carsaaij,1 lap carsaaij,horse_cart,8,1,5.0,5.0,0,0,0,0
+MOOC10/9.15/530,MOOC10/9.15,17640717/17640720,4 madagascarse kleedjes,4 madagascarse kleedjes en 1 wolle tafelkleed,horse_cart,9,4,5.0,1.25,1,0,0,0
+MOOC10/3.94/14,MOOC10/3.94,17310405,1 boterkarn,"1 boterkarn, 1 vaatje en wat rommeling",horse_cart,3,1,6.0,6.0,1,0,0,0
+MOOC10/4.145/18,MOOC10/4.145,17360202,1 carabas,"1 carabas, 1 guerridon en rommeling",horse_cart,4,1,6.0,6.0,1,0,0,0
+MOOC10/5.63/142,MOOC10/5.63,17410420,1 p:r caratherrijs,1 p:r caratherrijs,horse_cart,5,1,6.0,6.0,0,0,0,0
+MOOC10/5.68/399,MOOC10/5.68,17430418,1 carette doos,1 carette doos met silver ingelegt,horse_cart,5,1,6.0,6.0,1,0,0,0
+MOOC10/10.2/555,MOOC10/10.2,17680411/17680414,1 kar,1 kar,horse_cart,10,1,6.0,6.0,0,0,0,0
+MOOC10/10.14/518,MOOC10/10.14,17700427/17700428,2 oude botercarns,2 oude botercarns,horse_cart,10,2,6.0,3.0,0,0,1,0
+MOOC10/10.76/51,MOOC10/10.76,17721012,1 botercarn,"1 kist, 1 geweer, 1 coevoet, 1 botercarn, 1 avegaar, 1 dissel, 1 ploeg, 1 eg, 2 oude racken en 1 tafel",horse_cart,10,1,6.0,6.0,1,0,0,0
+MOOC10/11.62/6,MOOC10/11.62,17770220/17770221,1 kar,"1 buldzak sloop, 1 matras, 1 kussen, 7 zakken en 1 stuk oude zijl, 1 kar, 1 ploeg met zijn toebehoren, 3 jokken en 3 trektouwen",horse_cart,11,1,6.0,6.0,1,0,0,0
+MOOC10/15.12/7,MOOC10/15.12,17860505/17860506,1 botercarn,1 botercarn en 2 boterbalijs,horse_cart,15,1,6.0,6.0,1,0,0,0
+MOOC10/15.78/118,MOOC10/15.78,17890116,1 boter karn,1 boter karn,horse_cart,15,1,6.0,6.0,0,0,0,0
+MOOC10/19.46/32,MOOC10/19.46,18030129,12 cardoesen tobak,12 cardoesen tobak,horse_cart,19,12,6.0,0.5,0,0,0,0
+MOOC10/20.55/263,MOOC10/20.55,18050718/18050719,2 caraffen,2 caraffen,horse_cart,20,2,6.0,3.0,0,0,0,0
+MOOC10/21.52/2,MOOC10/21.52,18060418,1 karrebijnschoen,"1 geweer, 1 sabel, 1 patroontas en 1 karrebijnschoen",horse_cart,21,1,6.0,6.0,1,0,0,0
+MOOC10/22.73/95,MOOC10/22.73,18071115,1 boter karren,1 boter karren,horse_cart,22,1,6.0,6.0,0,0,0,0
+MOOC10/23.43/91,MOOC10/23.43,18080819,1 karn vaatje,1 karn vaatje,horse_cart,23,1,6.0,6.0,0,0,0,0
+MOOC10/24.11/7,MOOC10/24.11,18081116,1 booterkarne,1 booterkarne,horse_cart,24,1,6.0,6.0,0,0,0,0
+MOOC10/6.50/494,MOOC10/6.50,17520523/17520527,1 snoer carlijn,1 goud halsslootje met 1 snoer carlijn,horse_cart,6,1,6.0,6.0,1,0,0,0
+MOOC10/10.81/517,MOOC10/10.81,17730308/17730311,3 carwatsen,3 carwatsen,horse_cart,10,3,7.0,2.33,0,0,0,0
+MOOC10/11.62/298,MOOC10/11.62,17770220/17770221,1 kar,1 bak van 1 kar,horse_cart,11,1,7.0,7.0,1,0,0,0
+MOOC10/14.25/14,MOOC10/14.25,17831120,1 botercarn,1 botercarn,horse_cart,14,1,7.0,7.0,0,0,0,0
+MOOC10/14.51/8,MOOC10/14.51,17840329,1 karn,1 karn,horse_cart,14,1,7.0,7.0,0,0,0,0
+MOOC10/19.46/25,MOOC10/19.46,18030129,12 cardoesen tobak,12 cardoesen tobak,horse_cart,19,12,7.0,0.58,0,0,0,0
+MOOC10/19.46/26,MOOC10/19.46,18030129,12 cardoesen tobak,12 cardoesen tobak,horse_cart,19,12,7.0,0.58,0,0,0,0
+MOOC10/21.49/35,MOOC10/21.49,18050429,1 karn vat,1 karn vat,horse_cart,21,1,7.0,7.0,0,0,0,0
+MOOC10/22.34/103,MOOC10/22.34,18070608/18070611,1 boterkarn,1 boterkarn,horse_cart,22,1,7.0,7.0,0,0,0,0
+MOOC10/22.60/61,MOOC10/22.60,18080118,1 apothecars gewigt,"1 apothecars gewigt, 2 kruijdhoorns, 3 kruijdmaatjes, 1 halsband en 1 note muscaat rasp",horse_cart,22,1,7.0,7.0,1,0,0,0
+MOOC10/8.54/55,MOOC10/8.54,17640319,1 caret,"2 wagenleeren, 1 caret, 1 wagenkisje en 3 wagenbankjes",horse_cart,8,1,7.0,7.0,1,0,0,0
+MOOC10/9.61/204,MOOC10/9.61,17690227,1 kar,1 kar,horse_cart,9,1,7.0,7.0,0,0,0,0
+MOOC10/14.60/22,MOOC10/14.60,178[...],1 kar,1 kar met 2 wiele,horse_cart,14,1,8.0,8.0,1,0,0,0
+MOOC10/14.72/181,MOOC10/14.72,17840401/17840530,1 vaatje semem carir w:t 23 lb:,1 vaatje semem carir w:t 23 lb:,horse_cart,14,1,8.0,8.0,0,0,0,0
+MOOC10/15.105/69,MOOC10/15.105,No date,1 karn,een karn,horse_cart,15,1,8.0,8.0,0,0,0,0
+MOOC10/22.42/12,MOOC10/22.42,18060516,1 karn vat,1 karn vat met staf,horse_cart,22,1,8.0,8.0,1,0,0,0
+MOOC10/8.34/65,MOOC10/8.34,17611006,1 kar,1 kar met jucken en kettings,horse_cart,8,1,8.0,8.0,1,0,0,0
+MOOC10/8.49/117,MOOC10/8.49,17620329/17620330,1 booter karn,"1 booter vat, 1 booter karn en 1 baletje",horse_cart,8,1,8.0,8.0,1,0,0,0
+MOOC10/8.55/69,MOOC10/8.55,17620504/17620506,1 voercarpet,1 voercarpet,horse_cart,8,1,8.0,8.0,0,0,0,0
+MOOC10/4.136/12,MOOC10/4.136,17341124,1 boter karn,1 boter karn,horse_cart,4,1,9.0,9.0,0,0,0,0
+MOOC10/15.6/199,MOOC10/15.6,17851107/17851108,1 carn vat,1 carn vat,horse_cart,15,1,9.0,9.0,0,0,0,0
+MOOC10/17.45_1/2/144,MOOC10/17.45_1/2,17960328,1 karzeil,1 karzeil,horse_cart,17,1,9.0,9.0,0,0,0,0
+MOOC10/18.58/345,MOOC10/18.58,17980417,1 karnvat,1 karnvat,horse_cart,18,1,9.0,9.0,0,0,0,0
+MOOC10/23.37/71,MOOC10/23.37,18090512,2 karaffen,2 karaffen en 10 kelkjes,horse_cart,23,2,9.0,4.5,1,0,0,0
+MOOC10/6.57_1/2/1277,MOOC10/6.57_1/2,"17551030/17551031, 17551101",1 carabijnriem,1 carabijnriem met silv: beslag,horse_cart,6,1,9.0,9.0,1,0,0,0
+MOOC10/8.54/58,MOOC10/8.54,17640319,1 car,1 car,horse_cart,8,1,9.0,9.0,0,0,0,0
+MOOC10/10.14/538,MOOC10/10.14,17700427/17700428,1 kar,1 kar met swengels,horse_cart,10,1,10.0,10.0,1,0,0,0
+MOOC10/16.31/605,MOOC10/16.31,17900920/17900923,1 karns,1 karns met zijn wip,horse_cart,16,1,10.0,10.0,1,0,0,0
+MOOC10/6.19/206,MOOC10/6.19,17481017/17481019,6 karwijtuijgen,6 karwijtuijgen met haar hoofdstellen,horse_cart,6,6,10.0,1.67,1,0,0,0
+MOOC10/8.43/343,MOOC10/8.43,17611026/17611028,19 ellen rood carsaij,19 ellen rood carsaij,horse_cart,8,19,10.0,0.53,0,0,0,0
+MOOC10/13.9/112,MOOC10/13.9,17800615/17800616,1 car,1 car met zijn waater vat en seele,horse_cart,13,1,11.0,11.0,1,0,0,0
+MOOC10/20.24/306,MOOC10/20.24,18040628/18040702/18040703,1 rol karnaster tabak,1 rol karnaster tabak,horse_cart,20,1,11.0,11.0,0,0,0,0
+MOOC10/5.20/76,MOOC10/5.20,17380324,1 kar,1 kar,horse_cart,5,1,12.0,12.0,0,0,0,0
+MOOC10/10.28/28,MOOC10/10.28,17691120,1 kar,1 kar,horse_cart,10,1,12.0,12.0,0,0,0,0
+MOOC10/16.19_1/2/2,MOOC10/16.19_1/2,17910104,1 kar,1 kar,horse_cart,16,1,12.0,12.0,0,0,0,0
+MOOC10/17.10/35,MOOC10/17.10,17940307,1 kar,1 kar met desselfs toebehoren,horse_cart,17,1,12.0,12.0,1,0,0,0
+MOOC10/19.9/74,MOOC10/19.9,17980515/17980516,1 karnvat,1 karnvat,horse_cart,19,1,12.0,12.0,0,0,0,0
+MOOC10/16.39/339,MOOC10/16.39,17931028/17931029, madagaskar v:s,1 slavemeid gen:t lea van madagaskar v:s,horse_cart,16,,13.0,-99,1,0,0,0
+MOOC10/22.34/105,MOOC10/22.34,18070608/18070611,1 boter karn,1 boter karn,horse_cart,22,1,13.0,13.0,0,0,0,0
+MOOC10/21.12/64,MOOC10/21.12,18051025,1 karn,1 karn,horse_cart,21,1,14.0,14.0,0,0,0,0
+MOOC10/22.101/121,MOOC10/22.101,18070812/18070813,1 karn,1 karn en balie,horse_cart,22,1,14.0,14.0,1,0,0,0
+MOOC10/26.45/15,MOOC10/26.45,18110713/18110730,1 karn vat,1 karn vat,horse_cart,26,1,14.0,14.0,0,0,0,0
+MOOC10/5.65/58,MOOC10/5.65,17451109,1 kar,1 kar met 2 tuygen,horse_cart,5,1,15.0,15.0,1,0,0,0
+MOOC10/16.47/161,MOOC10/16.47,17931004/17931005/17931007,1 kar,1 kar,horse_cart,16,1,15.0,15.0,0,0,0,0
+MOOC10/26.45/14,MOOC10/26.45,18110713/18110730,1 karn vat,1 karn vat,horse_cart,26,1,15.0,15.0,0,0,0,0
+MOOC10/16.31/781,MOOC10/16.31,17900920/17900923,1 stuk wit karsaaij,1 stuk wit karsaaij,horse_cart,16,1,16.0,16.0,0,0,0,0
+MOOC10/17.15/227,MOOC10/17.15,17940327/17940329, madagascar voets:,1 slaven jonge gen:t fortuijn van madagascar voets:,horse_cart,17,,16.0,-99,1,0,0,0
+MOOC10/17.30/27,MOOC10/17.30,17950326/17950328,1 kar,1 kar,horse_cart,17,1,16.0,16.0,0,0,0,0
+MOOC10/20.87/210,MOOC10/20.87,18040607/18040608, vet karaffen,1 kast met vet karaffen,horse_cart,20,,16.0,-99,1,0,0,0
+MOOC10/21.49/36,MOOC10/21.49,18050429,1 karn vat,1 karn vat,horse_cart,21,1,16.0,16.0,0,0,0,0
+MOOC10/3.53/81,MOOC10/3.53,17240512,1 karretje,1 karretje,horse_cart,3,1,17.0,17.0,0,0,0,0
+MOOC10/18.78/309,MOOC10/18.78,"18000626/18000628, 18000703/18000704",1 stuk carsaaij aangesneden,1 stuk carsaaij aangesneden,horse_cart,18,1,17.0,17.0,0,0,0,0
+MOOC10/5.20/128,MOOC10/5.20,17380324,1 carette rottang,1 carette rottang met goud beslag,horse_cart,5,1,18.0,18.0,1,0,0,0
+MOOC10/16.31/780,MOOC10/16.31,17900920/17900923,1 stuk wit karsaaij,1 stuk wit karsaaij,horse_cart,16,1,18.0,18.0,0,0,0,0
+MOOC10/20.87/211,MOOC10/20.87,18040607/18040608, vet karaffen,1 kast met vet karaffen,horse_cart,20,,18.0,-99,1,0,0,0
+MOOC10/26.45/16,MOOC10/26.45,18110713/18110730,1 karn vat,1 karn vat,horse_cart,26,1,19.0,19.0,0,0,0,0
+MOOC10/6.20/314,MOOC10/6.20,17491021/17491022,1 kar,1 kar met sijn tuijg,horse_cart,6,1,19.0,19.0,1,0,0,0
+MOOC10/12.1/3,MOOC10/12.1,17760528/17760530,1 kar,1 kar,horse_cart,12,1,20.0,20.0,0,0,0,0
+MOOC10/14.33/1,MOOC10/14.33,17840430,1 stuk blaauwe carsaaij,1 stuk blaauwe carsaaij,horse_cart,14,1,20.0,20.0,0,0,0,0
+MOOC10/17.22/58,MOOC10/17.22,17950216,1 kar,1 kar,horse_cart,17,1,20.0,20.0,0,0,0,0
+MOOC10/4.116/2,MOOC10/4.116,17321021,14 carabassen,14 carabassen,horse_cart,4,14,21.0,1.5,0,0,0,0
+MOOC10/13.35/39,MOOC10/13.35,17810822,1 kar,1 kar,horse_cart,13,1,21.0,21.0,0,0,0,0
+MOOC10/14.72/177,MOOC10/14.72,17840401/17840530,1 stuk blaauw carsaaij,1 stuk blaauw carsaaij,horse_cart,14,1,21.0,21.0,0,0,0,0
+MOOC10/15.54/3,MOOC10/15.54,17880112,1 kar,1 kar,horse_cart,15,1,21.0,21.0,0,0,0,0
+MOOC10/19.2/65,MOOC10/19.2,17990503,1 kar,1 kar,horse_cart,19,1,21.0,21.0,0,0,0,0
+MOOC10/12.5/19,MOOC10/12.5,17770321,1 stuk bl: carzaaij,1 stuk bl: carzaaij,horse_cart,12,1,23.0,23.0,0,0,0,0
+MOOC10/15.105/68,MOOC10/15.105,No date,1 karn,een karn,horse_cart,15,1,23.0,23.0,0,0,0,0
+MOOC10/8.43/344,MOOC10/8.43,17611026/17611028,1 stuk blauw carsaij,1 stuk blauw carsaij,horse_cart,8,1,23.0,23.0,0,0,0,0
+MOOC10/8.55/539,MOOC10/8.55,17620504/17620506,1 stuk carsaij,1 stuk carsaij,horse_cart,8,1,23.0,23.0,0,0,0,0
+MOOC10/12.5/24,MOOC10/12.5,17770321,1 stuk bl: carzaaij,1 stuk bl: carzaaij,horse_cart,12,1,24.0,24.0,0,0,0,0
+MOOC10/14.8/1,MOOC10/14.8,17830928,1 stuk blaauw carsaaij,1 stuk blaauw carsaaij,horse_cart,14,1,24.0,24.0,0,0,0,0
+MOOC10/14.8/3,MOOC10/14.8,17830928,1 stuk blaauw carsaaij,1 stuk blaauw carsaaij,horse_cart,14,1,24.0,24.0,0,0,0,0
+MOOC10/20.41/54,MOOC10/20.41,18041001/18041004,1 kar,1 kar en 1 stel kar tuigen,horse_cart,20,1,24.0,24.0,1,0,0,0
+MOOC10/9.2/267,MOOC10/9.2,17640712/17640713,3 caraffas,"12 japanse assietten, 11 bokaalen, 3 caraffas, 6 confituur pieringjes en 1 coelbakje",horse_cart,9,3,24.0,8.0,1,0,0,0
+MOOC10/16.32/147,MOOC10/16.32,17900930, madagascar,"1 slave jonge , is simpelnovember van madagascar",horse_cart,16,,25.0,-99,1,0,0,0
+MOOC10/17.37/238,MOOC10/17.37,17951218/17951219, madagascar v:s zijnde oud,1 slave jonge gen:t cezar van madagascar v:s zijnde oud en afgeleefd,horse_cart,17,,25.0,-99,1,0,1,0
+MOOC10/15.114/24,MOOC10/15.114,17900227,1 p:s blaauw karsaaij,1 p:s blaauw karsaaij,horse_cart,15,1,26.0,26.0,0,0,0,0
+MOOC10/18.78/305,MOOC10/18.78,"18000626/18000628, 18000703/18000704",1 stuk carsaaij,1 stuk carsaaij,horse_cart,18,1,26.0,26.0,0,0,0,0
+MOOC10/8.50/110,MOOC10/8.50,17640227, madagascar,1 slave jonge gen:t titus van madagascar ,horse_cart,8,,26.0,-99,1,0,0,0
+MOOC10/17.70/151,MOOC10/17.70,17980505,1 vos karpaard,1 vos karpaard,horse_cart,17,1,28.0,28.0,0,0,0,0
+MOOC10/19.30/123,MOOC10/19.30,18020308/18020309,1 stuk carsaaij,1 stuk carsaaij,horse_cart,19,1,29.0,29.0,0,0,0,0
+MOOC10/15.94/73,MOOC10/15.94,17900428,1 kar,1 kar,horse_cart,15,1,30.0,30.0,0,0,0,0
+MOOC10/10.62/46,MOOC10/10.62,17721214,1 car,1 car,horse_cart,10,1,31.0,31.0,0,0,0,0
+MOOC10/13.9/82,MOOC10/13.9,17800615/17800616,1 nieuwe onbeslage car,1 nieuwe onbeslage car,horse_cart,13,1,31.0,31.0,0,0,0,1
+MOOC10/15.51/122,MOOC10/15.51,17871026,1 kar etc:a,1 kar etc:a,horse_cart,15,1,32.0,32.0,0,0,0,0
+MOOC10/19.30/124,MOOC10/19.30,18020308/18020309,1 stuk carsaaij,1 stuk carsaaij,horse_cart,19,1,32.0,32.0,0,0,0,0
+MOOC10/11.2/118,MOOC10/11.2,17730326,1 kar,1 kar,horse_cart,11,1,34.0,34.0,0,0,0,0
+MOOC10/12.17/240,MOOC10/12.17,17780421/17780422, madagascar  voetst:,1 slave jongen gen:t paul van madagascar  voetst:,horse_cart,12,,34.0,-99,1,0,0,0
+MOOC10/15.42/145,MOOC10/15.42,17870824/17870825,1 kar,1 kar,horse_cart,15,1,35.0,35.0,0,0,0,0
+MOOC10/16.11/50,MOOC10/16.11,17900401/17900403,1 kar,1 kar met een paard,horse_cart,16,1,36.0,36.0,1,0,0,0
+MOOC10/4.146/62,MOOC10/4.146,17360928,1 oude kar,1 oude kar,horse_cart,4,1,40.0,40.0,0,0,1,0
+MOOC10/4.157/262,MOOC10/4.157,17370617, madagascar,1 jonge gen:t jan van madagascar,horse_cart,4,,40.0,-99,1,0,0,0
+MOOC10/16.26/32,MOOC10/16.26,17910325,1 oude car,"1 oude car, 1 klijne bed, 2 potten, 2 emmers, 1 boter carn, 1 koevoet en 3 zeep formen",horse_cart,16,1,40.0,40.0,1,0,1,0
+MOOC10/17.66/2,MOOC10/17.66,17970930,1 snoer carolijnen,1 snoer carolijnen met 1 slootje en 9 diamante steenen,horse_cart,17,1,40.0,40.0,1,0,0,0
+MOOC10/17.70/149,MOOC10/17.70,17980505,1 vos karpaard,1 vos karpaard,horse_cart,17,1,40.0,40.0,0,0,0,0
+MOOC10/18.69/90,MOOC10/18.69,18000113,1 kar,1 kar,horse_cart,18,1,40.0,40.0,0,0,0,0
+MOOC10/20.48/287,MOOC10/20.48,18050325/18050326, madagascar,1 meid gen:t rachel van madagascar,horse_cart,20,,40.0,-99,1,0,0,0
+MOOC10/4.157/241,MOOC10/4.157,17370617, madagascar,1 jonge gen:t claas van madagascar,horse_cart,4,,43.0,-99,1,0,0,0
+MOOC10/4.152/43,MOOC10/4.152,17371104, madagascar,1 jonge gen:t claas van madagascar,horse_cart,4,,44.0,-99,1,0,0,0
+MOOC10/14.10/254,MOOC10/14.10,17830519/17830510/17830521,1 stuk carsaaij,1 stuk carsaaij,horse_cart,14,1,45.0,45.0,0,0,0,0
+MOOC10/12.27/162,MOOC10/12.27,"17790512, 17790514", madagascar  voetstoots,1 slave meijd gen:t clarinda van madagascar  voetstoots,horse_cart,12,,50.0,-99,1,0,0,0
+MOOC10/15.63/50,MOOC10/15.63,17880708,1 kar,1 kar,horse_cart,15,1,50.0,50.0,0,0,0,0
+MOOC10/15.74/261,MOOC10/15.74,17881103/17881104, madagascar,1 slave meijd gen:t maria van madagascar,horse_cart,15,,50.0,-99,1,0,0,0
+MOOC10/16.11/395,MOOC10/16.11,17900401/17900403, madagascar v:s,1 slave jongen gen:t ranka van madagascar v:s,horse_cart,16,,50.0,-99,1,0,0,0
+MOOC10/20.22/42,MOOC10/20.22,18040511,1 kar,1 kar,horse_cart,20,1,50.0,50.0,0,0,0,0
+MOOC10/21.39/18,MOOC10/21.39,18051030/18051031/18051101,1 kar,1 kar,horse_cart,21,1,50.0,50.0,0,0,0,0
+MOOC10/17.51/147,MOOC10/17.51,17960523/17960524,1 kar,1 kar,horse_cart,17,1,57.0,57.0,0,0,0,0
+MOOC10/18.22/124,MOOC10/18.22,17910606/17910608,1 kar,1 kar,horse_cart,18,1,58.0,58.0,0,0,0,0
+MOOC10/15.17/134,MOOC10/15.17,17860627, madagascar voetst:s,1 slaven jongen gen:t domingo van madagascar voetst:s,horse_cart,15,,60.0,-99,1,0,0,0
+MOOC10/17.70/46,MOOC10/17.70,17980505,1 kar,1 kar met zijn toebehooren en 4 tuigen,horse_cart,17,1,60.0,60.0,1,0,0,0
+MOOC10/24.31/27,MOOC10/24.31,18100820/18100821,1 kar,1 kar,horse_cart,24,1,60.0,60.0,0,0,0,0
+MOOC10/15.99/6,MOOC10/15.99,17910420, madagascar v:s,1 slavejonge gen:t cobes van madagascar v:s,horse_cart,15,,61.0,-99,1,0,0,0
+MOOC10/18.74/102,MOOC10/18.74,18000505,1 kar,1 kar,horse_cart,18,1,61.0,61.0,0,0,0,0
+MOOC10/16.47/286,MOOC10/16.47,17931004/17931005/17931007, madagaskar kok v:s,1 slavejonge gen:t palmiet van madagaskar kok v:s,horse_cart,16,,62.0,-99,1,0,0,0
+MOOC10/19.8/30,MOOC10/19.8,17990620/17990621,1 kar,1 kar,horse_cart,19,1,63.0,63.0,0,0,0,0
+MOOC10/15.78/207,MOOC10/15.78,17890116, madagascar v:s,1 slave jonge gen:t valentein van madagascar v:s,horse_cart,15,,64.0,-99,1,0,0,0
+MOOC10/3.59/128,MOOC10/3.59,17260425,1 jonge gen:t carel,1 jonge gen:t carel van mallabaar,horse_cart,3,1,65.0,65.0,1,0,0,0
+MOOC10/22.43/43,MOOC10/22.43,18070205/18070207,1 carrewijwagen,1 carrewijwagen,horse_cart,22,1,65.0,65.0,0,0,0,0
+MOOC10/8.11/4,MOOC10/8.11,17530129, madagascar,1 slave jonge gen:t decemb:r van madagascar ,horse_cart,8,,67.0,-99,1,0,0,0
+MOOC10/8.50/111,MOOC10/8.50,17640227, madagascar,1 slave jonge gen:t coridon van madagascar ,horse_cart,8,,68.0,-99,1,0,0,0
+MOOC10/22.34/231,MOOC10/22.34,18070608/18070611,1 kar,1 kar,horse_cart,22,1,69.0,69.0,0,0,0,0
+MOOC10/3.42/150,MOOC10/3.42,17230809, madagascar,1 meid gen:t met haar  roset van madagascar,horse_cart,3,,70.0,-99,1,0,0,0
+MOOC10/15.78/98,MOOC10/15.78,17890116,1 kar,1 kar met zijn swengels,horse_cart,15,1,70.0,70.0,1,0,0,0
+MOOC10/5.20/506,MOOC10/5.20,17380324, madagascar,1 jonge gen:t pieter van madagascar,horse_cart,5,,76.0,-99,1,0,0,0
+MOOC10/3.46/325,MOOC10/3.46,17231025, madagascar,1 jonge gen:t pieter van madagascar,horse_cart,3,,80.0,-99,1,0,0,0
+MOOC10/11.47/274,MOOC10/11.47,17761107/17761108,1 car,1 car,horse_cart,11,1,80.0,80.0,0,0,0,0
+MOOC10/16.14/77,MOOC10/16.14,17900816,1 kar,1 kar,horse_cart,16,1,80.0,80.0,0,0,0,0
+MOOC10/16.66/74,MOOC10/16.66,17931220, madagascar v:s,1 slavemeid gen:t remeijntje van madagascar v:s,horse_cart,16,,81.0,-99,1,0,0,0
+MOOC10/18.3/67,MOOC10/18.3,17970405,1 paarde kar,1 paarde kar,horse_cart,18,1,81.0,81.0,0,0,0,0
+MOOC10/11.17/120,MOOC10/11.17,17741205/17741206, madagascar voetst:s,1 slave jonge gen:t anthonij van madagascar voetst:s,horse_cart,11,,83.0,-99,1,0,0,0
+MOOC10/16.50/89,MOOC10/16.50,17910915/17910916,1 kar,1 kar,horse_cart,16,1,88.0,88.0,0,0,0,0
+MOOC10/26.5/1,MOOC10/26.5,18110410,1 kar,1 kar met trekgoed,horse_cart,26,1,89.0,89.0,1,0,0,0
+MOOC10/15.12/164,MOOC10/15.12,17860505/17860506, madagascar voet:s,1 slave jongen gen:t samson van madagascar voet:s,horse_cart,15,,90.0,-99,1,0,0,0
+MOOC10/15.51/170,MOOC10/15.51,17871026,1 slave jonge gen:t carel,1 slave jonge gen:t carel van bengalen voetst:ts,horse_cart,15,1,96.0,96.0,1,0,0,0
+MOOC10/5.76/273,MOOC10/5.76,17470410, madagascar,1 meyd gen:t rosa van madagascar,horse_cart,5,,100.0,-99,1,0,0,0
+MOOC10/13.5/478,MOOC10/13.5,17791227/17791228,1 mans slaaf antonij v: madagascar,1 mans slaaf antonij v: madagascar ,horse_cart,13,1,100.0,100.0,0,0,0,0
+MOOC10/9.63/13,MOOC10/9.63,17691211, madagascar voetstoots,1 slave jonge gen:t moses van madagascar voetstoots,horse_cart,9,,100.0,-99,1,0,0,0
+MOOC10/15.50/304,MOOC10/15.50,17870821/17870822, madacascar,1 slave jongen gen:t jephta van madacascar,horse_cart,15,,101.0,-99,1,0,0,0
+MOOC10/3.46/318,MOOC10/3.46,17231025, madagascar,1 jonge gen:t cupido van madagascar,horse_cart,3,,102.0,-99,1,0,0,0
+MOOC10/8.34/175,MOOC10/8.34,17611006, madagascar,1 slave jonge gen:t december van madagascar ,horse_cart,8,,104.0,-99,1,0,0,0
+MOOC10/9.10/90,MOOC10/9.10,17660226, madagascar voetstoots,1 slavin gen:t sara van madagascar voetstoots,horse_cart,9,,105.0,-99,1,0,0,0
+MOOC10/19.27/64,MOOC10/19.27,18020115/18020116,1 kar,1 kar en tent,horse_cart,19,1,106.0,106.0,1,0,0,0
+MOOC10/12.35/78,MOOC10/12.35,17790322, madagascar  voetst:s,1 slave jongen gen: taploo van madagascar  voetst:s,horse_cart,12,,107.0,-99,1,0,0,0
+MOOC10/16.31/466,MOOC10/16.31,17900920/17900923, madagascar v:s,1 slavejonge gen:t apollos van madagascar v:s,horse_cart,16,,112.0,-99,1,0,0,0
+MOOC10/16.50/87,MOOC10/16.50,17910915/17910916,1 karwagen,1 karwagen,horse_cart,16,1,112.0,112.0,0,0,0,0
+MOOC10/10.63/135,MOOC10/10.63,17721223, madagascar voetstoots,1 slavinne gen:t lena van madagascar voetstoots,horse_cart,10,,115.0,-99,1,0,0,0
+MOOC10/12.32/240,MOOC10/12.32,17761101, madagascar  voetst:,1 slavinne gen:t rachel van madagascar  voetst:,horse_cart,12,,115.0,-99,1,0,0,0
+MOOC10/9.57/214,MOOC10/9.57,17660818, madagascar,1 slave mijd gen:t sanna van madagascar,horse_cart,9,,115.0,-99,1,0,0,0
+MOOC10/16.31/463,MOOC10/16.31,17900920/17900923, madagascar v:s,1 slavejonge gen:t koridon van madagascar v:s,horse_cart,16,,120.0,-99,1,0,0,0
+MOOC10/3.43/31,MOOC10/3.43,17221219, madagascar,1 slave jong gen:t caesar van madagascar,horse_cart,3,,122.0,-99,1,0,0,0
+MOOC10/22.51/241,MOOC10/22.51,18070625/18070627, madagascar looijer,"1 jongen gen:t mannel van madagascar looijer, v:s:",horse_cart,22,,130.0,-99,1,0,0,0
+MOOC10/19.41/140,MOOC10/19.41,18010922, madagascar,1 slaave jonge genaamd samboe van madagascar,horse_cart,19,,135.0,-99,1,0,0,0
+MOOC10/20.19/73,MOOC10/20.19,18040723,1 kar,1 kar,horse_cart,20,1,135.0,135.0,0,0,0,0
+MOOC10/16.47/285,MOOC10/16.47,17931004/17931005/17931007, madagaskar kok v:s,1 slavejonge gen:t coridon van madagaskar kok v:s,horse_cart,16,,140.0,-99,1,0,0,0
+MOOC10/3.46/311,MOOC10/3.46,17231025, madagascar,1 jonge gen:t fortuijn van madagascar,horse_cart,3,,141.0,-99,1,0,0,0
+MOOC10/5.20/518,MOOC10/5.20,17380324, madagascar,1 jonge gen:t januarij van madagascar,horse_cart,5,,142.0,-99,1,0,0,0
+MOOC10/2.34/327,MOOC10/2.34,17211128, madagascar,1 slavin gen:t sara van madagascar,horse_cart,2,,146.0,-99,1,0,0,0
+MOOC10/3.59/126,MOOC10/3.59,17260425, madagascar,1 jonge gen:t claas van mallabaar en 1 meijd gen:t rebecca van madagascar met haar kind,horse_cart,3,,150.0,-99,1,0,0,0
+MOOC10/15.6/293,MOOC10/15.6,17851107/17851108, madagascar voetstoots,1 slave jonge gen:t goliath van madagascar voetstoots,horse_cart,15,,150.0,-99,1,0,0,0
+MOOC10/15.58/73,MOOC10/15.58,17880403, madagascar,1 slave jongen genaamt slammat van madagascar,horse_cart,15,,150.0,-99,1,0,0,0
+MOOC10/16.31/445,MOOC10/16.31,17900920/17900923, madagascar v:s,1 slavejonge gen:t brakie van madagascar v:s,horse_cart,16,,150.0,-99,1,0,0,0
+MOOC10/20.53/85,MOOC10/20.53,18050516, madagascar voetstoots,1 meid gen:t clarinda van madagascar voetstoots,horse_cart,20,,150.0,-99,1,0,0,0
+MOOC10/9.5_1/2/208,MOOC10/9.5_1/2,17650114, madagascar,1 slave jongetje gen:t mentor van madagascar,horse_cart,9,,150.0,-99,1,0,0,0
+MOOC10/9.56/197,MOOC10/9.56,17690717, madagascar voetstoots,1 slave jonge gen: salomon van madagascar voetstoots,horse_cart,9,,150.0,-99,1,0,0,0
+MOOC10/5.74/209,MOOC10/5.74,17470111, madagascar,1 slave jonge gen:t februarij van madagascar,horse_cart,5,,151.0,-99,1,0,0,0
+MOOC10/8.50/81,MOOC10/8.50,17640227,1 opstal gen:t de herculesfonteijn geleegen tusschen de piquetberg cartauw,1 opstal gen:t de herculesfonteijn  geleegen tusschen de piquetberg  cartauw en de ,horse_cart,8,1,151.0,151.0,1,0,0,0
+MOOC10/20.88/105,MOOC10/20.88,18050126, madagascar voetstoots,1 slave jonge gen:t mentor van madagascar voetstoots,horse_cart,20,,152.0,-99,1,0,0,0
+MOOC10/12.39/189,MOOC10/12.39,17780810/17780811, madagascar  voetst:ts,1 slave jongen gen:t johan van madagascar  voetst:ts,horse_cart,12,,157.0,-99,1,0,0,0
+MOOC10/4.135/46,MOOC10/4.135,17300929, madagascar,1 jonge gen:t kelie van madagascar,horse_cart,4,,160.0,-99,1,0,0,0
+MOOC10/14.3/261,MOOC10/14.3,17830226, madagascar voet:s,1 slaven jongen gen:t arend van madagascar voet:s,horse_cart,14,,160.0,-99,1,0,0,0
+MOOC10/9.57/212,MOOC10/9.57,17660818, madagascar,1 slave jonge gen:t sampzon van madagascar,horse_cart,9,,160.0,-99,1,0,0,0
+MOOC10/12.53/71,MOOC10/12.53,17800229, madagascar  voetstoots,1 slave jongen gen:t fortuijn van madagascar  voetstoots,horse_cart,12,,164.0,-99,1,0,0,0
+MOOC10/9.15/619,MOOC10/9.15,17640717/17640720, madagascar,1 slave jonge gen:t afer van madagascar,horse_cart,9,,165.0,-99,1,0,0,0
+MOOC10/12.10/188,MOOC10/12.10,17770908/17770909, madagascar  v:ts,1 slave jonge gen:t claas van madagascar  v:ts,horse_cart,12,,170.0,-99,1,0,0,0
+MOOC10/17.63_1/2/173,MOOC10/17.63_1/2,17970227/17970128, madagascar,1 slave jongen gen:t fortuin van madagascar,horse_cart,17,,170.0,-99,1,0,0,0
+MOOC10/3.65/184,MOOC10/3.65,17240606, madagascar,1 jonge gen:t cupido van madagascar,horse_cart,3,,172.0,-99,1,0,0,0
+MOOC10/12.32/238,MOOC10/12.32,17761101, madagascar  voetst:,1 slave jonge gen:t cupido van madagascar  voetst:,horse_cart,12,,172.0,-99,1,0,0,0
+MOOC10/11.56/102,MOOC10/11.56,17770517, madagascar,1 slavinne martha van madagascar met haar kind gen:t salomon van de caab,horse_cart,11,,173.0,-99,1,0,0,0
+MOOC10/2.30/313,MOOC10/2.30,17211013, madagascar,1 slave jonge gn:t july van madagascar,horse_cart,2,,175.0,-99,1,0,0,0
+MOOC10/7.11/710,MOOC10/7.11,17551118/17551119,1 slavin candase v: madagascar,1 slavin candase v: madagascar,horse_cart,7,1,179.0,179.0,0,0,0,0
+MOOC10/2.30/308,MOOC10/2.30,17211013, madagascar,1 slave jonge gen:t aap van madagascar,horse_cart,2,,180.0,-99,1,0,0,0
+MOOC10/20.22/169,MOOC10/20.22,18040511, madagaskar voetstoots,1 jonge gen:d geduld van madagaskar voetstoots,horse_cart,20,,180.0,-99,1,0,0,0
+MOOC10/5.78/239,MOOC10/5.78,17480205, madagascar,1 jonge gen:t anthonij van madagascar,horse_cart,5,,181.0,-99,1,0,0,0
+MOOC10/11.59/47,MOOC10/11.59,17750626, madagascar voetst:s,1 slavinne gen:t spasie van madagascar voetst:s,horse_cart,11,,181.0,-99,1,0,0,0
+MOOC10/9.33/247,MOOC10/9.33,17670402, madagascar,1 slave jonge gen:t plaisier van madagascar,horse_cart,9,,181.0,-99,1,0,0,0
+MOOC10/6.50/602,MOOC10/6.50,17520523/17520527, madagascar,1 slave jonge gen:t  titus van madagascar,horse_cart,6,,182.0,-99,1,0,0,0
+MOOC10/4.152/39,MOOC10/4.152,17371104, madagascar,1 jonge gen:t claas van madagascar,horse_cart,4,,183.0,-99,1,0,0,0
+MOOC10/12.1/288,MOOC10/12.1,17760528/17760530, madagascar  voetst:ts,1 slavinne gen:t seminsia van madagascar  voetst:ts,horse_cart,12,,185.0,-99,1,0,0,0
+MOOC10/3.38/196,MOOC10/3.38,17220624, madagascar,1 slavin gen:t christina van madagascar met haer 1 kind gen:t jan,horse_cart,3,,190.0,-99,1,0,0,0
+MOOC10/21.7/170,MOOC10/21.7,18050423, madagascar v:s,1 slave jongen gen:d jefta van madagascar v:s,horse_cart,21,,190.0,-99,1,0,0,0
+MOOC10/16.67/8,MOOC10/16.67,No date, madagaskar v:s,1 slavejonge gen:t willem van madagaskar v:s,horse_cart,16,,191.0,-99,1,0,0,0
+MOOC10/17.1/8,MOOC10/17.1,17931220, madagascar v:s,1 slavejonge gen:t willem van madagascar v:s,horse_cart,17,,191.0,-99,1,0,0,0
+MOOC10/17.3/160,MOOC10/17.3,17930916, madagascar voetstoots,1 slaaf gen:d matthijs van madagascar voetstoots,horse_cart,17,,191.0,-99,1,0,0,0
+MOOC10/2.30/307,MOOC10/2.30,17211013, madagascar,1 slave jonge genaamt anthony van madagascar,horse_cart,2,,193.0,-99,1,0,0,0
+MOOC10/17.11/117,MOOC10/17.11,17940926, madagascar v:s,1 slave jonge gen:t slammat van madagascar v:s,horse_cart,17,,195.0,-99,1,0,0,0
+MOOC10/10.22/2348,MOOC10/10.22,17690123/17690130, haar kind carolus,1 slavin gen:t eva van de caab met haar kind carolus van de caab voetstoots,horse_cart,10,,200.0,-99,1,0,0,0
+MOOC10/10.54/77,MOOC10/10.54,17710924, madagsscar voetstoots,1 slave jonge gen:t pieter van madagsscar voetstoots,horse_cart,10,,200.0,-99,1,0,0,0
+MOOC10/14.38/306,MOOC10/14.38,17840413/17840414, madagascar,"1 slave jongen gen:t , voetstootssalomon van madagascar",horse_cart,14,,200.0,-99,1,0,0,0
+MOOC10/14.57/170,MOOC10/14.57,178[...]1103, madagascar  voetst:s,1 slaven jongen gen:t coert van madagascar  voetst:s,horse_cart,14,,200.0,-99,1,0,0,0
+MOOC10/16.26/142,MOOC10/16.26,17910325, madagascar voets:,1 slave jonge gen:t leander van madagascar voets:,horse_cart,16,,200.0,-99,1,0,0,0
+MOOC10/16.47/288,MOOC10/16.47,17931004/17931005/17931007, madagaskar beestewagter v:s,1 slavejonge gen:t manuël van madagaskar beestewagter v:s,horse_cart,16,,200.0,-99,1,0,0,0
+MOOC10/6.33/155,MOOC10/6.33,17480823/17480824|17480902/17480905|17480921, madagascar,1 jonge gen:t  kees van madagascar,horse_cart,6,,200.0,-99,1,0,0,0
+MOOC10/9.14/491,MOOC10/9.14,17651104/17651105, madagascar,een manslaaf gen:t pedro van madagascar,horse_cart,9,,200.0,-99,1,0,0,0
+MOOC10/3.65/185,MOOC10/3.65,17240606,1 jonge gen:t carel,1 jonge gen:t carel van couthin,horse_cart,3,1,201.0,201.0,1,0,0,0
+MOOC10/10.83/172,MOOC10/10.83,17730222, madagascar voetstoots,1 slave jonge gen:t portegies van madagascar voetstoots,horse_cart,10,,201.0,-99,1,0,0,0
+MOOC10/15.45/97,MOOC10/15.45,17871207, madagascar voetstoots,1 slave jongen gen:t dam van madagascar voetstoots,horse_cart,15,,201.0,-99,1,0,0,0
+MOOC10/16.44/80,MOOC10/16.44,17921106,1 slave jonge gen:t cardus,1 slave jonge gen:t cardus van madagascar schaapwagter,horse_cart,16,1,201.0,201.0,1,0,0,0
+MOOC10/13.35/107,MOOC10/13.35,17810822,1 slaaf april v: madagascar,1 slaaf april v: madagascar,horse_cart,13,1,202.0,202.0,0,0,0,0
+MOOC10/21.56/107,MOOC10/21.56,18030418, madagascar voetstoots,1 slave jongen gen:t jephta van madagascar voetstoots,horse_cart,21,,202.0,-99,1,0,0,0
+MOOC10/6.13/133,MOOC10/6.13,17501204, madagascar,1 slave jonge gen:t  anthonij van madagascar,horse_cart,6,,202.0,-99,1,0,0,0
+MOOC10/3.43/30,MOOC10/3.43,17221219, madagascar,1 slave jong gen:t zijmon van madagascar,horse_cart,3,,203.0,-99,1,0,0,0
+MOOC10/3.65/182,MOOC10/3.65,17240606, madagascar,1 jonge gen:t claas van angola en 1 slavin gen:t susanna van madagascar,horse_cart,3,,203.0,-99,1,0,0,0
+MOOC10/21.44/88,MOOC10/21.44,18050827, madagascar voetstoots,1 jonge gen:t september van madagascar voetstoots,horse_cart,21,,203.0,-99,1,0,0,0
+MOOC10/15.12/158,MOOC10/15.12,17860505/17860506, madagascar voetst:s,1 slave jongen gen:t silvester van madagascar voetst:s,horse_cart,15,,204.0,-99,1,0,0,0
+MOOC10/3.46/315,MOOC10/3.46,17231025,1 jonge gen:t carel,1 jonge gen:t carel van madagascar,horse_cart,3,1,205.0,205.0,1,0,0,0
+MOOC10/3.42/143,MOOC10/3.42,17230809, madagascar,1 slave jonge gen:t jacob van madagascar,horse_cart,3,,206.0,-99,1,0,0,0
+MOOC10/5.78/236,MOOC10/5.78,17480205, madagascar,1 jonge gen:t adam van madagascar,horse_cart,5,,210.0,-99,1,0,0,0
+MOOC10/11.62/347,MOOC10/11.62,17770220/17770221, madagascar voetst:ts,1 slave jonge gen:t samson van madagascar voetst:ts,horse_cart,11,,211.0,-99,1,0,0,0
+MOOC10/3.42/144,MOOC10/3.42,17230809, madagascar,1 slave jonge gen:t jan maager van madagascar,horse_cart,3,,213.0,-99,1,0,0,0
+MOOC10/2.33/303,MOOC10/2.33,17211023, madagascar,1 slave jonge gen:t fortuijn van madagascar,horse_cart,2,,213.0,-99,1,0,0,0
+MOOC10/14.17/344,MOOC10/14.17,17830606/17830607, madagascar voet:s,1 slave jongen gen:t adonis van madagascar voet:s,horse_cart,14,,214.0,-99,1,0,0,0
+MOOC10/10.21/326,MOOC10/10.21,17690109/17690110, madagascar voetstoots,1 slave jonge gen:t maart van madagascar voetstoots,horse_cart,10,,220.0,-99,1,0,0,0
+MOOC10/17.39/105,MOOC10/17.39,17951127, madagascar voets:,1 slave jonge gen:t mentor van madagascar voets:,horse_cart,17,,220.0,-99,1,0,0,0
+MOOC10/16.47/277,MOOC10/16.47,17931004/17931005/17931007,1 slavejonge gen:t lambert v: madagascar wagenrijder v:s,1 slavejonge gen:t lambert v: madagascar wagenrijder v:s,horse_cart,16,1,222.0,222.0,0,0,0,0
+MOOC10/9.13/239,MOOC10/9.13,17641006, madacascar voetstoots,1 slave jonge gen:t goliat van madacascar voetstoots,horse_cart,9,,222.0,-99,1,0,0,0
+MOOC10/11.5/864,MOOC10/11.5,17730329/17730330 17730401/17730402, madagascar voetst:ts,1 slave jonge gen:t adonis van madagascar voetst:ts,horse_cart,11,,225.0,-99,1,0,0,0
+MOOC10/11.66/43,MOOC10/11.66,17770823, madagascar voetst:,1 slave jonge gen:t david van madagascar voetst:,horse_cart,11,,225.0,-99,1,0,0,0
+MOOC10/17.22/93,MOOC10/17.22,17950216,1 slave jonge adam v: madagascar schapewagter,1 slave jonge adam v: madagascar schapewagter,horse_cart,17,1,225.0,225.0,0,0,0,0
+MOOC10/8.52/150,MOOC10/8.52,17640330, madagascar,1 slave mijd gen:t dina van madagascar ,horse_cart,8,,227.0,-99,1,0,0,0
+MOOC10/10.79/123,MOOC10/10.79,17721130, haar kind gen:t carolus,1 slavinne gen:t candasa van boegies met haar kind gen:t carolus van de caab voetstoots,horse_cart,10,,230.0,-99,1,0,0,0
+MOOC10/20.2/88,MOOC10/20.2,18030404, madagascar,1 slave meid gen:t sara van madagascar,horse_cart,20,,230.0,-99,1,0,0,0
+MOOC10/10.28/80,MOOC10/10.28,17691120, madagaskar,1 slave jonge gen:t verlee van madagaskar,horse_cart,10,,231.0,-99,1,0,0,0
+MOOC10/11.60/273,MOOC10/11.60,17750220/17750221, madagascar voetst:,1 slave jonge gen:t orson van madagascar voetst:,horse_cart,11,,231.0,-99,1,0,0,0
+MOOC10/12.41/148,MOOC10/12.41,17790917, haar kind genaamt caroni,1 slavinne gen:t rachel van de caab  met haar kind genaamt caroni van de caab  bijde van de caab,horse_cart,12,,231.0,-99,1,0,0,0
+MOOC10/14.16/355,MOOC10/14.16,17830115/17830116,1 slaven jongen gen:t cardoes,1 slaven jongen gen:t cardoes van java,horse_cart,14,1,235.0,235.0,1,0,0,0
+MOOC10/2.33/295,MOOC10/2.33,17211023, madagascar,1 slave jonge gen:t samson van madagascar,horse_cart,2,,238.0,-99,1,0,0,0
+MOOC10/11.60/288,MOOC10/11.60,17750220/17750221, madagascar voetst:ts,1 slave jonge gen:t jacob van madagascar voetst:ts,horse_cart,11,,240.0,-99,1,0,0,0
+MOOC10/16.52/289,MOOC10/16.52,17911010/17911011, madagascar v:s,1 slavejonge gen:t april van madagascar v:s,horse_cart,16,,245.0,-99,1,0,0,0
+MOOC10/12.17/234,MOOC10/12.17,17780421/17780422,1 slave jongen gen:t carolus,1 slave jongen gen:t carolus van de caab  voetst:,horse_cart,12,1,248.0,248.0,1,0,0,0
+MOOC10/11.58/263,MOOC10/11.58,17750227/17750228, madagascar voetstoots,1 slave meijd gen:t flora van madagascar voetstoots,horse_cart,11,,250.0,-99,1,0,0,0
+MOOC10/15.36/87,MOOC10/15.36,17870126, madagascar voetstoots,1 slave jonge gen:t galand van madagascar voetstoots,horse_cart,15,,250.0,-99,1,0,0,0
+MOOC10/16.47/284,MOOC10/16.47,17931004/17931005/17931007, madagaskar kok v:s,1 slavejonge gen:t cupido van madagaskar kok v:s,horse_cart,16,,250.0,-99,1,0,0,0
+MOOC10/9.15/620,MOOC10/9.15,17640717/17640720, madagascar,1 slave jonge gen:t hanibal van madagascar,horse_cart,9,,250.0,-99,1,0,0,0
+MOOC10/13.9/349,MOOC10/13.9,17800615/17800616, madagascar,"1 slave jongen gen:t , voetstootsruijter van madagascar",horse_cart,13,,251.0,-99,1,0,0,0
+MOOC10/5.78/238,MOOC10/5.78,17480205, madagascar,1 jonge gen:t jantje van madagascar,horse_cart,5,,253.0,-99,1,0,0,0
+MOOC10/16.47/315,MOOC10/16.47,17931004/17931005/17931007, madagascar v:s,1 slavejonge gen:t apollos van madagascar v:s,horse_cart,16,,255.0,-99,1,0,0,0
+MOOC10/15.64/107,MOOC10/15.64,17880728,1 slave jonge gen:t cardoes,1 slave jonge gen:t cardoes van bengalen voetst:s,horse_cart,15,1,256.0,256.0,1,0,0,0
+MOOC10/6.33/148,MOOC10/6.33,17480823/17480824|17480902/17480905|17480921, madagascar,1 jonge gen:t  september van madagascar,horse_cart,6,,256.0,-99,1,0,0,0
+MOOC10/4.118/39,MOOC10/4.118,17330328, madagascar,1 jonge gen:t  coridon van madagascar,horse_cart,4,,257.0,-99,1,0,0,0
+MOOC10/10.83/175,MOOC10/10.83,17730222, madagascar voetstoots,1 slave jonge gen:t salomon van madagascar voetstoots,horse_cart,10,,260.0,-99,1,0,0,0
+MOOC10/11.60/289,MOOC10/11.60,17750220/17750221, madagascar voetst:ts,1 slave jonge gen:t isak van madagascar voetst:ts,horse_cart,11,,261.0,-99,1,0,0,0
+MOOC10/15.64/112,MOOC10/15.64,17880728, madagascar voetst:s,1 slave jonge gen:t august van madagascar voetst:s,horse_cart,15,,261.0,-99,1,0,0,0
+MOOC10/6.13/134,MOOC10/6.13,17501204, madagascar,1 slave jonge gen:t  december van madagascar,horse_cart,6,,261.0,-99,1,0,0,0
+MOOC10/16.47/290,MOOC10/16.47,17931004/17931005/17931007, madagascar beestewagter v:s,1 slavejonge gen:t julij van madagascar beestewagter v:s,horse_cart,16,,267.0,-99,1,0,0,0
+MOOC10/9.2/314,MOOC10/9.2,17640712/17640713, madagascar,1 slave jongen gen:t mosis van madagascar,horse_cart,9,,267.0,-99,1,0,0,0
+MOOC10/9.13/240,MOOC10/9.13,17641006, madagascar voetstoots,1 slave jonge gen:t david van madagascar voetstoots,horse_cart,9,,270.0,-99,1,0,0,0
+MOOC10/6.33/149,MOOC10/6.33,17480823/17480824|17480902/17480905|17480921, madagascar,1 jonge gen:t  pedro van madagascar,horse_cart,6,,279.0,-99,1,0,0,0
+MOOC10/12.1/275,MOOC10/12.1,17760528/17760530, madagascar  voetst:,1 slave jonge gen:t douphin van madagascar  voetst:,horse_cart,12,,280.0,-99,1,0,0,0
+MOOC10/17.38/211,MOOC10/17.38,17951110/17951111, madagascar voets:,1 slave jonge gen:t claas van madagascar voets:,horse_cart,17,,280.0,-99,1,0,0,0
+MOOC10/11.60/290,MOOC10/11.60,17750220/17750221, madagascar voetst:ts,1 slave jonge gen:t telemagus van madagascar voetst:ts,horse_cart,11,,281.0,-99,1,0,0,0
+MOOC10/17.22/92,MOOC10/17.22,17950216,1 slave jonge geduld v: madagascar koetzier,1 slave jonge geduld v: madagascar koetzier,horse_cart,17,1,281.0,281.0,0,0,0,0
+MOOC10/2.33/297,MOOC10/2.33,17211023, madagascar,1 slave jonge gen:t cupido van madagascar,horse_cart,2,,281.0,-99,1,0,0,0
+MOOC10/2.33/301,MOOC10/2.33,17211023,1 slave jonge gen:t carel,1 slave jonge gen:t carel van bengalen,horse_cart,2,1,281.0,281.0,1,0,0,0
+MOOC10/15.62/422,MOOC10/15.62,17880630/17880701, madagascar voetst:s,1 slave jongen gen:t louis van madagascar voetst:s,horse_cart,15,,286.0,-99,1,0,0,0
+MOOC10/15.9/424,MOOC10/15.9,17851209/17851210, madagascar voetstoots,1 slave jongen gen:t october van madagascar voetstoots,horse_cart,15,,289.0,-99,1,0,0,0
+MOOC10/13.43/159,MOOC10/13.43,17820109, madagascar voetst:ts,1 slaven jonge gen:t gedult van madagascar voetst:ts,horse_cart,13,,291.0,-99,1,0,0,0
+MOOC10/16.44/79,MOOC10/16.44,17921106, madagascar wagenrijder,1 slave jonge gen:t cupido van madagascar wagenrijder,horse_cart,16,,291.0,-99,1,0,0,0
+MOOC10/3.48/72,MOOC10/3.48,17241201, madagascar,1 jonge gen:t anthonij van madagascar,horse_cart,3,,300.0,-99,1,0,0,0
+MOOC10/14.37/238,MOOC10/14.37,17840121,1 slaaf fortuijn v: madagascar,1 slaaf fortuijn v: madagascar,horse_cart,14,1,300.0,300.0,0,0,0,0
+MOOC10/14.57/169,MOOC10/14.57,178[...]1103, madagascar  voetst:s,1 slaven jongen gen:t philax van madagascar  voetst:s,horse_cart,14,,300.0,-99,1,0,0,0
+MOOC10/16.33/39,MOOC10/16.33,17910325, madagascar voets:,1 slave jonge gen:t joseph van madagascar voets:,horse_cart,16,,300.0,-99,1,0,0,0
+MOOC10/11.47/475,MOOC10/11.47,17761107/17761108, madagascar voetst:,1 slave jonge gen:t februarij van madagascar voetst:,horse_cart,11,,301.0,-99,1,0,0,0
+MOOC10/11.58/260,MOOC10/11.58,17750227/17750228, madagascar voetstoots,1 slave jongen gen:t abraham van madagascar voetstoots,horse_cart,11,,301.0,-99,1,0,0,0
+MOOC10/11.66/45,MOOC10/11.66,17770823,1 slave jonge gen:t carolus,1 slave jonge gen:t carolus van madagascar voetst:,horse_cart,11,1,301.0,301.0,1,0,0,0
+MOOC10/15.1/5,MOOC10/15.1,17850812/17850813, madagascar voet:s,1 slave jonge gen:t frans van madagascar voet:s,horse_cart,15,,301.0,-99,1,0,0,0
+MOOC10/16.47/314,MOOC10/16.47,17931004/17931005/17931007,1 slavejonge gen:t carolus,1 slavejonge gen:t carolus van mosambicque v:s,horse_cart,16,1,301.0,301.0,1,0,0,0
+MOOC10/17.51/325,MOOC10/17.51,17960523/17960524, madagascar,een slave jongen genaamt samson van madagascar,horse_cart,17,,301.0,-99,1,0,0,0
+MOOC10/16.31/450,MOOC10/16.31,17900920/17900923, madagascar v:s,1 slavejonge gen:t joseph van madagascar v:s,horse_cart,16,,305.0,-99,1,0,0,0
+MOOC10/16.47/289,MOOC10/16.47,17931004/17931005/17931007, madagascar beestewagter v:s,1 slavejonge gen:t azia van madagascar beestewagter v:s,horse_cart,16,,305.0,-99,1,0,0,0
+MOOC10/16.47/313,MOOC10/16.47,17931004/17931005/17931007, madagascar v:s,1 slavejonge gen:t lambo van madagascar v:s,horse_cart,16,,305.0,-99,1,0,0,0
+MOOC10/5.22/333,MOOC10/5.22,17380428, madagascar,1 jonge gen:t sijmen van de caab en isabella van madagascar,horse_cart,5,,319.0,-99,1,0,0,0
+MOOC10/17.63_1/2/171,MOOC10/17.63_1/2,17970227/17970128, madagascar,1 slave jongen gen:t filis van madagascar,horse_cart,17,,325.0,-99,1,0,0,0
+MOOC10/22.34/348,MOOC10/22.34,18070608/18070611, madagascar melkboer v:s:,1 jongen gen:t cedras van madagascar melkboer v:s:,horse_cart,22,,325.0,-99,1,0,0,0
+MOOC10/8.55/617,MOOC10/8.55,17620504/17620506, madagascar,1 slave jonge gen:t zesar van madagascar ,horse_cart,8,,325.0,-99,1,0,0,0
+MOOC10/14.10/423,MOOC10/14.10,17830519/17830510/17830521, madagascar voetst:s,1 slave jongen gen:t claas van madagascar voetst:s,horse_cart,14,,327.0,-99,1,0,0,0
+MOOC10/16.21/127,MOOC10/16.21,17901115, madagascar voetst:,1 slave jongen gen:d apollos van madagascar voetst:,horse_cart,16,,329.0,-99,1,0,0,0
+MOOC10/11.44/198,MOOC10/11.44,17760925/17760926, madagascar voetstoots,1 slave jongen gen:t philip van madagascar voetstoots,horse_cart,11,,334.0,-99,1,0,0,0
+MOOC10/15.45/95,MOOC10/15.45,17871207, madagascar voetstoots,1 slave jongen gen:t figiland van madagascar voetstoots,horse_cart,15,,336.0,-99,1,0,0,0
+MOOC10/15.62/419,MOOC10/15.62,17880630/17880701, madagascar voetst:s,1 slave jongen gen:t onverwagt van madagascar voetst:s,horse_cart,15,,336.0,-99,1,0,0,0
+MOOC10/11.17/119,MOOC10/11.17,17741205/17741206, madagascar voetst:s,1 slave jonge gen:t sijmon van madagascar voetst:s,horse_cart,11,,340.0,-99,1,0,0,0
+MOOC10/15.17/131,MOOC10/15.17,17860627, madagascar voetst:s,1 slaven jongen gen:t geeland van madagascar voetst:s,horse_cart,15,,340.0,-99,1,0,0,0
+MOOC10/8.52/151,MOOC10/8.52,17640330, madagascar,1 slave mijd gen:t lea van madagascar  met haar kind gen:t julij van de caap ,horse_cart,8,,341.0,-99,1,0,0,0
+MOOC10/10.14/430,MOOC10/10.14,17700427/17700428, madagascar voetstoots,1 slave jonge gen:t piet van madagascar voetstoots,horse_cart,10,,350.0,-99,1,0,0,0
+MOOC10/16.31/459,MOOC10/16.31,17900920/17900923, madagascar v:s,1 slavejonge gen:t floris van madagascar v:s,horse_cart,16,,350.0,-99,1,0,0,0
+MOOC10/18.69/127,MOOC10/18.69,18000113, madagascar voetstoots,1 slave jonge gen:t julij van madagascar voetstoots,horse_cart,18,,351.0,-99,1,0,0,0
+MOOC10/18.74/225,MOOC10/18.74,18000505, madagascar v:s,1 slave jonge gen:t jason van madagascar v:s,horse_cart,18,,352.0,-99,1,0,0,0
+MOOC10/15.62/416,MOOC10/15.62,17880630/17880701, madagascar,1 slave jongen gen:t alexander van madagascar,horse_cart,15,,355.0,-99,1,0,0,0
+MOOC10/16.47/310,MOOC10/16.47,17931004/17931005/17931007, madagascar v:s,1 slavejonge gen:t magerman van madagascar v:s,horse_cart,16,,355.0,-99,1,0,0,0
+MOOC10/21.13/57,MOOC10/21.13,18060203,1 slave jonge gen:d carolus,1 slave jonge gen:d carolus van mosambicque voetstoots,horse_cart,21,1,356.0,356.0,1,0,0,0
+MOOC10/22.34/340,MOOC10/22.34,18070608/18070611, madagascar oud,1 jongen gen:d goliath van madagascar oud met zijn wijf clarenda van mos: v:s:,horse_cart,22,,360.0,-99,1,0,1,0
+MOOC10/11.17/114,MOOC10/11.17,17741205/17741206, madagascar voetst:s,1 slave jonge gen:t herodus van madagascar voetst:s,horse_cart,11,,361.0,-99,1,0,0,0
+MOOC10/21.17/196,MOOC10/21.17,18050808, madagascar voetstoots,1 mans slaaf gen:d valentijn van madagascar voetstoots,horse_cart,21,,363.0,-99,1,0,0,0
+MOOC10/17.38/210,MOOC10/17.38,17951110/17951111, madagascar voets:,1 slave jonge gen:t galant van madagascar voets:,horse_cart,17,,365.0,-99,1,0,0,0
+MOOC10/11.39/37,MOOC10/11.39,17751106, madagascar voetst:ts,1 slave jonge gen:t jephta van madagascar voetst:ts,horse_cart,11,,370.0,-99,1,0,0,0
+MOOC10/15.80_1/2/306,MOOC10/15.80_1/2,17890223,1 slave jonge gen:t carolis,1 slave jonge gen:t carolis van de caab voet:s,horse_cart,15,1,370.0,370.0,1,0,0,0
+MOOC10/15.64/114,MOOC10/15.64,17880728, madagascar voetst:s,1 slave jonge gen:t lourens van madagascar voetst:s,horse_cart,15,,380.0,-99,1,0,0,0
+MOOC10/15.11/213,MOOC10/15.11,17860317, madagascar voetst:s,1 slave jonge gen:t tamerlan van madagascar voetst:s,horse_cart,15,,381.0,-99,1,0,0,0
+MOOC10/16.47/282,MOOC10/16.47,17931004/17931005/17931007, madagascar metselaar v:s,1 slavejonge gen:t sansfaçon van madagascar metselaar v:s,horse_cart,16,,381.0,-99,1,0,0,0
+MOOC10/15.1/4,MOOC10/15.1,17850812/17850813, madagascar voet:s,1 slave jonge gen:t cesar van madagascar voet:s,horse_cart,15,,382.0,-99,1,0,0,0
+MOOC10/15.58/72,MOOC10/15.58,17880403, madagascar,1 slave jongen genaamt lafleur van madagascar,horse_cart,15,,388.0,-99,1,0,0,0
+MOOC10/16.47/287,MOOC10/16.47,17931004/17931005/17931007, madagaskar kok v:s,1 slavejonge gen:t amor van madagaskar kok v:s,horse_cart,16,,388.0,-99,1,0,0,0
+MOOC10/14.38/305,MOOC10/14.38,17840413/17840414, madagascar,"1 slave jongen gen:t , voetstootsjacob van madagascar",horse_cart,14,,390.0,-99,1,0,0,0
+MOOC10/20.22/168,MOOC10/20.22,18040511, madagaskar voetstoots,1 jonge gen:d fortuijn van madagaskar voetstoots,horse_cart,20,,390.0,-99,1,0,0,0
+MOOC10/16.39/265,MOOC10/16.39,17931028/17931029, madagascar v:s,1 slavejonge gen:t passientie van madagascar v:s,horse_cart,16,,396.0,-99,1,0,0,0
+MOOC10/13.36/477,MOOC10/13.36,17811211/17811212, madagascar,"1 slave jongen gen:t , voetstootsapril van madagascar",horse_cart,13,,400.0,-99,1,0,0,0
+MOOC10/14.7/508,MOOC10/14.7,17830526/17830527/17830529, madagascar,"1 slave meijd gen:t , voetstootsgriet van madagascar",horse_cart,14,,400.0,-99,1,0,0,0
+MOOC10/14.10/420,MOOC10/14.10,17830519/17830510/17830521, madagascar voetst:s,1 slave jongen gen:t thelemachus van madagascar voetst:s,horse_cart,14,,400.0,-99,1,0,0,0
+MOOC10/15.20/72,MOOC10/15.20,17861013, madagascar voet:s,1 slave jongen gen:t anthonij van madagascar voet:s,horse_cart,15,,400.0,-99,1,0,0,0
+MOOC10/15.20/73,MOOC10/15.20,17861013, madagascar voet:s,1 slave jongen gen:t joseph van madagascar voet:s,horse_cart,15,,400.0,-99,1,0,0,0
+MOOC10/15.62/421,MOOC10/15.62,17880630/17880701, madagascar voetst:s,1 slave jongen gen:t claas van madagascar voetst:s,horse_cart,15,,400.0,-99,1,0,0,0
+MOOC10/18.69/126,MOOC10/18.69,18000113, madagascar beestenwagter,1 slave jonge gen:t cement van madagascar beestenwagter,horse_cart,18,,400.0,-99,1,0,0,0
+MOOC10/15.94/164,MOOC10/15.94,17900428, madagascar voetstoots,1 slave jongen gen:d paris van madagascar voetstoots,horse_cart,15,,401.0,-99,1,0,0,0
+MOOC10/16.47/283,MOOC10/16.47,17931004/17931005/17931007, madagaskar molenmaker v:s,1 slavejonge gen:t slammat van madagaskar molenmaker v:s,horse_cart,16,,401.0,-99,1,0,0,0
+MOOC10/11.14/102,MOOC10/11.14,17741212, madagascar voetst:ts,1 slave jonge gen:t november van madagascar voetst:ts,horse_cart,11,,402.0,-99,1,0,0,0
+MOOC10/21.7/169,MOOC10/21.7,18050423, madagascar v:s,1 slave jongen gen:d apsalon van madagascar v:s,horse_cart,21,,402.0,-99,1,0,0,0
+MOOC10/16.31/443,MOOC10/16.31,17900920/17900923, madagascar v:s,1 slavejonge gen:t commando van madagascar v:s,horse_cart,16,,406.0,-99,1,0,0,0
+MOOC10/16.31/480,MOOC10/16.31,17900920/17900923, madagascar v:s,1 slavejonge gen:t orson van madagascar v:s,horse_cart,16,,410.0,-99,1,0,0,0
+MOOC10/18.49/249,MOOC10/18.49,17980827/17980828, madagascar,1 slave jongen genaamt november van madagascar,horse_cart,18,,415.0,-99,1,0,0,0
+MOOC10/14.64/142,MOOC10/14.64,17850425,1 slave jongetje gen:t carolus,1 slave jongetje gen:t carolus van de caab  voet:s,horse_cart,14,1,422.0,422.0,1,0,0,0
+MOOC10/16.21/126,MOOC10/16.21,17901115, madagascar voetst:,1 slave jongen gen:d august van madagascar voetst:,horse_cart,16,,422.0,-99,1,0,0,0
+MOOC10/15.50/315,MOOC10/15.50,17870821/17870822, madagascar,1 slave meijd gen:t delila van madagascar met haar kind christijn van de caab,horse_cart,15,,423.0,-99,1,0,0,0
+MOOC10/14.17/343,MOOC10/14.17,17830606/17830607, madagascar voet:s,1 slave jongen gen:t november van madagascar voet:s,horse_cart,14,,427.0,-99,1,0,0,0
+MOOC10/11.50/23,MOOC10/11.50,17770215, madagascar voetstoots,1 slave jongen gen:t apollus van madagascar voetstoots,horse_cart,11,,442.0,-99,1,0,0,0
+MOOC10/19.61/10,MOOC10/19.61,18040627, madagascar voets:,1 jonge gen:t jason van madagascar voets:,horse_cart,19,,445.0,-99,1,0,0,0
+MOOC10/13.9/359,MOOC10/13.9,17800615/17800616, madagascar,"1 slave jongen gen:t , voetstootsvalentijn van madagascar",horse_cart,13,,450.0,-99,1,0,0,0
+MOOC10/15.17/130,MOOC10/15.17,17860627, madagascar voetst:s,1 slave jongen genaamt anthonij van madagascar voetst:s,horse_cart,15,,450.0,-99,1,0,0,0
+MOOC10/17.63_1/2/174,MOOC10/17.63_1/2,17970227/17970128, madagascar,1 slave jongen gen:t december van madagascar,horse_cart,17,,450.0,-99,1,0,0,0
+MOOC10/15.62/420,MOOC10/15.62,17880630/17880701, madagascar voetst:s,1 slave jongen gen:t damon van madagascar voetst:s,horse_cart,15,,453.0,-99,1,0,0,0
+MOOC10/14.17/342,MOOC10/14.17,17830606/17830607, madagascar voet:s,1 slave jongen gen:t jephta van madagascar voet:s,horse_cart,14,,456.0,-99,1,0,0,0
+MOOC10/16.67/7,MOOC10/16.67,No date, madagaskar v:s,1 slavejonge gen:t robbert van madagaskar v:s,horse_cart,16,,474.0,-99,1,0,0,0
+MOOC10/17.1/7,MOOC10/17.1,17931220, madagascar v:s,1 slavejonge gen:t robbert van madagascar v:s,horse_cart,17,,474.0,-99,1,0,0,0
+MOOC10/24.31/130,MOOC10/24.31,18100820/18100821, madagascar v:s:,1 jongen gen:t present van madagascar v:s:,horse_cart,24,,476.0,-99,1,0,0,0
+MOOC10/18.49/251,MOOC10/18.49,17980827/17980828, madagascar,1 slave jongen genaamt sias van madagascar,horse_cart,18,,480.0,-99,1,0,0,0
+MOOC10/13.9/347,MOOC10/13.9,17800615/17800616, madagascar,"1 slave jongen gen:t , voetstootsnobel van madagascar",horse_cart,13,,481.0,-99,1,0,0,0
+MOOC10/16.8/87,MOOC10/16.8,17910218, madagascar v:s,1 slave jonge gen:t samson van madagascar v:s,horse_cart,16,,496.0,-99,1,0,0,0
+MOOC10/10.2/677,MOOC10/10.2,17680411/17680414, madagascar  voetstoots,1 slave jonge gen:t jacob van madagascar  voetstoots,horse_cart,10,,500.0,-99,1,0,0,0
+MOOC10/12.39/181,MOOC10/12.39,17780810/17780811,1 slave jongen gen:t carel,1 slave jongen gen:t carel van malacca  voetst:ts,horse_cart,12,1,500.0,500.0,1,0,0,0
+MOOC10/15.68/135,MOOC10/15.68,17880908, madagascar voetstoots,1 slave jonge genaamt jacob van madagascar voetstoots,horse_cart,15,,500.0,-99,1,0,0,0
+MOOC10/16.39/264,MOOC10/16.39,17931028/17931029, madagascar v:s,1 slavejonge gen:t david van madagascar v:s,horse_cart,16,,500.0,-99,1,0,0,0
+MOOC10/13.9/348,MOOC10/13.9,17800615/17800616, madagascar,"1 slave jongen gen:t , voetstootsmentor van madagascar",horse_cart,13,,501.0,-99,1,0,0,0
+MOOC10/13.9/355,MOOC10/13.9,17800615/17800616, madagascar,"1 slave jongen gen:t , voetstootsoranje van madagascar",horse_cart,13,,501.0,-99,1,0,0,0
+MOOC10/19.5/100,MOOC10/19.5,18000719, malagascar voetstoots,1 slave meijd genaamd sara van malagascar voetstoots,horse_cart,19,,501.0,-99,1,0,0,0
+MOOC10/21.14/208,MOOC10/21.14,18051120, madagascar voetstoots,1 jongen gen:d jacob van madagascar voetstoots,horse_cart,21,,501.0,-99,1,0,0,0
+MOOC10/15.12/159,MOOC10/15.12,17860505/17860506, madagascar voetst:s,1 slave jongen gen:t hector van madagascar voetst:s,horse_cart,15,,505.0,-99,1,0,0,0
+MOOC10/16.31/438,MOOC10/16.31,17900920/17900923, madagascar v:s,1 slavejonge gen:t alexander van madagascar v:s,horse_cart,16,,506.0,-99,1,0,0,0
+MOOC10/16.50/164,MOOC10/16.50,17910915/17910916, madagascar v:s,1 slavejonge gen:t alexander van madagascar v:s,horse_cart,16,,510.0,-99,1,0,0,0
+MOOC10/24.31/131,MOOC10/24.31,18100820/18100821, madagascar v:s:,1 jongen gen:t april van madagascar v:s:,horse_cart,24,,514.0,-99,1,0,0,0
+MOOC10/22.17/143,MOOC10/22.17,18051219/18051220,1 mans slaaf carel,1 mans slaaf  carel van massanbico,horse_cart,22,1,520.0,520.0,1,0,0,0
+MOOC10/19.7/136,MOOC10/19.7,18000107,1 slaaven jong in naame carolus,1 slaaven jong in naame carolus van africa,horse_cart,19,1,525.0,525.0,1,0,0,0
+MOOC10/19.27/298,MOOC10/19.27,18020115/18020116, madagascar v:s,1 jonge g:t cupido van madagascar v:s,horse_cart,19,,530.0,-99,1,0,0,0
+MOOC10/20.19/96,MOOC10/20.19,18040723,1 slave jonge gen:t carolus,1 slave jonge gen:t carolus van de caab voets:,horse_cart,20,1,530.0,530.0,1,0,0,0
+MOOC10/18.74/222,MOOC10/18.74,18000505, madagascar v:s,1 slave jonge gen:t jephta van madagascar v:s,horse_cart,18,,536.0,-99,1,0,0,0
+MOOC10/14.64/139,MOOC10/14.64,17850425, madagascar  voet:s,1 slave jonge gen:t thomas van madagascar  voet:s,horse_cart,14,,547.0,-99,1,0,0,0
+MOOC10/11.30/2,MOOC10/11.30,17751106,1 slave jonge gen:t carolus,1 slave jonge gen:t carolus van de caab voetst:ts,horse_cart,11,1,558.0,558.0,1,0,0,0
+MOOC10/15.97/109,MOOC10/15.97,17900420/17900421, madagascar voets:ts,1 slave jonge genaamt welkom van madagascar voets:ts,horse_cart,15,,560.0,-99,1,0,0,0
+MOOC10/15.97/108,MOOC10/15.97,17900420/17900421, madagascar voets:ts,1 slave jonge genaamt zeeseer van madagascar voets:ts,horse_cart,15,,570.0,-99,1,0,0,0
+MOOC10/14.10/412,MOOC10/14.10,17830519/17830510/17830521, madagascar voetst:s,1 slaaven jongen gen:t cesar van madagascar voetst:s,horse_cart,14,,571.0,-99,1,0,0,0
+MOOC10/15.51/175,MOOC10/15.51,17871026,1 slave jonge gen:t carolis,1 slave jonge gen:t carolis van madagascar voetst:ts,horse_cart,15,1,580.0,580.0,1,0,0,0
+MOOC10/18.74/223,MOOC10/18.74,18000505, madagascar voetst:,1 slave jonge gen:t hector van madagascar voetst:,horse_cart,18,,581.0,-99,1,0,0,0
+MOOC10/14.10/417,MOOC10/14.10,17830519/17830510/17830521, madagascar voetst:s,1 slave jongen gen:t azar van madagascar voetst:s,horse_cart,14,,600.0,-99,1,0,0,0
+MOOC10/19.27/292,MOOC10/19.27,18020115/18020116, madagascar v:s,1 jonge g:t africa van madagascar v:s,horse_cart,19,,605.0,-99,1,0,0,0
+MOOC10/22.34/342,MOOC10/22.34,18070608/18070611,1 jongen gen:d carolus,1 jongen gen:d carolus van mosambicque beestenwagter v:s,horse_cart,22,1,606.0,606.0,1,0,0,0
+MOOC10/13.26/76,MOOC10/13.26,17811119, madagascar voet:s,1 slaven jongen gen:t junij v:n madagascar voet:s,horse_cart,13,,612.0,-99,1,0,0,0
+MOOC10/20.78/297,MOOC10/20.78,18050702/18050703, madagascar v:sts,1 mans slaaf gen:d october van madagascar v:sts,horse_cart,20,,613.0,-99,1,0,0,0
+MOOC10/20.12/91,MOOC10/20.12,18021015, madagascar schapenwagter,1 slave jonge gen:t lafleur van madagascar schapenwagter,horse_cart,20,,621.0,-99,1,0,0,0
+MOOC10/24.1/98,MOOC10/24.1,18011103/18011104, madagascar,1 jongen gen:d kraak van madagascar met zijn wijf agida van de kaap v:s:,horse_cart,24,,630.0,-99,1,0,0,0
+MOOC10/20.24/257,MOOC10/20.24,18040628/18040702/18040703, madagascar voetstoots,1 slave jonge gen:t europa van madagascar voetstoots,horse_cart,20,,650.0,-99,1,0,0,0
+MOOC10/15.62/418,MOOC10/15.62,17880630/17880701,1 slave jongen gen:t madagascar,1 slave jongen gen:t madagascar v:n madagascar,horse_cart,15,1,651.0,651.0,1,0,0,0
+MOOC10/20.24/256,MOOC10/20.24,18040628/18040702/18040703, madagascar voetstoots,1 slave jonge gen:t africa van madagascar voetstoots,horse_cart,20,,652.0,-99,1,0,0,0
+MOOC10/18.19/187,MOOC10/18.19,17980312/17980313, madagascar,1 slave jonge gen:t salomon van madagascar,horse_cart,18,,670.0,-99,1,0,0,0
+MOOC10/21.19/15,MOOC10/21.19,18050312, madagascar zijnde een wagenrijder,"1 slave jongen gen:d bastiaan van madagascar zijnde een wagenrijder, voetstoots",horse_cart,21,,670.0,-99,1,0,0,0
+MOOC10/15.64/105,MOOC10/15.64,17880728, madagascar voetst:s,1 slave jonge gen:t mentor van madagascar voetst:s,horse_cart,15,,680.0,-99,1,0,0,0
+MOOC10/18.49/250,MOOC10/18.49,17980827/17980828, madagascar,1 slave jongen genaamt manuel van madagascar,horse_cart,18,,682.0,-99,1,0,0,0
+MOOC10/15.78/194,MOOC10/15.78,17890116, madagascar v:s,1 slave jonge gen:t arson van madagascar v:s,horse_cart,15,,685.0,-99,1,0,0,0
+MOOC10/18.74/224,MOOC10/18.74,18000505, madagascar v:s,1 slave jonge gen:t david van madagascar v:s,horse_cart,18,,695.0,-99,1,0,0,0
+MOOC10/16.11/398,MOOC10/16.11,17900401/17900403, madagascar,"1 slawe meid gen:t silvia van madagascar met 3 kinderen gen:t , onverwagt van de caab en africa van de caab v:srosina van de caab",horse_cart,16,,700.0,-99,1,0,0,0
+MOOC10/18.58/230,MOOC10/18.58,17980417, madagascar,1 slave jonge gen:d goliath van madagascar,horse_cart,18,,700.0,-99,1,0,0,0
+MOOC10/18.78/705,MOOC10/18.78,"18000626/18000628, 18000703/18000704", madagascar,1 slave jonge gen:t benjamin van madagascar,horse_cart,18,,700.0,-99,1,0,0,0
+MOOC10/21.64/103,MOOC10/21.64,18060418, madagascar v:s,1 jongen gen:d damon van madagascar v:s,horse_cart,21,,700.0,-99,1,0,0,0
+MOOC10/15.12/162,MOOC10/15.12,17860505/17860506, madagascar,1 slave jongen gen:t adonis van madagascar en 1 slave meijd gen:t rosette van mosambicque voet:s,horse_cart,15,,701.0,-99,1,0,0,0
+MOOC10/15.62/417,MOOC10/15.62,17880630/17880701, madagascar,"1 slave jongen gen:t januarij van madagascar , 1 slave meid gen:t eva van mosambicque met haar twee kinderen sabina van de caab en jann: van de caab beide van de caab",horse_cart,15,,701.0,-99,1,0,0,0
+MOOC10/14.35/173,MOOC10/14.35,17840820, madagascar voet:s,1 slave jonge gen:t jephta van madagascar voet:s,horse_cart,14,,702.0,-99,1,0,0,0
+MOOC10/21.15/72,MOOC10/21.15,18050910,1 mans slaaf gen:d carel,1 mans slaaf gen:d carel van de kaap voetstoots,horse_cart,21,1,702.0,702.0,1,0,0,0
+MOOC10/18.37/146,MOOC10/18.37,17980901, madagascar,1 slave jonge gen:t lustig van madagascar,horse_cart,18,,713.0,-99,1,0,0,0
+MOOC10/26.44/210,MOOC10/26.44,18110828/18110829,1 slave jonge carolus,1 slave jonge carolus van de kaap,horse_cart,26,1,725.0,725.0,1,0,0,0
+MOOC10/19.31/1,MOOC10/19.31,18001124, de karse rivier onder deese expresse conditie dat de koper,een opstal staande op de leenings plaatz gen:t de gerustheid geleegen aan de mond van de karse rivier onder deese expresse conditie dat de koper van voorz: opstal gehouden en verpligt boven en behalven hunne uitgeloofde coopp: te moeten betalen voor ’s heerens geregtigheid de 40 p:g en ook voor ’t een en ander des begeerd werdende twee sufficante borge te stellen,horse_cart,19,,740.0,-99,1,0,0,0
+MOOC10/17.51/318,MOOC10/17.51,17960523/17960524,1 slave jongen genaamt carolus,een slave jongen genaamt carolus van de caab,horse_cart,17,1,750.0,750.0,1,0,0,0
+MOOC10/24.38/20,MOOC10/24.38,18100210, madagascar v:s:,1 jongen gen:t apollos van madagascar v:s:,horse_cart,24,,750.0,-99,1,0,0,0
+MOOC10/18.78/393,MOOC10/18.78,"18000626/18000628, 18000703/18000704", madagascar,1 slave jonge gen:t jasman van madagascar,horse_cart,18,,760.0,-99,1,0,0,0
+MOOC10/14.57/164,MOOC10/14.57,178[...]1103, madagascar  voetst:s,1 slaven jongen gen:t jak van madagascar  voetst:s,horse_cart,14,,800.0,-99,1,0,0,0
+MOOC10/19.19/100,MOOC10/19.19,18010212,1 slave jonge gen:t carolus,1 slave jonge gen:t carolus van mosambicque voetstoots,horse_cart,19,1,805.0,805.0,1,0,0,0
+MOOC10/23.41/248,MOOC10/23.41,18080614, madagascar,een mansslaaf gen:d september van madagascar,horse_cart,23,,807.0,-99,1,0,0,0
+MOOC10/23.41/254,MOOC10/23.41,18080614, haar carolina,een slavinne gen:d met haar carolina van malabar,horse_cart,23,,815.0,-99,1,0,0,0
+MOOC10/17.21/31,MOOC10/17.21,17951127/17951128, madagascar voetstoots,een slaven jongen genaamt jasper van madagascar voetstoots,horse_cart,17,,832.0,-99,1,0,0,0
+MOOC10/17.63_1/2/168,MOOC10/17.63_1/2,17970227/17970128, madagascar wagenrijder,1 slave jongen gen:t pierre van madagascar wagenrijder,horse_cart,17,,851.0,-99,1,0,0,0
+MOOC10/14.57/161,MOOC10/14.57,178[...]1103, madagascar  voetst:s,1 slaven jongen gen:t samson van madagascar  voetst:s,horse_cart,14,,900.0,-99,1,0,0,0
+MOOC10/15.68/136,MOOC10/15.68,17880908, madagascar voetstoots,1 slave jonge genaamt appollos van madagascar voetstoots,horse_cart,15,,900.0,-99,1,0,0,0
+MOOC10/19.30/296,MOOC10/19.30,18020308/18020309, madagascar voetst:,een slave jongen genaamt coridon van madagascar voetst:,horse_cart,19,,903.0,-99,1,0,0,0
+MOOC10/20.54/308,MOOC10/20.54,18041015/18041019, caroline,"1 meid gen:t rosie van mosambicque met haar 3 kinderen, gen:t christ:a van de kaap , rachel van de kaap en caroline van de kaap",horse_cart,20,,904.0,-99,1,0,0,0
+MOOC10/17.63_1/2/172,MOOC10/17.63_1/2,17970227/17970128, madagascar wagenrijder,1 slave jongen gen:t kleijne cezar van madagascar wagenrijder,horse_cart,17,,915.0,-99,1,0,0,0
+MOOC10/16.47/273,MOOC10/16.47,17931004/17931005/17931007, madagascar wagenmaker v:s,1 slavejonge gen:t amerika van madagascar wagenmaker v:s,horse_cart,16,,926.0,-99,1,0,0,0
+MOOC10/24.34/9,MOOC10/24.34,18100830,1 slavinne gen:d carolina,1 slavinne gen:d carolina van de kaap,horse_cart,24,1,952.0,952.0,1,0,0,0
+MOOC10/22.101/320,MOOC10/22.101,18070812/18070813,1 slaaf carolus,1 slaaf carolus van de caap,horse_cart,22,1,1000.0,1000.0,1,0,0,0
+MOOC10/20.1/87,MOOC10/20.1,18030531,1 slave meid gen:t carolus,1 slave meid gen:t carolus van de caap met haar 2 kinderen in name carolus van de caap en catrijn van de caap beide van de caap,horse_cart,20,1,1001.0,1001.0,1,0,0,0
+MOOC10/15.46/112,MOOC10/15.46,17870530, madagascar voetst:s,1 slave jongen gen:t geduld van madagascar voetst:s,horse_cart,15,,1009.0,-99,1,0,0,0
+MOOC10/18.67/63,MOOC10/18.67,17990815, madagascar voetstoots,1 slaven jongen gen:t mentor van madagascar voetstoots,horse_cart,18,,1010.0,-99,1,0,0,0
+MOOC10/16.47/272,MOOC10/16.47,17931004/17931005/17931007, madagascar wagenmaker v:s,1 slavejonge gen:t hector van madagascar wagenmaker v:s,horse_cart,16,,1025.0,-99,1,0,0,0
+MOOC10/18.19/185,MOOC10/18.19,17980312/17980313, madagascar,1 slave jonge gen:t samson van madagascar,horse_cart,18,,1053.0,-99,1,0,0,0
+MOOC10/18.64/73,MOOC10/18.64,17990816/17990817, madagascar coetzier,"1 slave jongen genaamt nobel van madagascar coetzier, voetst:",horse_cart,18,,1060.0,-99,1,0,0,0
+MOOC10/22.43/348,MOOC10/22.43,18070205/18070207, haar kind carolina,"1 meijd gen:t rachel van de kaap met haar kind carolina van de kaap beide van de kaap, v:s:",horse_cart,22,,1100.0,-99,1,0,0,0
+MOOC10/22.34/346,MOOC10/22.34,18070608/18070611, madagascar wagenrijder v:s:,1 jongen gen:d pieter van madagascar wagenrijder v:s:,horse_cart,22,,1201.0,-99,1,0,0,0
+MOOC10/23.54/196,MOOC10/23.54,18090424/18090428, madagascar koetzier v:s:,1 jongen gen:t solon van madagascar koetzier v:s:,horse_cart,23,,1251.0,-99,1,0,0,0
+MOOC10/24.31/135,MOOC10/24.31,18100820/18100821, madagascar,1 meid gen:t amelie van madagascar met haare 3 kinderen sara van de kaap  en sabander van de kaap alle van de kaapameriza van de kaap,horse_cart,24,,1533.0,-99,1,0,0,0
+MOOC10/14.17/339,MOOC10/14.17,17830606/17830607,1 slave jongen gen:t zecar,1 slave jongen gen:t zecar van de caab voetst:s,horse_cart,14,1,1551.0,1551.0,1,0,0,0
+MOOC10/19.27/290,MOOC10/19.27,18020115/18020116, madagascar v:s,1 jonge g:t valentijn van madagascar v:s,horse_cart,19,,1718.0,-99,1,0,0,0
+MOOC10/20.34/66,MOOC10/20.34,18030217, gen:d carolina,"1 slaave meid gen:d rosina met 3 kleine kinderen, gen:d carolina , adriaan en bastiaan",horse_cart,20,,1850.0,-99,1,0,0,0
+MOOC10/14.16/358,MOOC10/14.16,17830115/17830116, madagascar,"1 slaven jongen gen:t , 1 slaven meijd gen:t jacob van madagascar met haar twee kinderen gen:t roosje van de caab en , alle van de caabfebruarij van de caab",horse_cart,14,,2100.0,-99,1,0,0,0
+MOOC10/16.8/1,MOOC10/16.8,17910218, louis karstens,"een opstal staande op de leeningsplaats genaamt d’ enkelde vallij gelegen in ’t swart land tusschen jacobus mosterd en louis karstens, onder conditie dat den cooper van voorsz: opstal verpligt ende gehouden zijn zal van ’t bedragen der cooppenningen den veertigsten penning voor ’s heeren geregtigheid aan d’ e: comp: te voldoen werdende bij deesen opstal teffens vercogt alle tarwe en garst zoo als deselve zig in twee mieten op de plaats komen te bevinden",horse_cart,16,,2375.0,-99,1,0,0,0
+MOOC10/14.36/57,MOOC10/14.36,17840917, madagascar voet:s,1 slave jonge gen:t jacob van madagascar voet:s,horse_cart,14,,2415.0,-99,1,0,0,0
+MOOC10/22.96/1,MOOC10/22.96,18080616,1 opstal staande op de leenings plaats genaamd cardouw geleegen over de 24 rivieren blijkens koopconditie,een opstal staande op de leenings plaats genaamd cardouw geleegen over de 24 rivieren blijkens koopconditie,horse_cart,22,1,3200.0,3200.0,0,0,0,0
+MOOC10/22.101/331,MOOC10/22.101,18070812/18070813, de karnemelks rivier ende brakke fonteijn onder de karnemelks rivier,d’ opstallen der leeningsplaatsen gen:t aan de karnemelks rivier ende brakke fonteijn onder de karnemelks rivier,horse_cart,22,,3561.0,-99,1,0,0,0
+MOOC10/2.18/98,MOOC10/2.18,17191106,1 caret snuijfdoosje,1 caret snuijfdoosje met 1 brandglas,horse_cart,2,1,1.02,1.02,1,0,0,0
+MOOC10/2.22/66,MOOC10/2.22,17201202,1 karn,1 karn met 2 karnstokke,horse_cart,2,1,1.02,1.02,1,0,0,0
+MOOC10/11.5/294,MOOC10/11.5,17730329/17730330 17730401/17730402,1 carette doos,1 carette doos,horse_cart,11,1,0.04,0.04,0,0,0,0
+MOOC10/12.23/57,MOOC10/12.23,17781117, madagascar  voetst:,1 slave jonge gen:t isak van madagascar  voetst: en oud,horse_cart,12,,0.04,-99,1,0,0,0
+MOOC10/17.40/150,MOOC10/17.40,17950407,2 tinne carns,2 tinne carns,horse_cart,17,2,0.04,0.02,0,0,0,0
+MOOC10/9.34/186,MOOC10/9.34,17671215,2 cardoesen gekurven tobak,2 cardoesen gekurven tobak,horse_cart,9,2,0.04,0.02,0,0,0,0
+MOOC10/3.65/10,MOOC10/3.65,17240606,1 karet,2 wagen leeren met een karet,horse_cart,3,1,1.04,1.04,1,0,0,0
+MOOC10/3.75/6,MOOC10/3.75,17290228,2 boterkarns,2 boterkarns met zout en 1 water emmer,horse_cart,3,2,1.04,0.52,1,0,0,0
+MOOC10/5.20/34,MOOC10/5.20,17380324,1 caret,"2 wagen leeren, 1 caret met 1 kist",horse_cart,5,1,1.04,1.04,1,0,0,0
+MOOC10/10.14/463,MOOC10/10.14,17700427/17700428,1 carbijn schoen,"1 partij romm:g, 1 p:r holsters en 1 carbijn schoen",horse_cart,10,1,1.04,1.04,1,0,0,0
+MOOC10/10.18/124,MOOC10/10.18,17700314,1 botercarn,1 botercarn,horse_cart,10,1,1.04,1.04,0,0,0,0
+MOOC10/10.22/457,MOOC10/10.22,17690123/17690130,1 kardoes spelden,5 briefjes spelden en 1 kardoes spelden,horse_cart,10,1,1.04,1.04,1,0,0,0
+MOOC10/10.47/62,MOOC10/10.47,17711120,1 carette kooker,1 carette kooker met 3 silvere pennetjes,horse_cart,10,1,1.04,1.04,1,0,0,0
+MOOC10/11.2/124,MOOC10/11.2,17730326,1 booter karn,1 booter karn,horse_cart,11,1,1.04,1.04,0,0,0,0
+MOOC10/11.14/33,MOOC10/11.14,17741212,1 botercarn,1 botercarn en 3 vuurstooven,horse_cart,11,1,1.04,1.04,1,0,0,0
+MOOC10/12.3/175,MOOC10/12.3,17761113,1 pakje zilvere gecartelde cantielle,1 pakje zilvere gecartelde cantielle,horse_cart,12,1,1.04,1.04,0,0,0,0
+MOOC10/13.8/156,MOOC10/13.8,17800619/17800620,1 bootercarn,1 bootercarn,horse_cart,13,1,1.04,1.04,0,0,0,0
+MOOC10/13.39/30,MOOC10/13.39,17820103,1 karn,1 karn,horse_cart,13,1,1.04,1.04,0,0,0,0
+MOOC10/14.18/123,MOOC10/14.18,17830924/17830925,2 glaze liquercaraffen,2 glaze liquercaraffen,horse_cart,14,2,1.04,0.52,0,0,0,0
+MOOC10/14.18/124,MOOC10/14.18,17830924/17830925,2 glaze liquercaraffen,2 glaze liquercaraffen,horse_cart,14,2,1.04,0.52,0,0,0,0
+MOOC10/14.28/25,MOOC10/14.28,1783,1 kleijne karn,1 kleijne karn,horse_cart,14,1,1.04,1.04,0,0,0,0
+MOOC10/15.45/12,MOOC10/15.45,17871207,1 karn,1 karn,horse_cart,15,1,1.04,1.04,0,0,0,0
+MOOC10/16.28/180,MOOC10/16.28,17920614,2 caraffen,2 caraffen en 3 glase cannetjes,horse_cart,16,2,1.04,0.52,1,0,0,0
+MOOC10/16.36/816,MOOC10/16.36,17940219/17940221,12 lb: cardoes tobak,12 lb: cardoes tobak,horse_cart,16,12,1.04,0.09,0,0,0,0
+MOOC10/16.37/138,MOOC10/16.37,17940125,1 partij cardijnen,1 partij cardijnen,horse_cart,16,1,1.04,1.04,0,1,0,0
+MOOC10/16.52/4,MOOC10/16.52,17911010/17911011,1 booterkarn,1 booterkarn,horse_cart,16,1,1.04,1.04,0,0,0,0
+MOOC10/17.3/105,MOOC10/17.3,17930916,2 caraffen,2 caraffen,horse_cart,17,2,1.04,0.52,0,0,0,0
+MOOC10/17.39/44,MOOC10/17.39,17951127,1 boter karn,1 boter karn,horse_cart,17,1,1.04,1.04,0,0,0,0
+MOOC10/17.40/149,MOOC10/17.40,17950407,1 tinne carn,1 tinne carn,horse_cart,17,1,1.04,1.04,0,0,0,0
+MOOC10/17.67_1/2/37,MOOC10/17.67_1/2,17970708,1 carn,"1 aarde schotel, 6 borden en 1 carn",horse_cart,17,1,1.04,1.04,1,0,0,0
+MOOC10/2.33/11,MOOC10/2.33,17211023,1 boter karn,1 boter karn met een boter vat,horse_cart,2,1,1.04,1.04,1,0,0,0
+MOOC10/20.14/161,MOOC10/20.14,18040130,1 careth dames kam,1 careth dames kam,horse_cart,20,1,1.04,1.04,0,0,0,0
+MOOC10/20.54/572,MOOC10/20.54,18041015/18041019,2 karaffen,2 karaffen,horse_cart,20,2,1.04,0.52,0,0,0,0
+MOOC10/22.21/91,MOOC10/22.21,18061128,8 karewatsen,8 karewatsen,horse_cart,22,8,1.04,0.13,0,0,0,0
+MOOC10/22.34/487,MOOC10/22.34,18070608/18070611,2 caraffen,"2 caraffen, defect",horse_cart,22,2,1.04,0.52,1,0,0,0
+MOOC10/22.95/116,MOOC10/22.95,18070618/18070619,1 koffij karn,1 koffij karn,horse_cart,22,1,1.04,1.04,0,0,0,0
+MOOC10/22.95/157,MOOC10/22.95,18070618/18070619,1 kleijne karn,1 kleijne karn,horse_cart,22,1,1.04,1.04,0,0,0,0
+MOOC10/23.15/21,MOOC10/23.15,18071223,1 caraf,1 caraf,horse_cart,23,1,1.04,1.04,0,0,0,0
+MOOC10/24.33/189,MOOC10/24.33,18100810/18100811,2 karaffen,2 karaffen,horse_cart,24,2,1.04,0.52,0,0,0,0
+MOOC10/6.65/154,MOOC10/6.65,17551107,1 carette tobaksdoos,1 carette tobaksdoos met zilv:r beslag,horse_cart,6,1,1.04,1.04,1,0,0,0
+MOOC10/4.113/20,MOOC10/4.113,17330527,2 carabassen,2 carabassen,horse_cart,4,2,2.04,1.02,0,0,0,0
+MOOC10/4.119/437,MOOC10/4.119,17330713,1 carabassen,1 carabassen met 1 kan,horse_cart,4,1,2.04,2.04,1,0,0,0
+MOOC10/4.119/438,MOOC10/4.119,17330713,2 carabassen,2 carabassen,horse_cart,4,2,2.04,1.02,0,0,0,0
+MOOC10/5.49/7,MOOC10/5.49,17440325,1 klijne karn,1 parthy flessen met 1 klijne karn,horse_cart,5,1,2.04,2.04,1,0,0,0
+MOOC10/5.69/26,MOOC10/5.69,17460825,1 carbijn riem,1 plampher en 1 carbijn riem,horse_cart,5,1,2.04,2.04,1,0,0,0
+MOOC10/10.29/16,MOOC10/10.29,17710814,1 botercarn,1 botercarn en 1 partij vellings,horse_cart,10,1,2.04,2.04,1,0,0,0
+MOOC10/11.17/19,MOOC10/11.17,17741205/17741206,1 botercarn,1 botercarn,horse_cart,11,1,2.04,2.04,0,0,0,0
+MOOC10/11.41/1049,MOOC10/11.41,17741219/17741222,2 glasen caraffen,2 glasen caraffen en 1 bierglas,horse_cart,11,2,2.04,1.02,1,0,0,0
+MOOC10/12.12/190,MOOC10/12.12,17771208,1 boter carn,1 boter carn,horse_cart,12,1,2.04,2.04,0,0,0,0
+MOOC10/12.27/345,MOOC10/12.27,"17790512, 17790514",1 carette kisje,1 carette kisje met zilvere beslag,horse_cart,12,1,2.04,2.04,1,0,0,0
+MOOC10/13.62/24,MOOC10/13.62,17821018,3 carnvaatjes,3 carnvaatjes,horse_cart,13,3,2.04,0.68,0,0,0,0
+MOOC10/14.51/52,MOOC10/14.51,17840329,1 karn,1 karn,horse_cart,14,1,2.04,2.04,0,0,0,0
+MOOC10/15.14/128,MOOC10/15.14,17860512/17860513,2 glase caraffen,2 glase caraffen,horse_cart,15,2,2.04,1.02,0,0,0,0
+MOOC10/15.42/10,MOOC10/15.42,17870824/17870825,1 karn,1 karn,horse_cart,15,1,2.04,2.04,0,0,0,0
+MOOC10/15.48/110,MOOC10/15.48,17860315/17860316,1 karn,1 karn,horse_cart,15,1,2.04,2.04,0,0,0,0
+MOOC10/15.51/121,MOOC10/15.51,17871026,1 karn,1 burrij en wat rom: en 1 karn,horse_cart,15,1,2.04,2.04,1,0,0,0
+MOOC10/15.68/1,MOOC10/15.68,17880908,1 oude kar cas,1 oude kar cas en tang,horse_cart,15,1,2.04,2.04,1,0,1,0
+MOOC10/15.78/119,MOOC10/15.78,17890116,1 boter karn,1 boter karn,horse_cart,15,1,2.04,2.04,0,0,0,0
+MOOC10/15.113/393,MOOC10/15.113,17891116/17891118,3 caraffen,3 caraffen en 2 olij en azijn stand:,horse_cart,15,3,2.04,0.68,1,0,0,0
+MOOC10/16.36/795,MOOC10/16.36,17940219/17940221,1 carette doosje,1 carette doosje met 19 vingerhoeden,horse_cart,16,1,2.04,2.04,1,0,0,0
+MOOC10/16.36/839,MOOC10/16.36,17940219/17940221,4 caraffen,4 caraffen,horse_cart,16,4,2.04,0.51,0,0,0,0
+MOOC10/16.37/333,MOOC10/16.37,17940125,1 leed: carrebas,1 leed: carrebas,horse_cart,16,1,2.04,2.04,0,0,0,0
+MOOC10/16.50/233,MOOC10/16.50,17910915/17910916,1 booterkarn,1 booterkarn en 2 balijtjes,horse_cart,16,1,2.04,2.04,1,0,0,0
+MOOC10/16.68/76,MOOC10/16.68,17920913,1 karn,1 karn,horse_cart,16,1,2.04,2.04,0,0,0,0
+MOOC10/17.67/32,MOOC10/17.67,17971002,1 glase caraf,1 glase caraf en 1 witte bottel,horse_cart,17,1,2.04,2.04,1,0,0,0
+MOOC10/18.10/54,MOOC10/18.10,17940701,1 karn,1 karn,horse_cart,18,1,2.04,2.04,0,0,0,0
+MOOC10/18.17/114,MOOC10/18.17,17970313,3 glaase caraffen,3 glaase caraffen,horse_cart,18,3,2.04,0.68,0,0,0,0
+MOOC10/18.22/340,MOOC10/18.22,17910606/17910608,1 karn,1 karn,horse_cart,18,1,2.04,2.04,0,0,0,0
+MOOC10/18.62/32,MOOC10/18.62,17970930,1 glase caraff,1 glase caraff en 1 witte bouteille,horse_cart,18,1,2.04,2.04,1,0,0,0
+MOOC10/19.1/2,MOOC10/19.1,18001020,1 boter karn,1 rijst blok met zijn stamper en 1 boter karn,horse_cart,19,1,2.04,2.04,1,0,0,0
+MOOC10/19.3/27,MOOC10/19.3,18000123,1 karnvaatje,1 karnvaatje,horse_cart,19,1,2.04,2.04,0,0,0,0
+MOOC10/19.35/106,MOOC10/19.35,18010420/18010421,1 karnvat,1 karnvat,horse_cart,19,1,2.04,2.04,0,0,0,0
+MOOC10/19.42/216,MOOC10/19.42,18010910/18010912,1 karnvaatje,1 karnvaatje,horse_cart,19,1,2.04,2.04,0,0,0,0
+MOOC10/19.45/397,MOOC10/19.45,18020712,3 glase caraffen in zoort,3 glase caraffen in zoort,horse_cart,19,3,2.04,0.68,0,0,0,0
+MOOC10/19.66/7,MOOC10/19.66,18020127/18020128,1 karnvat,1 karnvat,horse_cart,19,1,2.04,2.04,0,0,0,0
+MOOC10/19.66/228,MOOC10/19.66,18020127/18020128,2 glase caraffen,2 glase caraffen,horse_cart,19,2,2.04,1.02,0,0,0,0
+MOOC10/20.6_1/2/203,MOOC10/20.6_1/2,18030620/18030621,1 caraf,1 caraf en met glaswerk,horse_cart,20,1,2.04,2.04,1,0,0,0
+MOOC10/20.20/71,MOOC10/20.20,18040526,1 glase caraf,1 glase caraf,horse_cart,20,1,2.04,2.04,0,0,0,0
+MOOC10/20.87/44,MOOC10/20.87,18040607/18040608,3 glase karaffen,3 glase karaffen,horse_cart,20,3,2.04,0.68,0,0,0,0
+MOOC10/24.33/188,MOOC10/24.33,18100810/18100811,2 karaffen,2 karaffen,horse_cart,24,2,2.04,1.02,0,0,0,0
+MOOC10/6.24/265,MOOC10/6.24,17540114/17540116,1 boterkarn,1 boterkarn,horse_cart,6,1,2.04,2.04,0,0,0,0
+MOOC10/6.55/421,MOOC10/6.55,17551127/17551128,2 boter carns,2 boter carns en 1 vaatje,horse_cart,6,2,2.04,1.02,1,0,0,0
+MOOC10/7.17/219,MOOC10/7.17,17520327/17520330,6 bosjes carlijne kraalen,6 bosjes carlijne kraalen,horse_cart,7,6,2.04,0.34,0,0,0,0
+MOOC10/8.31/8,MOOC10/8.31,17610126,1 carsaije broek,"1 baatje, 1 carsaije broek en 1 hoed",horse_cart,8,1,2.04,2.04,1,0,0,0
+MOOC10/4.110/223,MOOC10/4.110,17330617,2 carabassen,2 carabassen,horse_cart,4,2,3.04,1.52,0,0,0,0
+MOOC10/4.119/434,MOOC10/4.119,17330713,2 carabassen,2 carabassen,horse_cart,4,2,3.04,1.52,0,0,0,0
+MOOC10/4.157/33,MOOC10/4.157,17370617,2 karns,2 karns en 1 botervatje,horse_cart,4,2,3.04,1.52,1,0,0,0
+MOOC10/11.9/41,MOOC10/11.9,17741107/17741108,1 botercarn,1 botercarn,horse_cart,11,1,3.04,3.04,0,0,0,0
+MOOC10/11.9/93,MOOC10/11.9,17741107/17741108,1 carn,"1 aamsvat, 1 carn, 1 halfaam, 1 emmer en 1 wagen kistje",horse_cart,11,1,3.04,3.04,1,0,0,0
+MOOC10/11.62/5,MOOC10/11.62,17770220/17770221,1 carn,"3 emmers, 1 melkbalij, 1 carn met zijn balij en scheijf, 1 botervat, 2 halfamen, 1 klijn vaatje en 2 boter backen",horse_cart,11,1,3.04,3.04,1,0,0,0
+MOOC10/13.39/128,MOOC10/13.39,17820103, caraffe,"1 boterpot, caraffe en peperdoos",horse_cart,13,,3.04,-99,1,0,0,0
+MOOC10/15.94/152,MOOC10/15.94,17900428,1 boter carntje,1 boter carntje,horse_cart,15,1,3.04,3.04,0,0,0,0
+MOOC10/17.39/43,MOOC10/17.39,17951127,1 boter karn,1 boter karn,horse_cart,17,1,3.04,3.04,0,0,0,0
+MOOC10/18.4/189,MOOC10/18.4,17960826/17960827,1 carrabas,1 carrabas met oude wijn,horse_cart,18,1,3.04,3.04,1,0,0,0
+MOOC10/18.78/310,MOOC10/18.78,"18000626/18000628, 18000703/18000704",4 ½ stuk carsaaij,4 ½ stuk carsaaij,horse_cart,18,4,3.04,0.76,0,0,0,0
+MOOC10/19.42/217,MOOC10/19.42,18010910/18010912,1 karnvaatje,1 karnvaatje,horse_cart,19,1,3.04,3.04,0,0,0,0
+MOOC10/19.45/394,MOOC10/19.45,18020712,4 glase caraffen,4 glase caraffen,horse_cart,19,4,3.04,0.76,0,0,0,0
+MOOC10/19.46/33,MOOC10/19.46,18030129,12 cardoesen tobak,"12 cardoesen tobak, aangeslagen",horse_cart,19,12,3.04,0.25,1,0,0,0
+MOOC10/19.46/34,MOOC10/19.46,18030129,18 cardoesen tobak,"18 cardoesen tobak, aangeslagen",horse_cart,19,18,3.04,0.17,1,0,0,0
+MOOC10/20.6_1/2/1137,MOOC10/20.6_1/2,18030620/18030621,1 restant cardoes,1 restant cardoes,horse_cart,20,1,3.04,3.04,0,0,0,0
+MOOC10/20.24/468,MOOC10/20.24,18040628/18040702/18040703,3 caraffen in zoort,3 caraffen in zoort,horse_cart,20,3,3.04,1.01,0,0,0,0
+MOOC10/20.41/172,MOOC10/20.41,18041001/18041004,2 caraffen,2 caraffen,horse_cart,20,2,3.04,1.52,0,0,0,0
+MOOC10/22.29/158,MOOC10/22.29,18070209,1 parthij oude karwatzen,1 parthij oude karwatzen en rottings,horse_cart,22,1,3.04,3.04,1,1,1,0
+MOOC10/23.2/155,MOOC10/23.2,18071230,1 boterkarn,1 kist en 1 boterkarn,horse_cart,23,1,3.04,3.04,1,0,0,0
+MOOC10/24.35/140,MOOC10/24.35,18100723/18100724,2 karaffen,2 karaffen,horse_cart,24,2,3.04,1.52,0,0,0,0
+MOOC10/7.43/55,MOOC10/7.43,17551227,1 carette doos,1 carette doos met silv: beslag,horse_cart,7,1,3.04,3.04,1,0,0,0
+MOOC10/8.14/184,MOOC10/8.14,17580116/17580117,1 boter karn,1 boter karn,horse_cart,8,1,3.04,3.04,0,0,0,0
+MOOC10/9.27/8,MOOC10/9.27,17071005,1 boter karn,1 boter karn,horse_cart,9,1,3.04,3.04,0,0,0,0
+MOOC10/3.40/2,MOOC10/3.40,17220419,1 boter karn,1 boter karn,horse_cart,3,1,4.04,4.04,0,0,0,0
+MOOC10/3.42/66,MOOC10/3.42,17230809,1 boter karn,1 boter karn,horse_cart,3,1,4.04,4.04,0,0,0,0
+MOOC10/4.124/204,MOOC10/4.124,17340615,1 boter karn,"1 boter karn, 1 rijstblok en 2 balijs",horse_cart,4,1,4.04,4.04,1,0,0,0
+MOOC10/5.49/5,MOOC10/5.49,17440325,1 karn,1 karn,horse_cart,5,1,4.04,4.04,0,0,0,0
+MOOC10/10.81/728,MOOC10/10.81,17730308/17730311,6 glase caraffen,6 glase caraffen,horse_cart,10,6,4.04,0.67,0,0,0,0
+MOOC10/11.3/20,MOOC10/11.3,17721105,1 booter karn,1 booter karn,horse_cart,11,1,4.04,4.04,0,0,0,0
+MOOC10/11.47/306,MOOC10/11.47,17761107/17761108,1 boter carn,1 boter carn,horse_cart,11,1,4.04,4.04,0,0,0,0
+MOOC10/13.63/96,MOOC10/13.63,17821017,1 boter carn,1 boter carn,horse_cart,13,1,4.04,4.04,0,0,0,0
+MOOC10/15.8/102,MOOC10/15.8,17851114/17851115,1 carn vat,1 carn vat,horse_cart,15,1,4.04,4.04,0,0,0,0
+MOOC10/15.11/193,MOOC10/15.11,17860317,8 glaze caraffen,8 glaze caraffen,horse_cart,15,8,4.04,0.51,0,0,0,0
+MOOC10/15.59/15,MOOC10/15.59,178YYYYY,1 boter karn,1 boter karn,horse_cart,15,1,4.04,4.04,0,0,0,0
+MOOC10/16.3/65,MOOC10/16.3,17901201,1 karn,een karn en boter vat,horse_cart,16,1,4.04,4.04,1,0,0,0
+MOOC10/17.51/280,MOOC10/17.51,17960523/17960524,2 glaze watercaraffen,2 glaze watercaraffen,horse_cart,17,2,4.04,2.02,0,0,0,0
+MOOC10/19.23/53,MOOC10/19.23,18000718,1 karn,1 karn,horse_cart,19,1,4.04,4.04,0,0,0,0
+MOOC10/19.27/268,MOOC10/19.27,18020115/18020116,1 carn,1 carn,horse_cart,19,1,4.04,4.04,0,0,0,0
+MOOC10/22.30/174,MOOC10/22.30,18060224/18060225,1 caraf,1 caraf,horse_cart,22,1,4.04,4.04,0,0,0,0
+MOOC10/22.101/120,MOOC10/22.101,18070812/18070813,1 karn vat,1 karn vat,horse_cart,22,1,4.04,4.04,0,0,0,0
+MOOC10/7.7/158,MOOC10/7.7,17551001,1 carabijn riem,"1 p:r pistoolen en holsters, 1 carabijn riem en 1 pattroontas",horse_cart,7,1,4.04,4.04,1,0,0,0
+MOOC10/7.36/221,MOOC10/7.36,17560513,1 botercarn,1 botercarn en 1 vatje met booter,horse_cart,7,1,4.04,4.04,1,0,0,0
+MOOC10/8.2/67,MOOC10/8.2,17551104/17551106,2 p:s kokarde lindt,2 p:s kokarde lindt,horse_cart,8,2,4.04,2.02,0,0,0,0
+MOOC10/8.34/110,MOOC10/8.34,17611006,1 carn,1 carn,horse_cart,8,1,4.04,4.04,0,0,0,0
+MOOC10/5.68/396,MOOC10/5.68,17430418,1 carette doos,1 carette doos met silver ingelegt,horse_cart,5,1,5.04,5.04,1,0,0,0
+MOOC10/14.21/103,MOOC10/14.21,17830221,1 botercarn,1 botercarn,horse_cart,14,1,5.04,5.04,0,0,0,0
+MOOC10/14.21/188,MOOC10/14.21,17830221,1 botercarn,1 botercarn en 2 boterbacken,horse_cart,14,1,5.04,5.04,1,0,0,0
+MOOC10/15.64/76,MOOC10/15.64,17880728,1 boter karn,1 boter karn,horse_cart,15,1,5.04,5.04,0,0,0,0
+MOOC10/16.41/5,MOOC10/16.41,17921001,1 kar,een kar,horse_cart,16,1,5.04,5.04,0,0,0,0
+MOOC10/16.41/64,MOOC10/16.41,17921001,1 boter karn,een boter karn,horse_cart,16,1,5.04,5.04,0,0,0,0
+MOOC10/18.4/188,MOOC10/18.4,17960826/17960827,1 carrabas,1 carrabas met oude wijn,horse_cart,18,1,5.04,5.04,1,0,0,0
+MOOC10/18.57/67,MOOC10/18.57,17980612,1 botter karn,1 botter karn,horse_cart,18,1,5.04,5.04,0,0,0,0
+MOOC10/20.17/5,MOOC10/20.17,18020125/18020126,1 boter karn,1 boter karn,horse_cart,20,1,5.04,5.04,0,0,0,0
+MOOC10/20.44/21,MOOC10/20.44,18041014/18041019,20 cardoesen tabak,20 cardoesen tabak,horse_cart,20,20,5.04,0.25,0,0,0,0
+MOOC10/21.33/63,MOOC10/21.33,18040507,1 carafje,"1 carafje, 1 tregter, 1 doosje met boraks, 1 horologie kast en 1 kruidhoorn etc:a",horse_cart,21,1,5.04,5.04,1,0,0,0
+MOOC10/22.32/4,MOOC10/22.32,18060620/18060621,1 karn vat,1 karn vat,horse_cart,22,1,5.04,5.04,0,0,0,0
+MOOC10/4.124/65,MOOC10/4.124,17340615,2 karns,"2 graven, 2 karns, 1 baletje, 1 lek en wat rommeling",horse_cart,4,2,6.04,3.02,1,0,0,0
+MOOC10/5.68/401,MOOC10/5.68,17430418,1 carette doos,1 carette doos met silver ingelegt,horse_cart,5,1,6.04,6.04,1,0,0,0
+MOOC10/14.13/4,MOOC10/14.13,17830114,1 karntje,1 karntje,horse_cart,14,1,6.04,6.04,0,0,0,0
+MOOC10/15.20/78,MOOC10/15.20,17861013,1 carette doos,"1 carette doos, 1 paar oorkrabben, 1 hartje en 1 pretentien",horse_cart,15,1,6.04,6.04,1,0,0,0
+MOOC10/17.15/129,MOOC10/17.15,17940327/17940329,6 glase caraffen,6 glase caraffen,horse_cart,17,6,6.04,1.01,0,0,0,0
+MOOC10/18.78/556,MOOC10/18.78,"18000626/18000628, 18000703/18000704",1 karn,1 karn met 2 vaatjes,horse_cart,18,1,6.04,6.04,1,0,0,0
+MOOC10/19.46/24,MOOC10/19.46,18030129,12 cardoesen tobak,12 cardoesen tobak,horse_cart,19,12,6.04,0.5,0,0,0,0
+MOOC10/19.46/29,MOOC10/19.46,18030129,12 cardoesen tobak,12 cardoesen tobak,horse_cart,19,12,6.04,0.5,0,0,0,0
+MOOC10/20.48/175,MOOC10/20.48,18050325/18050326,1 grote water caraf,1 grote water caraf,horse_cart,20,1,6.04,6.04,0,0,0,0
+MOOC10/21.64/14,MOOC10/21.64,18060418,1 boter karn,"1 boter karn, 1 bak en 1 vaatje",horse_cart,21,1,6.04,6.04,1,0,0,0
+MOOC10/22.101/122,MOOC10/22.101,18070812/18070813,1 karn,1 karn en balie,horse_cart,22,1,6.04,6.04,1,0,0,0
+MOOC10/4.112/1,MOOC10/4.112,17331006,1 karbijn,1 karbijn met zijn toebehoor en 1 p:r laarsen,horse_cart,4,1,7.04,7.04,1,0,0,0
+MOOC10/11.7/58,MOOC10/11.7,17741004,15 ell: bl: carsaaij,15 ell: bl: carsaaij,horse_cart,11,15,7.04,0.47,0,0,0,0
+MOOC10/12.27/422,MOOC10/12.27,"17790512, 17790514",1 carmozijn roode zijde rol,1 carmozijn roode zijde rol,horse_cart,12,1,7.04,7.04,0,0,0,0
+MOOC10/14.57/120,MOOC10/14.57,178[...]1103,1 botercarn,1 botercarn,horse_cart,14,1,7.04,7.04,0,0,0,0
+MOOC10/15.58/45,MOOC10/15.58,17880403,1 karn,1 karn en 1 balij,horse_cart,15,1,7.04,7.04,1,0,0,0
+MOOC10/16.47/365,MOOC10/16.47,17931004/17931005/17931007,6 carawaijtuijgen,6 carawaijtuijgen,horse_cart,16,6,7.04,1.17,0,0,0,0
+MOOC10/20.33/129,MOOC10/20.33,18031217,1 defecte kar,1 defecte kar,horse_cart,20,1,7.04,7.04,0,0,1,0
+MOOC10/20.87/95,MOOC10/20.87,18040607/18040608,2 karwatsen,2 karwatsen,horse_cart,20,2,7.04,3.52,0,0,0,0
+MOOC10/14.34/19,MOOC10/14.34,1784,1 karn,1 karn,horse_cart,14,1,8.04,8.04,0,0,0,0
+MOOC10/16.39/11,MOOC10/16.39,17931028/17931029,1 cooper karn,1 cooper karn,horse_cart,16,1,8.04,8.04,0,0,0,0
+MOOC10/16.66/2,MOOC10/16.66,17931220,2 kartuijgen,2 kartuijgen,horse_cart,16,2,8.04,4.02,0,0,0,0
+MOOC10/26.6/18,MOOC10/26.6,18120720,1 karn,1 karn,horse_cart,26,1,8.04,8.04,0,0,0,0
+MOOC10/26.6/19,MOOC10/26.6,18120720,1 karn,1 karn,horse_cart,26,1,8.04,8.04,0,0,0,0
+MOOC10/8.2/69,MOOC10/8.2,17551104/17551106,4 p:s kokarde lindt,4 p:s kokarde lindt,horse_cart,8,4,8.04,2.01,0,0,0,0
+MOOC10/11.5/84,MOOC10/11.5,17730329/17730330 17730401/17730402,6 carwij tuigen,6 carwij tuigen met haar toebehoren en 1 oude zadel,horse_cart,11,6,9.04,1.51,1,0,0,0
+MOOC10/23.41/38,MOOC10/23.41,18080614,1 karne,1 karne,horse_cart,23,1,9.04,9.04,0,0,0,0
+MOOC10/4.158/76,MOOC10/4.158,17370624,1 kar,1 kar met zijn paardetuijg,horse_cart,4,1,10.04,10.04,1,0,0,0
+MOOC10/15.48/162,MOOC10/15.48,17860315/17860316,1 karn,1 karn en bakkist,horse_cart,15,1,10.04,10.04,1,0,0,0
+MOOC10/18.58/346,MOOC10/18.58,17980417,1 karnvat,1 karnvat,horse_cart,18,1,10.04,10.04,0,0,0,0
+MOOC10/22.58/37,MOOC10/22.58,18071112,10 karaffen,"10 karaffen, kleinder",horse_cart,22,10,10.04,1.0,1,0,0,0
+MOOC10/26.45/13,MOOC10/26.45,18110713/18110730,1 karn vat,1 karn vat,horse_cart,26,1,10.04,10.04,0,0,0,0
+MOOC10/22.66/116,MOOC10/22.66,18060218/18060219,1 karn,1 karn,horse_cart,22,1,11.04,11.04,0,0,0,0
+MOOC10/22.91/90,MOOC10/22.91,18081008,1 carette doos,1 carette doos met zilver geslag,horse_cart,22,1,11.04,11.04,1,0,0,0
+MOOC10/9.46/31,MOOC10/9.46,17680926,1 kar,1 kar,horse_cart,9,1,11.04,11.04,0,0,0,0
+MOOC10/17.17_1/2/49,MOOC10/17.17_1/2,17940519,1 kar,1 kar en 1 partij tuijgen,horse_cart,17,1,13.04,13.04,1,0,0,0
+MOOC10/10.14/308,MOOC10/10.14,17700427/17700428,1 kar,1 kar,horse_cart,10,1,16.04,16.04,0,0,0,0
+MOOC10/13.18/44,MOOC10/13.18,17810720,1 car,1 car met zijn toebehooren,horse_cart,13,1,17.04,17.04,1,0,0,0
+MOOC10/4.139/18,MOOC10/4.139,17350610,1 kar,1 kar,horse_cart,4,1,19.04,19.04,0,0,0,0
+MOOC10/15.12/172,MOOC10/15.12,17860505/17860506,1 stuk blauw carsaaij,1 stuk blauw carsaaij,horse_cart,15,1,19.04,19.04,0,0,0,0
+MOOC10/13.28/309,MOOC10/13.28,17810716/17810717,1 carmosijnen rood gebraaijden camisool,"1 blauwe lakense rok met zijde voering, 1 carmosijnen rood gebraaijden camisool en ditto broek",horse_cart,13,1,20.04,20.04,1,0,0,0
+MOOC10/14.30/104,MOOC10/14.30,17840320,1 stuk blaauw carsaaij,1 stuk blaauw carsaaij,horse_cart,14,1,20.04,20.04,0,0,0,0
+MOOC10/17.70/152,MOOC10/17.70,17980505,1 vos karpaard,1 vos karpaard,horse_cart,17,1,20.04,20.04,0,0,0,0
+MOOC10/14.72/175,MOOC10/14.72,17840401/17840530,1 stuk blaauw carsaaij,1 stuk blaauw carsaaij,horse_cart,14,1,21.04,21.04,0,0,0,0
+MOOC10/14.8/2,MOOC10/14.8,17830928,1 stuk blaauw carsaaij,1 stuk blaauw carsaaij,horse_cart,14,1,24.04,24.04,0,0,0,0
+MOOC10/17.30/24,MOOC10/17.30,17950326/17950328,8 carwaaij tuijgen,8 carwaaij tuijgen met hoofdstel,horse_cart,17,8,24.04,3.0,1,0,0,0
+MOOC10/13.36/138,MOOC10/13.36,17811211/17811212,1 car,1 car,horse_cart,13,1,25.04,25.04,0,0,0,0
+MOOC10/15.80_1/2/29,MOOC10/15.80_1/2,17890223,1 kar,1 kar,horse_cart,15,1,25.04,25.04,0,0,0,0
+MOOC10/18.78/308,MOOC10/18.78,"18000626/18000628, 18000703/18000704",1 stuk carsaaij,1 stuk carsaaij,horse_cart,18,1,26.04,26.04,0,0,0,0
+MOOC10/14.2/7,MOOC10/14.2,17830512,1 kar,1 kar,horse_cart,14,1,35.04,35.04,0,0,0,0
+MOOC10/24.35/70,MOOC10/24.35,18100723/18100724,1 kar,1 kar,horse_cart,24,1,39.04,39.04,0,0,0,0
+MOOC10/11.61/5,MOOC10/11.61,17760923/17760924,1 booter carn,"12 schaapen, 16 bokken, 1 bulsak, 2 kussens, 1 combaers, 1 jas, 1 kadel, 1 oude wagen, 2 vaaten, 1 ploeg, 23 egtanden, 27 p:s gereedschappen in soort, 2 potten, 1 keetel, 2 tinne borden, 2 stoelen, 1 tafel, 1 booter carn, 1 emmer, 3 sakken, 1 zaag, 1 kist, 1 theepot, 1 pik, 1 schoorsteen ketting, 3 bijlen, 1 toom en 8 mudden cooren",horse_cart,11,1,40.04,40.04,1,0,0,0
+MOOC10/15.24/20,MOOC10/15.24,17861228/17861230,1 car,1 car en 2 tuijgen,horse_cart,15,1,41.04,41.04,1,0,0,0
+MOOC10/17.70/150,MOOC10/17.70,17980505,1 vos karpaard,1 vos karpaard,horse_cart,17,1,43.04,43.04,0,0,0,0
+MOOC10/14.10/253,MOOC10/14.10,17830519/17830510/17830521,1 stuk carsaaij,1 stuk carsaaij,horse_cart,14,1,45.04,45.04,0,0,0,0
+MOOC10/17.30/144,MOOC10/17.30,17950326/17950328,1 stuk carsaaij,1 stuk carsaaij,horse_cart,17,1,46.04,46.04,0,0,0,0
+MOOC10/17.45_1/2/42,MOOC10/17.45_1/2,17960328,1 kar,1 kar,horse_cart,17,1,53.04,53.04,0,0,0,0
+MOOC10/16.29/430,MOOC10/16.29,17910606/17910607, madagascar v:s,1 slavemeid gen:t silvia van madagascar v:s,horse_cart,16,,60.04,-99,1,0,0,0
+MOOC10/4.133/89,MOOC10/4.133,17370429, madagascar,1 jonge gen:t  cupido van madagascar,horse_cart,4,,150.04,-99,1,0,0,0
+MOOC10/5.22/337,MOOC10/5.22,17380428,1 jonge gen:t carel,1 jonge gen:t carel van bougis,horse_cart,5,1,155.04,155.04,1,0,0,0
+MOOC10/10.21/329,MOOC10/10.21,17690109/17690110, madagascar voetstoots,1 slave jonge gen:t jannuarij van madagascar voetstoots,horse_cart,10,,170.04,-99,1,0,0,0
+MOOC10/19.27/291,MOOC10/19.27,18020115/18020116, madagascar v:s,1 jonge g:t david van madagascar v:s,horse_cart,19,,182.04,-99,1,0,0,0
+MOOC10/9.15/621,MOOC10/9.15,17640717/17640720, madagascar,1 slave jonge gen:t ceçar van madagascar,horse_cart,9,,192.04,-99,1,0,0,0
+MOOC10/23.12/8,MOOC10/23.12,18070514,1 kar,1 kar,horse_cart,23,1,200.04,200.04,0,0,0,0
+MOOC10/5.22/336,MOOC10/5.22,17380428, madagascar,1 jonge gen:t titus van madagascar,horse_cart,5,,201.04,-99,1,0,0,0
+MOOC10/16.31/465,MOOC10/16.31,17900920/17900923, madagascar v:s,1 slavejonge gen:t isaac van madagascar v:s,horse_cart,16,,210.04,-99,1,0,0,0
+MOOC10/2.33/296,MOOC10/2.33,17211023, madagascar,1 slave jonge gen:t januarij van madagascar,horse_cart,2,,222.04,-99,1,0,0,0
+MOOC10/11.5/859,MOOC10/11.5,17730329/17730330 17730401/17730402,1 slave jonge gen:t caron,1 slave jonge gen:t caron van ternatie voetst:ts,horse_cart,11,1,234.04,234.04,1,0,0,0
+MOOC10/4.121/68,MOOC10/4.121,17340621, madagascar,1 jonge gen:t januarij van madagascar,horse_cart,4,,243.04,-99,1,0,0,0
+MOOC10/16.31/461,MOOC10/16.31,17900920/17900923, madagascar v:s,1 slavejonge gen:t goliath van madagascar v:s,horse_cart,16,,280.04,-99,1,0,0,0
+MOOC10/12.10/187,MOOC10/12.10,17770908/17770909, madagascar  v:ts,1 slave jonge gen:t damon van madagascar  v:ts,horse_cart,12,,300.04,-99,1,0,0,0
+MOOC10/20.12/94,MOOC10/20.12,18021015, haar kind carolina,1 slave meid gen:t theresia van batavia met haar kind carolina van de caab,horse_cart,20,,300.04,-99,1,0,0,0
+MOOC10/10.14/431,MOOC10/10.14,17700427/17700428, madagascar voetstoots,1 slave jonge gen:t valentijn van madagascar voetstoots,horse_cart,10,,386.04,-99,1,0,0,0
+MOOC10/10.14/432,MOOC10/10.14,17700427/17700428, madagascar voetstoots,1 slave jonge gen:t jacob van madagascar voetstoots,horse_cart,10,,390.04,-99,1,0,0,0
+MOOC10/16.47/276,MOOC10/16.47,17931004/17931005/17931007, madagascar wagenrijder v:s,1 slavejonge gen:t salomon van madagascar wagenrijder v:s,horse_cart,16,,400.04,-99,1,0,0,0
+MOOC10/16.47/317,MOOC10/16.47,17931004/17931005/17931007, madagascar,1 slavemeid gen:t daphina van madagascar met haar dogter eva van de caab v:s,horse_cart,16,,488.04,-99,1,0,0,0
+MOOC10/11.66/40,MOOC10/11.66,17770823, madagascar voetst:,1 slave jonge gen:t daniel van madagascar voetst:,horse_cart,11,,500.04,-99,1,0,0,0
+MOOC10/13.39/193,MOOC10/13.39,17820103, madagascar,1 slavin eva van madagascar met 2 kinder,horse_cart,13,,600.04,-99,1,0,0,0
+MOOC10/17.62/100,MOOC10/17.62,17960422/17960423, madagascar voetstoots,1 slave jonge gen:d september van madagascar voetstoots,horse_cart,17,,600.04,-99,1,0,0,0
+MOOC10/14.38/302,MOOC10/14.38,17840413/17840414, madagascar,"1 slave jongen gen:t filander van madagascar en 1 slaven meid gen:t , voetstootscandasa van mosambique",horse_cart,14,,805.04,-99,1,0,0,0
+MOOC10/14.10/411,MOOC10/14.10,17830519/17830510/17830521, madagascar voetst:s,1 slaaven jongen gen:t amsterdam van siam voetst:s en 1 slaaven meid gen:t lea van madagascar voetst:s,horse_cart,14,,900.04,-99,1,0,0,0
+MOOC10/10.22/458,MOOC10/10.22,17690123/17690130,2 kardoesjes,2 pakjes met blinkertjes en 2 kardoesjes met blinkertjes,horse_cart,10,2,0.08,0.04,1,0,0,0
+MOOC10/10.83/165,MOOC10/10.83,17730222,2 cop:e cardoescookers,2 cop:e cardoescookers,horse_cart,10,2,0.08,0.04,0,0,0,0
+MOOC10/15.106/152,MOOC10/15.106,17901104,2 glase caraffen,2 porceleine commen en 2 glase caraffen,horse_cart,15,2,0.08,0.04,1,0,0,0
+MOOC10/17.29/503,MOOC10/17.29,17950126/17950128,1 karaft,1 karaft,horse_cart,17,1,0.08,0.08,0,0,0,0
+MOOC10/18.10/40,MOOC10/18.10,17940701,1 cardoes kooker,1 leepel rak en 1 cardoes kooker,horse_cart,18,1,0.08,0.08,1,0,0,0
+MOOC10/19.57/1,MOOC10/19.57,18020329,1 boter karn,"1 koffij molen, 1 boter karn en 1 led: vat",horse_cart,19,1,0.08,0.08,1,0,0,0
+MOOC10/2.11/7,MOOC10/2.11,17190509,1 oude boter karn,1 oude boter karn,horse_cart,2,1,0.08,0.08,0,0,1,0
+MOOC10/2.30/115,MOOC10/2.30,17211013,1 karn,1 karn met een water half aam,horse_cart,2,1,0.08,0.08,1,0,0,0
+MOOC10/20.87/253,MOOC10/20.87,18040607/18040608,1 cardoesje inkstof,1 cardoesje inkstof,horse_cart,20,1,0.08,0.08,0,0,0,0
+MOOC10/8.34/85,MOOC10/8.34,17611006,1 carntje,1 carntje,horse_cart,8,1,0.08,0.08,0,0,0,0
+MOOC10/9.34/182,MOOC10/9.34,17671215,2 cardoesen gekurven tobak,2 cardoesen gekurven tobak,horse_cart,9,2,0.08,0.04,0,0,0,0
+MOOC10/9.34/183,MOOC10/9.34,17671215,2 cardoesen gekurven tobak,2 cardoesen gekurven tobak,horse_cart,9,2,0.08,0.04,0,0,0,0
+MOOC10/9.34/184,MOOC10/9.34,17671215,2 cardoesen gekurven tobak,2 cardoesen gekurven tobak,horse_cart,9,2,0.08,0.04,0,0,0,0
+MOOC10/9.34/185,MOOC10/9.34,17671215,2 cardoesen gekurven tobak,2 cardoesen gekurven tobak,horse_cart,9,2,0.08,0.04,0,0,0,0
+MOOC10/9.34/187,MOOC10/9.34,17671215,2 cardoesen gekurven tobak,2 cardoesen gekurven tobak,horse_cart,9,2,0.08,0.04,0,0,0,0
+MOOC10/3.58/1,MOOC10/3.58,17241103,1 boterkarn,"1 rijstblok, botervat en 1 boterkarn",horse_cart,3,1,1.08,1.08,1,0,0,0
+MOOC10/5.52/228,MOOC10/5.52,17450913,1 carette doos,1 carette doos met 1 silver charnier,horse_cart,5,1,1.08,1.08,1,0,0,0
+MOOC10/10.14/150,MOOC10/10.14,17700427/17700428,1 carn,1 carn en 2 balijs,horse_cart,10,1,1.08,1.08,1,0,0,0
+MOOC10/10.82/20,MOOC10/10.82,17730227,1 boterkarn,2 vaatjes en 1 boterkarn,horse_cart,10,1,1.08,1.08,1,0,0,0
+MOOC10/11.2/110,MOOC10/11.2,17730326,1 booter karn,1 booter karn,horse_cart,11,1,1.08,1.08,0,0,0,0
+MOOC10/11.46/56,MOOC10/11.46,17761023,3 glase caraffen,3 glase caraffen,horse_cart,11,3,1.08,0.36,0,0,0,0
+MOOC10/12.27/348,MOOC10/12.27,"17790512, 17790514",96 caracasse,8 douzijn caracasse,horse_cart,12,96,1.08,0.01,0,0,0,0
+MOOC10/12.40/124,MOOC10/12.40,17790909,1 botercarn,1 botercarn,horse_cart,12,1,1.08,1.08,0,0,0,0
+MOOC10/13.22/94,MOOC10/13.22,17810420,1 botercarn,1 botercarn,horse_cart,13,1,1.08,1.08,0,0,0,0
+MOOC10/14.2/14,MOOC10/14.2,17830512,1 karn,1 karn,horse_cart,14,1,1.08,1.08,0,0,0,0
+MOOC10/14.18/125,MOOC10/14.18,17830924/17830925,2 glaze liquercaraffen,2 glaze liquercaraffen,horse_cart,14,2,1.08,0.54,0,0,0,0
+MOOC10/14.21/153,MOOC10/14.21,17830221,1 botercarn,1 botercarn,horse_cart,14,1,1.08,1.08,0,0,0,0
+MOOC10/14.53/89,MOOC10/14.53,17840917,1 karn,1 karn,horse_cart,14,1,1.08,1.08,0,0,0,0
+MOOC10/15.14/129,MOOC10/15.14,17860512/17860513,2 glase caraffen,2 glase caraffen,horse_cart,15,2,1.08,0.54,0,0,0,0
+MOOC10/15.14/130,MOOC10/15.14,17860512/17860513,2 glase caraffen,2 glase caraffen,horse_cart,15,2,1.08,0.54,0,0,0,0
+MOOC10/15.80_1/2/261,MOOC10/15.80_1/2,17890223,1 glase karrebas,1 glase karrebas,horse_cart,15,1,1.08,1.08,0,0,0,0
+MOOC10/15.82/90,MOOC10/15.82,17890318,2 glase caraffen,2 glase caraffen,horse_cart,15,2,1.08,0.54,0,0,0,0
+MOOC10/15.112/146,MOOC10/15.112,17900416,4 caraffen,4 caraffen,horse_cart,15,4,1.08,0.27,0,0,0,0
+MOOC10/15.113/282,MOOC10/15.113,17891116/17891118, carruma,1 trommel met carruma,horse_cart,15,,1.08,-99,1,0,0,0
+MOOC10/16.7/11,MOOC10/16.7,17901118,1 boter karntje,1 boter karntje,horse_cart,16,1,1.08,1.08,0,0,0,0
+MOOC10/16.53/1,MOOC10/16.53,17910718,1 karn,1 karn en 1 balij,horse_cart,16,1,1.08,1.08,1,0,0,0
+MOOC10/17.3/55,MOOC10/17.3,17930916,1 karns,1 karns,horse_cart,17,1,1.08,1.08,0,0,0,0
+MOOC10/18.17/115,MOOC10/18.17,17970313,1 partij pijp carneel,1 partij pijp carneel,horse_cart,18,1,1.08,1.08,0,1,0,0
+MOOC10/18.21/16,MOOC10/18.21,17940116,1 boter karn,1 boter karn,horse_cart,18,1,1.08,1.08,0,0,0,0
+MOOC10/18.22/341,MOOC10/18.22,17910606/17910608,1 karn,1 karn,horse_cart,18,1,1.08,1.08,0,0,0,0
+MOOC10/18.69/26,MOOC10/18.69,18000113,1 boterkarn,1 boterkarn,horse_cart,18,1,1.08,1.08,0,0,0,0
+MOOC10/22.91/54,MOOC10/22.91,18081008,2 karaffen,2 karaffen,horse_cart,22,2,1.08,0.54,0,0,0,0
+MOOC10/22.95/3,MOOC10/22.95,18070618/18070619,1 karn,1 balie en een deksel van een karn,horse_cart,22,1,1.08,1.08,1,0,0,0
+MOOC10/23.54/76,MOOC10/23.54,18090424/18090428,2 karaffen,2 karaffen,horse_cart,23,2,1.08,0.54,0,0,0,0
+MOOC10/26.23/10,MOOC10/26.23,18120817,1 boter karn,1 boter karn,horse_cart,26,1,1.08,1.08,0,0,0,0
+MOOC10/7.13_1/2/28,MOOC10/7.13_1/2,17560330,1 botercarn,1 botercarn,horse_cart,7,1,1.08,1.08,0,0,0,0
+MOOC10/8.50/101,MOOC10/8.50,17640227,1 booter karn,1 bootervaatje en 1 booter karn,horse_cart,8,1,1.08,1.08,1,0,0,0
+MOOC10/9.29/57,MOOC10/9.29,17670318,1 kar,1 kar,horse_cart,9,1,1.08,1.08,0,0,0,0
+MOOC10/3.49/8,MOOC10/3.49,17241113,1 boterkarn,1 boterkarn met 2 emmers,horse_cart,3,1,2.08,2.08,1,0,0,0
+MOOC10/3.83/3,MOOC10/3.83,17291116,1 karn,1 houte tregter met 1 karn,horse_cart,3,1,2.08,2.08,1,0,0,0
+MOOC10/4.113/19,MOOC10/4.113,17330527,2 carabassen,2 carabassen,horse_cart,4,2,2.08,1.04,0,0,0,0
+MOOC10/4.119/430,MOOC10/4.119,17330713,2 carabassen,2 carabassen,horse_cart,4,2,2.08,1.04,0,0,0,0
+MOOC10/4.157/207,MOOC10/4.157,17370617,1 oude kar,1 oude kar,horse_cart,4,1,2.08,2.08,0,0,1,0
+MOOC10/4.161/37,MOOC10/4.161,17361123,2 carabassen,2 carabassen,horse_cart,4,2,2.08,1.04,0,0,0,0
+MOOC10/4.161/38,MOOC10/4.161,17361123,2 carabassen,2 carabassen,horse_cart,4,2,2.08,1.04,0,0,0,0
+MOOC10/10.22/1526,MOOC10/10.22,17690123/17690130,1 riem cardoes papier,1 riem cardoes papier,horse_cart,10,1,2.08,2.08,0,0,0,0
+MOOC10/10.22/1527,MOOC10/10.22,17690123/17690130,1 riem cardoes papier,1 riem cardoes papier,horse_cart,10,1,2.08,2.08,0,0,0,0
+MOOC10/11.12/383,MOOC10/11.12,17740829/17740830,2 glase caraffen,"2 glase caraffen, 9 zoutvaatjes en 2 zouspotjes",horse_cart,11,2,2.08,1.04,1,0,0,0
+MOOC10/11.51/11,MOOC10/11.51,17760920,1 karn,1 karn,horse_cart,11,1,2.08,2.08,0,0,0,0
+MOOC10/11.51/14,MOOC10/11.51,17760920,1 karn,1 karn,horse_cart,11,1,2.08,2.08,0,0,0,0
+MOOC10/11.62/148,MOOC10/11.62,17770220/17770221,1 boter carn,1 boter carn,horse_cart,11,1,2.08,2.08,0,0,0,0
+MOOC10/14.3/115,MOOC10/14.3,17830226,1 boter carn,1 boter carn,horse_cart,14,1,2.08,2.08,0,0,0,0
+MOOC10/18.37/71,MOOC10/18.37,17980901,1 boter karn,1 boter karn,horse_cart,18,1,2.08,2.08,0,0,0,0
+MOOC10/2.9/805,MOOC10/2.9,17190315,1 ledige karrabas,1 ledige karrabas,horse_cart,2,1,2.08,2.08,0,0,0,0
+MOOC10/2.30/116,MOOC10/2.30,17211013,1 karn,1 karn met 2 boter vaten,horse_cart,2,1,2.08,2.08,1,0,0,0
+MOOC10/20.44/22,MOOC10/20.44,18041014/18041019,8 cardoesen tabak,8 cardoesen tabak,horse_cart,20,8,2.08,0.26,0,0,0,0
+MOOC10/20.88/78,MOOC10/20.88,18050126,1 caraf,"3 pocalen, 1 glase nagt lamp, 1 kelkje en 1 caraf",horse_cart,20,1,2.08,2.08,1,0,0,0
+MOOC10/21.36/267,MOOC10/21.36,18060414,1 paarl d’ amour caret,"4 plaatjes paarl d’ amour, 1 paarl d’ amour caret en 1 zilvere broeksknoop met 1 gesleepen steen",horse_cart,21,1,2.08,2.08,1,0,0,0
+MOOC10/21.39/48,MOOC10/21.39,18051030/18051031/18051101,4 water caraffen,4 water caraffen,horse_cart,21,4,2.08,0.52,0,0,0,0
+MOOC10/22.34/485,MOOC10/22.34,18070608/18070611,2 caraffen,2 caraffen,horse_cart,22,2,2.08,1.04,0,0,0,0
+MOOC10/23.46/113,MOOC10/23.46,18081110,1 karn,1 karn,horse_cart,23,1,2.08,2.08,0,0,0,0
+MOOC10/6.65/85,MOOC10/6.65,17551107,1 carbijn riem,"1 patroontas, 1 houwer en 1 carbijn riem",horse_cart,6,1,2.08,2.08,1,0,0,0
+MOOC10/7.17/476,MOOC10/7.17,17520327/17520330,2 carette tobaksdoosen,2 carette tobaksdoosen,horse_cart,7,2,2.08,1.04,0,0,0,0
+MOOC10/8.2/403,MOOC10/8.2,17551104/17551106,1 carette doos,1 carette doos met silv: sqarnier,horse_cart,8,1,2.08,2.08,1,0,0,0
+MOOC10/3.79/7,MOOC10/3.79,17280916,1 boterkarn,"1 boterkarn, 1 vogel kooij, 1 vleijsvat en 4 boter vatjes",horse_cart,3,1,3.08,3.08,1,0,0,0
+MOOC10/10.21/188,MOOC10/10.21,17690109/17690110,1 boter karn,1 boter karn,horse_cart,10,1,3.08,3.08,0,0,0,0
+MOOC10/12.25/95,MOOC10/12.25,[...]0201/[...]0202,2 karns,1 botervat en 2 karns,horse_cart,12,2,3.08,1.54,1,0,0,0
+MOOC10/14.21/70,MOOC10/14.21,17830221,1 oude car,1 oude car met zijn as,horse_cart,14,1,3.08,3.08,1,0,1,0
+MOOC10/16.43/83,MOOC10/16.43,17921010,1 karn,een karn,horse_cart,16,1,3.08,3.08,0,0,0,0
+MOOC10/17.13/154,MOOC10/17.13,17940605/17940606,15 carafjes,15 carafjes,horse_cart,17,15,3.08,0.21,0,0,0,0
+MOOC10/19.54/38,MOOC10/19.54,18030328,2 glaase caraffen,2 glaase caraffen en 1 kopje en piering,horse_cart,19,2,3.08,1.54,1,0,0,0
+MOOC10/20.25/66,MOOC10/20.25,18040418,4 cardoesen,4 cardoesen en eenige bladen tabak,horse_cart,20,4,3.08,0.77,1,0,0,0
+MOOC10/10.33/72,MOOC10/10.33,17710701,1 karrebijnschoe,1 plamper en 1 karrebijnschoe,horse_cart,10,1,4.08,4.08,1,0,0,0
+MOOC10/15.6/198,MOOC10/15.6,17851107/17851108,1 carn vat,1 carn vat,horse_cart,15,1,4.08,4.08,0,0,0,0
+MOOC10/15.80_1/2/69,MOOC10/15.80_1/2,17890223,1 boter karn,1 boter karn,horse_cart,15,1,4.08,4.08,0,0,0,0
+MOOC10/16.68/2,MOOC10/16.68,17920913,1 oude kar,1 oude kar,horse_cart,16,1,4.08,4.08,0,0,1,0
+MOOC10/2.9/333,MOOC10/2.9,17190315,2 carabassen,2 carabassen,horse_cart,2,2,4.08,2.04,0,0,0,0
+MOOC10/20.87/45,MOOC10/20.87,18040607/18040608,4 glase karaffen,4 glase karaffen,horse_cart,20,4,4.08,1.02,0,0,0,0
+MOOC10/6.41/625,MOOC10/6.41,"17520323/17520325, 17520327",1 parthij carlijnen,1 parthij carlijnen,horse_cart,6,1,4.08,4.08,0,1,0,0
+MOOC10/4.147/8,MOOC10/4.147,17361001,1 carabas,1 carabas met aracq,horse_cart,4,1,5.08,5.08,1,0,0,0
+MOOC10/15.67/4,MOOC10/15.67,17880915,1 karn,1 karn,horse_cart,15,1,5.08,5.08,0,0,0,0
+MOOC10/20.48/172,MOOC10/20.48,18050325/18050326,2 caraffen,2 caraffen,horse_cart,20,2,5.08,2.54,0,0,0,0
+MOOC10/22.58/33,MOOC10/22.58,18071112,2 karaffen,2 karaffen,horse_cart,22,2,5.08,2.54,0,0,0,0
+MOOC10/22.58/34,MOOC10/22.58,18071112,2 karaffen,2 karaffen,horse_cart,22,2,5.08,2.54,0,0,0,0
+MOOC10/22.58/35,MOOC10/22.58,18071112,2 karaffen,2 karaffen,horse_cart,22,2,5.08,2.54,0,0,0,0
+MOOC10/22.67/22,MOOC10/22.67,18060301/18060303,1 karrebas,2 vogelkooijen en 1 karrebas,horse_cart,22,1,5.08,5.08,1,0,0,0
+MOOC10/22.104/48,MOOC10/22.104,18080623,1 oude kar,1 oude kar,horse_cart,22,1,5.08,5.08,0,0,1,0
+MOOC10/23.41/36,MOOC10/23.41,18080614,1 karne,1 karne,horse_cart,23,1,5.08,5.08,0,0,0,0
+MOOC10/23.46/16,MOOC10/23.46,18081110,1 karnvat,1 karnvat en balie,horse_cart,23,1,5.08,5.08,1,0,0,0
+MOOC10/24.21/36,MOOC10/24.21,18081116,1 booter karne,1 booter karne,horse_cart,24,1,5.08,5.08,0,0,0,0
+MOOC10/26.39/40,MOOC10/26.39,18121208/18121209,1 boterkarn,1 boterkarn,horse_cart,26,1,5.08,5.08,0,0,0,0
+MOOC10/9.14/443,MOOC10/9.14,17651104/17651105,1 lap karsaij,1 lap karsaij en wat plunjes,horse_cart,9,1,5.08,5.08,1,0,0,0
+MOOC10/12.30/196,MOOC10/12.30,17790607/17790608,1 karn,1 karn,horse_cart,12,1,6.08,6.08,0,0,0,0
+MOOC10/12.39/117,MOOC10/12.39,17780810/17780811,1 oude kar,1 oude kar,horse_cart,12,1,6.08,6.08,0,0,1,0
+MOOC10/13.9/96,MOOC10/13.9,17800615/17800616,1 booter car,1 booter car,horse_cart,13,1,6.08,6.08,0,0,0,0
+MOOC10/14.57/90,MOOC10/14.57,178[...]1103,1 car,1 car met zijn water vat,horse_cart,14,1,6.08,6.08,1,0,0,0
+MOOC10/15.64/77,MOOC10/15.64,17880728,1 boter karn,1 boter karn,horse_cart,15,1,6.08,6.08,0,0,0,0
+MOOC10/19.45/398,MOOC10/19.45,18020712,6 glase caraffen,6 glase caraffen,horse_cart,19,6,6.08,1.01,0,0,0,0
+MOOC10/19.46/23,MOOC10/19.46,18030129,12 cardoesen tobak,12 cardoesen tobak,horse_cart,19,12,6.08,0.51,0,0,0,0
+MOOC10/19.46/31,MOOC10/19.46,18030129,12 cardoesen tobak,12 cardoesen tobak,horse_cart,19,12,6.08,0.51,0,0,0,0
+MOOC10/20.54/569,MOOC10/20.54,18041015/18041019,2 karaffen,2 karaffen,horse_cart,20,2,6.08,3.04,0,0,0,0
+MOOC10/20.54/570,MOOC10/20.54,18041015/18041019,2 karaffen,2 karaffen,horse_cart,20,2,6.08,3.04,0,0,0,0
+MOOC10/22.67/246,MOOC10/22.67,18060301/18060303,1 carette kam,1 carette kam,horse_cart,22,1,6.08,6.08,0,0,0,0
+MOOC10/8.59/222,MOOC10/8.59,17640402,1 carette doos,1 carette doos met 24 knoopjes,horse_cart,8,1,6.08,6.08,1,0,0,0
+MOOC10/13.18/72,MOOC10/13.18,17810720,6 carweij tuijgen,6 carweij tuijgen,horse_cart,13,6,7.08,1.18,0,0,0,0
+MOOC10/14.4/7,MOOC10/14.4,17830114,1 carn,1 carn,horse_cart,14,1,7.08,7.08,0,0,0,0
+MOOC10/4.118/22,MOOC10/4.118,17330328,1 carabijn riem,1 carabijn riem met zilver beslag,horse_cart,4,1,8.08,8.08,1,0,0,0
+MOOC10/16.31/76,MOOC10/16.31,17900920/17900923,1 boter karn,1 boter karn,horse_cart,16,1,8.08,8.08,0,0,0,0
+MOOC10/23.41/39,MOOC10/23.41,18080614,1 karne,1 karne,horse_cart,23,1,8.08,8.08,0,0,0,0
+MOOC10/20.50/68,MOOC10/20.50,18040402,1 karn,1 karn,horse_cart,20,1,9.08,9.08,0,0,0,0
+MOOC10/9.14/107,MOOC10/9.14,17651104/17651105,1 karre,1 karre,horse_cart,9,1,9.08,9.08,0,0,0,0
+MOOC10/12.32/289,MOOC10/12.32,17761101,1 oude car,1 oude car,horse_cart,12,1,10.08,10.08,0,0,1,0
+MOOC10/14.22/217,MOOC10/14.22,17831110,16 ½ ellen carsaaij,16 ½ ellen carsaaij,horse_cart,14,16,10.08,0.63,0,0,0,0
+MOOC10/8.37/90,MOOC10/8.37,17630719,1 carette cam,1 carette cam met goud beslagen,horse_cart,8,1,14.08,14.08,1,0,0,0
+MOOC10/3.66/80,MOOC10/3.66,17240602, madagascar,1 jonge gen:t anthonij van madagascar,horse_cart,3,,15.08,-99,1,0,0,0
+MOOC10/11.5/427,MOOC10/11.5,17730329/17730330 17730401/17730402,1 stuk bl: carsaaij,1 stuk bl: carsaaij,horse_cart,11,1,17.08,17.08,0,0,0,0
+MOOC10/5.20/459,MOOC10/5.20,17380324,1 carabijn,1 carabijn met 1 p:r pistolen,horse_cart,5,1,18.08,18.08,1,0,0,0
+MOOC10/14.65/136,MOOC10/14.65,17850225,1 stuk bl: carsaaij,1 stuk bl: carsaaij,horse_cart,14,1,18.08,18.08,0,0,0,0
+MOOC10/14.65/137,MOOC10/14.65,17850225,1 stuk bl: carsaaij,1 stuk bl: carsaaij,horse_cart,14,1,18.08,18.08,0,0,0,0
+MOOC10/15.12/171,MOOC10/15.12,17860505/17860506,1 stuk blauw carsaaij,1 stuk blauw carsaaij,horse_cart,15,1,19.08,19.08,0,0,0,0
+MOOC10/14.31/79,MOOC10/14.31,17840103,1 stuk blauw carsaaij,1 stuk blauw carsaaij,horse_cart,14,1,21.08,21.08,0,0,0,0
+MOOC10/14.31/86,MOOC10/14.31,17840103,1 stuk blauw carsaaij,1 stuk blauw carsaaij,horse_cart,14,1,21.08,21.08,0,0,0,0
+MOOC10/14.72/174,MOOC10/14.72,17840401/17840530,1 stuk blaauw carsaaij,1 stuk blaauw carsaaij,horse_cart,14,1,21.08,21.08,0,0,0,0
+MOOC10/14.8/4,MOOC10/14.8,17830928,1 stuk blaauw carsaaij,1 stuk blaauw carsaaij,horse_cart,14,1,24.08,24.08,0,0,0,0
+MOOC10/18.78/304,MOOC10/18.78,"18000626/18000628, 18000703/18000704",1 stuk carsaaij,1 stuk carsaaij,horse_cart,18,1,24.08,24.08,0,0,0,0
+MOOC10/18.78/303,MOOC10/18.78,"18000626/18000628, 18000703/18000704",1 stuk carsaaij,1 stuk carsaaij,horse_cart,18,1,25.08,25.08,0,0,0,0
+MOOC10/18.78/306,MOOC10/18.78,"18000626/18000628, 18000703/18000704",1 stuk carsaaij,1 stuk carsaaij,horse_cart,18,1,26.08,26.08,0,0,0,0
+MOOC10/18.78/307,MOOC10/18.78,"18000626/18000628, 18000703/18000704",1 stuk carsaaij,1 stuk carsaaij,horse_cart,18,1,26.08,26.08,0,0,0,0
+MOOC10/16.47/160,MOOC10/16.47,17931004/17931005/17931007,1 kar,1 kar,horse_cart,16,1,27.08,27.08,0,0,0,0
+MOOC10/6.33/459,MOOC10/6.33,17480823/17480824|17480902/17480905|17480921,4 karwijtuijgen,4 karwijtuijgen met hun hoofdstellen,horse_cart,6,4,28.08,7.02,1,0,0,0
+MOOC10/18.57/41,MOOC10/18.57,17980612,1 karre,1 karre met teugen,horse_cart,18,1,41.08,41.08,1,0,0,0
+MOOC10/17.30/145,MOOC10/17.30,17950326/17950328,1 stuk carsaaij,1 stuk carsaaij,horse_cart,17,1,46.08,46.08,0,0,0,0
+MOOC10/19.3/2,MOOC10/19.3,18000123,1 kar,1 kar,horse_cart,19,1,60.08,60.08,0,0,0,0
+MOOC10/12.36/284,MOOC10/12.36,17790506, madagascar  voetst:s,1 slave jongen gen:t november van madagascar  voetst:s,horse_cart,12,,61.08,-99,1,0,0,0
+MOOC10/10.2/694,MOOC10/10.2,17680411/17680414, madagascar voetst:s,1 slave jonge gen:t jochem van madagascar voetst:s,horse_cart,10,,81.08,-99,1,0,0,0
+MOOC10/10.62/96,MOOC10/10.62,17721214,1 slave jonge gen: frans v: madagascar voetst:s,1 slave jonge gen: frans v: madagascar voetst:s,horse_cart,10,1,143.08,143.08,0,0,0,0
+MOOC10/9.14/485,MOOC10/9.14,17651104/17651105, madagascar,een mansslaaf gen:t fortuijn van madagascar,horse_cart,9,,212.08,-99,1,0,0,0
+MOOC10/12.9/63,MOOC10/12.9,17771105, madagascar  voetstoots,1 slave jongen gen:t sero van madagascar  voetstoots,horse_cart,12,,250.08,-99,1,0,0,0
+MOOC10/13.36/478,MOOC10/13.36,17811211/17811212, madagascar,"1 slave jongen gen:t , voetstootsmaart van madagascar",horse_cart,13,,300.08,-99,1,0,0,0
+MOOC10/16.31/437,MOOC10/16.31,17900920/17900923, madagascar v:s,1 slavejonge gen:t hector van madagascar v:s,horse_cart,16,,1500.08,-99,1,0,0,0
+MOOC10/2.9/821,MOOC10/2.9,17190315,1 ledige carrabas,1 ledige carrabas,horse_cart,2,1,2.1,2.1,0,0,0,0
+MOOC10/2.9/796,MOOC10/2.9,17190315,1 karn,2 halfamen met 1 karn,horse_cart,2,1,3.1,3.1,1,0,0,0
+MOOC10/12.33/141,MOOC10/12.33,17790125/17790126,2 glase caraffen,1 com met 2 glase caraffen en wat glaswerk,horse_cart,12,2,0.12,0.06,1,0,0,0
+MOOC10/13.8/164,MOOC10/13.8,17800619/17800620,6 carweij tuijgen,6 carweij tuijgen,horse_cart,13,6,0.12,0.02,0,0,0,0
+MOOC10/17.29/502,MOOC10/17.29,17950126/17950128,1 karaft,1 karaft,horse_cart,17,1,0.12,0.12,0,0,0,0
+MOOC10/19.57/25,MOOC10/19.57,18020329,2 kar leeren,2 oude wagen leeren en 2 kar leeren,horse_cart,19,2,0.12,0.06,1,0,0,0
+MOOC10/2.2/1,MOOC10/2.2,17180617,1 karritje,1 karritje met 1 balijtje,horse_cart,2,1,0.12,0.12,1,0,0,0
+MOOC10/2.22/6,MOOC10/2.22,17201202,1 karn,1 karn met sijn deksel,horse_cart,2,1,0.12,0.12,1,0,0,0
+MOOC10/2.26/35,MOOC10/2.26,17210115,1 karn,1 karn met een weijnig sout,horse_cart,2,1,0.12,0.12,1,0,0,0
+MOOC10/20.14/118,MOOC10/20.14,18040130, wat carmijn,1 doos met wat carmijn,horse_cart,20,,0.12,-99,1,0,0,0
+MOOC10/6.63/389,MOOC10/6.63,17550927,1 carette doosje,1 carette doosje met 1 carette scharnier en 1 carette doosje met steentjes,horse_cart,6,1,0.12,0.12,1,0,0,0
+MOOC10/8.28/125,MOOC10/8.28,17610727,1 carettedoos,1 specerijedoos en 1 carettedoos,horse_cart,8,1,0.12,0.12,1,0,0,0
+MOOC10/9.28/44,MOOC10/9.28,17660602,1 booterkarn,1 booterkarn,horse_cart,9,1,0.12,0.12,0,0,0,0
+MOOC10/10.7/56,MOOC10/10.7,17680525,1 boter karntje,1 boter karntje,horse_cart,10,1,1.12,1.12,0,0,0,0
+MOOC10/15.51/222,MOOC10/15.51,17871026,1 lap carsaaij,1 lap carsaaij,horse_cart,15,1,1.12,1.12,0,0,0,0
+MOOC10/15.54/146,MOOC10/15.54,17880112,1 booter carn,1 booter carn,horse_cart,15,1,1.12,1.12,0,0,0,0
+MOOC10/17.45_1/2/2,MOOC10/17.45_1/2,17960328,1 boter karn,1 boter karn,horse_cart,17,1,1.12,1.12,0,0,0,0
+MOOC10/20.5/89,MOOC10/20.5,18030526,1 karaff,"1 karaff, 1 flesje en 3 bierglaasjes",horse_cart,20,1,1.12,1.12,1,0,0,0
+MOOC10/20.24/152,MOOC10/20.24,18040628/18040702/18040703,4 cardoesen tabak,4 cardoesen tabak,horse_cart,20,4,1.12,0.28,0,0,0,0
+MOOC10/23.51/163,MOOC10/23.51,18081222,1 karette kam,1 karette kam en wat kleijnigheden,horse_cart,23,1,1.12,1.12,1,0,0,0
+MOOC10/23.59/27,MOOC10/23.59,18090227,1 karaf,"1 karaf, 1 verlakte snuijterbak en 1 oude inktkoker",horse_cart,23,1,1.12,1.12,1,0,0,0
+MOOC10/24.2/183,MOOC10/24.2,18090112/18090113,2 karaffen,2 karaffen,horse_cart,24,2,1.12,0.56,0,0,0,0
+MOOC10/7.31/39,MOOC10/7.31,17560330,1 kar,1 kar,horse_cart,7,1,1.12,1.12,0,0,0,0
+MOOC10/10.59/34,MOOC10/10.59,17730111,1 karn,1 karn,horse_cart,10,1,2.12,2.12,0,0,0,0
+MOOC10/10.67/112,MOOC10/10.67,17730119,1 carette tabaks doos,1 carette tabaks doos met silver beslag,horse_cart,10,1,2.12,2.12,1,0,0,0
+MOOC10/11.7/99,MOOC10/11.7,17741004,1 carette snuifdoos,1 carette snuifdoos,horse_cart,11,1,2.12,2.12,0,0,0,0
+MOOC10/11.47/305,MOOC10/11.47,17761107/17761108,1 boter carn,1 boter carn,horse_cart,11,1,2.12,2.12,0,0,0,0
+MOOC10/16.36/856,MOOC10/16.36,17940219/17940221,5 carraffen,5 carraffen,horse_cart,16,5,2.12,0.42,0,0,0,0
+MOOC10/17.37/148,MOOC10/17.37,17951218/17951219,4 glase caraffen,4 glase caraffen,horse_cart,17,4,2.12,0.53,0,0,0,0
+MOOC10/18.26/87,MOOC10/18.26,17981103, lord macartny na china,1 deel ambassade van lord macartny na china,horse_cart,18,,2.12,-99,1,0,0,0
+MOOC10/19.42/215,MOOC10/19.42,18010910/18010912,1 karnvaatje,1 karnvaatje,horse_cart,19,1,2.12,2.12,0,0,0,0
+MOOC10/20.2/45,MOOC10/20.2,18030404, defecte kar,1 oude en defecte kar,horse_cart,20,,2.12,-99,1,0,1,0
+MOOC10/20.57/37,MOOC10/20.57,18050112,2 caraffen,2 caraffen,horse_cart,20,2,2.12,1.06,0,0,0,0
+MOOC10/22.66/152,MOOC10/22.66,18060218/18060219,2 karaffen,2 karaffen,horse_cart,22,2,2.12,1.06,0,0,0,0
+MOOC10/22.66/153,MOOC10/22.66,18060218/18060219,2 karaffen,2 karaffen,horse_cart,22,2,2.12,1.06,0,0,0,0
+MOOC10/22.66/154,MOOC10/22.66,18060218/18060219,2 karaffen,2 karaffen,horse_cart,22,2,2.12,1.06,0,0,0,0
+MOOC10/23.54/75,MOOC10/23.54,18090424/18090428,2 karaffen,2 karaffen,horse_cart,23,2,2.12,1.06,0,0,0,0
+MOOC10/24.35/153,MOOC10/24.35,18100723/18100724,3 carette doosjes,"3 carette doosjes, 1 vlesje en 1 signet",horse_cart,24,3,2.12,0.71,1,0,0,0
+MOOC10/9.21/23,MOOC10/9.21,17670415,1 boter karn,1 oude halfaam en 1 boter karn,horse_cart,9,1,2.12,2.12,1,0,0,0
+MOOC10/10.2/556,MOOC10/10.2,17680411/17680414,1 kar,1 kar,horse_cart,10,1,3.12,3.12,0,0,0,0
+MOOC10/10.81/283,MOOC10/10.81,17730308/17730311,1 lap bl: carsaaij,1 lap bl: carsaaij en 1 lap roode baaij,horse_cart,10,1,3.12,3.12,1,0,0,0
+MOOC10/11.46/197,MOOC10/11.46,17761023,1 partij carolijnen,"1 partij carolijnen, garen cnopen en stale cnopen",horse_cart,11,1,3.12,3.12,1,1,0,0
+MOOC10/11.60/52,MOOC10/11.60,17750220/17750221,1 carn,1 boter vat en 1 carn,horse_cart,11,1,3.12,3.12,1,0,0,0
+MOOC10/15.29/113,MOOC10/15.29,17870427,4 caraffen,4 caraffen en 1 lamp,horse_cart,15,4,3.12,0.78,1,0,0,0
+MOOC10/16.21/3,MOOC10/16.21,17901115,1 boter karn,1 boter karn,horse_cart,16,1,3.12,3.12,0,0,0,0
+MOOC10/2.9/332,MOOC10/2.9,17190315,2 carabassen,2 carabassen,horse_cart,2,2,3.12,1.56,0,0,0,0
+MOOC10/2.9/335,MOOC10/2.9,17190315,2 carabassen,2 carabassen,horse_cart,2,2,3.12,1.56,0,0,0,0
+MOOC10/2.26/18,MOOC10/2.26,17210115,1 kleijn karn,1 vat en een kleijn karn met een brootschop,horse_cart,2,1,3.12,3.12,1,0,0,0
+MOOC10/2.30/71,MOOC10/2.30,17211013,1 karn,1 karn met een boter vat en 2 half ame,horse_cart,2,1,3.12,3.12,1,0,0,0
+MOOC10/2.36/66,MOOC10/2.36,17210818,2 ledige carrabassen,2 ledige carrabassen,horse_cart,2,2,3.12,1.56,0,0,0,0
+MOOC10/20.33/48,MOOC10/20.33,18031217,1 karnvat,1 karnvat,horse_cart,20,1,3.12,3.12,0,0,0,0
+MOOC10/20.41/173,MOOC10/20.41,18041001/18041004,2 caraffen,2 caraffen,horse_cart,20,2,3.12,1.56,0,0,0,0
+MOOC10/21.39/47,MOOC10/21.39,18051030/18051031/18051101,2 water caraffen,2 water caraffen,horse_cart,21,2,3.12,1.56,0,0,0,0
+MOOC10/7.17/218,MOOC10/7.17,17520327/17520330,6 bosjes carlijne kraalen,6 bosjes carlijne kraalen,horse_cart,7,6,3.12,0.52,0,0,0,0
+MOOC10/10.28/14,MOOC10/10.28,17691120,1 booter karn,1 booter karn en balij,horse_cart,10,1,4.12,4.12,1,0,0,0
+MOOC10/11.28/238,MOOC10/11.28,17750328/17750329,1 lappen carzaaij,1 lappen carzaaij en 2 lappen grijn,horse_cart,11,1,4.12,4.12,1,0,0,0
+MOOC10/11.60/390,MOOC10/11.60,17750220/17750221,1 hoopje carst,1 hoopje carst,horse_cart,11,1,4.12,4.12,0,0,0,0
+MOOC10/14.64/44,MOOC10/14.64,17850425,2 carns,2 carns,horse_cart,14,2,4.12,2.06,0,0,0,0
+MOOC10/15.17/5,MOOC10/15.17,17860627,1 carbijnschoen,"1 paar pistolen met holsters, 2 zabels, 1 carbijnschoen en 1 draagband",horse_cart,15,1,4.12,4.12,1,0,0,0
+MOOC10/20.48/171,MOOC10/20.48,18050325/18050326,2 caraffen,"2 caraffen, groter",horse_cart,20,2,4.12,2.06,1,0,0,0
+MOOC10/22.40/15,MOOC10/22.40,18060502,1 karn vat,1 karn vat,horse_cart,22,1,4.12,4.12,0,0,0,0
+MOOC10/20.50/63,MOOC10/20.50,18040402,1 karnvat,1 karnvat,horse_cart,20,1,5.12,5.12,0,0,0,0
+MOOC10/18.74/8,MOOC10/18.74,18000505,1 boter karn,1 boter karn,horse_cart,18,1,6.12,6.12,0,0,0,0
+MOOC10/18.78/487,MOOC10/18.78,"18000626/18000628, 18000703/18000704",1 caraff,"1 porc: lampet met zijn kom, 1 caraff en 1 porc: huijskom",horse_cart,18,1,6.12,6.12,1,0,0,0
+MOOC10/19.46/27,MOOC10/19.46,18030129,12 cardoesen tobak,12 cardoesen tobak,horse_cart,19,12,6.12,0.51,0,0,0,0
+MOOC10/3.88/73,MOOC10/3.88,17291130,1 snoertje carolijne coralen,1 snoertje carolijne coralen met 1 goud slootje,horse_cart,3,1,7.12,7.12,1,0,0,0
+MOOC10/6.11/42,MOOC10/6.11,17500924/17500925,1 kar,1 kar,horse_cart,6,1,7.12,7.12,0,0,0,0
+MOOC10/8.2/68,MOOC10/8.2,17551104/17551106,4 p:s kokarde lindt,4 p:s kokarde lindt,horse_cart,8,4,8.12,2.03,0,0,0,0
+MOOC10/8.23/79,MOOC10/8.23,17600804,1 car,1 car,horse_cart,8,1,9.12,9.12,0,0,0,0
+MOOC10/8.25/142,MOOC10/8.25,17601215,1 kar,1 kar en 1 paarde tuijgen,horse_cart,8,1,12.12,12.12,1,0,0,0
+MOOC10/6.50/145,MOOC10/6.50,17520523/17520527,1 kar,1 kar,horse_cart,6,1,17.12,17.12,0,0,0,0
+MOOC10/14.31/80,MOOC10/14.31,17840103,1 stuk blauw carsaaij,1 stuk blauw carsaaij,horse_cart,14,1,21.12,21.12,0,0,0,0
+MOOC10/14.31/87,MOOC10/14.31,17840103,1 stuk blauw carsaaij,1 stuk blauw carsaaij,horse_cart,14,1,21.12,21.12,0,0,0,0
+MOOC10/20.53/34,MOOC10/20.53,18050516,1 kar,1 kar,horse_cart,20,1,34.12,34.12,0,0,0,0
+MOOC10/12.40/2,MOOC10/12.40,17790909, ’t zeekoegat  in het carroland,een opstal staande op de leenings plaats aan de klipfontijn  gelegen aan de thouse rivier  agter de hexe rivier  een opstal staande op de leenings plaats aan de thous rivier  geleegen aan ’t zeekoegat  in het carroland ,horse_cart,12,,117.12,-99,1,0,0,0
+MOOC10/10.55/94,MOOC10/10.55,17720127, madagascar voetstoots,1 slave jonge gen:t malgas van madagascar voetstoots,horse_cart,10,,184.12,-99,1,0,0,0
+MOOC10/13.9/356,MOOC10/13.9,17800615/17800616, madagascar,"1 slave jongen gen:t , voetstootstromp van madagascar",horse_cart,13,,200.12,-99,1,0,0,0
+MOOC10/15.54/97,MOOC10/15.54,17880112, madagascar,1 jonge gen:t ontong van madagascar,horse_cart,15,,201.12,-99,1,0,0,0
+MOOC10/11.60/274,MOOC10/11.60,17750220/17750221, madagascar voetst:,1 slave jonge gen:t sarmant van madagascar voetst:,horse_cart,11,,250.12,-99,1,0,0,0
+MOOC10/8.36/63,MOOC10/8.36,17620428, madagascar,1 slave jonge gen:t ferdinandus van madagascar ,horse_cart,8,,333.12,-99,1,0,0,0
+MOOC10/13.9/358,MOOC10/13.9,17800615/17800616, madagascar,"1 slave jongen gen:t , voetstootsorson van madagascar",horse_cart,13,,380.12,-99,1,0,0,0
+MOOC10/11.58/132,MOOC10/11.58,17750227/17750228,1 glase caraff,1 glase caraff,horse_cart,11,1,0.15,0.15,0,0,0,0
+MOOC10/12.47/116,MOOC10/12.47,17800331,1 boter carn,1 boter carn,horse_cart,12,1,0.15,0.15,0,0,0,0
+MOOC10/14.16/225,MOOC10/14.16,17830115/17830116,1 carn,1 balij en 1 carn,horse_cart,14,1,0.15,0.15,1,0,0,0
+MOOC10/15.68/200,MOOC10/15.68,17880908,1 glase carraf,1 glase carraf,horse_cart,15,1,0.15,0.15,0,0,0,0
+MOOC10/16.39/271,MOOC10/16.39,17931028/17931029, madagaskar v:s blind,1 slavejonge gen:t apollos van madagaskar v:s blind,horse_cart,16,,0.15,-99,1,0,0,0
+MOOC10/19.55/75,MOOC10/19.55,18020520,1 merrie welke zich in de caroo bevind,1 merrie welke zich in de caroo bevind,horse_cart,19,1,0.15,0.15,0,0,0,0
+MOOC10/19.66/227,MOOC10/19.66,18020127/18020128,1 glase caraff,1 glase caraff,horse_cart,19,1,0.15,0.15,0,0,0,0
+MOOC10/2.25/79,MOOC10/2.25,17210224,1 karn,3 vaten met een karn,horse_cart,2,1,0.15,0.15,1,0,0,0
+MOOC10/2.26/19,MOOC10/2.26,17210115,1 karn,1 karn en een vaatje,horse_cart,2,1,0.15,0.15,1,0,0,0
+MOOC10/21.56/88,MOOC10/21.56,18030418,1 boter karn,1 boter karn en 1 partij romm:,horse_cart,21,1,0.15,0.15,1,0,0,0
+MOOC10/21.56/89,MOOC10/21.56,18030418,1 boter karn,1 boter karn,horse_cart,21,1,0.15,0.15,0,0,0,0
+MOOC10/22.14/52,MOOC10/22.14,18060529,1 karaf,"1 parthij ledige kastjes, 1 horologie kast, 2 leniaalen en 1 karaf",horse_cart,22,1,0.15,0.15,1,0,0,0
+MOOC10/7.4/108,MOOC10/7.4,17550929,6 bosjes carolijne coraalen,6 bosjes carolijne coraalen,horse_cart,7,6,0.15,0.02,0,0,0,0
+MOOC10/8.54/30,MOOC10/8.54,17640319,1 karre tuijg,1 karre tuijg,horse_cart,8,1,0.15,0.15,0,0,0,0
+MOOC10/3.75/7,MOOC10/3.75,17290228,1 boterkarn,"1 boterkarn, 3 vaten met zout en 1 schepel",horse_cart,3,1,1.15,1.15,1,0,0,0
+MOOC10/3.79/14,MOOC10/3.79,17280916,1 karn,1 karn en 3 melk vlootjes,horse_cart,3,1,1.15,1.15,1,0,0,0
+MOOC10/4.156/9,MOOC10/4.156,17360317,1 oude kar,1 oude kar,horse_cart,4,1,1.15,1.15,0,0,1,0
+MOOC10/4.158/168,MOOC10/4.158,17370624,1 carabas,1 carabas,horse_cart,4,1,1.15,1.15,0,0,0,0
+MOOC10/5.22/368,MOOC10/5.22,17380428,2 glase carabassen,2 glase carabassen,horse_cart,5,2,1.15,0.57,0,0,0,0
+MOOC10/10.67/9,MOOC10/10.67,17730119,4 boeken cardoes papier,4 boeken cardoes papier,horse_cart,10,4,1.15,0.29,0,0,0,0
+MOOC10/10.76/32,MOOC10/10.76,17721012,1 botercarn,1 botercarn,horse_cart,10,1,1.15,1.15,0,0,0,0
+MOOC10/11.9/7,MOOC10/11.9,17741107/17741108,1 carbijnschoen,1 zadel met 1 carbijnschoen,horse_cart,11,1,1.15,1.15,1,0,0,0
+MOOC10/11.15/52,MOOC10/11.15,17750628,2 karbassen,2 karbassen,horse_cart,11,2,1.15,0.57,0,0,0,0
+MOOC10/12.3/176,MOOC10/12.3,17761113,1 pakje goude gecartelde cantielle,1 pakje goude gecartelde cantielle,horse_cart,12,1,1.15,1.15,0,0,1,0
+MOOC10/12.17/77,MOOC10/12.17,17780421/17780422,2 boter carns in zoort,2 boter carns in zoort,horse_cart,12,2,1.15,0.57,0,0,0,0
+MOOC10/12.27/347,MOOC10/12.27,"17790512, 17790514",72 caracasse,6 douzijn caracasse,horse_cart,12,72,1.15,0.02,0,0,0,0
+MOOC10/12.35/57,MOOC10/12.35,17790322,4 glaaze caraffen,4 glaaze caraffen,horse_cart,12,4,1.15,0.29,0,0,0,0
+MOOC10/13.32/124,MOOC10/13.32,17810528,1 karette,1 karette en 2 stroo dosen,horse_cart,13,1,1.15,1.15,1,0,0,0
+MOOC10/13.32/145,MOOC10/13.32,17810528,1 carette doos,1 carette doos met met enige borstrok knoopjes in zoort,horse_cart,13,1,1.15,1.15,1,0,0,0
+MOOC10/15.14/131,MOOC10/15.14,17860512/17860513,2 glase caraffen,2 glase caraffen,horse_cart,15,2,1.15,0.57,0,0,0,0
+MOOC10/15.62/402,MOOC10/15.62,17880630/17880701,1 glaase carrabas,1 glaase carrabas,horse_cart,15,1,1.15,1.15,0,0,0,0
+MOOC10/15.74/100,MOOC10/15.74,17881103/17881104,1 karn,1 karn,horse_cart,15,1,1.15,1.15,0,0,0,0
+MOOC10/16.43/72,MOOC10/16.43,17921010,1 karn,een karn,horse_cart,16,1,1.15,1.15,0,0,0,0
+MOOC10/17.26/113,MOOC10/17.26,17950508,2 karaffen,2 karaffen,horse_cart,17,2,1.15,0.57,0,0,0,0
+MOOC10/17.26/114,MOOC10/17.26,17950508,1 karaffen,1 karaffen,horse_cart,17,1,1.15,1.15,0,0,0,0
+MOOC10/17.45_1/2/1,MOOC10/17.45_1/2,17960328,1 boter karn,1 boter karn,horse_cart,17,1,1.15,1.15,0,0,0,0
+MOOC10/17.62/162,MOOC10/17.62,17960422/17960423,1 boter karn,1 boter karn,horse_cart,17,1,1.15,1.15,0,0,0,0
+MOOC10/2.33/17,MOOC10/2.33,17211023,1 boter karn,1 boter karn,horse_cart,2,1,1.15,1.15,0,0,0,0
+MOOC10/22.17/86,MOOC10/22.17,18051219/18051220,2 caraffen,2 caraffen met wat medicijnen,horse_cart,22,2,1.15,0.57,1,0,0,0
+MOOC10/22.66/155,MOOC10/22.66,18060218/18060219,2 karaffen,"2 karaffen, kleinder",horse_cart,22,2,1.15,0.57,1,0,0,0
+MOOC10/22.67/240,MOOC10/22.67,18060301/18060303,1 carette naaldekoker,1 carette naaldekoker,horse_cart,22,1,1.15,1.15,0,0,0,0
+MOOC10/6.9/28,MOOC10/6.9,17520114,1 oude kar,1 oude kar,horse_cart,6,1,1.15,1.15,0,0,1,0
+MOOC10/7.44/156,MOOC10/7.44,17560415,1 botercarn,1 botercarn,horse_cart,7,1,1.15,1.15,0,0,0,0
+MOOC10/8.50/156,MOOC10/8.50,17640227,1 booterkarn,1 booterkarn,horse_cart,8,1,1.15,1.15,0,0,0,0
+MOOC10/9.15/529,MOOC10/9.15,17640717/17640720,2 madagascarse kleedjes,2 madagascarse kleedjes,horse_cart,9,2,1.15,0.57,0,0,0,0
+MOOC10/9.46/44,MOOC10/9.46,17680926,1 boterkarn,1 boterkarn en 2 graven,horse_cart,9,1,1.15,1.15,1,0,0,0
+MOOC10/9.57/177,MOOC10/9.57,17660818,1 carbijn schoe,3 zijdgeweeren en 1 carbijn schoe,horse_cart,9,1,1.15,1.15,1,0,0,0
+MOOC10/3.49/2,MOOC10/3.49,17241113,1 boterkarn,"1 boterkarn, 2 schoppen en 2 picken",horse_cart,3,1,2.15,2.15,1,0,0,0
+MOOC10/4.119/431,MOOC10/4.119,17330713,2 carabassen,2 carabassen,horse_cart,4,2,2.15,1.07,0,0,0,0
+MOOC10/4.119/433,MOOC10/4.119,17330713,2 carabassen,2 carabassen,horse_cart,4,2,2.15,1.07,0,0,0,0
+MOOC10/4.158/171,MOOC10/4.158,17370624,1 carabas,1 carabas met rosewater en 6 aarde kannetjes,horse_cart,4,1,2.15,2.15,1,0,0,0
+MOOC10/5.68/405,MOOC10/5.68,17430418,1 carette doos,1 carette doos met silver ingelegt,horse_cart,5,1,2.15,2.15,1,0,0,0
+MOOC10/10.22/1525,MOOC10/10.22,17690123/17690130,1 riem cardoes papier,1 riem cardoes papier,horse_cart,10,1,2.15,2.15,0,0,0,0
+MOOC10/10.22/1529,MOOC10/10.22,17690123/17690130,1 riem cardoes papier,1 riem cardoes papier,horse_cart,10,1,2.15,2.15,0,0,0,0
+MOOC10/10.22/1948,MOOC10/10.22,17690123/17690130,3 flesjes aeu de carmes,3 flesjes aeu de carmes,horse_cart,10,3,2.15,0.72,0,0,0,0
+MOOC10/11.7/178,MOOC10/11.7,17741004,2 caraffen,"1 glase beeker, 2 caraffen, 1 coelbak en 1 mostert potje",horse_cart,11,2,2.15,1.07,1,0,0,0
+MOOC10/11.47/307,MOOC10/11.47,17761107/17761108,1 boter carn,1 boter carn,horse_cart,11,1,2.15,2.15,0,0,0,0
+MOOC10/14.2/15,MOOC10/14.2,17830512,1 karn,1 karn,horse_cart,14,1,2.15,2.15,0,0,0,0
+MOOC10/14.51/218,MOOC10/14.51,17840329,1 karntje,1 karntje,horse_cart,14,1,2.15,2.15,0,0,0,0
+MOOC10/14.64/43,MOOC10/14.64,17850425,2 carns,2 carns en 1 houte pol lepel,horse_cart,14,2,2.15,1.07,1,0,0,0
+MOOC10/15.23/25,MOOC10/15.23,17860626,1 karn,1 karn,horse_cart,15,1,2.15,2.15,0,0,0,0
+MOOC10/15.95/18,MOOC10/15.95,17900630,1 boter karn,1 boter karn,horse_cart,15,1,2.15,2.15,0,0,0,0
+MOOC10/16.36/497,MOOC10/16.36,17940219/17940221,2 carmatzen,2 carmatzen,horse_cart,16,2,2.15,1.07,0,0,0,0
+MOOC10/17.63_1/2/8,MOOC10/17.63_1/2,17970227/17970128,1 boter karn,1 boter karn,horse_cart,17,1,2.15,2.15,0,0,0,0
+MOOC10/18.37/64,MOOC10/18.37,17980901,1 boter karn,1 boter karn,horse_cart,18,1,2.15,2.15,0,0,0,0
+MOOC10/18.58/246,MOOC10/18.58,17980417,2 glaase caraffen,2 glaase caraffen,horse_cart,18,2,2.15,1.07,0,0,0,0
+MOOC10/18.78/333,MOOC10/18.78,"18000626/18000628, 18000703/18000704",1 caraef,1 caraef met zilver gemonteerd,horse_cart,18,1,2.15,2.15,1,0,0,0
+MOOC10/2.13/166,MOOC10/2.13,17200823, enige karten,enige karten en banden,horse_cart,2,,2.15,-99,1,0,0,0
+MOOC10/20.24/469,MOOC10/20.24,18040628/18040702/18040703,2 caraffen,2 caraffen,horse_cart,20,2,2.15,1.07,0,0,0,0
+MOOC10/22.34/486,MOOC10/22.34,18070608/18070611,2 caraffen,2 caraffen,horse_cart,22,2,2.15,1.07,0,0,0,0
+MOOC10/7.42/32,MOOC10/7.42,17551203/17551204,1 boter karn,1 boter karn,horse_cart,7,1,2.15,2.15,0,0,0,0
+MOOC10/8.32/59,MOOC10/8.32,17611031,1 booter carn,1 booter carn,horse_cart,8,1,2.15,2.15,0,0,0,0
+MOOC10/5.46/138,MOOC10/5.46,17440720,1 karrebynriem,1 karrebynriem met goude parsementen,horse_cart,5,1,3.15,3.15,1,0,0,0
+MOOC10/12.17/103,MOOC10/12.17,17780421/17780422,1 carette kruijdhoorn,1 carette kruijdhoorn met zilver beslag,horse_cart,12,1,3.15,3.15,1,0,0,0
+MOOC10/12.18/2,MOOC10/12.18,17780625,2 karns,2 karns,horse_cart,12,2,3.15,1.57,0,0,0,0
+MOOC10/14.45/602,MOOC10/14.45,17840309/17840311,1 lap roode carsaaij,1 lap roode carsaaij,horse_cart,14,1,3.15,3.15,0,0,0,0
+MOOC10/17.15/130,MOOC10/17.15,17940327/17940329,6 glase caraffen,6 glase caraffen,horse_cart,17,6,3.15,0.53,0,0,0,0
+MOOC10/18.49/92,MOOC10/18.49,17980827/17980828,1 boterkarn,1 boterkarn,horse_cart,18,1,3.15,3.15,0,0,0,0
+MOOC10/19.11/374,MOOC10/19.11,18000505/18000506,2 kleine glaze karaffen,2 grote en 2 kleine glaze karaffen,horse_cart,19,2,3.15,1.57,1,0,0,0
+MOOC10/2.9/20,MOOC10/2.9,17190315,1 karbijnder,1 karbijnder,horse_cart,2,1,3.15,3.15,0,0,0,0
+MOOC10/2.36/67,MOOC10/2.36,17210818,2 ledige carrabassen,2 ledige carrabassen,horse_cart,2,2,3.15,1.57,0,0,0,0
+MOOC10/20.6_1/2/462,MOOC10/20.6_1/2,18030620/18030621,1 kardoes,1 kardoes met zaad,horse_cart,20,1,3.15,3.15,1,0,0,0
+MOOC10/20.68/171,MOOC10/20.68,18050518,1 vles karrij kruijde,1 vles karrij kruijde en 1 vles vogelzaad,horse_cart,20,1,3.15,3.15,1,0,0,0
+MOOC10/22.36/22,MOOC10/22.36,18060408,1 karaf,"5 beekers, 1 karaf, 1 mes, 2 vorken, 1 blaker en 1 blikke tregter en 2 scheermessen",horse_cart,22,1,3.15,3.15,1,0,0,0
+MOOC10/22.67/56,MOOC10/22.67,18060301/18060303,2 zakken kardemong,2 zakken kardemong,horse_cart,22,2,3.15,1.57,0,0,0,0
+MOOC10/23.7/16,MOOC10/23.7,18080718,1 karn,1 karn,horse_cart,23,1,3.15,3.15,0,0,0,0
+MOOC10/7.22/657,MOOC10/7.22,17560428/17560430,1 partij carnonnetjes,1 partij carnonnetjes,horse_cart,7,1,3.15,3.15,0,1,0,0
+MOOC10/12.10/114,MOOC10/12.10,17770908/17770909,1 botercarn,1 botercarn,horse_cart,12,1,4.15,4.15,0,0,0,0
+MOOC10/15.60/22,MOOC10/15.60,17880604,1 kar seijl,een kar seijl,horse_cart,15,1,4.15,4.15,0,0,0,0
+MOOC10/15.78/117,MOOC10/15.78,17890116,1 boter karn,1 boter karn,horse_cart,15,1,4.15,4.15,0,0,0,0
+MOOC10/2.9/336,MOOC10/2.9,17190315,2 carabassen,2 carabassen,horse_cart,2,2,4.15,2.08,0,0,0,0
+MOOC10/20.22/1,MOOC10/20.22,18040511,1 boter karn,1 boter karn,horse_cart,20,1,4.15,4.15,0,0,0,0
+MOOC10/21.1/50,MOOC10/21.1,18060303,1 karette doosje,1 karette doosje met zilver gemonteerd,horse_cart,21,1,4.15,4.15,1,0,0,0
+MOOC10/21.17/89,MOOC10/21.17,18050808,1 caraf,"2 schenk blaadjes, 1 caraf, 3 bier glaazen en 7 kelkjes",horse_cart,21,1,4.15,4.15,1,0,0,0
+MOOC10/22.30/3,MOOC10/22.30,18060224/18060225,1 melk karn,1 melk karn,horse_cart,22,1,4.15,4.15,0,0,0,0
+MOOC10/5.68/395,MOOC10/5.68,17430418,1 carette doos,1 carette doos met silver ingelegt,horse_cart,5,1,5.15,5.15,1,0,0,0
+MOOC10/13.57/11,MOOC10/13.57,17820816,1 karn,1 karn,horse_cart,13,1,5.15,5.15,0,0,0,0
+MOOC10/14.37/8,MOOC10/14.37,17840121,1 karn,1 karn,horse_cart,14,1,5.15,5.15,0,0,0,0
+MOOC10/15.90/12,MOOC10/15.90,17890903, karn,1 pot en karn,horse_cart,15,,5.15,-99,1,0,0,0
+MOOC10/20.48/170,MOOC10/20.48,18050325/18050326,6 caraffen,6 caraffen,horse_cart,20,6,5.15,0.86,0,0,0,0
+MOOC10/20.48/173,MOOC10/20.48,18050325/18050326,2 caraffen,2 caraffen,horse_cart,20,2,5.15,2.58,0,0,0,0
+MOOC10/22.58/36,MOOC10/22.58,18071112,2 karaffen,"2 karaffen, kl:",horse_cart,22,2,5.15,2.58,1,0,0,0
+MOOC10/19.46/28,MOOC10/19.46,18030129,12 cardoesen tobak,12 cardoesen tobak,horse_cart,19,12,6.15,0.51,0,0,0,0
+MOOC10/19.46/30,MOOC10/19.46,18030129,12 cardoesen tobak,12 cardoesen tobak,horse_cart,19,12,6.15,0.51,0,0,0,0
+MOOC10/20.41/175,MOOC10/20.41,18041001/18041004,5 kleinder caraffen,5 kleinder caraffen,horse_cart,20,5,6.15,1.23,0,0,0,0
+MOOC10/7.19/45,MOOC10/7.19,17541030,2 booterkarns,2 booterkarns,horse_cart,7,2,6.15,3.08,0,0,0,0
+MOOC10/5.68/394,MOOC10/5.68,17430418,1 carette doos,1 carette doos met silver ingelegt,horse_cart,5,1,7.15,7.15,1,0,0,0
+MOOC10/15.57/8,MOOC10/15.57,17880403,1 carbijnschoen,1 geweer en 1 carbijnschoen,horse_cart,15,1,7.15,7.15,1,0,0,0
+MOOC10/16.33/22,MOOC10/16.33,17910325,1 carsaaije jas,1 carsaaije jas,horse_cart,16,1,7.15,7.15,0,0,0,0
+MOOC10/6.33/920,MOOC10/6.33,17480823/17480824|17480902/17480905|17480921,1 kar,1 bak van een kar,horse_cart,6,1,7.15,7.15,1,0,0,0
+MOOC10/8.55/70,MOOC10/8.55,17620504/17620506,1 vloercarpet,1 vloercarpet,horse_cart,8,1,7.15,7.15,0,0,0,0
+MOOC10/10.57/172,MOOC10/10.57,17720505, caracassen,1 partij vrouwe schoenen en caracassen,horse_cart,10,,8.15,-99,1,0,0,0
+MOOC10/22.56/143,MOOC10/22.56,18060926,1 boter karn,1 boter karn,horse_cart,22,1,8.15,8.15,0,0,0,0
+MOOC10/18.74/10,MOOC10/18.74,18000505,1 boter karn,1 boter karn,horse_cart,18,1,9.15,9.15,0,0,0,0
+MOOC10/8.49/116,MOOC10/8.49,17620329/17620330,1 booter karn,"1 booter vat, 1 booter karn en 1 baletje",horse_cart,8,1,10.15,10.15,1,0,0,0
+MOOC10/12.1/75,MOOC10/12.1,17760528/17760530,1 caret,2 beschote leere en 1 caret,horse_cart,12,1,11.15,11.15,1,0,0,0
+MOOC10/17.3/54,MOOC10/17.3,17930916,2 karns,2 karns,horse_cart,17,2,16.15,8.07,0,0,0,0
+MOOC10/14.31/81,MOOC10/14.31,17840103,1 stuk blauw carsaaij,1 stuk blauw carsaaij,horse_cart,14,1,21.15,21.15,0,0,0,0
+MOOC10/14.31/82,MOOC10/14.31,17840103,1 stuk blauw carsaaij,1 stuk blauw carsaaij,horse_cart,14,1,21.15,21.15,0,0,0,0
+MOOC10/14.31/83,MOOC10/14.31,17840103,1 stuk blauw carsaaij,1 stuk blauw carsaaij,horse_cart,14,1,21.15,21.15,0,0,0,0
+MOOC10/14.31/84,MOOC10/14.31,17840103,1 stuk blauw carsaaij,1 stuk blauw carsaaij,horse_cart,14,1,21.15,21.15,0,0,0,0
+MOOC10/12.5/20,MOOC10/12.5,17770321,1 stuk bl: carzaaij,1 stuk bl: carzaaij,horse_cart,12,1,23.15,23.15,0,0,0,0
+MOOC10/16.66/1,MOOC10/16.66,17931220,1 kar,1 kar,horse_cart,16,1,27.15,27.15,0,0,0,0
+MOOC10/4.156/10,MOOC10/4.156,17360317,1 kar,1 paard en 1 kar met zijn toebehoor,horse_cart,4,1,28.15,28.15,1,0,0,0
+MOOC10/8.2/351,MOOC10/8.2,17551104/17551106,1 karkant,1 karkant met 49 diam:,horse_cart,8,1,42.15,42.15,1,0,0,0
+MOOC10/17.30/146,MOOC10/17.30,17950326/17950328,1 stuk carsaaij,1 stuk carsaaij,horse_cart,17,1,46.15,46.15,0,0,0,0
+MOOC10/16.26/95,MOOC10/16.26,17910325,1 kar,1 kar,horse_cart,16,1,52.15,52.15,0,0,0,0
+MOOC10/20.51/136,MOOC10/20.51,18041203/18041204,1 kar,1 kar,horse_cart,20,1,67.15,67.15,0,0,0,0
+MOOC10/3.70/69,MOOC10/3.70,17270628,1 jonge gen:t carem,1 jonge gen:t carem van batavia,horse_cart,3,1,82.15,82.15,1,0,0,0
+MOOC10/2.9/674,MOOC10/2.9,17190315, madagascar,1 slavin gen:t susanna van madagascar,horse_cart,2,,87.15,-99,1,0,0,0
+MOOC10/2.30/318,MOOC10/2.30,17211013, madagascar,1 slave jonge gen:t goosen van madagascar,horse_cart,2,,100.15,-99,1,0,0,0
+MOOC10/3.42/146,MOOC10/3.42,17230809, madagascar,1 slave jonge gen:t dam van madagascar,horse_cart,3,,191.15,-99,1,0,0,0
+MOOC10/4.137/109,MOOC10/4.137,17341220, madagascar,1 jonge gen:t nero van madagascar,horse_cart,4,,435.15,-99,1,0,0,0
+MOOC10/2.9/334,MOOC10/2.9,17190315,2 carabassen,2 carabassen,horse_cart,2,2,1.17,0.58,0,0,0,0
+MOOC10/2.31/122,MOOC10/2.31,17211008,1 carabas,1 carabas,horse_cart,2,1,1.17,1.17,0,0,0,0
+MOOC10/3.38/8,MOOC10/3.38,17220624,1 boter karn,"1 trap balij, een boter karn en 1 raam van 1 kadel",horse_cart,3,1,0.19,0.19,1,0,0,0
+MOOC10/3.82/9,MOOC10/3.82,17290520, cardemom,1 sak met cardemom,horse_cart,3,,0.19,-99,1,0,0,0
+MOOC10/10.22/2292,MOOC10/10.22,17690123/17690130,2 carwatsen,2 carwatsen en 1 rotting,horse_cart,10,2,0.19,0.1,1,0,0,0
+MOOC10/10.49/15,MOOC10/10.49,17711104,1 boter karn,1 boter karn,horse_cart,10,1,0.19,0.19,0,0,0,0
+MOOC10/10.52/26,MOOC10/10.52,17710916,1 boter karn,1 boter karn,horse_cart,10,1,0.19,0.19,0,0,0,0
+MOOC10/11.28/126,MOOC10/11.28,17750328/17750329,1 karbas,1 karbas,horse_cart,11,1,0.19,0.19,0,0,0,0
+MOOC10/12.16/21,MOOC10/12.16,17780330,1 karn,1 karn,horse_cart,12,1,0.19,0.19,0,0,0,0
+MOOC10/13.16/6,MOOC10/13.16,17810516,1 botercarn,1 botercarn,horse_cart,13,1,0.19,0.19,0,0,0,0
+MOOC10/14.35/10,MOOC10/14.35,17840820,1 boter carn,1 boter carn,horse_cart,14,1,0.19,0.19,0,0,0,0
+MOOC10/14.65/190,MOOC10/14.65,17850225,3 bosjes bruijn carolijnen,3 bosjes bruijn carolijnen,horse_cart,14,3,0.19,0.06,0,0,0,0
+MOOC10/15.63/11,MOOC10/15.63,17880708,1 karn,1 karn,horse_cart,15,1,0.19,0.19,0,0,0,0
+MOOC10/16.11/178,MOOC10/16.11,17900401/17900403,2 ledige carten,2 ledige carten,horse_cart,16,2,0.19,0.1,0,0,0,0
+MOOC10/16.46/153,MOOC10/16.46,17890714/17890715,4 klijne glase water caraffen,4 klijne glase water caraffen,horse_cart,16,4,0.19,0.05,0,0,0,0
+MOOC10/16.46/154,MOOC10/16.46,17890714/17890715,4 klijne glase water caraffen,4 klijne glase water caraffen,horse_cart,16,4,0.19,0.05,0,0,0,0
+MOOC10/16.68/12,MOOC10/16.68,17920913,1 karn,1 karn,horse_cart,16,1,0.19,0.19,0,0,0,0
+MOOC10/17.51/26,MOOC10/17.51,17960523/17960524,1 karn oud,1 karn oud,horse_cart,17,1,0.19,0.19,0,0,1,0
+MOOC10/18.38/159,MOOC10/18.38,17990504,1 glase caraft,1 glase caraft en 2 roemers,horse_cart,18,1,0.19,0.19,1,0,0,0
+MOOC10/21.14/139,MOOC10/21.14,18051120,1 karn,1 karn,horse_cart,21,1,0.19,0.19,0,0,0,0
+MOOC10/22.66/156,MOOC10/22.66,18060218/18060219,2 karaffen,2 karaffen,horse_cart,22,2,0.19,0.1,0,0,0,0
+MOOC10/24.7/56,MOOC10/24.7,18090105,1 karren,1 karren,horse_cart,24,1,0.19,0.19,0,0,0,0
+MOOC10/8.3/40,MOOC10/8.3,17570627,1 botercarn,1 botercarn,horse_cart,8,1,0.19,0.19,0,0,0,0
+MOOC10/9.15/528,MOOC10/9.15,17640717/17640720,2 madagascarse kleedjes,2 madagascarse kleedjes,horse_cart,9,2,0.19,0.1,0,0,0,0
+MOOC10/9.60/18,MOOC10/9.60,17690501,1 snoer carolijnen,1 snoer carolijnen,horse_cart,9,1,0.19,0.19,0,0,0,0
+MOOC10/3.50/197,MOOC10/3.50,17240612,1 ledige karabas,1 ledige karabas,horse_cart,3,1,1.19,1.19,0,0,0,0
+MOOC10/4.123/19,MOOC10/4.123,17331102,1 karn,3 pers balijs en 1 karn,horse_cart,4,1,1.19,1.19,1,0,0,0
+MOOC10/10.62/12,MOOC10/10.62,17721214,1 botercarn,1 botercarn en 1 sweep,horse_cart,10,1,1.19,1.19,1,0,0,0
+MOOC10/10.81/911,MOOC10/10.81,17730308/17730311,1 partij cardoes papier,1 partij cardoes papier,horse_cart,10,1,1.19,1.19,0,1,0,0
+MOOC10/10.84/36,MOOC10/10.84,17720914,1 karntje,1 karntje,horse_cart,10,1,1.19,1.19,0,0,0,0
+MOOC10/11.5/1064,MOOC10/11.5,17730329/17730330 17730401/17730402,2 glase caraffen,2 glase caraffen en 1 beker,horse_cart,11,2,1.19,0.59,1,0,0,0
+MOOC10/11.7/100,MOOC10/11.7,17741004,1 carette snuifdoos,1 carette snuifdoos,horse_cart,11,1,1.19,1.19,0,0,0,0
+MOOC10/11.40/29,MOOC10/11.40,17750513,2 carrens,twee carrens,horse_cart,11,2,1.19,0.59,0,0,0,0
+MOOC10/11.47/304,MOOC10/11.47,17761107/17761108,1 boter carn,1 boter carn,horse_cart,11,1,1.19,1.19,0,0,0,0
+MOOC10/11.47/433,MOOC10/11.47,17761107/17761108,2 glase caraffen,2 glase caraffen,horse_cart,11,2,1.19,0.59,0,0,0,0
+MOOC10/12.38/218,MOOC10/12.38,17790816/17790817,3 ½ ell carsaaij,3 ½ ell carsaaij,horse_cart,12,3,1.19,0.4,0,0,0,0
+MOOC10/13.6/20,MOOC10/13.6,17800131,1 caret,2 jukken en 1 caret,horse_cart,13,1,1.19,1.19,1,0,0,0
+MOOC10/13.18/12,MOOC10/13.18,17810720,1 botercarn,1 botercarn,horse_cart,13,1,1.19,1.19,0,0,0,0
+MOOC10/14.16/210,MOOC10/14.16,17830115/17830116,1 botercarn,1 botercarn,horse_cart,14,1,1.19,1.19,0,0,0,0
+MOOC10/14.17/272,MOOC10/14.17,17830606/17830607,1 led: carn,1 led: carn,horse_cart,14,1,1.19,1.19,0,0,0,0
+MOOC10/14.48/81,MOOC10/14.48,17840406,1 carette snuifdoos,1 carette snuifdoos met zilver gemonteerd,horse_cart,14,1,1.19,1.19,1,0,0,0
+MOOC10/15.60/16,MOOC10/15.60,17880604,1 kar,1 beugel van een kar,horse_cart,15,1,1.19,1.19,1,0,0,0
+MOOC10/15.67/5,MOOC10/15.67,17880915,1 karn,1 karn,horse_cart,15,1,1.19,1.19,0,0,0,0
+MOOC10/15.96/118,MOOC10/15.96,17901230,1 parthij speelcarten,1 parthij speelcarten,horse_cart,15,1,1.19,1.19,0,1,0,0
+MOOC10/16.30/44,MOOC10/16.30,17891110,1 karn,1 karn,horse_cart,16,1,1.19,1.19,0,0,0,0
+MOOC10/16.36/818,MOOC10/16.36,17940219/17940221,15 lb: cardoes tobak,15 lb: cardoes tobak,horse_cart,16,15,1.19,0.08,0,0,0,0
+MOOC10/17.7_1/2/3,MOOC10/17.7_1/2,17940120,1 boter karn,1 boter karn,horse_cart,17,1,1.19,1.19,0,0,0,0
+MOOC10/19.36/232,MOOC10/19.36,18000508/18000509,2 glaze karaffen,2 glaze karaffen,horse_cart,19,2,1.19,0.59,0,0,0,0
+MOOC10/19.45/400,MOOC10/19.45,18020712,5 glase caraffen,5 glase caraffen,horse_cart,19,5,1.19,0.24,0,0,0,0
+MOOC10/2.9/516,MOOC10/2.9,17190315,1 carrabas,1 carrabas met azijn,horse_cart,2,1,1.19,1.19,1,0,0,0
+MOOC10/2.26/21,MOOC10/2.26,17210115,1 kleijne karn,1 vat met een kleijne karn,horse_cart,2,1,1.19,1.19,1,0,0,0
+MOOC10/20.6_1/2/196,MOOC10/20.6_1/2,18030620/18030621,2 caraffen,2 caraffen,horse_cart,20,2,1.19,0.59,0,0,0,0
+MOOC10/20.6_1/2/197,MOOC10/20.6_1/2,18030620/18030621,2 caraffen,2 caraffen,horse_cart,20,2,1.19,0.59,0,0,0,0
+MOOC10/22.43/181,MOOC10/22.43,18070205/18070207,1 karaf,5 bierglazen en 1 karaf,horse_cart,22,1,1.19,1.19,1,0,0,0
+MOOC10/22.91/53,MOOC10/22.91,18081008,2 karaffen,2 karaffen,horse_cart,22,2,1.19,0.59,0,0,0,0
+MOOC10/22.104/14,MOOC10/22.104,18080623,1 karn,1 karn,horse_cart,22,1,1.19,1.19,0,0,0,0
+MOOC10/22.104/19,MOOC10/22.104,18080623,1 karn,1 karn en 2 balijs,horse_cart,22,1,1.19,1.19,1,0,0,0
+MOOC10/23.7/117,MOOC10/23.7,18080718,1 karn,"1 karn, een schotel",horse_cart,23,1,1.19,1.19,1,0,0,0
+MOOC10/23.37/24,MOOC10/23.37,18090512,1 karspel,1 tafeltje en 1 karspel,horse_cart,23,1,1.19,1.19,1,0,0,0
+MOOC10/6.48/332,MOOC10/6.48,17520529/17520530, wat carlijne kraalen,1 doosje met wat carlijne kraalen,horse_cart,6,,1.19,-99,1,0,0,0
+MOOC10/7.1/133,MOOC10/7.1,17551018,1 carabijn riem,"1 carabijn riem, 1 hartvanger, 1 sabel en 1 pattroontas",horse_cart,7,1,1.19,1.19,1,0,0,0
+MOOC10/7.30/181,MOOC10/7.30,17560325/17560326,1 botercarn,1 botercarn,horse_cart,7,1,1.19,1.19,0,0,0,0
+MOOC10/8.26/169,MOOC10/8.26,17610731,1 karn,1 karn,horse_cart,8,1,1.19,1.19,0,0,0,0
+MOOC10/8.41/1098,MOOC10/8.41,"17600922/17600924, 17600929",1 karbas,1 karbas,horse_cart,8,1,1.19,1.19,0,0,0,0
+MOOC10/9.2/233,MOOC10/9.2,17640712/17640713,1 caret doosje,"1 caret doosje met silvere beslag, 2 flesjes en 1 doosje met wat romm:",horse_cart,9,1,1.19,1.19,1,0,0,0
+MOOC10/9.37/144,MOOC10/9.37,17670914,4 karrens,4 karrens,horse_cart,9,4,1.19,0.3,0,0,0,0
+MOOC10/3.38/23,MOOC10/3.38,17220624,1 boter karn,1 boter karn met een baly,horse_cart,3,1,2.19,2.19,1,0,0,0
+MOOC10/5.68/402,MOOC10/5.68,17430418,1 carette doos,1 carette doos met silver ingelegt,horse_cart,5,1,2.19,2.19,1,0,0,0
+MOOC10/10.63/117,MOOC10/10.63,17721223,2 caraffen,"2 caraffen, 7 kelken en 1 partij glaswerk",horse_cart,10,2,2.19,1.09,1,0,0,0
+MOOC10/10.84/37,MOOC10/10.84,17720914,2 karntjes,2 karntjes,horse_cart,10,2,2.19,1.09,0,0,0,0
+MOOC10/11.47/310,MOOC10/11.47,17761107/17761108,1 botercarn,1 botercarn,horse_cart,11,1,2.19,2.19,0,0,0,0
+MOOC10/11.64/34,MOOC10/11.64,17761202,1 boter carn,"2 emmers, 1 boter carn, 1 oude graaf, 1 pik en 1 bijtel",horse_cart,11,1,2.19,2.19,1,0,0,0
+MOOC10/12.32/115,MOOC10/12.32,17761101,1 boter carn,1 boter carn en 1 vuurmand,horse_cart,12,1,2.19,2.19,1,0,0,0
+MOOC10/14.68/25,MOOC10/14.68,17850902,1 lap carsaaij,"2 stukken chinas linnen, 1 lap carsaaij en 1 lap chinas linnen",horse_cart,14,1,2.19,2.19,1,0,0,0
+MOOC10/15.9/278,MOOC10/15.9,17851209/17851210,2 karns,2 karns,horse_cart,15,2,2.19,1.09,0,0,0,0
+MOOC10/15.92/79,MOOC10/15.92,17890929,2 glase carraffen,2 glase carraffen,horse_cart,15,2,2.19,1.09,0,0,0,0
+MOOC10/16.33/23,MOOC10/16.33,17910325,1 carsaaije baatje,1 carsaaije baatje,horse_cart,16,1,2.19,2.19,0,0,0,0
+MOOC10/16.37/198,MOOC10/16.37,17940125,12 pakjes carcassen,12 pakjes carcassen,horse_cart,16,12,2.19,0.18,0,0,0,0
+MOOC10/17.45_1/2/198,MOOC10/17.45_1/2,17960328,1 boter karn,1 boter karn en 1 baletje,horse_cart,17,1,2.19,2.19,1,0,0,0
+MOOC10/17.51/33,MOOC10/17.51,17960523/17960524,1 oude karn,1 oude karn en 1 oude emmer,horse_cart,17,1,2.19,2.19,1,0,1,0
+MOOC10/18.64/148,MOOC10/18.64,17990816/17990817,2 glaaze caraffen,2 glaaze caraffen,horse_cart,18,2,2.19,1.09,0,0,0,0
+MOOC10/19.45/392,MOOC10/19.45,18020712,3 karafjes,"2 zout vaatjes, 3 karafjes en 2 glase lampjes",horse_cart,19,3,2.19,0.73,1,0,0,0
+MOOC10/19.45/395,MOOC10/19.45,18020712,4 glase caraffen,4 glase caraffen,horse_cart,19,4,2.19,0.55,0,0,0,0
+MOOC10/19.45/396,MOOC10/19.45,18020712,4 glase caraffen,4 glase caraffen,horse_cart,19,4,2.19,0.55,0,0,0,0
+MOOC10/20.44/19,MOOC10/20.44,18041014/18041019,10 cardoesen tabak,10 cardoesen tabak,horse_cart,20,10,2.19,0.22,0,0,0,0
+MOOC10/20.44/20,MOOC10/20.44,18041014/18041019,10 cardoesen tabak,10 cardoesen tabak,horse_cart,20,10,2.19,0.22,0,0,0,0
+MOOC10/21.27/42,MOOC10/21.27,18060408,1 karaf,"1 karaf, 4 bierglazen en 1 kelk",horse_cart,21,1,2.19,2.19,1,0,0,0
+MOOC10/24.5/99,MOOC10/24.5,18091114,1 boterkarn,1 boterkarn,horse_cart,24,1,2.19,2.19,0,0,0,0
+MOOC10/3.46/126,MOOC10/3.46,17231025,2 karabassen,2 karabassen en 1 partij balijs,horse_cart,3,2,3.19,1.59,1,0,0,0
+MOOC10/10.81/729,MOOC10/10.81,17730308/17730311,5 glase caraffen,5 glase caraffen,horse_cart,10,5,3.19,0.64,0,0,0,0
+MOOC10/18.64/149,MOOC10/18.64,17990816/17990817,2 glaaze caraffen,2 glaaze caraffen,horse_cart,18,2,3.19,1.59,0,0,0,0
+MOOC10/24.10/54,MOOC10/24.10,18091228,7 karaffen in zoort,7 karaffen in zoort en eenige vlesjes,horse_cart,24,7,3.19,0.46,1,0,0,0
+MOOC10/6.4/10,MOOC10/6.4,17540914,1 swart paerde haire kokarde,1 hoed met swarte pluijmen en 1 swart paerde haire kokarde,horse_cart,6,1,3.19,3.19,1,0,0,0
+MOOC10/7.17/232,MOOC10/7.17,17520327/17520330,4 bosjes carlijnen,4 bosjes carlijnen,horse_cart,7,4,3.19,0.8,0,0,0,0
+MOOC10/7.27/88,MOOC10/7.27,17551024,1 carabijn riem,1 carabijn riem en carabijn schoe,horse_cart,7,1,3.19,3.19,1,0,0,0
+MOOC10/7.31/42,MOOC10/7.31,17560330,1 botercarn,1 botercarn,horse_cart,7,1,3.19,3.19,0,0,0,0
+MOOC10/8.59/212,MOOC10/8.59,17640402,3 madagascarse kleedjes,3 madagascarse kleedjes en 1 lap rood linnen,horse_cart,8,3,3.19,1.06,1,0,0,0
+MOOC10/9.20/64,MOOC10/9.20,17670427,1 etuit caret,1 etuit caret met silver,horse_cart,9,1,3.19,3.19,1,0,0,0
+MOOC10/12.27/412,MOOC10/12.27,"17790512, 17790514",4 ½ elle carmerijn rood fluweel,4 ½ elle carmerijn rood fluweel,horse_cart,12,4,4.19,1.05,0,0,0,0
+MOOC10/15.60/1,MOOC10/15.60,17880604,1 karn,1 karn,horse_cart,15,1,4.19,4.19,0,0,0,0
+MOOC10/15.62/74,MOOC10/15.62,17880630/17880701,1 carn,1 carn,horse_cart,15,1,4.19,4.19,0,0,0,0
+MOOC10/20.87/46,MOOC10/20.87,18040607/18040608,4 glase karaffen,4 glase karaffen,horse_cart,20,4,4.19,1.05,0,0,0,0
+MOOC10/22.32/6,MOOC10/22.32,18060620/18060621,1 kleijne karn vat,1 kleijne karn vat,horse_cart,22,1,4.19,4.19,0,0,0,0
+MOOC10/5.68/398,MOOC10/5.68,17430418,1 carette doos,1 carette doos met silver ingelegt,horse_cart,5,1,5.19,5.19,1,0,0,0
+MOOC10/5.68/400,MOOC10/5.68,17430418,1 carette doos,1 carette doos met silver ingelegt,horse_cart,5,1,5.19,5.19,1,0,0,0
+MOOC10/5.77_1/2/47,MOOC10/5.77_1/2,17470529,1 carette doos,1 port d’ epe met silver beslag en 1 carette doos,horse_cart,5,1,5.19,5.19,1,0,0,0
+MOOC10/15.59/13,MOOC10/15.59,178YYYYY,1 boter karn,1 boter karn,horse_cart,15,1,5.19,5.19,0,0,0,0
+MOOC10/17.38/260,MOOC10/17.38,17951110/17951111,1 boter karn,1 boter karn,horse_cart,17,1,5.19,5.19,0,0,0,0
+MOOC10/17.51/27,MOOC10/17.51,17960523/17960524,1 karn,1 karn,horse_cart,17,1,5.19,5.19,0,0,0,0
+MOOC10/18.72/45,MOOC10/18.72,17970525,1 karn,1 karn,horse_cart,18,1,5.19,5.19,0,0,0,0
+MOOC10/7.11/55,MOOC10/7.11,17551118/17551119,1 carwas,1 sweep en 1 carwas,horse_cart,7,1,5.19,5.19,1,0,0,0
+MOOC10/8.57/181,MOOC10/8.57,17640601,1 carbijnschoe,"1 draagband, 1 carbijnschoe en 1 plamper",horse_cart,8,1,5.19,5.19,1,0,0,0
+MOOC10/5.20/35,MOOC10/5.20,17380324,1 caret,"2 wagen leeren, 1 caret met 1 kist",horse_cart,5,1,6.19,6.19,1,0,0,0
+MOOC10/15.114/60,MOOC10/15.114,17900227,1 riem cardoes papier,1 riem cardoes papier,horse_cart,15,1,7.19,7.19,0,0,0,0
+MOOC10/23.51/29,MOOC10/23.51,18081222,2 lappen schots carpeting,2 lappen schots carpeting,horse_cart,23,2,7.19,3.6,0,0,0,0
+MOOC10/19.1/25,MOOC10/19.1,18001020,1 defecte kar,1 defecte kar,horse_cart,19,1,8.19,8.19,0,0,1,0
+MOOC10/22.30/17,MOOC10/22.30,18060224/18060225,1 karn,1 karn en balij,horse_cart,22,1,8.19,8.19,1,0,0,0
+MOOC10/7.16/1,MOOC10/7.16,17551107,1 kar,1 kar,horse_cart,7,1,14.19,14.19,0,0,0,0
+MOOC10/14.31/85,MOOC10/14.31,17840103,1 stuk blauw carsaaij,1 stuk blauw carsaaij,horse_cart,14,1,21.19,21.19,0,0,0,0
+MOOC10/14.72/176,MOOC10/14.72,17840401/17840530,1 stuk blaauw carsaaij,1 stuk blaauw carsaaij,horse_cart,14,1,21.19,21.19,0,0,0,0
+MOOC10/6.55/216,MOOC10/6.55,17551127/17551128,1 kar,1 kar,horse_cart,6,1,37.19,37.19,0,0,0,0
+MOOC10/5.40/84,MOOC10/5.40,17440108, madagascar,1 jonge gen:t alexander van madagascar,horse_cart,5,,40.19,-99,1,0,0,0
+MOOC10/3.58/48,MOOC10/3.58,17241103, madagascar,1 jonge gen:t damen van madagascar,horse_cart,3,,167.19,-99,1,0,0,0
+MOOC10/19.30/352,MOOC10/19.30,18020308/18020309, de caro,de opstal der leeningsplaats de wolvedans geleegen over het roggeveld aan de vis rivier waarbij de hooij vlakte en de caro,horse_cart,19,,2066.2,-99,1,0,0,0
+MOOC10/2.34/292,MOOC10/2.34,17211128,3 boek cartoes papier,1 riem schryf en 3 boek cartoes papier,horse_cart,2,3,1.21,0.4,1,0,0,0
+MOOC10/3.61/80,MOOC10/3.61,17260614,1 boterkarn,2 amen en 1 boterkarn,horse_cart,3,1,0.23,0.23,1,0,0,0
+MOOC10/11.28/51,MOOC10/11.28,17750328/17750329,1 karbas,1 karbas en 5 flessen,horse_cart,11,1,0.23,0.23,1,0,0,0
+MOOC10/12.27/367,MOOC10/12.27,"17790512, 17790514",5 bosjes carolijnen,5 bosjes carolijnen,horse_cart,12,5,0.23,0.05,0,0,0,0
+MOOC10/13.19/143,MOOC10/13.19,17810201,1 glaase carraf,1 glaase carraf met zijn dekzel,horse_cart,13,1,0.23,0.23,1,0,0,0
+MOOC10/13.22/167,MOOC10/13.22,17810420,1 boter carn,1 boter carn en 1 oude vat,horse_cart,13,1,0.23,0.23,1,0,0,0
+MOOC10/14.18/122,MOOC10/14.18,17830924/17830925,2 glaze liquercaraffen,2 glaze liquercaraffen,horse_cart,14,2,0.23,0.12,0,0,0,0
+MOOC10/14.24/62,MOOC10/14.24,17830928,2 witte aarde caraffen,2 witte aarde caraffen en 1 porc: coffijkan,horse_cart,14,2,0.23,0.12,1,0,0,0
+MOOC10/15.36/18,MOOC10/15.36,17870126,4 cardoese tobak,4 cardoese tobak,horse_cart,15,4,0.23,0.06,0,0,0,0
+MOOC10/15.50/239,MOOC10/15.50,17870821/17870822,1 karn,1 karn en 1 balij,horse_cart,15,1,0.23,0.23,1,0,0,0
+MOOC10/15.82/63,MOOC10/15.82,17890318,1 glase carrabas,1 glase carrabas en 1 confijtpot,horse_cart,15,1,0.23,0.23,1,0,0,0
+MOOC10/17.38/366,MOOC10/17.38,17951110/17951111,1 carafje,1 carafje,horse_cart,17,1,0.23,0.23,0,0,0,0
+MOOC10/19.42/368,MOOC10/19.42,18010910/18010912,1 gl: caraff,1 gl: caraff,horse_cart,19,1,0.23,0.23,0,0,0,0
+MOOC10/2.18/147,MOOC10/2.18,17191106,1 cardoes,1 cardoes met cruijt,horse_cart,2,1,0.23,0.23,1,0,0,0
+MOOC10/24.31/184,MOOC10/24.31,18100820/18100821,2 karaffe,2 karaffe,horse_cart,24,2,0.23,0.12,0,0,0,0
+MOOC10/7.13_1/2/27,MOOC10/7.13_1/2,17560330,1 botercarn,1 botercarn,horse_cart,7,1,0.23,0.23,0,0,0,0
+MOOC10/7.43/65,MOOC10/7.43,17551227, wat caret bladen,1 chinaas bakje en wat caret bladen,horse_cart,7,,0.23,-99,1,0,0,0
+MOOC10/8.33/103,MOOC10/8.33,17600616,1 caret doosje,1 caret doosje met 1 silvere rand,horse_cart,8,1,0.23,0.23,1,0,0,0
+MOOC10/9.27/7,MOOC10/9.27,17071005,1 boter karn,1 boter karn,horse_cart,9,1,0.23,0.23,0,0,0,0
+MOOC10/3.47/20,MOOC10/3.47,17231210,1 boterkarn,1 boterkarn,horse_cart,3,1,1.23,1.23,0,0,0,0
+MOOC10/3.54/37,MOOC10/3.54,17220720,1 karn,1 karn en 1 botervat,horse_cart,3,1,1.23,1.23,1,0,0,0
+MOOC10/3.83/4,MOOC10/3.83,17291116,1 boterkarn,1 boterkarn en wat bouwgereetschap,horse_cart,3,1,1.23,1.23,1,0,0,0
+MOOC10/5.63/169,MOOC10/5.63,17410420,2 carabassen,2 carabassen,horse_cart,5,2,1.23,0.61,0,0,0,0
+MOOC10/10.22/1524,MOOC10/10.22,17690123/17690130,14 boeken cardoes papier,14 boeken cardoes papier,horse_cart,10,14,1.23,0.09,0,0,0,0
+MOOC10/10.50/15,MOOC10/10.50,17711130,1 boterkarn,1 boterkarn,horse_cart,10,1,1.23,1.23,0,0,0,0
+MOOC10/10.81/900,MOOC10/10.81,17730308/17730311,1 partij cardoes papier,1 partij cardoes papier,horse_cart,10,1,1.23,1.23,0,1,0,0
+MOOC10/11.21/29,MOOC10/11.21,17740330/17740331,2 lappen carridaris,2 lappen carridaris,horse_cart,11,2,1.23,0.61,0,0,0,0
+MOOC10/13.5/12,MOOC10/13.5,17791227/17791228,2 karns,2 karns,horse_cart,13,2,1.23,0.61,0,0,0,0
+MOOC10/13.19/142,MOOC10/13.19,17810201,1 glaase carraf,1 glaase carraf met zilver gemonteerd,horse_cart,13,1,1.23,1.23,1,0,0,0
+MOOC10/13.35/119,MOOC10/13.35,17810822,1 lap carsaaij,1 lap carsaaij,horse_cart,13,1,1.23,1.23,0,0,0,0
+MOOC10/14.11/31,MOOC10/14.11,17830324/17830325,1 glaase carrabas,1 glaase carrabas,horse_cart,14,1,1.23,1.23,0,0,0,0
+MOOC10/15.13/139,MOOC10/15.13,17860519,4 glaase caraffen,4 glaase caraffen,horse_cart,15,4,1.23,0.31,0,0,0,0
+MOOC10/17.11/86,MOOC10/17.11,17940926,1 boter karn,1 boter karn,horse_cart,17,1,1.23,1.23,0,0,0,0
+MOOC10/17.13/14,MOOC10/17.13,17940605/17940606,1 boter karn,1 boter karn,horse_cart,17,1,1.23,1.23,0,0,0,0
+MOOC10/2.10/322,MOOC10/2.10,17190403,2 kardoesen,2 kardoesen met kruijt en 1 hoorn,horse_cart,2,2,1.23,0.61,1,0,0,0
+MOOC10/2.33/10,MOOC10/2.33,17211023,1 boter karn,1 boter karn,horse_cart,2,1,1.23,1.23,0,0,0,0
+MOOC10/2.36/68,MOOC10/2.36,17210818,2 ledige carrabassen waervan 1 in stukken,2 ledige carrabassen waervan 1 in stukken,horse_cart,2,2,1.23,0.61,0,0,1,0
+MOOC10/20.6_1/2/198,MOOC10/20.6_1/2,18030620/18030621,2 caraffen,2 caraffen,horse_cart,20,2,1.23,0.61,0,0,0,0
+MOOC10/20.6_1/2/199,MOOC10/20.6_1/2,18030620/18030621,2 caraffen,2 caraffen,horse_cart,20,2,1.23,0.61,0,0,0,0
+MOOC10/20.87/49,MOOC10/20.87,18040607/18040608,2 glase karaffen,"2 glase karaffen, kleijnder",horse_cart,20,2,1.23,0.61,1,0,0,0
+MOOC10/21.44/41,MOOC10/21.44,18050827,1 karaf,1 karaf en 1 aarde potje en kannetje,horse_cart,21,1,1.23,1.23,1,0,0,0
+MOOC10/22.92/12,MOOC10/22.92,18081129,1 karaf,2 bocaalen en 1 karaf,horse_cart,22,1,1.23,1.23,1,0,0,0
+MOOC10/23.51/68,MOOC10/23.51,18081222,2 karaffen,2 karaffen,horse_cart,23,2,1.23,0.61,0,0,0,0
+MOOC10/7.15/82,MOOC10/7.15,17551020, caret,1 silvere snuijfdoos met caret en wat oud goud,horse_cart,7,,1.23,-99,1,0,0,0
+MOOC10/9.29/83,MOOC10/9.29,17670318,1 boter karn,1 boter karn en 1 melk vaatje,horse_cart,9,1,1.23,1.23,1,0,0,0
+MOOC10/9.41/29,MOOC10/9.41,17681121,1 booter karn,1 booter karn,horse_cart,9,1,1.23,1.23,0,0,0,0
+MOOC10/4.103/1,MOOC10/4.103,17301108,1 carabijnder,"1 carabijnder met zijn toebehoren, 1 degen en portepé",horse_cart,4,1,2.23,2.23,1,0,0,0
+MOOC10/10.69/14,MOOC10/10.69,17721012,1 botercarn,1 halfaam en 1 botercarn,horse_cart,10,1,2.23,2.23,1,0,0,0
+MOOC10/11.51/16,MOOC10/11.51,17760920,1 karn,1 karn en 1 balij,horse_cart,11,1,2.23,2.23,1,0,0,0
+MOOC10/14.10/294,MOOC10/14.10,17830519/17830510/17830521,4 glaase caraffen,4 glaase caraffen,horse_cart,14,4,2.23,0.56,0,0,0,0
+MOOC10/14.10/295,MOOC10/14.10,17830519/17830510/17830521,2 glaase caraffen,2 glaase caraffen,horse_cart,14,2,2.23,1.11,0,0,0,0
+MOOC10/15.12/126,MOOC10/15.12,17860505/17860506,1 karn,1 karn,horse_cart,15,1,2.23,2.23,0,0,0,0
+MOOC10/15.23/26,MOOC10/15.23,17860626,1 karn,1 karn,horse_cart,15,1,2.23,2.23,0,0,0,0
+MOOC10/16.24/30,MOOC10/16.24,17900324,1 karn,1 koorn zift en 1 karn,horse_cart,16,1,2.23,2.23,1,0,0,0
+MOOC10/16.46/152,MOOC10/16.46,17890714/17890715,2 glase water caraffen,2 glase water caraffen,horse_cart,16,2,2.23,1.11,0,0,0,0
+MOOC10/17.51/285,MOOC10/17.51,17960523/17960524,1 boterkarn,1 boterkarn,horse_cart,17,1,2.23,2.23,0,0,0,0
+MOOC10/19.7/34,MOOC10/19.7,18000107,1 defecte kar,1 defecte kar,horse_cart,19,1,2.23,2.23,0,0,1,0
+MOOC10/19.7/113,MOOC10/19.7,18000107,1 karn vaatje,1 karn vaatje,horse_cart,19,1,2.23,2.23,0,0,0,0
+MOOC10/20.41/171,MOOC10/20.41,18041001/18041004,2 caraffen,2 caraffen,horse_cart,20,2,2.23,1.11,0,0,0,0
+MOOC10/20.44/18,MOOC10/20.44,18041014/18041019,10 cardoesen tabak,10 cardoesen tabak,horse_cart,20,10,2.23,0.22,0,0,0,0
+MOOC10/23.51/67,MOOC10/23.51,18081222,2 karaffen,2 karaffen,horse_cart,23,2,2.23,1.11,0,0,0,0
+MOOC10/24.20/5,MOOC10/24.20,18100108,1 karen,1 karen,horse_cart,24,1,2.23,2.23,0,0,0,0
+MOOC10/7.31/43,MOOC10/7.31,17560330,1 botercarn,1 botercarn,horse_cart,7,1,2.23,2.23,0,0,0,0
+MOOC10/7.31/44,MOOC10/7.31,17560330,1 botercarn,1 botercarn,horse_cart,7,1,2.23,2.23,0,0,0,0
+MOOC10/7.42/33,MOOC10/7.42,17551203/17551204,1 boter karn,1 boter karn,horse_cart,7,1,2.23,2.23,0,0,0,0
+MOOC10/4.113/21,MOOC10/4.113,17330527,2 carabassen,2 carabassen,horse_cart,4,2,3.23,1.61,0,0,0,0
+MOOC10/4.156/24,MOOC10/4.156,17360317, oude kartuijg,"1 oude zadel, oude kartuijg en 10 oude sacken",horse_cart,4,,3.23,-99,1,0,1,0
+MOOC10/5.68/404,MOOC10/5.68,17430418,1 carette doos,1 carette doos met silver ingelegt,horse_cart,5,1,3.23,3.23,1,0,0,0
+MOOC10/13.20/140,MOOC10/13.20,17811027,1 madagascarsche cat,1 madagascarsche cat met desselfs kooij,horse_cart,13,1,3.23,3.23,1,0,0,0
+MOOC10/14.60/32,MOOC10/14.60,178[...],1 carnvat,1 carnvat,horse_cart,14,1,3.23,3.23,0,0,0,0
+MOOC10/16.14/86,MOOC10/16.14,17900816,1 boter karn,1 boter karn,horse_cart,16,1,3.23,3.23,0,0,0,0
+MOOC10/16.36/335,MOOC10/16.36,17940219/17940221,2 zilvere carremon doosjes,2 zilvere carremon doosjes,horse_cart,16,2,3.23,1.61,0,0,0,0
+MOOC10/16.39/180,MOOC10/16.39,17931028/17931029,1 booterkarn,1 booterkarn,horse_cart,16,1,3.23,3.23,0,0,0,0
+MOOC10/17.51/281,MOOC10/17.51,17960523/17960524,2 glaze watercaraffen,2 glaze watercaraffen,horse_cart,17,2,3.23,1.61,0,0,0,0
+MOOC10/17.51/353,MOOC10/17.51,17960523/17960524,1 caret,"1 oude kelder, 1 bakkistje en 1 caret",horse_cart,17,1,3.23,3.23,1,0,0,0
+MOOC10/19.35/17,MOOC10/19.35,18010420/18010421,1 karnvat,1 karnvat,horse_cart,19,1,3.23,3.23,0,0,0,0
+MOOC10/2.18/151,MOOC10/2.18,17191106,1 cardoes kruijt,1 sak met 1 cardoes kruijt,horse_cart,2,1,3.23,3.23,1,0,0,0
+MOOC10/7.46/28,MOOC10/7.46,17561016,1 carn,1 carn,horse_cart,7,1,3.23,3.23,0,0,0,0
+MOOC10/5.68/397,MOOC10/5.68,17430418,1 carette doos,1 carette doos met silver ingelegt,horse_cart,5,1,4.23,4.23,1,0,0,0
+MOOC10/20.44/24,MOOC10/20.44,18041014/18041019,12 cardoesen tabak,12 cardoesen tabak,horse_cart,20,12,4.23,0.35,0,0,0,0
+MOOC10/7.22/689,MOOC10/7.22,17560428/17560430,1 madagascar kleedtje,2 lappen blaauwe zaaij en 1 madagascar kleedtje,horse_cart,7,1,4.23,4.23,1,0,0,0
+MOOC10/5.20/141,MOOC10/5.20,17380324,2 karns,"2 karns, 1 zadelmakerswerkbank en wat rommeling met 1 kelder",horse_cart,5,2,5.23,2.62,1,0,0,0
+MOOC10/10.67/134,MOOC10/10.67,17730119,1 lap carzaaij,1 lap carzaaij,horse_cart,10,1,5.23,5.23,0,0,0,0
+MOOC10/13.42/240,MOOC10/13.42,17820415,1 blaauw carsaaije camisool,1 blaauw carsaaije camisool en broek,horse_cart,13,1,5.23,5.23,1,0,0,0
+MOOC10/15.7/126,MOOC10/15.7,17860113,1 goud draats cardemon doosje,1 goud draats cardemon doosje,horse_cart,15,1,5.23,5.23,0,0,1,0
+MOOC10/16.31/604,MOOC10/16.31,17900920/17900923,2 karns,2 karns,horse_cart,16,2,5.23,2.62,0,0,0,0
+MOOC10/16.33/11,MOOC10/16.33,17910325,1 boter karn,1 boter karn,horse_cart,16,1,5.23,5.23,0,0,0,0
+MOOC10/19.30/144,MOOC10/19.30,18020308/18020309,1 lap carsaaij,1 lap carsaaij,horse_cart,19,1,5.23,5.23,0,0,0,0
+MOOC10/23.51/30,MOOC10/23.51,18081222,1 lappen schots carpeting,1 lappen schots carpeting,horse_cart,23,1,7.23,7.23,0,0,0,0
+MOOC10/6.24/264,MOOC10/6.24,17540114/17540116,1 boterkarn,1 boterkarn,horse_cart,6,1,8.23,8.23,0,0,0,0
+MOOC10/12.5/23,MOOC10/12.5,17770321,1 stuk bl: carzaaij,1 stuk bl: carzaaij,horse_cart,12,1,23.23,23.23,0,0,0,0
+MOOC10/23.7/76,MOOC10/23.7,18080718,1 kar,1 kar,horse_cart,23,1,25.23,25.23,0,0,0,0
+MOOC10/6.8/173,MOOC10/6.8,17500930/17501001, madagascar,1 slave jongen gen:t decemb: van madagascar,horse_cart,6,,141.23,-99,1,0,0,0
+MOOC10/12.9/64,MOOC10/12.9,17771105, madagascar  voetst:,1 slave jonge gen:t paul van madagascar  voetst:,horse_cart,12,,400.23,-99,1,0,0,0
+MOOC10/2.31/120,MOOC10/2.31,17211008,1 carabas,1 carabas,horse_cart,2,1,1.25,1.25,0,0,0,0
+MOOC10/2.31/121,MOOC10/2.31,17211008,1 carabas,1 carabas,horse_cart,2,1,1.25,1.25,0,0,0,0
+MOOC10/4.158/169,MOOC10/4.158,17370624,1 carabas,1 carabas,horse_cart,4,1,0.27,0.27,0,0,0,0
+MOOC10/5.63/171,MOOC10/5.63,17410420,2 carabassen,2 carabassen,horse_cart,5,2,0.27,0.14,0,0,0,0
+MOOC10/10.57/75,MOOC10/10.57,17720505,1 carette doosje,1 carette doosje met wat romm:g,horse_cart,10,1,0.27,0.27,1,0,0,0
+MOOC10/11.16/32,MOOC10/11.16,17750515,1 boter karn,1 boter karn,horse_cart,11,1,0.27,0.27,0,0,0,0
+MOOC10/11.46/198,MOOC10/11.46,17761023,1 partij car cassen,1 partij car cassen en gordijn ringen,horse_cart,11,1,0.27,0.27,1,1,0,0
+MOOC10/13.19/146,MOOC10/13.19,17810201,3 caraffen in zoort,3 caraffen in zoort en 3 glaase flessen,horse_cart,13,3,0.27,0.09,1,0,0,0
+MOOC10/14.2/16,MOOC10/14.2,17830512,1 karn,1 karn,horse_cart,14,1,0.27,0.27,0,0,0,0
+MOOC10/14.10/42,MOOC10/14.10,17830519/17830510/17830521,1 car,"1 tabaksdoos, 1 emmer en 1 car",horse_cart,14,1,0.27,0.27,1,0,0,0
+MOOC10/15.36/19,MOOC10/15.36,17870126,4 cardoese tobak,4 cardoese tobak,horse_cart,15,4,0.27,0.07,0,0,0,0
+MOOC10/15.36/20,MOOC10/15.36,17870126,5 cardoese tobak,5 cardoese tobak,horse_cart,15,5,0.27,0.05,0,0,0,0
+MOOC10/17.26/115,MOOC10/17.26,17950508,1 karaffen,1 karaffen,horse_cart,17,1,0.27,0.27,0,0,0,0
+MOOC10/17.29/321,MOOC10/17.29,17950126/17950128,1 aarde karaft,1 aarde karaft,horse_cart,17,1,0.27,0.27,0,0,0,0
+MOOC10/18.12/49,MOOC10/18.12,17981013,2 glase caraffen,2 glase caraffen,horse_cart,18,2,0.27,0.14,0,0,0,0
+MOOC10/19.66/226,MOOC10/19.66,18020127/18020128,1 glase caraff,1 glase caraff,horse_cart,19,1,0.27,0.27,0,0,0,0
+MOOC10/20.67/8,MOOC10/20.67,18041220,1 klijne booterkarn,1 klijne booterkarn,horse_cart,20,1,0.27,0.27,0,0,0,0
+MOOC10/21.13/51,MOOC10/21.13,18060203,1 karaf,1 karaf,horse_cart,21,1,0.27,0.27,0,0,0,0
+MOOC10/22.3/16,MOOC10/22.3,18060303,2 karaffen,2 karaffen en 2 bierglazen,horse_cart,22,2,0.27,0.14,1,0,0,0
+MOOC10/22.67/57,MOOC10/22.67,18060301/18060303,4 zakken kardemong,4 zakken kardemong,horse_cart,22,4,0.27,0.07,0,0,0,0
+MOOC10/24.2/184,MOOC10/24.2,18090112/18090113,3 karaffen,3 karaffen,horse_cart,24,3,0.27,0.09,0,0,0,0
+MOOC10/6.11/337,MOOC10/6.11,17500924/17500925,1 kartuijg,1 kartuijg,horse_cart,6,1,0.27,0.27,0,0,0,0
+MOOC10/8.54/60,MOOC10/8.54,17640319,1 carre bak,1 carre bak,horse_cart,8,1,0.27,0.27,0,0,0,0
+MOOC10/3.64/17,MOOC10/3.64,17241108,1 boter karn,1 boter karn en 3 oude vaaten,horse_cart,3,1,1.27,1.27,1,0,0,0
+MOOC10/4.113/58,MOOC10/4.113,17330527,1 porcelijne carabas,1 porcelijne carabas,horse_cart,4,1,1.27,1.27,0,0,0,0
+MOOC10/4.158/21,MOOC10/4.158,17370624,2 carabassen,2 carabassen,horse_cart,4,2,1.27,0.64,0,0,0,0
+MOOC10/10.22/1528,MOOC10/10.22,17690123/17690130,1 riem cardoes papier,1 riem cardoes papier,horse_cart,10,1,1.27,1.27,0,0,0,0
+MOOC10/10.22/1947,MOOC10/10.22,17690123/17690130,1 cardoes berlijns blaauw,1 cardoes berlijns blaauw,horse_cart,10,1,1.27,1.27,0,0,0,0
+MOOC10/10.59/32,MOOC10/10.59,17730111,1 karn,1 karn,horse_cart,10,1,1.27,1.27,0,0,0,0
+MOOC10/10.63/146,MOOC10/10.63,17721223,1 carette doos,1 carette doos met silver beslag,horse_cart,10,1,1.27,1.27,1,0,0,0
+MOOC10/12.41/127,MOOC10/12.41,17790917,1 botercarn,1 botercarn,horse_cart,12,1,1.27,1.27,0,0,0,0
+MOOC10/15.83/40,MOOC10/15.83,17890418,2 glase carraffen,2 glase carraffen,horse_cart,15,2,1.27,0.64,0,0,0,0
+MOOC10/16.2/93,MOOC10/16.2,17910923,2 caraffen,2 caraffen,horse_cart,16,2,1.27,0.64,0,0,0,0
+MOOC10/16.11/290,MOOC10/16.11,17900401/17900403,1 cardoes cremortart,1 cardoes cremortart,horse_cart,16,1,1.27,1.27,0,0,0,0
+MOOC10/16.68/75,MOOC10/16.68,17920913,1 karn,1 karn,horse_cart,16,1,1.27,1.27,0,0,0,0
+MOOC10/20.14/228,MOOC10/20.14,18040130,1 caraf,1 caraf,horse_cart,20,1,1.27,1.27,0,0,0,0
+MOOC10/22.43/78,MOOC10/22.43,18070205/18070207,1 boter karn,1 boter karn,horse_cart,22,1,1.27,1.27,0,0,0,0
+MOOC10/24.35/142,MOOC10/24.35,18100723/18100724,4 karaffen in zoort,4 karaffen in zoort,horse_cart,24,4,1.27,0.32,0,0,0,0
+MOOC10/6.19/301,MOOC10/6.19,17481017/17481019,1 carbijn schoe,1 bandelier met 1 carbijn schoe,horse_cart,6,1,1.27,1.27,1,0,0,0
+MOOC10/7.42/332,MOOC10/7.42,17551203/17551204,1 botercarn,1 botercarn en 1 hackebord,horse_cart,7,1,1.27,1.27,1,0,0,0
+MOOC10/8.43/619,MOOC10/8.43,17611026/17611028,3 madagascarse kleedjes,3 madagascarse kleedjes,horse_cart,8,3,1.27,0.42,0,0,0,0
+MOOC10/8.56/61,MOOC10/8.56,17640620,2 boterkarrens,2 boterkarrens,horse_cart,8,2,1.27,0.64,0,0,0,0
+MOOC10/3.78/7,MOOC10/3.78,17280602,2 carabassen,2 carabassen,horse_cart,3,2,2.27,1.14,0,0,0,0
+MOOC10/10.34/234,MOOC10/10.34,17710819,1 botercarn,1 botercarn,horse_cart,10,1,2.27,2.27,0,0,0,0
+MOOC10/11.17/20,MOOC10/11.17,17741205/17741206,1 botercarn,1 botercarn,horse_cart,11,1,2.27,2.27,0,0,0,0
+MOOC10/11.64/133,MOOC10/11.64,17761202,1 klijne boter carn,1 klijne boter carn,horse_cart,11,1,2.27,2.27,0,0,0,0
+MOOC10/15.11/192,MOOC10/15.11,17860317,6 glaze caraffen,6 glaze caraffen,horse_cart,15,6,2.27,0.38,0,0,0,0
+MOOC10/16.21/26,MOOC10/16.21,17901115,1 boter karn,1 boter karn,horse_cart,16,1,2.27,2.27,0,0,0,0
+MOOC10/17.17/35,MOOC10/17.17,17940301,2 glaase caraffen,2 glaase caraffen,horse_cart,17,2,2.27,1.14,0,0,0,0
+MOOC10/20.68/63,MOOC10/20.68,18050518,6 caraffen in zoort,6 caraffen in zoort,horse_cart,20,6,2.27,0.38,0,0,0,0
+MOOC10/26.39/41,MOOC10/26.39,18121208/18121209,1 boterkarn,1 boterkarn,horse_cart,26,1,2.27,2.27,0,0,0,0
+MOOC10/9.41/20,MOOC10/9.41,17681121,1 booter karn,1 booter karn,horse_cart,9,1,2.27,2.27,0,0,0,0
+MOOC10/3.65/34,MOOC10/3.65,17240606,1 boterkarn,1 boterkarn,horse_cart,3,1,3.27,3.27,0,0,0,0
+MOOC10/11.41/663,MOOC10/11.41,17741219/17741222,1 lap carzaaij,1 lap bl: baaij en 1 lap carzaaij,horse_cart,11,1,3.27,3.27,1,0,0,0
+MOOC10/17.51/28,MOOC10/17.51,17960523/17960524,1 klijne karn,1 klijne karn,horse_cart,17,1,3.27,3.27,0,0,0,0
+MOOC10/18.43/81,MOOC10/18.43,17990921,3 glase caraffen,3 glase caraffen,horse_cart,18,3,3.27,1.09,0,0,0,0
+MOOC10/20.55/265,MOOC10/20.55,18050718/18050719,2 caraffen,2 caraffen,horse_cart,20,2,3.27,1.64,0,0,0,0
+MOOC10/8.2/66,MOOC10/8.2,17551104/17551106,2 p:s kokarde lindt,2 p:s kokarde lindt,horse_cart,8,2,3.27,1.64,0,0,0,0
+MOOC10/8.45/50,MOOC10/8.45,17631015,1 melk karn,1 melk karn,horse_cart,8,1,3.27,3.27,0,0,0,0
+MOOC10/9.29/84,MOOC10/9.29,17670318,1 boter karn,1 boter karn,horse_cart,9,1,3.27,3.27,0,0,0,0
+MOOC10/4.110/224,MOOC10/4.110,17330617,2 carabassen,2 carabassen,horse_cart,4,2,4.27,2.13,0,0,0,0
+MOOC10/4.161/146,MOOC10/4.161,17361123,2 carabassen,2 carabassen en 1 partij kurken,horse_cart,4,2,4.27,2.13,1,0,0,0
+MOOC10/13.32/144,MOOC10/13.32,17810528,1 carette doosje,1 carette doosje met zilver gemonteert en enige losse steentjes in zoort,horse_cart,13,1,4.27,4.27,1,0,0,0
+MOOC10/19.11/196,MOOC10/19.11,18000505/18000506,7 partij cocarde lind,7 partij cocarde lind,horse_cart,19,7,4.27,0.61,0,1,0,0
+MOOC10/20.87/48,MOOC10/20.87,18040607/18040608,1 glase karaffen,"1 glase karaffen, grooter",horse_cart,20,1,4.27,4.27,1,0,0,0
+MOOC10/8.45/51,MOOC10/8.45,17631015,1 melk karn,1 melk karn,horse_cart,8,1,4.27,4.27,0,0,0,0
+MOOC10/3.67/5,MOOC10/3.67,17240531,1 karn,1 karn met 3 boter vaten,horse_cart,3,1,5.27,5.27,1,0,0,0
+MOOC10/5.68/393,MOOC10/5.68,17430418,1 carette doos,1 carette doos met silver ingelegt,horse_cart,5,1,5.27,5.27,1,0,0,0
+MOOC10/14.21/152,MOOC10/14.21,17830221,1 botercarn,1 botercarn,horse_cart,14,1,5.27,5.27,0,0,0,0
+MOOC10/14.45/473,MOOC10/14.45,17840309/17840311,2 ons carmoisijn roode verf,2 ons carmoisijn roode verf,horse_cart,14,2,5.27,2.63,0,0,0,0
+MOOC10/16.52/46,MOOC10/16.52,17911010/17911011,1 boterkarn,1 boterkarn en 1 baletje,horse_cart,16,1,5.27,5.27,1,0,0,0
+MOOC10/20.33/91,MOOC10/20.33,18031217,1 karnvat,1 karnvat,horse_cart,20,1,5.27,5.27,0,0,0,0
+MOOC10/22.32/5,MOOC10/22.32,18060620/18060621,1 kleijne karn vat,1 kleijne karn vat,horse_cart,22,1,5.27,5.27,0,0,0,0
+MOOC10/11.41/684,MOOC10/11.41,17741219/17741222,1 partij flesjes eau de carme,1 casje met 1 partij flesjes eau de carme,horse_cart,11,1,6.27,6.27,1,1,0,0
+MOOC10/12.27/418,MOOC10/12.27,"17790512, 17790514",10 ½ ellen blaauw: carzaaij,10 ½ ellen blaauw: carzaaij,horse_cart,12,10,6.27,0.63,0,0,0,0
+MOOC10/20.55/264,MOOC10/20.55,18050718/18050719,2 caraffen,2 caraffen,horse_cart,20,2,6.27,3.13,0,0,0,0
+MOOC10/19.45/370,MOOC10/19.45,18020712,4 glase karaffen,4 glase karaffen,horse_cart,19,4,7.27,1.82,0,0,0,0
+MOOC10/22.34/104,MOOC10/22.34,18070608/18070611,1 patent boterkarn,1 patent boterkarn,horse_cart,22,1,13.27,13.27,0,0,0,0
+MOOC10/12.5/21,MOOC10/12.5,17770321,1 stuk bl: carzaaij,1 stuk bl: carzaaij,horse_cart,12,1,23.27,23.27,0,0,0,0
+MOOC10/12.5/22,MOOC10/12.5,17770321,1 stuk bl: carzaaij,1 stuk bl: carzaaij,horse_cart,12,1,23.27,23.27,0,0,0,0
+MOOC10/17.63_1/2/92,MOOC10/17.63_1/2,17970227/17970128,1 kar,1 kar met toebehoren,horse_cart,17,1,25.27,25.27,1,0,0,0
+MOOC10/11.65/103,MOOC10/11.65,17770606, madagascar voetst:ts,1 slave jongetje gen:t mentor van madagascar voetst:ts,horse_cart,11,,160.27,-99,1,0,0,0
+MOOC10/9.15/618,MOOC10/9.15,17640717/17640720, madagascar,1 slave jonge gen:t sifar van madagascar,horse_cart,9,,189.27,-99,1,0,0,0
+MOOC10/10.2/688,MOOC10/10.2,17680411/17680414, madagscar voetstoots,1 slave jonge gen:t hector van madagscar voetstoots,horse_cart,10,,266.27,-99,1,0,0,0
+MOOC10/18.47/1,MOOC10/18.47,17971030, madagascar,1 slave jonge goliath van madagascar,horse_cart,18,,269.27,-99,1,0,0,0
+MOOC10/8.55/616,MOOC10/8.55,17620504/17620506, madagascar,1 slave jonge gen:t salomon van madagascar ,horse_cart,8,,299.27,-99,1,0,0,0
+MOOC10/12.22/113,MOOC10/12.22,17781026, madagascar  voetst:s,1 slave jonge gen:t jassemin van madagascar  voetst:s,horse_cart,12,,349.27,-99,1,0,0,0
+MOOC10/2.13/113,MOOC10/2.13,17200823,1 kars rakje,1 kars rakje met een lepel bortje en een kaarsla,horse_cart,2,1,1.29,1.29,1,0,0,0
+MOOC10/22.86/100,MOOC10/22.86,18070209,1 booterkarn,1 booterkarn,horse_cart,22,1,3.46,3.46,0,0,0,0
+MOOC10/22.11/40,MOOC10/22.11,18051209,1 booter karn,1 booter karn,horse_cart,22,1,1.38,1.38,0,0,0,0
+MOOC10/23.26/11,MOOC10/23.26,18070518,1 booterkarne,1 booterkarne,horse_cart,23,1,7.62,7.62,0,0,0,0
+MOOC10/10.22/827,MOOC10/10.22,17690123/17690130,1 cardoes chelak,1 pot met terpentijn en 1 cardoes chelak,horse_cart,10,1,10.0,10.0,1,0,0,0

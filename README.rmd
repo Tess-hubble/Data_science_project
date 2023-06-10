@@ -1,0 +1,124 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+# Purpose
+
+Purpose of this work folder.
+
+Ideally store a minimum working example data set in data folder.
+
+Add binary files in bin, and closed R functions in code. Human Readable settings files (e.g. csv) should be placed in settings/
+
+
+```{r}
+
+library(tidyverse)
+
+# importing all datasets
+files <- list.files(path = "data", pattern = "*.csv", full.names = TRUE)
+loaded_data <- lapply(files, read.csv)
+names(loaded_data) <- basename(files)
+
+# loading datasets
+auctions <- loaded_data[[1]] %>% dplyr::select(mooc_id, deceased_name, date, auction_tot)
+purchases <- loaded_data[[2]] %>% dplyr::select(purchase_id, mooc_id, buyer_id)
+art_df <- item_runner(3, art)
+scales_df <- item_runner(4, scales)
+beds_df <- item_runner(5, beds)
+books_df <- item_runner(6, art)
+cattle_df <- item_runner(7, cattle)
+chairs_df <- item_runner(8, chairs)
+china_df <- item_runner(9, china)
+clocks_df <- item_runner(10, clocks)
+coatrack_df <- item_runner(11, coatrack)
+cups_df <- item_runner(12, cups)
+guns_df <- item_runner(13, guns)
+hammers_df <- item_runner(14, hammers)
+horse_cart_df <- item_runner(15, horse_cart)
+horses_df <- item_runner(16, horses)
+irons_df <- item_runner(17, irons)
+jewelry_df <- item_runner(18, jewelry)
+lamps_df <- item_runner(19, lamps)
+oven_df <- item_runner(20, oven)
+plates_df <- item_runner(21, plough)
+pot_df <- item_runner(22, pot)
+sheep_df <- item_runner(23, sheep)
+slaves_df <- item_runner(24, slaves)
+tables_df <- item_runner(25, tables)
+utensils_df <- item_runner(26, utensils)
+wagons_df <- item_runner(27, wagons)
+
+# merging datasets to auction
+artm <- merger(art_df)
+scalesm <- merger(scales_df)
+bedsm <- merger(beds_df)
+booksm <- merger(books_df)
+cattlem <- merger(cattle_df)
+chairsm <- merger(chairs_df)
+chinam <- merger(china_df)
+clocksm <- merger(clocks_df)
+coatrackm <- merger(coatrack_df)
+cupsm <- merger(cups_df)
+gunsm <- merger(guns_df)
+hammersm <- merger(hammers_df)
+horse_cartm <- merger(horse_cart_df)
+horsesm <- merger(horses_df)
+ironsm <- merger(irons_df)
+jewelrym <- merger(jewelry_df)
+lampsm <- merger(lamps_df)
+ovenm <- merger(oven_df)
+platesm <- merger(plates_df)
+potm <- merger(pot_df)
+sheepm <- merger(sheep_df)
+slavesm <- merger(slaves_df)
+tablesm <- merger(tables_df)
+utensilsm <- merger(utensils_df)
+wagonsm <- merger(wagons_df)
+
+# binding datasets into one 
+final_df <- rbind(artm, scalesm)
+final_df <- rbind(final_df, bedsm)
+final_df <- rbind(final_df, booksm)
+final_df <- rbind(final_df, cattlem)
+final_df <- rbind(final_df, chairsm)
+final_df <- rbind(final_df, chinam)
+final_df <- rbind(final_df, clocksm)
+final_df <- rbind(final_df, coatrackm)
+final_df <- rbind(final_df, cupsm)
+final_df <- rbind(final_df, gunsm)
+final_df <- rbind(final_df, hammersm)
+final_df <- rbind(final_df, horse_cartm)
+final_df <- rbind(final_df, horsesm)
+final_df <- rbind(final_df, ironsm)
+final_df <- rbind(final_df, jewelrym)
+final_df <- rbind(final_df, lampsm)
+final_df <- rbind(final_df, ovenm)
+final_df <- rbind(final_df, platesm)
+final_df <- rbind(final_df, potm)
+final_df <- rbind(final_df, sheepm)
+final_df <- rbind(final_df, slavesm)
+final_df <- rbind(final_df, tablesm)
+final_df <- rbind(final_df, utensilsm)
+final_df <- rbind(final_df, wagonsm)
+
+
+# counting total number of good types per auction 
+merged_df <- inner_join(final_df, purchases, by=c("purchase_id", "mooc_id")) %>% arrange(mooc_id, purchase_id) 
+merged_df <- merged_df %>% group_by(mooc_id) %>% mutate(number_bundles=sum(bundle))%>% separate(date, into =c('year', 'month/day'), sep=4)
+merged_df <- good_counter(merged_df, c("books", "art_products", "scales", "beds", "cattle", "chairs", "china", "coatrack", "cups", "guns", "hammers", "horse_cart", "horses", "irons", "jewelry", "lamps", "oven", "plates", "pot", "sheep", "slaves", "tables", "utensils", "wagons"), c("book_tot", "art_tot", "scale_tot", "bed_tot", "cattle_tot", "chairs_tot", "china_tot", "coatrack_tot", "cup_tot", "guns_tot", "hammer_tot", "horsecart_tot", "horse_tot", "irons_tot", "jewelry_tot", "lamp_tot", "oven_tot", "plates_tot", "pot_total", "sheep_tot", "slave_tot", "table_tot", "utensil_tot", "wagon_tot" ))
+
+women <- titledwomen_locator(titled_women, merged_df$buyer_id)
+men <- titledmen_locator(titled_men, merged_df$buyer_id)
+merged_df <- tibble(merged_df, women, men) %>% 
+merged_df$women <- as.numeric(merged_df$women)    
+merged_df <- merged_df %>% group_by(mooc_id) %>% 
+    mutate(women_tot=sum(women)) %>% mutate(men_total=sum(men))
+### title_counter("women_tot", "women")
+
+merged_df <- merged_df %>% dplyr::select(-women, -men) %>% distinct(mooc_id, .keep_all=TRUE)
+```
+
+

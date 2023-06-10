@@ -1,0 +1,905 @@
+purchase_id,mooc_id,date,focal_good,good_desc,type,mooc_set,count,price,unit_price,bundle,group,old,new
+MOOC10/12.36/251,MOOC10/12.36,17790506,1 ijzere streijkijser,1 ijzere streijkijser,irons,12,1,1.0,1.0,0,0,0,0
+MOOC10/15.48/230,MOOC10/15.48,17860315/17860316,1 streijk eijser,1 streijk eijser en 1 potje,irons,15,1,4.0,4.0,1,0,0,0
+MOOC10/18.9/44,MOOC10/18.9,17960118,1 streijkeijster,1 trommel en een streijkeijster,irons,18,1,0.08,0.08,1,0,0,0
+MOOC10/15.48/233,MOOC10/15.48,17860315/17860316,2 streijk eijsers,2 streijk eijsers,irons,15,2,4.12,2.06,0,0,0,0
+MOOC10/18.72/20,MOOC10/18.72,17970525,1 streijk eijster,1 streijk eijster,irons,18,1,6.12,6.12,0,0,0,0
+MOOC10/13.25/52,MOOC10/13.25,17811116,1 streijkzijzer,1 streijkzijzer,irons,13,1,0.15,0.15,0,0,0,0
+MOOC10/9.27/183,MOOC10/9.27,17071005,1 streijk ijser,1 streijk ijser,irons,9,1,0.15,0.15,0,0,0,0
+MOOC10/10.[not_numbered]/43,MOOC10/10.[not_numbered],0,1 streijkeijser,1 streijkeijser,irons,10,1,0.19,0.19,0,0,0,0
+MOOC10/10.[not_numbered]/43,MOOC10/10.[not_numbered],17701215,1 streijkeijser,1 streijkeijser,irons,10,1,0.19,0.19,0,0,0,0
+MOOC10/10.[not_numbered]/43,MOOC10/10.[not_numbered],17710508,1 streijkeijser,1 streijkeijser,irons,10,1,0.19,0.19,0,0,0,0
+MOOC10/13.3/7,MOOC10/13.3,17790430,1 streijkeijster,een streijkeijster,irons,13,1,0.19,0.19,0,0,0,0
+MOOC10/17.9/49,MOOC10/17.9,17941103,1 streijkijser,1 streijkijser,irons,17,1,0.19,0.19,0,0,0,0
+MOOC10/11.2/201,MOOC10/11.2,17730326,1 streijk ijseer,1 streijk ijseer,irons,11,1,0.23,0.23,0,0,0,0
+MOOC10/15.42/251,MOOC10/15.42,17870824/17870825,1 cop: streijkeijser,1 cop: streijkeijser en 1 cop: voet,irons,15,1,1.23,1.23,1,0,0,0
+MOOC10/2.13/124,MOOC10/2.13,17200823,1 streijk eijser,1 streijk eijser met twe schuijm leepels en een houte lepel,irons,2,1,0.25,0.25,1,0,0,0
+MOOC10/24.20/11,MOOC10/24.20,18100108,1 streijk eijser,1 streijk eijser,irons,24,1,0.27,0.27,0,0,0,0
+MOOC10/16.3/32,MOOC10/16.3,17901201,1 streijk eijzer,een streijk eijzer en pars eijzer,irons,16,1,1.27,1.27,1,0,0,0
+MOOC10/3.43/8,MOOC10/3.43,17221219,1 copere strijk ijzer,1 copere schuym spaen met 1 copere strijk ijzer,irons,3,1,1.0,1.0,1,0,0,0
+MOOC10/3.44/7,MOOC10/3.44,17250505,1 kopere strijkijser,"1 mostertbak, 2 steene zeep en 1 kopere strijkijser",irons,3,1,1.0,1.0,1,0,0,0
+MOOC10/3.46/195,MOOC10/3.46,17231025,2 kopere strijkijzers,2 kopere strijkijzers,irons,3,2,1.0,0.5,0,0,0,0
+MOOC10/3.67/143,MOOC10/3.67,17240531,1 strijkijser,1 strijkijser en 3 confoortjes,irons,3,1,1.0,1.0,1,0,0,0
+MOOC10/3.76/49,MOOC10/3.76,17271110,1 strijkijser,1 kopere kandelaar en 1 strijkijser,irons,3,1,1.0,1.0,1,0,0,0
+MOOC10/3.89/46,MOOC10/3.89,17290910,1 kopere strijkijser,"1 tinne schenkbort, 2 tinne borden en 1 kopere strijkijser",irons,3,1,1.0,1.0,1,0,0,0
+MOOC10/3.99/55,MOOC10/3.99,17311019,2 ijsere strijkijsers,2 ijsere strijkijsers,irons,3,2,1.0,0.5,0,0,0,0
+MOOC10/5.17/30,MOOC10/5.17,17380715,1 ijsere strijkijser,1 kopere en 1 ijsere strijkijser met zijn rooster,irons,5,1,1.0,1.0,1,0,0,0
+MOOC10/5.75/163,MOOC10/5.75,17470220,1 ijsere strijkijser,1 ijsere strijkijser,irons,5,1,1.0,1.0,0,0,0,0
+MOOC10/5.78/169,MOOC10/5.78,17480205,1 ijsere strijkijser,1 ijsere strijkijser en 1 tinne waterpot,irons,5,1,1.0,1.0,1,0,0,0
+MOOC10/10.2/205,MOOC10/10.2,17680411/17680414, strijkstok,1 fiool en strijkstok,irons,10,,1.0,-99,1,0,0,0
+MOOC10/10.81/511,MOOC10/10.81,17730308/17730311,3 cop:e strijkijsers in zoort,3 cop:e strijkijsers in zoort,irons,10,3,1.0,0.33,0,0,0,0
+MOOC10/11.14/80,MOOC10/11.14,17741212,2 ijzere strijkijzers,2 ijzere strijkijzers,irons,11,2,1.0,0.5,0,0,0,0
+MOOC10/11.41/1279,MOOC10/11.41,17741219/17741222,2 strijkijsers,2 strijkijsers,irons,11,2,1.0,0.5,0,0,0,0
+MOOC10/12.21/142,MOOC10/12.21,17781022,2 cop: strijkijzers,2 cop: strijkijzers,irons,12,2,1.0,0.5,0,0,0,0
+MOOC10/12.26/106,MOOC10/12.26,17790312,1 strijkijzer,"1 strijkijzer met zijn voet, 1 cop: schuijmspan, 1 cop: rasp en 1 vleeschvork",irons,12,1,1.0,1.0,1,0,0,0
+MOOC10/12.30/240,MOOC10/12.30,17790607/17790608,1 koper strijkijzer,1 koper strijkijzer,irons,12,1,1.0,1.0,0,0,0,0
+MOOC10/12.53/93,MOOC10/12.53,17800229,1 strijkijzer,1 ijzre boeij en 1 strijkijzer,irons,12,1,1.0,1.0,1,0,0,0
+MOOC10/13.36/216,MOOC10/13.36,17811211/17811212,1 ijzere strijkijzer,1 ijzere strijkijzer,irons,13,1,1.0,1.0,0,0,0,0
+MOOC10/14.2/66,MOOC10/14.2,17830512,1 strijkijzer,1 strijkijzer,irons,14,1,1.0,1.0,0,0,0,0
+MOOC10/14.65/15,MOOC10/14.65,17850225,2 strijkijzers,2 strijkijzers en 1 handbijl,irons,14,2,1.0,0.5,1,0,0,0
+MOOC10/15.11/111,MOOC10/15.11,17860317,3 strijkijzers,3 strijkijzers,irons,15,3,1.0,0.33,0,0,0,0
+MOOC10/15.21/70,MOOC10/15.21,17861201,2 cop: strijkijzers,2 cop: strijkijzers,irons,15,2,1.0,0.5,0,0,0,0
+MOOC10/15.21/81,MOOC10/15.21,17861201,2 cop: strijkijzers,2 cop: strijkijzers,irons,15,2,1.0,0.5,0,0,0,0
+MOOC10/15.39/54,MOOC10/15.39,17870622,2 cop: strijkijzers,2 cop: strijkijzers,irons,15,2,1.0,0.5,0,0,0,0
+MOOC10/15.67/133,MOOC10/15.67,17880915,1 strijkijzer,1 strijkijzer,irons,15,1,1.0,1.0,0,0,0,0
+MOOC10/15.112/103,MOOC10/15.112,17900416,2 strijk ijsers in zoort,"1 cop:r ketel, 1 water beeker en 2 strijk ijsers in zoort",irons,15,2,1.0,0.5,1,0,0,0
+MOOC10/16.41/88,MOOC10/16.41,17921001,1 strijkijser,een strijkijser,irons,16,1,1.0,1.0,0,0,0,0
+MOOC10/16.47/402,MOOC10/16.47,17931004/17931005/17931007,1 strijkijser,"1 witkooper waschbekken, 1 strijkijser en 1 coffijmoolen",irons,16,1,1.0,1.0,1,0,0,0
+MOOC10/18.41/24,MOOC10/18.41,17970814,1 strijkijzer,1 strijkijzer,irons,18,1,1.0,1.0,0,0,0,0
+MOOC10/18.56/53,MOOC10/18.56,17981129,1 strijk ijzer,1 strijk ijzer,irons,18,1,1.0,1.0,0,0,0,0
+MOOC10/19.40/1,MOOC10/19.40,17971030/17971031,1 strijkijzer,1 strijkijzer,irons,19,1,1.0,1.0,0,0,0,0
+MOOC10/19.42/64,MOOC10/19.42,18010910/18010912,1 oude strijkijzer,1 oude strijkijzer,irons,19,1,1.0,1.0,0,0,1,0
+MOOC10/19.55/100,MOOC10/19.55,18020520,1 strijkijzer,1 strijkijzer,irons,19,1,1.0,1.0,0,0,0,0
+MOOC10/21.16/63,MOOC10/21.16,18050306,1 strijkijzer,1 strijkijzer,irons,21,1,1.0,1.0,0,0,0,0
+MOOC10/21.36/174,MOOC10/21.36,18060414,4 strijk ijzers,4 strijk ijzers,irons,21,4,1.0,0.25,0,0,0,0
+MOOC10/23.35/155,MOOC10/23.35,17950330/17950331,1 kopere strijk ijzer,1 kopere strijk ijzer,irons,23,1,1.0,1.0,0,0,0,0
+MOOC10/24.31/208,MOOC10/24.31,18100820/18100821,1 strijkijzer,1 strijkijzer,irons,24,1,1.0,1.0,0,0,0,0
+MOOC10/6.24/467,MOOC10/6.24,17540114/17540116,1 coper strijkijser,1 ijsere rooster en 1 coper strijkijser,irons,6,1,1.0,1.0,1,0,0,0
+MOOC10/6.28/13,MOOC10/6.28,17520509,1 coper strijkijser,"1 coper tregter, 1 coper strijkijser, 2 coper snuijters en 1 coper kandelaar",irons,6,1,1.0,1.0,1,0,0,0
+MOOC10/6.48/10,MOOC10/6.48,17520529/17520530,1 strijkijser,1 parthij aardewerk en 1 strijkijser,irons,6,1,1.0,1.0,1,0,0,0
+MOOC10/6.57_1/2/1032,MOOC10/6.57_1/2,"17551030/17551031, 17551101",2 strijkijsers,2 strijkijsers,irons,6,2,1.0,0.5,0,0,0,0
+MOOC10/7.14/62,MOOC10/7.14,17551110,1 cop: strijkijser,"1 tinne theeketel en tinne trekpot, 1 cop: strijkijser en 1 partij messen en vorken mitsg: 2 schaaren",irons,7,1,1.0,1.0,1,0,0,0
+MOOC10/7.42/363,MOOC10/7.42,17551203/17551204,1 cop: strijkijser,1 cop: strijkijser en 1 ijser strijkijser en 1 cop: rasp,irons,7,1,1.0,1.0,1,0,0,0
+MOOC10/8.25/106,MOOC10/8.25,17601215,1 cop:e strijkijsers,1 cop:e strijkijsers,irons,8,1,1.0,1.0,0,0,0,0
+MOOC10/9.6/109,MOOC10/9.6,17650330,1 cop:e strijkijser,1 cop:e strijkijser,irons,9,1,1.0,1.0,0,0,0,0
+MOOC10/9.9/32,MOOC10/9.9,17660723,1 cop:e strijkijser,1 cop:e strijkijser met sijn voet,irons,9,1,1.0,1.0,1,0,0,0
+MOOC10/9.11/190,MOOC10/9.11,17660127,1 strijkijser,"1 hackebord, 2 rolstokken, 1 strijkijser en 1 potleepel",irons,9,1,1.0,1.0,1,0,0,0
+MOOC10/9.30/10,MOOC10/9.30,17671026,1 strijkijser,"1 strijkijser, 1 tang, 1 asschop en 1 schuijmspaan",irons,9,1,1.0,1.0,1,0,0,0
+MOOC10/9.41/101,MOOC10/9.41,17681121,1 strijk ijser,1 strijk ijser,irons,9,1,1.0,1.0,0,0,0,0
+MOOC10/9.53/196,MOOC10/9.53,17670330,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,9,2,1.0,0.5,0,0,0,0
+MOOC10/9.60/14,MOOC10/9.60,17690501,3 strijkijsers,1 combuijs tafel en 3 strijkijsers,irons,9,3,1.0,0.33,1,0,0,0
+MOOC10/4.133/67,MOOC10/4.133,17370429,2 kopere strijkijsers,2 kopere strijkijsers,irons,4,2,2.0,1.0,0,0,0,0
+MOOC10/5.20/478,MOOC10/5.20,17380324,1 ijsere strijkijser,1 kopere en 1 ijsere strijkijser,irons,5,1,2.0,2.0,1,0,0,0
+MOOC10/5.44/35,MOOC10/5.44,17441014,1 kopere strijkijser,1 kopere strijkijser,irons,5,1,2.0,2.0,0,0,0,0
+MOOC10/10.81/510,MOOC10/10.81,17730308/17730311,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,10,2,2.0,1.0,0,0,0,0
+MOOC10/11.41/537,MOOC10/11.41,17741219/17741222,2 strijkijsers,5 ijsere snuijters en 2 strijkijsers,irons,11,2,2.0,1.0,1,0,0,0
+MOOC10/11.46/235,MOOC10/11.46,17761023,2 cop: strijkijzers,2 cop: strijkijzers,irons,11,2,2.0,1.0,0,0,0,0
+MOOC10/11.49/29,MOOC10/11.49,17761206,2 cop: strijkijzers,2 cop: strijkijzers,irons,11,2,2.0,1.0,0,0,0,0
+MOOC10/11.49/53,MOOC10/11.49,17761206,1 strijkleer,5 scheermessen en 1 strijkleer,irons,11,1,2.0,2.0,1,0,0,0
+MOOC10/13.13/43,MOOC10/13.13,17810109, zijn strijkstok,1 drilboor met zijn strijkstok,irons,13,,2.0,-99,1,0,0,0
+MOOC10/13.50/41,MOOC10/13.50,17821003/17821004,1 strijk ijzer,"1 pepermole, 1 strijk ijzer en 1 marqueer bord",irons,13,1,2.0,2.0,1,0,0,0
+MOOC10/15.31/139,MOOC10/15.31,17870706,2 cop: strijkijzers,2 cop: strijkijzers,irons,15,2,2.0,1.0,0,0,0,0
+MOOC10/15.62/367,MOOC10/15.62,17880630/17880701,1 cop: strijkijzer,1 cop: strijkijzer,irons,15,1,2.0,2.0,0,0,0,0
+MOOC10/15.76/52,MOOC10/15.76,17881223,1 coper strijkijsers,2 ijser en 1 coper strijkijsers,irons,15,1,2.0,2.0,1,0,0,0
+MOOC10/17.14/72,MOOC10/17.14,17940920,1 strijkijzer,"2 spugbalis, 1 strijkijzer en 1 oude coffijmolen",irons,17,1,2.0,2.0,1,0,0,0
+MOOC10/19.2/14,MOOC10/19.2,17990503,1 kopere strijkijzer,1 kopere strijkijzer,irons,19,1,2.0,2.0,0,0,0,0
+MOOC10/2.9/205,MOOC10/2.9,17190315,1 kooper strijkyser,1 kooper strijkyser,irons,2,1,2.0,2.0,0,0,0,0
+MOOC10/2.9/387,MOOC10/2.9,17190315,1 strijklap,1 strijklap,irons,2,1,2.0,2.0,0,0,0,0
+MOOC10/20.55/208,MOOC10/20.55,18050718/18050719,2 strijk ijzers,2 strijk ijzers,irons,20,2,2.0,1.0,0,0,0,0
+MOOC10/22.73/104,MOOC10/22.73,18071115,1 strijk eijser,1 strijk eijser,irons,22,1,2.0,2.0,0,0,0,0
+MOOC10/26.39/151,MOOC10/26.39,18121208/18121209,1 strijkijzer,1 strijkijzer,irons,26,1,2.0,2.0,0,0,0,0
+MOOC10/6.41/691,MOOC10/6.41,"17520323/17520325, 17520327",2 coper strijkijsers,2 coper strijkijsers,irons,6,2,2.0,1.0,0,0,0,0
+MOOC10/6.50/322,MOOC10/6.50,17520523/17520527,1 coper strijkijser,1 coper strijkijser,irons,6,1,2.0,2.0,0,0,0,0
+MOOC10/6.52/395,MOOC10/6.52,"17540522, 17540524/17540525",1 copere strijkijser,1 copere strijkijser,irons,6,1,2.0,2.0,0,0,0,0
+MOOC10/8.14/378,MOOC10/8.14,17580116/17580117,4 ijsere strijkijsers,4 ijsere strijkijsers en 1 cooper strijkijser met sijn voet,irons,8,4,2.0,0.5,1,0,0,0
+MOOC10/8.22/90,MOOC10/8.22,17591126,2 coopere strijkijsers,2 coopere strijkijsers,irons,8,2,2.0,1.0,0,0,0,0
+MOOC10/8.41/1847,MOOC10/8.41,"17600922/17600924, 17600929",2 cop:e strijkijsers,2 cop:e strijkijsers,irons,8,2,2.0,1.0,0,0,0,0
+MOOC10/3.42/50,MOOC10/3.42,17230809,1 strijkijser,1 staarte pan met 1 strijkijser,irons,3,1,3.0,3.0,1,0,0,0
+MOOC10/3.53/122,MOOC10/3.53,17240512,1 copere strijkijser,"1 copere strijkijser, 8 kelderflessen, 1 zoutvaatje en 2 baletjies",irons,3,1,3.0,3.0,1,0,0,0
+MOOC10/5.44/37,MOOC10/5.44,17441014,1 kopere strijkijser,1 kopere strijkijser,irons,5,1,3.0,3.0,0,0,0,0
+MOOC10/10.64/70,MOOC10/10.64,17730215,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,10,2,3.0,1.5,0,0,0,0
+MOOC10/12.10/181,MOOC10/12.10,17770908/17770909,1 cop: strijkijzer,1 cop: strijkijzer,irons,12,1,3.0,3.0,0,0,0,0
+MOOC10/12.24/50,MOOC10/12.24,17790426,3 strijkijzers in zoort,3 strijkijzers in zoort,irons,12,3,3.0,1.0,0,0,0,0
+MOOC10/13.36/218,MOOC10/13.36,17811211/17811212,1 cop: strijkijzer,1 cop: strijkijzer,irons,13,1,3.0,3.0,0,0,0,0
+MOOC10/13.65/62,MOOC10/13.65,17820504,2 cop: strijkijzers,2 cop: strijkijzers,irons,13,2,3.0,1.5,0,0,0,0
+MOOC10/14.26/31,MOOC10/14.26,17831129,1 cop: strijkijzer,1 cop: strijkijzer en 1 ijzere strijkijzer,irons,14,1,3.0,3.0,1,0,0,0
+MOOC10/14.63/140,MOOC10/14.63,17850506/17850507,2 cop: strijkijzers,2 cop: strijkijzers,irons,14,2,3.0,1.5,0,0,0,0
+MOOC10/15.6/261,MOOC10/15.6,17851107/17851108,1 cop: strijkijzer,1 cop: strijkijzer,irons,15,1,3.0,3.0,0,0,0,0
+MOOC10/18.75/9,MOOC10/18.75,18000419,2 strijkijzers,2 strijkijzers,irons,18,2,3.0,1.5,0,0,0,0
+MOOC10/19.26/14,MOOC10/19.26,18000728,1 strijkeijster,"1 tinne schottel, 1 strijkeijster, 1 boor, 4 staale vorken",irons,19,1,3.0,3.0,1,0,0,0
+MOOC10/23.46/131,MOOC10/23.46,18081110,1 strijk ijzer,1 strijk ijzer en schuifdoosje,irons,23,1,3.0,3.0,1,0,0,0
+MOOC10/8.33/70,MOOC10/8.33,17600616,1 coopere strijkijser,1 coopere strijkijser,irons,8,1,3.0,3.0,0,0,0,0
+MOOC10/5.15/12,MOOC10/5.15,17381018,1 strijkijser,"16 metalle lepels, 14 metalle vorken, 16 metalle messen in soort, 5 schaaren, 1 luijer en 1 theebak, 2 theebussen, 1 kopere tabaksdoos en 1 strijkijser",irons,5,1,4.0,4.0,1,0,0,0
+MOOC10/11.5/961,MOOC10/11.5,17730329/17730330 17730401/17730402,2 cop: strijkijsers,2 cop: strijkijsers,irons,11,2,4.0,2.0,0,0,0,0
+MOOC10/17.66_1/2/14,MOOC10/17.66_1/2,17971002,2 koper strijkijzers,2 koper strijkijzers,irons,17,2,4.0,2.0,0,0,0,0
+MOOC10/18.1/105,MOOC10/18.1,17971127,1 copere strijkijzer,1 copere strijkijzer,irons,18,1,4.0,4.0,0,0,0,0
+MOOC10/18.39/14,MOOC10/18.39,17970930,2 kopere strijk ijzers,2 kopere strijk ijzers,irons,18,2,4.0,2.0,0,0,0,0
+MOOC10/19.20/31,MOOC10/19.20,18010404,1 strijk ijzer,1 strijk ijzer,irons,19,1,4.0,4.0,0,0,0,0
+MOOC10/19.36/81,MOOC10/19.36,18000508/18000509,1 strijk ijzer,1 strijk ijzer,irons,19,1,4.0,4.0,0,0,0,0
+MOOC10/2.33/242,MOOC10/2.33,17211023,1 strijkijser,1 strijkijser met een kopere blaaker en een kopere trommeltje,irons,2,1,4.0,4.0,1,0,0,0
+MOOC10/20.48/251,MOOC10/20.48,18050325/18050326,1 strijk ijzer,1 strijk ijzer,irons,20,1,4.0,4.0,0,0,0,0
+MOOC10/22.91/9,MOOC10/22.91,18081008,1 strijkijzer,1 koffijmolen en 1 strijkijzer,irons,22,1,4.0,4.0,1,0,0,0
+MOOC10/22.96/102,MOOC10/22.96,18080616,1 strijkijzer,1 strijkijzer,irons,22,1,4.0,4.0,0,0,0,0
+MOOC10/24.5/198,MOOC10/24.5,18091114,1 strijkijzer,1 strijkijzer,irons,24,1,4.0,4.0,0,0,0,0
+MOOC10/26.43/30,MOOC10/26.43,18071005,1 strijkijser,"1 strijkijser, 1 rooster en 1 vuilnis blik",irons,26,1,4.0,4.0,1,0,0,0
+MOOC10/8.55/294,MOOC10/8.55,17620504/17620506,1 cop:e strijkijser,1 cop:e strijkijser met sijn voet,irons,8,1,4.0,4.0,1,0,0,0
+MOOC10/8.57/177,MOOC10/8.57,17640601,1 cop:e strijkijser,1 cop:e strijkijser,irons,8,1,4.0,4.0,0,0,0,0
+MOOC10/5.43/27,MOOC10/5.43,17440808,2 coper strijkijsers,2 coper strijkijsers,irons,5,2,5.0,2.5,0,0,0,0
+MOOC10/12.11/135,MOOC10/12.11,17770911,2 cop: strijkijzers,2 cop: strijkijzers en 1 houte voet,irons,12,2,5.0,2.5,1,0,0,0
+MOOC10/13.52/46,MOOC10/13.52,17821211,1 cop: strijkijzer,1 cop: strijkijzer,irons,13,1,5.0,5.0,0,0,0,0
+MOOC10/15.9/191,MOOC10/15.9,17851209/17851210,1 cop: strijkijzer,1 cop: strijkijzer met zijn voet,irons,15,1,5.0,5.0,1,0,0,0
+MOOC10/20.24/579,MOOC10/20.24,18040628/18040702/18040703,3 strijk ijzers,3 strijk ijzers,irons,20,3,5.0,1.67,0,0,0,0
+MOOC10/6.30/15,MOOC10/6.30,17520509,2 coper strijkijsers,2 coper strijkijsers met wat rommeling,irons,6,2,5.0,2.5,1,0,0,0
+MOOC10/8.28/43,MOOC10/8.28,17610727,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,8,2,5.0,2.5,0,0,0,0
+MOOC10/8.43/193,MOOC10/8.43,17611026/17611028,2 cop:e strijkijsers,2 cop:e strijkijsers en haar voet,irons,8,2,5.0,2.5,1,0,0,0
+MOOC10/14.3/247,MOOC10/14.3,17830226,1 cop:e strijkijzer,1 cop:e strijkijzer,irons,14,1,6.0,6.0,0,0,0,0
+MOOC10/20.22/131,MOOC10/20.22,18040511,1 strijk ijser,1 strijk ijser,irons,20,1,6.0,6.0,0,0,0,0
+MOOC10/21.14/203,MOOC10/21.14,18051120,1 strijk ijzer,1 strijk ijzer,irons,21,1,6.0,6.0,0,0,0,0
+MOOC10/15.114/101,MOOC10/15.114,17900227,4 strijkstokken,2 vioolen met 4 strijkstokken,irons,15,4,7.0,1.75,1,0,0,0
+MOOC10/18.38/144,MOOC10/18.38,17990504,2 strijkijzers,2 strijkijzers,irons,18,2,7.0,3.5,0,0,0,0
+MOOC10/18.76/108,MOOC10/18.76,17990315,1 strijk ijzer,1 strijk ijzer,irons,18,1,7.0,7.0,0,0,0,0
+MOOC10/22.84/13,MOOC10/22.84,18070603,1 koopere strijkijzer,1 koopere strijkijzer,irons,22,1,7.0,7.0,0,0,0,0
+MOOC10/6.33/488,MOOC10/6.33,17480823/17480824|17480902/17480905|17480921,2 coper strijkijsers,2 coper strijkijsers,irons,6,2,7.0,3.5,0,0,0,0
+MOOC10/22.55/56,MOOC10/22.55,18071005,1 strijkijzer,1 strijkijzer,irons,22,1,8.0,8.0,0,0,0,0
+MOOC10/26.6/80,MOOC10/26.6,18120720,1 strijk ijzer,1 strijk ijzer,irons,26,1,10.0,10.0,0,0,0,0
+MOOC10/24.2/326,MOOC10/24.2,18090112/18090113,1 strijkijzer,1 strijkijzer met zijn rooster,irons,24,1,12.0,12.0,1,0,0,0
+MOOC10/11.1/12,MOOC10/11.1,17721214,1 strijkijser,"1 osse wagen met 1 ses osse ketting, 1 pik, 2 graven, 2 emmers, 2 potten, 2 roosters, 1 deurslag, 1 coubijtel, 1 dissel, 1 strijkijser, 1 capmes, 2 beijlen, 1 schroef, 2 oude kelders sonder deksels, 5 tinne borden, 1 tinne com, 1 vleeschfork, 1 cop:e theeketel, 1 tinne trekpot, 1 leepel, 1 fork, 2 geweers, 1 loodleepel, 1 rasp, 1 passer, 1 fijl, 1 oude halfaam sonder boom, 1 buldsak, 1 peul, 2 kussens, 1 combaars, 5 boeken en 29 ooijen met haar lammeren",irons,11,1,33.0,33.0,1,0,0,0
+MOOC10/2.33/281,MOOC10/2.33,17211023,1 strijklap,1 strijklap met wat rugaern,irons,2,1,2.02,2.02,1,0,0,0
+MOOC10/3.37/12,MOOC10/3.37,17260215,1 strijkijser,1 strijkijser met 1 thee bakje,irons,3,1,0.04,0.04,1,0,0,0
+MOOC10/10.62/146,MOOC10/10.62,17721214,1 ijsere strijkijser,1 ijsere strijkijser,irons,10,1,0.04,0.04,0,0,0,0
+MOOC10/13.22/207,MOOC10/13.22,17810420,1 strijkijzer,"1 strijkijzer, 1 poffertjespan en wat rommeling",irons,13,1,0.04,0.04,1,0,0,0
+MOOC10/14.64/109,MOOC10/14.64,17850425,1 ijzere strijkijzer,1 ijzere strijkijzer,irons,14,1,0.04,0.04,0,0,0,0
+MOOC10/18.74/47,MOOC10/18.74,18000505,1 strijkijzer,"1 cop: coffijkan en 1 strijkijzer, defect",irons,18,1,0.04,0.04,1,0,0,0
+MOOC10/2.29/54,MOOC10/2.29,17210110,1 strijk ijser,1 strijk ijser en een koffijkan,irons,2,1,0.04,0.04,1,0,0,0
+MOOC10/3.39/68,MOOC10/3.39,17220528,2 strijk ijzers,2 strijk ijzers,irons,3,2,1.04,0.52,0,0,0,0
+MOOC10/3.60/56,MOOC10/3.60,17260617,3 strijkijsers,3 strijkijsers met 1 ijsere roostertje,irons,3,3,1.04,0.35,1,0,0,0
+MOOC10/3.62/15,MOOC10/3.62,17250205,3 strijkijsers,3 strijkijsers,irons,3,3,1.04,0.35,0,0,0,0
+MOOC10/3.73/41,MOOC10/3.73,17270709,2 kopere strijkijsers,2 kopere strijkijsers,irons,3,2,1.04,0.52,0,0,0,0
+MOOC10/5.73/183,MOOC10/5.73,17460523,1 coper strijkijser,1 coper strijkijser,irons,5,1,1.04,1.04,0,0,0,0
+MOOC10/5.76/200,MOOC10/5.76,17470410,1 coper strykyser,1 coper strykyser en 1 snuyter,irons,5,1,1.04,1.04,1,0,0,0
+MOOC10/10.74/59,MOOC10/10.74,17730111,1 strijkijser,1 strijkijser,irons,10,1,1.04,1.04,0,0,0,0
+MOOC10/10.84/54,MOOC10/10.84,17720914,1 strijkijser,1 strijkijser,irons,10,1,1.04,1.04,0,0,0,0
+MOOC10/11.38/54,MOOC10/11.38,17760910,1 cop:e strijkijzer,1 cop:e strijkijzer,irons,11,1,1.04,1.04,0,0,0,0
+MOOC10/11.56/44,MOOC10/11.56,17770517,1 cop: strijkijzer,1 cop: strijkijzer,irons,11,1,1.04,1.04,0,0,0,0
+MOOC10/12.32/261,MOOC10/12.32,17761101,1 strijkijzer,"1 tinne souplepel, 1 strijkijzer en 2 zoutvaatjes",irons,12,1,1.04,1.04,1,0,0,0
+MOOC10/13.8/180,MOOC10/13.8,17800619/17800620,1 strijkijzer,"1 capbijl, 1 strijkijzer, 2 cop: beekers en 1 zak",irons,13,1,1.04,1.04,1,0,0,0
+MOOC10/13.36/294,MOOC10/13.36,17811211/17811212,1 cop: strijkijzer,1 cop: strijkijzer,irons,13,1,1.04,1.04,0,0,0,0
+MOOC10/13.52/49,MOOC10/13.52,17821211,2 cop: strijkijzers,2 cop: strijkijzers,irons,13,2,1.04,0.52,0,0,0,0
+MOOC10/13.64/60,MOOC10/13.64,17821223,1 ijzere strijkijzer,"1 ijzere rooster, 1 ijzere vuurtang, 2 ijzere lepels en 1 ijzere strijkijzer",irons,13,1,1.04,1.04,1,0,0,0
+MOOC10/14.35/121,MOOC10/14.35,17840820,1 cop: strijkijzer,1 cop: strijkijzer,irons,14,1,1.04,1.04,0,0,0,0
+MOOC10/14.45/372,MOOC10/14.45,17840309/17840311,3 cop: strijkijzertjes,3 cop: strijkijzertjes,irons,14,3,1.04,0.35,0,0,0,0
+MOOC10/14.55/57,MOOC10/14.55,17841027,2 cop: strijkijzers,2 cop: strijkijzers,irons,14,2,1.04,0.52,0,0,0,0
+MOOC10/15.4/40,MOOC10/15.4,17851011,1 cop: strijkijzer,1 cop: strijkijzer en 1 ijzere strijkijzer,irons,15,1,1.04,1.04,1,0,0,0
+MOOC10/15.6/203,MOOC10/15.6,17851107/17851108,1 strijkijzer,"1 strijkijzer, 1 slonsje, 1 rooster en 1 ijzere pot",irons,15,1,1.04,1.04,1,0,0,0
+MOOC10/15.38/41,MOOC10/15.38,17870504,1 cop: strijkijzer,1 cop: strijkijzer,irons,15,1,1.04,1.04,0,0,0,0
+MOOC10/15.111/73,MOOC10/15.111,17[YY]1102,1 ijzern strijkijzer,1 ijzern strijkijzer,irons,15,1,1.04,1.04,0,0,0,0
+MOOC10/15.112/99,MOOC10/15.112,17900416,2 copr:n strijk ijsers,2 copr:n strijk ijsers,irons,15,2,1.04,0.52,0,0,0,0
+MOOC10/16.15/52,MOOC10/16.15,17910829,1 strijkijzer,1 strijkijzer,irons,16,1,1.04,1.04,0,0,0,0
+MOOC10/17.11/107,MOOC10/17.11,17940926,1 cop: strijkijzer,1 cop: strijkijzer,irons,17,1,1.04,1.04,0,0,0,0
+MOOC10/18.15/37,MOOC10/18.15,17970708,1 oud strijkijzer,"1 oud strijkijzer, 1 vuutestje en 1 stoof",irons,18,1,1.04,1.04,1,0,1,0
+MOOC10/18.17/135,MOOC10/18.17,17970313,1 kopere strijk ijzer,1 kopere strijk ijzer,irons,18,1,1.04,1.04,0,0,0,0
+MOOC10/2.3/87,MOOC10/2.3,17180725,1 kooper strijkijser,1 kooper strijkijser,irons,2,1,1.04,1.04,0,0,0,0
+MOOC10/2.10/353,MOOC10/2.10,17190403,2 strijkysers,2 strijkysers,irons,2,2,1.04,0.52,0,0,0,0
+MOOC10/2.31/267,MOOC10/2.31,17211008,1 copere strijkijser,2 tinne bekers met een copere strijkijser,irons,2,1,1.04,1.04,1,0,0,0
+MOOC10/20.57/54,MOOC10/20.57,18050112,1 strijk ijzer,1 strijk ijzer,irons,20,1,1.04,1.04,0,0,0,0
+MOOC10/6.19/327,MOOC10/6.19,17481017/17481019,1 coper strijkijsertje,1 coper strijkijsertje en 1 coper stoofpan,irons,6,1,1.04,1.04,1,0,0,0
+MOOC10/6.20/67,MOOC10/6.20,17491021/17491022,1 coper strijkijser,1 coper strijkijser,irons,6,1,1.04,1.04,0,0,0,0
+MOOC10/6.32/255,MOOC10/6.32,17520508/17520510,1 coper strijkijsers,"1 coper strijkijsers, 2 ijser strijkijsers",irons,6,1,1.04,1.04,1,0,0,0
+MOOC10/6.41/689,MOOC10/6.41,"17520323/17520325, 17520327",2 coper strijkijsers,2 coper strijkijsers,irons,6,2,1.04,0.52,0,0,0,0
+MOOC10/7.3/91,MOOC10/7.3,17560908,1 coop:r strijk eijser,1 coop:r strijk eijser,irons,7,1,1.04,1.04,0,0,0,0
+MOOC10/7.10_1/2/5,MOOC10/7.10_1/2,17531022,1 strijkijser,1 strijkijser,irons,7,1,1.04,1.04,0,0,0,0
+MOOC10/7.48/140,MOOC10/7.48,17560319,1 strijkijser,"1 combuijslamp, 1 strijkijser en 1 grendelslot",irons,7,1,1.04,1.04,1,0,0,0
+MOOC10/8.49/316,MOOC10/8.49,17620329/17620330,3 cop:e strijkijsers,3 cop:e strijkijsers,irons,8,3,1.04,0.35,0,0,0,0
+MOOC10/9.14/338,MOOC10/9.14,17651104/17651105,1 strijkeijser,1 strijkeijser,irons,9,1,1.04,1.04,0,0,0,0
+MOOC10/9.29/170,MOOC10/9.29,17670318,1 strijkijser,1 strijkijser en 1 schaar,irons,9,1,1.04,1.04,1,0,0,0
+MOOC10/9.34/102,MOOC10/9.34,17671215,3 ijsere strijkijsers,3 ijsere strijkijsers,irons,9,3,1.04,0.35,0,0,0,0
+MOOC10/4.158/248,MOOC10/4.158,17370624,2 kopere strijkijsers,2 kopere strijkijsers,irons,4,2,2.04,1.02,0,0,0,0
+MOOC10/5.13/69,MOOC10/5.13,17380714,1 kopere strijkijser,1 kopere strijkijser,irons,5,1,2.04,2.04,0,0,0,0
+MOOC10/10.1/7,MOOC10/10.1,17700505,2 copere strijkijsers,2 copere strijkijsers,irons,10,2,2.04,1.02,0,0,0,0
+MOOC10/10.33/106,MOOC10/10.33,17710701,1 cop:e strijkijser,1 cop:e coffijkan en 1 cop:e strijkijser,irons,10,1,2.04,2.04,1,0,0,0
+MOOC10/11.41/506,MOOC10/11.41,17741219/17741222,2 cop: strijkijser voeten,2 cop: strijkijser voeten,irons,11,2,2.04,1.02,0,0,0,0
+MOOC10/11.49/28,MOOC10/11.49,17761206,1 cop: strijkijzer,1 cop: strijkijzer,irons,11,1,2.04,2.04,0,0,0,0
+MOOC10/12.12/154,MOOC10/12.12,17771208,1 copere strijkijzer,1 copere strijkijzer,irons,12,1,2.04,2.04,0,0,0,0
+MOOC10/12.35/27,MOOC10/12.35,17790322,1 copere strijkijzer,1 copere strijkijzer met zijn copere voet,irons,12,1,2.04,2.04,1,0,0,0
+MOOC10/12.38/389,MOOC10/12.38,17790816/17790817,2 coper strijkijsers,2 coper strijkijsers met hun coper voet,irons,12,2,2.04,1.02,1,0,0,0
+MOOC10/13.9/293,MOOC10/13.9,17800615/17800616,1 cop: strijkijzer,1 cop: strijkijzer,irons,13,1,2.04,2.04,0,0,0,0
+MOOC10/14.13/18,MOOC10/14.13,17830114,1 strijkijzer,1 strijkijzer,irons,14,1,2.04,2.04,0,0,0,0
+MOOC10/14.21/225,MOOC10/14.21,17830221,1 strijkijzer,"3 emmers, 1 strijkijzer en 1 cijfferlij",irons,14,1,2.04,2.04,1,0,0,0
+MOOC10/15.14/72,MOOC10/15.14,17860512/17860513,2 cop: strijkijzers,2 cop: strijkijzers,irons,15,2,2.04,1.02,0,0,0,0
+MOOC10/15.21/71,MOOC10/15.21,17861201,2 cop: strijkijzers,2 cop: strijkijzers en 2 ijzere strijkijzers,irons,15,2,2.04,1.02,1,0,0,0
+MOOC10/15.28/32,MOOC10/15.28,17870223,1 strijkijzer,2 candelaars en 1 strijkijzer,irons,15,1,2.04,2.04,1,0,0,0
+MOOC10/16.28/171,MOOC10/16.28,17920614,2 cop:r strijkijsers,2 cop:r strijkijsers en 1 blikke beekers,irons,16,2,2.04,1.02,1,0,0,0
+MOOC10/16.46/130,MOOC10/16.46,17890714/17890715,1 kopere strijk ijzer,1 kopere strijk ijzer,irons,16,1,2.04,2.04,0,0,0,0
+MOOC10/17.55/32,MOOC10/17.55,17960115,2 kopere strijkijzers,2 kopere strijkijzers,irons,17,2,2.04,1.02,0,0,0,0
+MOOC10/18.12/36,MOOC10/18.12,17981013,1 kopere strijkijzer,"1 kopere strijkijzer, 1 schuijmspan en 1 fleesch vork",irons,18,1,2.04,2.04,1,0,0,0
+MOOC10/18.38/146,MOOC10/18.38,17990504,1 kopere strijkijzer,1 kopere strijkijzer,irons,18,1,2.04,2.04,0,0,0,0
+MOOC10/19.41/36,MOOC10/19.41,18010922,1 koper strijk ijzer,1 koper strijk ijzer,irons,19,1,2.04,2.04,0,0,0,0
+MOOC10/19.45/587,MOOC10/19.45,18020712,2 strijk ijzers,2 strijk ijzers,irons,19,2,2.04,1.02,0,0,0,0
+MOOC10/20.78/320,MOOC10/20.78,18050702/18050703,1 strijk ijzer,1 strijk ijzer,irons,20,1,2.04,2.04,0,0,0,0
+MOOC10/22.101/137,MOOC10/22.101,18070812/18070813,1 strijk ijzer,1 strijk ijzer,irons,22,1,2.04,2.04,0,0,0,0
+MOOC10/6.7/116,MOOC10/6.7,17520602,1 coper strijkijser,1 coper strijkijser en 1 coper vuurtesje,irons,6,1,2.04,2.04,1,0,0,0
+MOOC10/6.59/157,MOOC10/6.59,17541216,3 strijkijsers,"3 tinne waterpot, 3 strijkijsers en 1 copere coffimoole",irons,6,3,2.04,0.68,1,0,0,0
+MOOC10/7.33/14,MOOC10/7.33,17561012,1 ijser strijk ijser,"1 coop:r kandelaar, 1 ijser strijk ijser, 1 tinne trek pot en 1 oude kelder",irons,7,1,2.04,2.04,1,0,0,0
+MOOC10/7.34/32,MOOC10/7.34,17551105,2 coop:r strijkijsers,2 coop:r strijkijsers,irons,7,2,2.04,1.02,0,0,0,0
+MOOC10/8.27/40,MOOC10/8.27,17601023,1 cop:e strijkijser,1 cop:e strijkijser,irons,8,1,2.04,2.04,0,0,0,0
+MOOC10/8.42/65,MOOC10/8.42,17630117,1 cop:e strijkijser,1 cop:e strijkijser en 1 ijsere strijkijser,irons,8,1,2.04,2.04,1,0,0,0
+MOOC10/8.56/85,MOOC10/8.56,17640620,1 strijkijser,2 copere kandelaar en 1 strijkijser,irons,8,1,2.04,2.04,1,0,0,0
+MOOC10/8.58/99,MOOC10/8.58,17640731,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,8,2,2.04,1.02,0,0,0,0
+MOOC10/9.11/99,MOOC10/9.11,17660127,1 strijkijser,3 cop:e candelaars en 1 strijkijser,irons,9,1,2.04,2.04,1,0,0,0
+MOOC10/5.75/161,MOOC10/5.75,17470220,1 coper strijkijser,1 coper strijkijser met sijn rooster,irons,5,1,3.04,3.04,1,0,0,0
+MOOC10/11.7/131,MOOC10/11.7,17741004,1 cop: strijkijzer,1 cop: strijkijzer,irons,11,1,3.04,3.04,0,0,0,0
+MOOC10/12.1/184,MOOC10/12.1,17760528/17760530,2 cop: strijcijzers,2 cop: strijcijzers,irons,12,2,3.04,1.52,0,0,0,0
+MOOC10/13.58/82,MOOC10/13.58,17820427,1 cop: strijkijzer,1 cop: strijkijzer en 1 craantje,irons,13,1,3.04,3.04,1,0,0,0
+MOOC10/15.79/41,MOOC10/15.79,17890203,4 strijkijsers,4 strijkijsers,irons,15,4,3.04,0.76,0,0,0,0
+MOOC10/19.27/239,MOOC10/19.27,18020115/18020116,1 cop: strijk ijzer,1 cop: strijk ijzer en 1 tesje,irons,19,1,3.04,3.04,1,0,0,0
+MOOC10/2.13/78,MOOC10/2.13,17200823,1 coopere strijkeijser,1 coopere strijkeijser,irons,2,1,3.04,3.04,0,0,0,0
+MOOC10/24.3/21,MOOC10/24.3,18090905,1 strijk ijzer,1 strijk ijzer,irons,24,1,3.04,3.04,0,0,0,0
+MOOC10/8.26/147,MOOC10/8.26,17610731,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,8,2,3.04,1.52,0,0,0,0
+MOOC10/8.55/297,MOOC10/8.55,17620504/17620506,2 cop:e strijkijser,2 cop:e strijkijser met sijn voet,irons,8,2,3.04,1.52,1,0,0,0
+MOOC10/10.31/31,MOOC10/10.31,17701112, zijn strijkstok,1 fiool en zijn strijkstok,irons,10,,4.04,-99,1,0,0,0
+MOOC10/14.25/19,MOOC10/14.25,17831120,1 cop: strijkijser,1 cop: strijkijser,irons,14,1,4.04,4.04,0,0,0,0
+MOOC10/15.82/72,MOOC10/15.82,17890318,1 cop: strijkijzer,1 cop: strijkijzer,irons,15,1,4.04,4.04,0,0,0,0
+MOOC10/15.93/7,MOOC10/15.93,[17YY],1 copere strijk ijzer,een copere strijk ijzer,irons,15,1,4.04,4.04,0,0,0,0
+MOOC10/17.65/5,MOOC10/17.65,17970313,1 strijkijzer,1 strijkijzer,irons,17,1,4.04,4.04,0,0,0,0
+MOOC10/17.67/7,MOOC10/17.67,17971002,1 strijk ijzer,1 strijk ijzer,irons,17,1,4.04,4.04,0,0,0,0
+MOOC10/18.17/134,MOOC10/18.17,17970313,1 kopere strijk ijzer,1 kopere strijk ijzer,irons,18,1,4.04,4.04,0,0,0,0
+MOOC10/18.64/195,MOOC10/18.64,17990816/17990817,2 strijkijzers,2 strijkijzers,irons,18,2,4.04,2.02,0,0,0,0
+MOOC10/21.15/44,MOOC10/21.15,18050910,2 strijk ijzers,1 kopere schaal en balans en 2 strijk ijzers,irons,21,2,4.04,2.02,1,0,0,0
+MOOC10/21.17/150,MOOC10/21.17,18050808,3 strijk ijzers,3 strijk ijzers,irons,21,3,4.04,1.35,0,0,0,0
+MOOC10/21.44/68,MOOC10/21.44,18050827,1 strijk ijzeer,1 strijk ijzeer,irons,21,1,4.04,4.04,0,0,0,0
+MOOC10/23.14/17,MOOC10/23.14,18080102,1 strijkijzer,1 strijkijzer,irons,23,1,4.04,4.04,0,0,0,0
+MOOC10/26.44/110,MOOC10/26.44,18110828/18110829,1 strijkijzer,1 strijkijzer,irons,26,1,4.04,4.04,0,0,0,0
+MOOC10/8.28/44,MOOC10/8.28,17610727,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,8,2,4.04,2.02,0,0,0,0
+MOOC10/10.81/509,MOOC10/10.81,17730308/17730311,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,10,2,5.04,2.52,0,0,0,0
+MOOC10/12.38/388,MOOC10/12.38,17790816/17790817,2 coper strijkijsers,2 coper strijkijsers met hun coper voet,irons,12,2,5.04,2.52,1,0,0,0
+MOOC10/17.37/121,MOOC10/17.37,17951218/17951219,2 cop: strijkijzers,2 cop: strijkijzers,irons,17,2,5.04,2.52,0,0,0,0
+MOOC10/20.22/130,MOOC10/20.22,18040511,1 strijk ijser,1 strijk ijser,irons,20,1,5.04,5.04,0,0,0,0
+MOOC10/8.55/298,MOOC10/8.55,17620504/17620506,3 cop:e strijkijser,3 cop:e strijkijser met sijn voet,irons,8,3,5.04,1.68,1,0,0,0
+MOOC10/11.44/272,MOOC10/11.44,17760925/17760926,2 cop: strijkijzers,2 cop: strijkijzers en 1 cop: voet,irons,11,2,6.04,3.02,1,0,0,0
+MOOC10/14.17/239,MOOC10/14.17,17830606/17830607,1 strijkijzer,"1 rooster, 1 drievoet, 1 vuurtang, 1 schuijmspaan en 1 strijkijzer",irons,14,1,6.04,6.04,1,0,0,0
+MOOC10/17.37/122,MOOC10/17.37,17951218/17951219,1 cop: strijkijzers,1 cop: strijkijzers en 2 roosters,irons,17,1,6.04,6.04,1,0,0,0
+MOOC10/24.33/238,MOOC10/24.33,18100810/18100811,1 strijkijzers,1 strijkijzers,irons,24,1,6.04,6.04,0,0,0,0
+MOOC10/24.33/239,MOOC10/24.33,18100810/18100811,1 strijkijzers,1 strijkijzers,irons,24,1,6.04,6.04,0,0,0,0
+MOOC10/15.9/190,MOOC10/15.9,17851209/17851210,1 cop: strijkijzer,1 cop: strijkijzer met zijn voet,irons,15,1,7.04,7.04,1,0,0,0
+MOOC10/15.114/102,MOOC10/15.114,17900227,4 strijkstokken,2 vioolen met 4 strijkstokken,irons,15,4,7.04,1.76,1,0,0,0
+MOOC10/23.54/95,MOOC10/23.54,18090424/18090428,2 strijkijzers,2 strijkijzers,irons,23,2,8.04,4.02,0,0,0,0
+MOOC10/19.54/26,MOOC10/19.54,18030328,3 strijkstokken,"1 viool, 3 strijkstokken met 1 kast",irons,19,3,13.04,4.35,1,0,0,0
+MOOC10/19.45/583,MOOC10/19.45,18020712,2 strijk ijzers,2 strijk ijzers,irons,19,2,14.04,7.02,0,0,0,0
+MOOC10/19.45/584,MOOC10/19.45,18020712,2 strijk ijzers,2 strijk ijzers,irons,19,2,14.04,7.02,0,0,0,0
+MOOC10/3.70/32,MOOC10/3.70,17270628,1 strijkijser,"2 borstels, 2 witquasten en 1 strijkijser",irons,3,1,0.08,0.08,1,0,0,0
+MOOC10/4.157/226,MOOC10/4.157,17370617,3 strijkijsers,3 strijkijsers en 1 rakje,irons,4,3,0.08,0.03,1,0,0,0
+MOOC10/5.58/25,MOOC10/5.58,17440909,1 strykyser,1 strykyser,irons,5,1,0.08,0.08,0,0,0,0
+MOOC10/10.18/330,MOOC10/10.18,17700314,1 ijsere strijkijser,1 ijsere strijkijser,irons,10,1,0.08,0.08,0,0,0,0
+MOOC10/10.52/150,MOOC10/10.52,17710916,1 strijk ijser,1 strijk ijser,irons,10,1,0.08,0.08,0,0,0,0
+MOOC10/10.54/57,MOOC10/10.54,17710924,1 strijkijser,1 strijkijser en 1 tinne keetel,irons,10,1,0.08,0.08,1,0,0,0
+MOOC10/11.64/226,MOOC10/11.64,17761202,1 strijkijzer,1 strijkijzer,irons,11,1,0.08,0.08,0,0,0,0
+MOOC10/14.68/1,MOOC10/14.68,17850902,1 strijkijzer,1 strijkijzer en 2 oude ketels,irons,14,1,0.08,0.08,1,0,0,0
+MOOC10/15.54/120,MOOC10/15.54,17880112,1 strijk ijzer,1 strijk ijzer,irons,15,1,0.08,0.08,0,0,0,0
+MOOC10/16.24/135,MOOC10/16.24,17900324,1 strijkijser,1 strijkijser,irons,16,1,0.08,0.08,0,0,0,0
+MOOC10/16.32/138,MOOC10/16.32,17900930,1 strijkijzer,1 strijkijzer,irons,16,1,0.08,0.08,0,0,0,0
+MOOC10/17.2/13,MOOC10/17.2,17931016,1 ijzere strijk ijzer,2 blikke trommels en een ijzere strijk ijzer,irons,17,1,0.08,0.08,1,0,0,0
+MOOC10/17.5/22,MOOC10/17.5,17931125,1 strijkijser,1 strijkijser en 1 leepelrak,irons,17,1,0.08,0.08,1,0,0,0
+MOOC10/17.29/376,MOOC10/17.29,17950126/17950128,1 strijk ijzer etc:a,1 strijk ijzer etc:a,irons,17,1,0.08,0.08,0,0,0,0
+MOOC10/17.67_1/2/50,MOOC10/17.67_1/2,17970708,2 oude strijkijzers,2 oude strijkijzers,irons,17,2,0.08,0.04,0,0,1,0
+MOOC10/18.58/330,MOOC10/18.58,17980417,1 strijkijzer,"1 strijkijzer, defect",irons,18,1,0.08,0.08,1,0,0,0
+MOOC10/2.2/18,MOOC10/2.2,17180617,1 koopere strijkyser,1 koopere strijkyser,irons,2,1,0.08,0.08,0,0,0,0
+MOOC10/6.53/29,MOOC10/6.53,17551013,1 coop:r strijk ijser,"1 coop:r theekeetel, 1 coop:r strijk ijser en 1 tregter",irons,6,1,0.08,0.08,1,0,0,0
+MOOC10/7.10/36,MOOC10/7.10,17551022,2 coopere strijkijsers,2 coopere strijkijsers,irons,7,2,0.08,0.04,0,0,0,0
+MOOC10/7.36/28,MOOC10/7.36,17560513,2 strijkijsers,1 roskam en 2 strijkijsers,irons,7,2,0.08,0.04,1,0,0,0
+MOOC10/7.45/22,MOOC10/7.45,17560322,1 strijkijser,1 strijkijser en wat romm:g,irons,7,1,0.08,0.08,1,0,0,0
+MOOC10/8.25/105,MOOC10/8.25,17601215,2 ijsere strijkijsers,2 ijsere strijkijsers,irons,8,2,0.08,0.04,0,0,0,0
+MOOC10/8.43/194,MOOC10/8.43,17611026/17611028,2 ijsere strijkijsers,2 ijsere strijkijsers,irons,8,2,0.08,0.04,0,0,0,0
+MOOC10/9.4_1/2/10,MOOC10/9.4_1/2,17650223,1 copere strijkijser,1 copere strijkijser,irons,9,1,0.08,0.08,0,0,0,0
+MOOC10/9.10/24,MOOC10/9.10,17660226,1 cop:e strijkijser,1 cop:e strijkijser en 1 cop:e blaaker,irons,9,1,0.08,0.08,1,0,0,0
+MOOC10/9.61/88,MOOC10/9.61,17690227,1 cop:e strijkijser,1 cop:e strijkijser,irons,9,1,0.08,0.08,0,0,0,0
+MOOC10/3.73/42,MOOC10/3.73,17270709,2 kopere strijkijsers,2 kopere strijkijsers,irons,3,2,1.08,0.54,0,0,0,0
+MOOC10/3.73/54,MOOC10/3.73,17270709,2 ijsere strijkijsers,2 ijsere strijkijsers,irons,3,2,1.08,0.54,0,0,0,0
+MOOC10/3.89_1/2/48,MOOC10/3.89_1/2,17290913,1 kopere strijkijser,1 kopere strijkijser,irons,3,1,1.08,1.08,0,0,0,0
+MOOC10/4.115/18,MOOC10/4.115,17340728,1 strijkijser,"2 kopere snuijters, 1 strijkijser, 1 rasp en 1 lamp",irons,4,1,1.08,1.08,1,0,0,0
+MOOC10/4.123/7,MOOC10/4.123,17331102,2 strijkijsers,"2 strijkijsers, 1 snuijter en 1 rasp",irons,4,2,1.08,0.54,1,0,0,0
+MOOC10/10.21/428,MOOC10/10.21,17690109/17690110,1 cop:e strijkijser,1 cop:e strijkijser,irons,10,1,1.08,1.08,0,0,0,0
+MOOC10/11.7/139,MOOC10/11.7,17741004,1 cop: strijkijzer,"1 cop: strijkijzer, 1 tinne trekpot en 3 snuiters",irons,11,1,1.08,1.08,1,0,0,0
+MOOC10/11.15/61,MOOC10/11.15,17750628,1 cop: strijkijzer,1 cop: strijkijzer en 1 ijzere balans,irons,11,1,1.08,1.08,1,0,0,0
+MOOC10/11.38/56,MOOC10/11.38,17760910,1 ijzere strijkijzer,1 ijzere strijkijzer,irons,11,1,1.08,1.08,0,0,0,0
+MOOC10/12.12/158,MOOC10/12.12,17771208,1 ijzere strijkijzer,1 ijzere strijkijzer,irons,12,1,1.08,1.08,0,0,0,0
+MOOC10/12.14/78,MOOC10/12.14,17780221,1 strijkijser,"1 coper vuur tesje, 1 coper confoor en 1 strijkijser",irons,12,1,1.08,1.08,1,0,0,0
+MOOC10/12.32/209,MOOC10/12.32,17761101,1 cop: strijkijzer,1 cop: strijkijzer,irons,12,1,1.08,1.08,0,0,0,0
+MOOC10/13.39/112,MOOC10/13.39,17820103,1 strijkijzer,1 strijkijzer,irons,13,1,1.08,1.08,0,0,0,0
+MOOC10/13.39/166,MOOC10/13.39,17820103,1 strijkijzer,1 strijkijzer en romling,irons,13,1,1.08,1.08,1,0,0,0
+MOOC10/14.25/20,MOOC10/14.25,17831120,1 cop: strijkijser,1 cop: strijkijser,irons,14,1,1.08,1.08,0,0,0,0
+MOOC10/14.35/120,MOOC10/14.35,17840820,1 cop: strijkijzer,1 cop: strijkijzer,irons,14,1,1.08,1.08,0,0,0,0
+MOOC10/14.45/276,MOOC10/14.45,17840309/17840311,1 ijzere strijkijzer,1 ijzere strijkijzer,irons,14,1,1.08,1.08,0,0,0,0
+MOOC10/14.53/85,MOOC10/14.53,17840917,1 strijkijzer,1 strijkijzer,irons,14,1,1.08,1.08,0,0,0,0
+MOOC10/15.17/118,MOOC10/15.17,17860627, zijn strijkstok,1 fiool met zijn strijkstok,irons,15,,1.08,-99,1,0,0,0
+MOOC10/15.22/42,MOOC10/15.22,17861228/17861230,1 strijkijzer,1 strijkijzer en 1 pan,irons,15,1,1.08,1.08,1,0,0,0
+MOOC10/15.106/88,MOOC10/15.106,17901104,1 copere strijkijser,1 copere strijkijser en rooster,irons,15,1,1.08,1.08,1,0,0,0
+MOOC10/16.20/15,MOOC10/16.20,17911210/17911211,1 strijkijzer,1 strijkijzer,irons,16,1,1.08,1.08,0,0,0,0
+MOOC10/16.45/84,MOOC10/16.45,17930110,1 strijk ijser,1 strijk ijser & 1 peperbus,irons,16,1,1.08,1.08,1,0,0,0
+MOOC10/16.66/51,MOOC10/16.66,17931220,2 strijkijsers,2 strijkijsers,irons,16,2,1.08,0.54,0,0,0,0
+MOOC10/17.22/121,MOOC10/17.22,17950216,1 koopere strijkijzer,1 koopere strijkijzer,irons,17,1,1.08,1.08,0,0,0,0
+MOOC10/18.21/31,MOOC10/18.21,17940116,1 ijzere strijkijzer,1 ijzere strijkijzer,irons,18,1,1.08,1.08,0,0,0,0
+MOOC10/2.34/194,MOOC10/2.34,17211128,2 stryk yzers,2 stryk yzers,irons,2,2,1.08,0.54,0,0,0,0
+MOOC10/20.55/207,MOOC10/20.55,18050718/18050719,2 strijk ijzers,2 strijk ijzers met 1 voet,irons,20,2,1.08,0.54,1,0,0,0
+MOOC10/20.75/27,MOOC10/20.75,18041215,1 strijkijzer,"1 strijkijzer, 1 poffertje pan en 1 koffijmolen",irons,20,1,1.08,1.08,1,0,0,0
+MOOC10/6.10/237,MOOC10/6.10,17490819/17490820,2 ijser strijkijsers,2 ijser strijkijsers,irons,6,2,1.08,0.54,0,0,0,0
+MOOC10/6.19/357,MOOC10/6.19,17481017/17481019,1 coper strijkijser,1 coper strijkijser,irons,6,1,1.08,1.08,0,0,0,0
+MOOC10/6.24/429,MOOC10/6.24,17540114/17540116,3 strijk ijsers,3 strijk ijsers,irons,6,3,1.08,0.36,0,0,0,0
+MOOC10/6.55/348,MOOC10/6.55,17551127/17551128,1 cop: strijkijser,1 cop: strijkijser,irons,6,1,1.08,1.08,0,0,0,0
+MOOC10/6.61/194,MOOC10/6.61,17550728,2 copere strijkijsers,2 copere strijkijsers,irons,6,2,1.08,0.54,0,0,0,0
+MOOC10/7.4/77,MOOC10/7.4,17550929,4 ijsere strijkijsers,4 ijsere strijkijsers,irons,7,4,1.08,0.27,0,0,0,0
+MOOC10/7.25/40,MOOC10/7.25,17551020,2 ijsere strijk ijsers,"1 coop:r becken, 2 ijsere strijk ijsers, 1 tang en 1 blaaspijp",irons,7,2,1.08,0.54,1,0,0,0
+MOOC10/7.28/149,MOOC10/7.28,17551028,2 strijk eijsers,2 strijk eijsers,irons,7,2,1.08,0.54,0,0,0,0
+MOOC10/8.59/146,MOOC10/8.59,17640402,1 strijkijser,3 taatjes en 1 strijkijser met zijn voet,irons,8,1,1.08,1.08,1,0,0,0
+MOOC10/9.5_1/2/93,MOOC10/9.5_1/2,17650114,2 strijkijsers,2 strijkijsers en 1 pers ijser,irons,9,2,1.08,0.54,1,0,0,0
+MOOC10/4.110/310,MOOC10/4.110,17330617,2 strijkijsers,"2 strijkijsers, 1 kopere rasp en 1 specerije doosje",irons,4,2,2.08,1.04,1,0,0,0
+MOOC10/5.7/74,MOOC10/5.7,17380923,1 kopere strijkyser,1 kopere theeketel en 1 kopere strijkyser,irons,5,1,2.08,2.08,1,0,0,0
+MOOC10/10.16/38,MOOC10/10.16,17700801,1 coper strijkijser,1 coper strijkijser en 1 coper tafelschell,irons,10,1,2.08,2.08,1,0,0,0
+MOOC10/10.50/163,MOOC10/10.50,17711130,2 cop:e strijkijsers,2 cop:e strijkijsers en 1 snuijter,irons,10,2,2.08,1.04,1,0,0,0
+MOOC10/10.62/145,MOOC10/10.62,17721214,1 cop:e strijkijser,1 cop:e strijkijser,irons,10,1,2.08,2.08,0,0,0,0
+MOOC10/11.57/221,MOOC10/11.57,17761223/17761224,1 cop: strijkijzer,1 cop: strijkijzer,irons,11,1,2.08,2.08,0,0,0,0
+MOOC10/12.48/64,MOOC10/12.48,17781207,2 cop: strijkijzers,2 cop: strijkijzers met hun houte voet,irons,12,2,2.08,1.04,1,0,0,0
+MOOC10/13.32/83,MOOC10/13.32,17810528,2 cop: strijkijzers,2 cop: strijkijzers,irons,13,2,2.08,1.04,0,0,0,0
+MOOC10/14.16/305,MOOC10/14.16,17830115/17830116,1 cop: strijkijzer,1 cop: strijkijzer en 2 cop: trommels,irons,14,1,2.08,2.08,1,0,0,0
+MOOC10/15.62/368,MOOC10/15.62,17880630/17880701,1 cop: strijkijzer,1 cop: strijkijzer,irons,15,1,2.08,2.08,0,0,0,0
+MOOC10/16.36/261,MOOC10/16.36,17940219/17940221,1 cop: strijkijsers,1 cop: strijkijsers en 1 ijzere strijkijsers,irons,16,1,2.08,2.08,1,0,0,0
+MOOC10/17.7_1/2/36,MOOC10/17.7_1/2,17940120,1 kopere strijkijzer,1 kopere strijkijzer,irons,17,1,2.08,2.08,0,0,0,0
+MOOC10/17.13/193,MOOC10/17.13,17940605/17940606,2 cop: strijkijzers,2 cop: strijkijzers,irons,17,2,2.08,1.04,0,0,0,0
+MOOC10/17.26/148,MOOC10/17.26,17950508,1 strijk ijzer,1 strijk ijzer,irons,17,1,2.08,2.08,0,0,0,0
+MOOC10/18.38/145,MOOC10/18.38,17990504,2 strijkijzers,2 strijkijzers,irons,18,2,2.08,1.04,0,0,0,0
+MOOC10/2.34/365,MOOC10/2.34,17211128,1 party strykstokken,1 party strykstokken met wat rommelingh,irons,2,1,2.08,2.08,1,1,0,0
+MOOC10/20.33/203,MOOC10/20.33,18031217,1 strijkijzer,"1 strijkijzer, 1 keetel en 1 kandelaar",irons,20,1,2.08,2.08,1,0,0,0
+MOOC10/22.103/13,MOOC10/22.103,[YYYY],1 strijk ijzer,1 strijk ijzer,irons,22,1,2.08,2.08,0,0,0,0
+MOOC10/6.33/865,MOOC10/6.33,17480823/17480824|17480902/17480905|17480921,2 coper strijkijsers,2 coper strijkijsers,irons,6,2,2.08,1.04,0,0,0,0
+MOOC10/8.32/121,MOOC10/8.32,17611031,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,8,2,2.08,1.04,0,0,0,0
+MOOC10/8.34/122,MOOC10/8.34,17611006,1 ijser strijkijser,"1 ijser strijkijser, 1 ijser pannetje",irons,8,1,2.08,2.08,1,0,0,0
+MOOC10/9.31/273,MOOC10/9.31,17660403,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,9,2,2.08,1.04,0,0,0,0
+MOOC10/9.33/236,MOOC10/9.33,17670402,1 cop:e strijkijser,"1 cop:e strijkijser, 1 cop:e koekepan en 1 staartpan",irons,9,1,2.08,2.08,1,0,0,0
+MOOC10/9.56/131,MOOC10/9.56,17690717,1 copere strijkijser,1 copere strijkijser,irons,9,1,2.08,2.08,0,0,0,0
+MOOC10/5.52/349,MOOC10/5.52,17450913,3 coopere strijkijsers,3 coopere strijkijsers,irons,5,3,3.08,1.03,0,0,0,0
+MOOC10/5.63/202,MOOC10/5.63,17410420,2 coper strijkijsers,2 coper strijkijsers,irons,5,2,3.08,1.54,0,0,0,0
+MOOC10/10.41/80,MOOC10/10.41,17701229,2 copere strijkijsers,2 copere strijkijsers met zijn voet,irons,10,2,3.08,1.54,1,0,0,0
+MOOC10/11.60/220,MOOC10/11.60,17750220/17750221,2 strijkijzers,2 strijkijzers,irons,11,2,3.08,1.54,0,0,0,0
+MOOC10/12.22/69,MOOC10/12.22,17781026,1 coper strijkijser,1 coper strijkijser,irons,12,1,3.08,3.08,0,0,0,0
+MOOC10/14.36/55,MOOC10/14.36,17840917,1 cop: strijkijzer,1 cop: strijkijzer,irons,14,1,3.08,3.08,0,0,0,0
+MOOC10/14.55/56,MOOC10/14.55,17841027,1 cop: strijkijzer,1 cop: strijkijzer,irons,14,1,3.08,3.08,0,0,0,0
+MOOC10/15.84/253,MOOC10/15.84,17890513/17890514,4 strijkijsers,4 strijkijsers,irons,15,4,3.08,0.77,0,0,0,0
+MOOC10/15.105/259,MOOC10/15.105,No date,1 strijk eijser,een strijk eijser,irons,15,1,3.08,3.08,0,0,0,0
+MOOC10/16.38/182,MOOC10/16.38,17930530,3 strijkijsers in zoort,3 strijkijsers in zoort,irons,16,3,3.08,1.03,0,0,0,0
+MOOC10/17.22/119,MOOC10/17.22,17950216,1 strijkijzer,1 strijkijzer,irons,17,1,3.08,3.08,0,0,0,0
+MOOC10/18.64/194,MOOC10/18.64,17990816/17990817,2 kopere strijkijzers,2 kopere strijkijzers,irons,18,2,3.08,1.54,0,0,0,0
+MOOC10/19.36/80,MOOC10/19.36,18000508/18000509,1 strijk ijzer,1 strijk ijzer,irons,19,1,3.08,3.08,0,0,0,0
+MOOC10/19.58/8,MOOC10/19.58,18030509,1 strijkijzer,1 strijkijzer,irons,19,1,3.08,3.08,0,0,0,0
+MOOC10/6.12/79,MOOC10/6.12,17510604,1 coper strijkijser,1 coper strijkijser,irons,6,1,3.08,3.08,0,0,0,0
+MOOC10/6.34/140,MOOC10/6.34,17491223/17491224,1 coper strijkijser,1 coper strijkijser met sijn rooster,irons,6,1,3.08,3.08,1,0,0,0
+MOOC10/7.22/83,MOOC10/7.22,17560428/17560430,3 strijkijsers,3 strijkijsers,irons,7,3,3.08,1.03,0,0,0,0
+MOOC10/9.19/53,MOOC10/9.19,17661202,3 cop:e strijkijsers,3 cop:e strijkijsers,irons,9,3,3.08,1.03,0,0,0,0
+MOOC10/4.124/200,MOOC10/4.124,17340615,2 kopere strijkijsers,"2 kopere strijkijsers, 1 kopere scheerbecken en 1 kopere vergiettes",irons,4,2,4.08,2.04,1,0,0,0
+MOOC10/13.32/82,MOOC10/13.32,17810528,2 cop: strijkijzers,2 cop: strijkijzers,irons,13,2,4.08,2.04,0,0,0,0
+MOOC10/16.36/260,MOOC10/16.36,17940219/17940221,2 cop: strijkijsers,2 cop: strijkijsers,irons,16,2,4.08,2.04,0,0,0,0
+MOOC10/17.15/319,MOOC10/17.15,17940327/17940329,2 strijk ijsers,2 strijk ijsers,irons,17,2,4.08,2.04,0,0,0,0
+MOOC10/17.51/288,MOOC10/17.51,17960523/17960524,2 kopere strijkijzers,2 kopere strijkijzers,irons,17,2,4.08,2.04,0,0,0,0
+MOOC10/19.4/46,MOOC10/19.4,18001004,1 strijk ijzer,"1 strijk ijzer, 1 inkt koker en 1 bos schagten",irons,19,1,4.08,4.08,1,0,0,0
+MOOC10/22.32/22,MOOC10/22.32,18060620/18060621,1 strijckijzer,1 strijckijzer,irons,22,1,4.08,4.08,0,0,0,0
+MOOC10/23.2/8,MOOC10/23.2,18071230,2 oude strijkijzers,"1 oude koffijmoolen, 2 oude strijkijzers en wat romm:",irons,23,2,4.08,2.04,1,0,1,0
+MOOC10/8.4/218,MOOC10/8.4,17590723,1 strijkijser,"2 vogelkooijen, 1 strijkijser, 1 handstoffer en 1 tinne tregter",irons,8,1,4.08,4.08,1,0,0,0
+MOOC10/19.25/19,MOOC10/19.25,18000515,1 coper strijk eijser,1 coper strijk eijser,irons,19,1,5.08,5.08,0,0,0,0
+MOOC10/8.55/296,MOOC10/8.55,17620504/17620506,2 cop:e strijkijser,2 cop:e strijkijser met sijn voet,irons,8,2,5.08,2.54,1,0,0,0
+MOOC10/6.8/141,MOOC10/6.8,17500930/17501001,1 coper strijkijster,"1 coper strijkijster, 1 coper rasp en 1 coper scheerbecken",irons,6,1,6.08,6.08,1,0,0,0
+MOOC10/24.27/29,MOOC10/24.27,18090325,1 strijkijzer,1 strijkijzer,irons,24,1,7.08,7.08,0,0,0,0
+MOOC10/14.11/163,MOOC10/14.11,17830324/17830325,2 cop: strijkijzers,2 cop: strijkijzers met zijn voeten,irons,14,2,10.08,5.04,1,0,0,0
+MOOC10/18.64/196,MOOC10/18.64,17990816/17990817,2 strijkijzers,2 strijkijzers,irons,18,2,15.08,7.54,0,0,0,0
+MOOC10/2.13/79,MOOC10/2.13,17200823,1 coopere strijkeijser,1 coopere strijkeijser,irons,2,1,1.1,1.1,0,0,0,0
+MOOC10/3.68/48,MOOC10/3.68,17261115,2 ijsere strijkijsers,2 ijsere strijkijsers,irons,3,2,0.12,0.06,0,0,0,0
+MOOC10/5.72/119,MOOC10/5.72,17451210,2 strykysers,2 strykysers,irons,5,2,0.12,0.06,0,0,0,0
+MOOC10/10.55/115,MOOC10/10.55,17720127,1 strijkijser,2 coffij moolens en 1 strijkijser,irons,10,1,0.12,0.12,1,0,0,0
+MOOC10/11.66/24,MOOC10/11.66,17770823,1 strijkijzer,"1 cop: blaker, 1 candelaar en 1 strijkijzer",irons,11,1,0.12,0.12,1,0,0,0
+MOOC10/12.22/96,MOOC10/12.22,17781026,1 strijkeijzer,"1 ijzere taatje, 1 koekepan en 1 strijkeijzer",irons,12,1,0.12,0.12,1,0,0,0
+MOOC10/12.23/11,MOOC10/12.23,17781117,1 strijkeijzer,"1 hackebord, 1 kapmes, 1 strijkeijzer, 1 asschop en 1 vuurtang",irons,12,1,0.12,0.12,1,0,0,0
+MOOC10/12.38/424,MOOC10/12.38,17790816/17790817,1 strijkijzer,2 blicke souspotjes en 1 strijkijzer,irons,12,1,0.12,0.12,1,0,0,0
+MOOC10/12.40/230,MOOC10/12.40,17790909,1 strijkijzer,1 strijkijzer,irons,12,1,0.12,0.12,0,0,0,0
+MOOC10/13.18/99,MOOC10/13.18,17810720,2 ijzere strijk ijzers,2 ijzere strijk ijzers,irons,13,2,0.12,0.06,0,0,0,0
+MOOC10/13.47/14,MOOC10/13.47,17820323,1 strijkijzer,1 ijzere koekepan en 1 strijkijzer,irons,13,1,0.12,0.12,1,0,0,0
+MOOC10/13.63/171,MOOC10/13.63,17821017,1 strijkijzer,1 strijkijzer,irons,13,1,0.12,0.12,0,0,0,0
+MOOC10/15.9/193,MOOC10/15.9,17851209/17851210,1 ijzere strijkijzer,1 ijzere strijkijzer,irons,15,1,0.12,0.12,0,0,0,0
+MOOC10/15.18/86,MOOC10/15.18,17860627,1 strijkijzer,1 strijkijzer en 1 klijne tregter,irons,15,1,0.12,0.12,1,0,0,0
+MOOC10/15.105/260,MOOC10/15.105,No date,1 strijk eijser,een strijk eijser,irons,15,1,0.12,0.12,0,0,0,0
+MOOC10/16.25/12,MOOC10/16.25,17910328,1 strijk ijser,1 strijk ijser en 1 snuijfpot,irons,16,1,0.12,0.12,1,0,0,0
+MOOC10/16.37/98,MOOC10/16.37,17940125,2 ijsere strijkijsers,2 ijsere strijkijsers,irons,16,2,0.12,0.06,0,0,0,0
+MOOC10/17.41/56,MOOC10/17.41,17960618,2 strijkijzers,2 strijkijzers en 2 tinne schotels,irons,17,2,0.12,0.06,1,0,0,0
+MOOC10/21.11/141,MOOC10/21.11,18060221,1 strijkijzer,1 strijkijzer en 1 vijzel,irons,21,1,0.12,0.12,1,0,0,0
+MOOC10/26.7/99,MOOC10/26.7,18121015,1 strijkeijzer,1 strijkeijzer en slot,irons,26,1,0.12,0.12,1,0,0,0
+MOOC10/26.43/29,MOOC10/26.43,18071005,1 strijkijzer,1 strijkijzer,irons,26,1,0.12,0.12,0,0,0,0
+MOOC10/7.23/39,MOOC10/7.23,17550627,3 strijkijsers,3 strijkijsers,irons,7,3,0.12,0.04,0,0,0,0
+MOOC10/7.49/98,MOOC10/7.49,17570228,1 ijsere strijkijser,1 ijsere strijkijser en 1 aardepot,irons,7,1,0.12,0.12,1,0,0,0
+MOOC10/8.20/55,MOOC10/8.20,17551015,2 coop:r strijkijsers,2 coop:r strijkijsers,irons,8,2,0.12,0.06,0,0,0,0
+MOOC10/9.49/75,MOOC10/9.49,17680504,1 cop: strijkijser,1 tinne waterpot en 1 cop: strijkijser,irons,9,1,0.12,0.12,1,0,0,0
+MOOC10/9.54/68,MOOC10/9.54,17671012,2 strijkijsers,2 strijkijsers,irons,9,2,0.12,0.06,0,0,0,0
+MOOC10/3.50/166,MOOC10/3.50,17240612,2 ijsere strijkijsers,2 ijsere strijkijsers,irons,3,2,1.12,0.56,0,0,0,0
+MOOC10/3.75/56,MOOC10/3.75,17290228,1 strijkijser,"1 vierkante tafel, 1 strijkijser en 1 blaasbalg",irons,3,1,1.12,1.12,1,0,0,0
+MOOC10/5.20/479,MOOC10/5.20,17380324,1 ijsere strijkijser,1 kopere en 1 ijsere strijkijser,irons,5,1,1.12,1.12,1,0,0,0
+MOOC10/5.43/26,MOOC10/5.43,17440808,1 copere strijkijsers,"1 ijsere, 1 copere strijkijsers",irons,5,1,1.12,1.12,1,0,0,0
+MOOC10/5.65/43,MOOC10/5.65,17451109,1 strijkyser,"1 strijkyser, 1 coper blaker en 2 coper kandelaars",irons,5,1,1.12,1.12,1,0,0,0
+MOOC10/10.86/186,MOOC10/10.86,17721026/17721027,1 cop:e strijkijser,1 cop:e strijkijser,irons,10,1,1.12,1.12,0,0,0,0
+MOOC10/11.7/135,MOOC10/11.7,17741004,1 cop: strijkijzer,1 cop: strijkijzer,irons,11,1,1.12,1.12,0,0,0,0
+MOOC10/11.47/343,MOOC10/11.47,17761107/17761108,2 strijkijzers,2 strijkijzers,irons,11,2,1.12,0.56,0,0,0,0
+MOOC10/13.16/34,MOOC10/13.16,17810516,1 strijkijzer,1 strijkijzer,irons,13,1,1.12,1.12,0,0,0,0
+MOOC10/13.54/104,MOOC10/13.54,17820816/17820817,1 cop: strijkijser,1 cop: strijkijser,irons,13,1,1.12,1.12,0,0,0,0
+MOOC10/13.62/28,MOOC10/13.62,17821018,1 strijkijzer,1 strijkijzer,irons,13,1,1.12,1.12,0,0,0,0
+MOOC10/14.57/135,MOOC10/14.57,178[...]1103,1 cop: strijkijzer,1 cop: strijkijzer met zijn voet,irons,14,1,1.12,1.12,1,0,0,0
+MOOC10/15.7/95,MOOC10/15.7,17860113,1 cop: strijkijzer,1 cop: strijkijzer en 1 schilderij,irons,15,1,1.12,1.12,1,0,0,0
+MOOC10/15.13/84,MOOC10/15.13,17860519,2 ijzere strijkijzers,2 ijzere strijkijzers,irons,15,2,1.12,0.56,0,0,0,0
+MOOC10/15.14/73,MOOC10/15.14,17860512/17860513,2 ijsere strijkijzers,2 ijsere strijkijzers,irons,15,2,1.12,0.56,0,0,0,0
+MOOC10/15.30/16,MOOC10/15.30,17870322,1 ijser strijk ijser,1 ijser strijk ijser,irons,15,1,1.12,1.12,0,0,0,0
+MOOC10/15.74/322,MOOC10/15.74,17881103/17881104,1 cop: strijk ijzer,1 cop: strijk ijzer met zijn voet,irons,15,1,1.12,1.12,1,0,0,0
+MOOC10/15.86/213,MOOC10/15.86,17890722,1 cop: strijkijzer,1 cop: strijkijzer,irons,15,1,1.12,1.12,0,0,0,0
+MOOC10/16.8/70,MOOC10/16.8,17910218,1 copere klijne strijkijzer,1 copere klijne strijkijzer,irons,16,1,1.12,1.12,0,0,0,0
+MOOC10/16.53/65,MOOC10/16.53,17910718,1 strijkijser,1 strijkijser,irons,16,1,1.12,1.12,0,0,0,0
+MOOC10/17.4/85,MOOC10/17.4,17931112,1 strijkijser,1 strijkijser en 1 kan,irons,17,1,1.12,1.12,1,0,0,0
+MOOC10/18.54/141,MOOC10/18.54,17981025,1 strijk ijzer,1 strijk ijzer,irons,18,1,1.12,1.12,0,0,0,0
+MOOC10/19.35/100,MOOC10/19.35,18010420/18010421,1 strijkijzer,1 strijkijzer,irons,19,1,1.12,1.12,0,0,0,0
+MOOC10/2.33/73,MOOC10/2.33,17211023,1 strijkijser,"1 strijkijser, een tinne com en 3 aarde potten",irons,2,1,1.12,1.12,1,0,0,0
+MOOC10/26.46/66,MOOC10/26.46,18110628,1 strijkijzer,1 strijkijzer,irons,26,1,1.12,1.12,0,0,0,0
+MOOC10/6.13/84,MOOC10/6.13,17501204,1 strijkijser,"2 tinne trekpotten, 1 strijkijser en wat rommeling",irons,6,1,1.12,1.12,1,0,0,0
+MOOC10/6.63/218,MOOC10/6.63,17550927,2 coopere strijkijsers,2 coopere strijkijsers,irons,6,2,1.12,0.56,0,0,0,0
+MOOC10/7.46/95,MOOC10/7.46,17561016,1 coop:r strijkijser,1 coop:r strijkijser,irons,7,1,1.12,1.12,0,0,0,0
+MOOC10/8.41/1844,MOOC10/8.41,"17600922/17600924, 17600929",1 strijkijser,1 strijkijser en 5 snuijters,irons,8,1,1.12,1.12,1,0,0,0
+MOOC10/8.47/180,MOOC10/8.47,17611029,2 strijkijsers,"2 strijkijsers, 1 houte back en wat romm:",irons,8,2,1.12,0.56,1,0,0,0
+MOOC10/9.31/274,MOOC10/9.31,17660403,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,9,2,1.12,0.56,0,0,0,0
+MOOC10/5.47/31,MOOC10/5.47,17440807,1 coopere strijkijser,1 coopere strijkijser met sijn rooster,irons,5,1,2.12,2.12,1,0,0,0
+MOOC10/10.86/333,MOOC10/10.86,17721026/17721027,2 ijsere strijkijsers,1 confoor en 2 ijsere strijkijsers,irons,10,2,2.12,1.06,1,0,0,0
+MOOC10/11.4/21,MOOC10/11.4,17740623,1 copere strijkijser,1 copere strijkijser,irons,11,1,2.12,2.12,0,0,0,0
+MOOC10/11.12/460,MOOC10/11.12,17740829/17740830,1 strijkijzer,"1 cop: ketel, 2 schaaltjes met haar balans en 1 strijkijzer",irons,11,1,2.12,2.12,1,0,0,0
+MOOC10/13.43/100,MOOC10/13.43,17820109,1 cop: strijkijzer,1 cop: strijkijzer en 1 cop: schuijmspaan en 1 cop: dekzel,irons,13,1,2.12,2.12,1,0,0,0
+MOOC10/14.45/265,MOOC10/14.45,17840309/17840311,2 ijzere strijkijzers,2 ijzere strijkijzers,irons,14,2,2.12,1.06,0,0,0,0
+MOOC10/14.45/266,MOOC10/14.45,17840309/17840311,2 ijzere strijkijzers,2 ijzere strijkijzers,irons,14,2,2.12,1.06,0,0,0,0
+MOOC10/14.45/267,MOOC10/14.45,17840309/17840311,2 ijzere strijkijzers,2 ijzere strijkijzers,irons,14,2,2.12,1.06,0,0,0,0
+MOOC10/14.45/268,MOOC10/14.45,17840309/17840311,2 ijzere strijkijzers,2 ijzere strijkijzers,irons,14,2,2.12,1.06,0,0,0,0
+MOOC10/15.10/67,MOOC10/15.10,17860310,1 cop: strijkijzer,1 cop: strijkijzer,irons,15,1,2.12,2.12,0,0,0,0
+MOOC10/15.17/87,MOOC10/15.17,17860627,1 strijkijzer,"1 lepelrak, 1 rooster, 1 tang, 1 wit quast en 1 strijkijzer",irons,15,1,2.12,2.12,1,0,0,0
+MOOC10/18.8/59,MOOC10/18.8,17970415,2 strijkijzers in zoort,2 strijkijzers in zoort,irons,18,2,2.12,1.06,0,0,0,0
+MOOC10/19.8/88,MOOC10/19.8,17990620/17990621,1 strijkijser,1 strijkijser,irons,19,1,2.12,2.12,0,0,0,0
+MOOC10/2.9/462,MOOC10/2.9,17190315,3 koopere strijkijsers,3 koopere strijkijsers,irons,2,3,2.12,0.71,0,0,0,0
+MOOC10/20.17/287,MOOC10/20.17,18020125/18020126,1 strijkijzer,1 strijkijzer,irons,20,1,2.12,2.12,0,0,0,0
+MOOC10/22.42/44,MOOC10/22.42,18060516,1 strijk ijzer etc:a,1 strijk ijzer etc:a,irons,22,1,2.12,2.12,0,0,0,0
+MOOC10/26.43/27,MOOC10/26.43,18071005,1 strijkijzer,1 strijkijzer,irons,26,1,2.12,2.12,0,0,0,0
+MOOC10/6.16/84,MOOC10/6.16,16501116,1 coper strijkijser,1 coper strijkijser en 1 snaphaan,irons,6,1,2.12,2.12,1,0,0,0
+MOOC10/6.19/232,MOOC10/6.19,17481017/17481019,1 coper strijkijser,1 coper kandelaars en 1 coper strijkijser,irons,6,1,2.12,2.12,1,0,0,0
+MOOC10/6.49/272,MOOC10/6.49,17491103/17491104,1 coper strijkijser,1 coper thee ketel met 1 coper strijkijser,irons,6,1,2.12,2.12,1,0,0,0
+MOOC10/6.50/323,MOOC10/6.50,17520523/17520527,1 coper strijkijser,1 coper strijkijser,irons,6,1,2.12,2.12,0,0,0,0
+MOOC10/8.2/248,MOOC10/8.2,17551104/17551106,1 cop: strijkijser,1 cop: strijkijser en 2 roostertjes,irons,8,1,2.12,2.12,1,0,0,0
+MOOC10/9.2/81,MOOC10/9.2,17640712/17640713,3 cop:e strijkijsers,3 cop:e strijkijsers met haar voet,irons,9,3,2.12,0.71,1,0,0,0
+MOOC10/9.22/37,MOOC10/9.22,17670828,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,9,2,2.12,1.06,0,0,0,0
+MOOC10/9.23/169,MOOC10/9.23,17670828,1 cop:e strijkijser,1 cop:e strijkijser,irons,9,1,2.12,2.12,0,0,0,0
+MOOC10/5.42/58,MOOC10/5.42,17440625,1 copere strijkijser,1 copere strijkijser met zijn convoor,irons,5,1,3.12,3.12,1,0,0,0
+MOOC10/11.5/960,MOOC10/11.5,17730329/17730330 17730401/17730402,2 cop: strijkijsers,2 cop: strijkijsers,irons,11,2,3.12,1.56,0,0,0,0
+MOOC10/11.27/176,MOOC10/11.27,17740809/17740810,3 strijkijsers,3 strijkijsers,irons,11,3,3.12,1.04,0,0,0,0
+MOOC10/13.28/366,MOOC10/13.28,17810716/17810717,2 cop: strijk ijzers in soort,2 cop: strijk ijzers in soort,irons,13,2,3.12,1.56,0,0,0,0
+MOOC10/18.22/349,MOOC10/18.22,17910606/17910608,1 kopere strijkijzer,1 kopere strijkijzer,irons,18,1,3.12,3.12,0,0,0,0
+MOOC10/22.68/10,MOOC10/22.68,18060502,1 strijkeiser,1 blikke trommel en 1 strijkeiser,irons,22,1,3.12,3.12,1,0,0,0
+MOOC10/8.53/68,MOOC10/8.53,17620608,1 cop:e strijkijser,1 cop:e strijkijser,irons,8,1,3.12,3.12,0,0,0,0
+MOOC10/8.58/150,MOOC10/8.58,17640731,3 cop:e strijkijsers,3 cop:e strijkijsers,irons,8,3,3.12,1.04,0,0,0,0
+MOOC10/5.42/59,MOOC10/5.42,17440625,1 copere strijkijser,1 copere strijkijser met zijn convoor,irons,5,1,4.12,4.12,1,0,0,0
+MOOC10/10.77/79,MOOC10/10.77,17730302,1 cop:e strijkijser,1 cop:e strijkijser,irons,10,1,4.12,4.12,0,0,0,0
+MOOC10/10.79/69,MOOC10/10.79,17721130,3 cop:e strijkijsers,3 cop:e strijkijsers,irons,10,3,4.12,1.37,0,0,0,0
+MOOC10/13.36/217,MOOC10/13.36,17811211/17811212,1 cop: strijkijzer,1 cop: strijkijzer,irons,13,1,4.12,4.12,0,0,0,0
+MOOC10/13.58/81,MOOC10/13.58,17820427,1 cop: strijkijzer,1 cop: strijkijzer,irons,13,1,4.12,4.12,0,0,0,0
+MOOC10/20.5/58,MOOC10/20.5,18030526,1 kopere strijk ijzer,1 kopere strijk ijzer,irons,20,1,4.12,4.12,0,0,0,0
+MOOC10/24.19/67,MOOC10/24.19,18080204,1 strijkijzer,1 strijkijzer,irons,24,1,5.12,5.12,0,0,0,0
+MOOC10/26.43/28,MOOC10/26.43,18071005,1 strijkijzer,1 strijkijzer,irons,26,1,5.12,5.12,0,0,0,0
+MOOC10/6.33/489,MOOC10/6.33,17480823/17480824|17480902/17480905|17480921,2 coper strijkijsers,2 coper strijkijsers,irons,6,2,5.12,2.56,0,0,0,0
+MOOC10/7.17/875,MOOC10/7.17,17520327/17520330,4 coper strijkijsers,4 coper strijkijsers,irons,7,4,5.12,1.28,0,0,0,0
+MOOC10/20.6_1/2/362,MOOC10/20.6_1/2,18030620/18030621,2 kopere strijk ijzers,2 kopere strijk ijzers,irons,20,2,7.12,3.56,0,0,0,0
+MOOC10/22.55/55,MOOC10/22.55,18071005,1 strijkijzer,1 strijkijzer,irons,22,1,8.12,8.12,0,0,0,0
+MOOC10/14.11/162,MOOC10/14.11,17830324/17830325,2 cop: strijkijzers,2 cop: strijkijzers met zijn voeten,irons,14,2,9.12,4.56,1,0,0,0
+MOOC10/19.54/25,MOOC10/19.54,18030328,2 strijkstokken,1 viool en 2 strijkstokken,irons,19,2,28.12,14.06,1,0,0,0
+MOOC10/3.50/142,MOOC10/3.50,17240612,2 kopere strijkijsers,2 kopere strijkijsers,irons,3,2,0.15,0.07,0,0,0,0
+MOOC10/3.74/50,MOOC10/3.74,17290309,1 strijkijser,1 strijkijser en 1 boter pot,irons,3,1,0.15,0.15,1,0,0,0
+MOOC10/5.63/203,MOOC10/5.63,17410420,2 coper strijkijsers,2 coper strijkijsers en 1 coper blaker,irons,5,2,0.15,0.07,1,0,0,0
+MOOC10/10.32/7,MOOC10/10.32,17710320,1 strijk ijser,1 partij aardewerk en 1 strijk ijser,irons,10,1,0.15,0.15,1,0,0,0
+MOOC10/11.29/34,MOOC10/11.29,17741004,1 strijkijzer,1 strijkijzer,irons,11,1,0.15,0.15,0,0,0,0
+MOOC10/11.40/113,MOOC10/11.40,17750513,1 strijkeijster,een strijkeijster,irons,11,1,0.15,0.15,0,0,0,0
+MOOC10/11.52/24,MOOC10/11.52,17770623,1 cop: strijkijzer,1 cop: strijkijzer en 1 blicke slonsje,irons,11,1,0.15,0.15,1,0,0,0
+MOOC10/12.25/164,MOOC10/12.25,[...]0201/[...]0202,1 kopere strijkijzer,1 kopere strijkijzer,irons,12,1,0.15,0.15,0,0,0,0
+MOOC10/12.46/29,MOOC10/12.46,17800117,1 strijkijzer,1 strijkijzer en 1 witquast,irons,12,1,0.15,0.15,1,0,0,0
+MOOC10/12.47/94,MOOC10/12.47,17800331,1 ijzere strijkijzer,1 ijzere strijkijzer,irons,12,1,0.15,0.15,0,0,0,0
+MOOC10/13.15/62,MOOC10/13.15,17810410,1 strijkijzer,"1 handstoffer, 1 strijkijzer en handblakers",irons,13,1,0.15,0.15,1,0,0,0
+MOOC10/13.31/64,MOOC10/13.31,17810313,1 ijzere strijkijzer,1 ijzere strijkijzer,irons,13,1,0.15,0.15,0,0,0,0
+MOOC10/14.66/50,MOOC10/14.66,17850810,1 strijk ijzer,1 bak en 1 strijk ijzer,irons,14,1,0.15,0.15,1,0,0,0
+MOOC10/15.11/110,MOOC10/15.11,17860317,2 strijkijzers,2 strijkijzers,irons,15,2,0.15,0.07,0,0,0,0
+MOOC10/15.27/65,MOOC10/15.27,17870126,3 strijkijzers,3 strijkijzers,irons,15,3,0.15,0.05,0,0,0,0
+MOOC10/15.50/435,MOOC10/15.50,17870821/17870822,2 strijkijzers,2 strijkijzers,irons,15,2,0.15,0.07,0,0,0,0
+MOOC10/15.50/436,MOOC10/15.50,17870821/17870822,1 strijkijzers,1 strijkijzers en 1 sijkertang,irons,15,1,0.15,0.15,1,0,0,0
+MOOC10/15.59/116,MOOC10/15.59,178YYYYY,1 strijk ijser,1 strijk ijser,irons,15,1,0.15,0.15,0,0,0,0
+MOOC10/15.78/183,MOOC10/15.78,17890116,1 cop: strijkijser,1 cop: strijkijser,irons,15,1,0.15,0.15,0,0,0,0
+MOOC10/16.30/67,MOOC10/16.30,17891110,1 strijkijzer,1 strijkijzer,irons,16,1,0.15,0.15,0,0,0,0
+MOOC10/17.40/172,MOOC10/17.40,17950407,1 strijk ijzer,1 strijk ijzer,irons,17,1,0.15,0.15,0,0,0,0
+MOOC10/17.65_1/2/21,MOOC10/17.65_1/2,17970515,1 strijkleer,"1 foudraal met 2 scheerm:, 1 zeepdoos en 1 strijkleer",irons,17,1,0.15,0.15,1,0,0,0
+MOOC10/18.56/54,MOOC10/18.56,17981129,1 strijk ijzer,1 strijk ijzer,irons,18,1,0.15,0.15,0,0,0,0
+MOOC10/2.25/117,MOOC10/2.25,17210224,1 kopere strijkijser,1 kopere strijkijser met een tregter,irons,2,1,0.15,0.15,1,0,0,0
+MOOC10/20.6_1/2/366,MOOC10/20.6_1/2,18030620/18030621,1 kopere defecte strijkijzer,1 kopere defecte strijkijzer,irons,20,1,0.15,0.15,0,0,1,0
+MOOC10/20.19/162,MOOC10/20.19,18040723,1 strijk ijzer,1 strijk ijzer,irons,20,1,0.15,0.15,0,0,0,0
+MOOC10/24.15/103,MOOC10/24.15,18100302,1 strijkijzer,1 strijkijzer,irons,24,1,0.15,0.15,0,0,0,0
+MOOC10/26.47/29,MOOC10/26.47,18121114,1 strijk ijzer,"1 strijk ijzer, ijzer oud",irons,26,1,0.15,0.15,1,0,0,0
+MOOC10/6.12/81,MOOC10/6.12,17510604,2 coper strijkijsers,2 coper strijkijsers,irons,6,2,0.15,0.07,0,0,0,0
+MOOC10/6.63/79,MOOC10/6.63,17550927,2 ijsere strijkijsers,2 ijsere strijkijsers en voet,irons,6,2,0.15,0.07,1,0,0,0
+MOOC10/7.23/48,MOOC10/7.23,17550627,2 copere strijkijsers,2 copere strijkijsers,irons,7,2,0.15,0.07,0,0,0,0
+MOOC10/8.20/54,MOOC10/8.20,17551015,2 coop:r strijkijsers,2 coop:r strijkijsers,irons,8,2,0.15,0.07,0,0,0,0
+MOOC10/9.50/66,MOOC10/9.50,17680917,1 ijsere strijkijser,"1 ijsere strijkijser, 1 cop:e vuurtesje en 1 cop:e theebusje",irons,9,1,0.15,0.15,1,0,0,0
+MOOC10/9.62/56,MOOC10/9.62,17681123,1 strijkijser,"1 cop:e vuurtesje, 2 cop:e schaaltjes en 1 strijkijser",irons,9,1,0.15,0.15,1,0,0,0
+MOOC10/3.68/49,MOOC10/3.68,17261115,2 kopere strijkijsers,2 kopere strijkijsers,irons,3,2,1.15,0.57,0,0,0,0
+MOOC10/5.25/116,MOOC10/5.25,17391104,2 coper strijkijsers,2 coper strijkijsers,irons,5,2,1.15,0.57,0,0,0,0
+MOOC10/5.44/38,MOOC10/5.44,17441014,1 kopere strijkijser,1 kopere strijkijser,irons,5,1,1.15,1.15,0,0,0,0
+MOOC10/5.53/21,MOOC10/5.53,17451030,1 copere strijkijser,1 copere strijkijser en 1 trommeltje,irons,5,1,1.15,1.15,1,0,0,0
+MOOC10/5.56/49,MOOC10/5.56,17441204,1 kopere strijkyser,1 kopere strijkyser,irons,5,1,1.15,1.15,0,0,0,0
+MOOC10/10.6/84,MOOC10/10.6,17700319,1 strijkijser,1 strijkijser en 1 vuurtest,irons,10,1,1.15,1.15,1,0,0,0
+MOOC10/10.11/75,MOOC10/10.11,17680201,3 cop:e strijkijsers,3 cop:e strijkijsers,irons,10,3,1.15,0.38,0,0,0,0
+MOOC10/10.80/20,MOOC10/10.80,17730628,1 copere strijkijser,1 copere strijkijser en 1 blikke lantaarn,irons,10,1,1.15,1.15,1,0,0,0
+MOOC10/11.33/83,MOOC10/11.33,17760731,1 strijkijzer,1 strijkijzer,irons,11,1,1.15,1.15,0,0,0,0
+MOOC10/11.51/63,MOOC10/11.51,17760920,1 kopere strijkijzer,1 kopere strijkijzer,irons,11,1,1.15,1.15,0,0,0,0
+MOOC10/12.12/155,MOOC10/12.12,17771208,1 copere strijkijzer,1 copere strijkijzer,irons,12,1,1.15,1.15,0,0,0,0
+MOOC10/12.22/106,MOOC10/12.22,17781026,1 ijzere strijkijzer,1 ijzere strijkijzer,irons,12,1,1.15,1.15,0,0,0,0
+MOOC10/12.27/327,MOOC10/12.27,"17790512, 17790514",4 strijkijzers in zoort,4 strijkijzers in zoort,irons,12,4,1.15,0.29,0,0,0,0
+MOOC10/12.39/49,MOOC10/12.39,17780810/17780811,1 ijsere strijkijser,1 ijsere strijkijser en zijn voet,irons,12,1,1.15,1.15,1,0,0,0
+MOOC10/13.5/210,MOOC10/13.5,17791227/17791228,1 strijkijzer,"1 strijkijzer, 1 mes en 2 kranen",irons,13,1,1.15,1.15,1,0,0,0
+MOOC10/15.14/74,MOOC10/15.14,17860512/17860513,1 cop: strijkijzers,1 cop: strijkijzers,irons,15,1,1.15,1.15,0,0,0,0
+MOOC10/15.80_1/2/269,MOOC10/15.80_1/2,17890223,2 cop: strijkijsers,2 cop: strijkijsers,irons,15,2,1.15,0.57,0,0,0,0
+MOOC10/16.39/382,MOOC10/16.39,17931028/17931029,1 strijkijser,1 strijkijser,irons,16,1,1.15,1.15,0,0,0,0
+MOOC10/17.39/73,MOOC10/17.39,17951127,1 ijzere strijk ijzer,1 ijzere strijk ijzer,irons,17,1,1.15,1.15,0,0,0,0
+MOOC10/17.45_1/2/164,MOOC10/17.45_1/2,17960328, strijkijzer,"1 spiegel, koffij kan en strijkijzer",irons,17,,1.15,-99,1,0,0,0
+MOOC10/18.22/347,MOOC10/18.22,17910606/17910608,1 kopere strijkijzer,1 kopere strijkijzer,irons,18,1,1.15,1.15,0,0,0,0
+MOOC10/18.56/55,MOOC10/18.56,17981129,1 strijk ijzer,1 strijk ijzer,irons,18,1,1.15,1.15,0,0,0,0
+MOOC10/19.45/792,MOOC10/19.45,18020712,2 kuijpers strijk schaven,2 kuijpers strijk schaven,irons,19,2,1.15,0.57,0,0,0,0
+MOOC10/20.26/6,MOOC10/20.26,18040409,1 strijk ijzer,1 schaar en 1 strijk ijzer,irons,20,1,1.15,1.15,1,0,0,0
+MOOC10/20.50/78,MOOC10/20.50,18040402,1 strijck ijzer,1 strijck ijzer,irons,20,1,1.15,1.15,0,0,0,0
+MOOC10/21.19/12,MOOC10/21.19,18050312,1 strijk ijzer,1 strijk ijzer,irons,21,1,1.15,1.15,0,0,0,0
+MOOC10/21.33/54,MOOC10/21.33,18040507,1 strijklaadje etc:a,"2 tabaks doosjes, 1 strijklaadje etc:a",irons,21,1,1.15,1.15,1,0,0,0
+MOOC10/22.12/10,MOOC10/22.12,18050727,1 strijkijzer,1 koffij kan en 1 strijkijzer,irons,22,1,1.15,1.15,1,0,0,0
+MOOC10/22.14/26,MOOC10/22.14,18060529,1 strijkijzer,"1 strijkijzer, 1 rasp, 1 kandelaar, 3 blakers en 1 snuijter",irons,22,1,1.15,1.15,1,0,0,0
+MOOC10/22.66/324,MOOC10/22.66,18060218/18060219,1 strijkijzer,1 strijkijzer,irons,22,1,1.15,1.15,0,0,0,0
+MOOC10/23.41/185,MOOC10/23.41,18080614,1 kleine koopere strijk ijzer,1 kleine koopere strijk ijzer,irons,23,1,1.15,1.15,0,0,0,0
+MOOC10/24.31/209,MOOC10/24.31,18100820/18100821,1 strijkijzer,1 strijkijzer,irons,24,1,1.15,1.15,0,0,0,0
+MOOC10/24.31/211,MOOC10/24.31,18100820/18100821,1 strijkijzer,1 strijkijzer,irons,24,1,1.15,1.15,0,0,0,0
+MOOC10/6.10/189,MOOC10/6.10,17490819/17490820,1 coper strijkijser,1 coper strijkijser en 1 coper tregter,irons,6,1,1.15,1.15,1,0,0,0
+MOOC10/6.17/34,MOOC10/6.17,17500916,1 coper strijkijser,"1 coper strijkijser, 1 coper schuijmspaan, 1 coper beker en 1 coper tregter",irons,6,1,1.15,1.15,1,0,0,0
+MOOC10/6.50/333,MOOC10/6.50,17520523/17520527,1 coper strijkijser,1 coper strijkijser,irons,6,1,1.15,1.15,0,0,0,0
+MOOC10/6.57_1/2/1346,MOOC10/6.57_1/2,"17551030/17551031, 17551101",2 cop:e strijkijsers,2 cop:e strijkijsers,irons,6,2,1.15,0.57,0,0,0,0
+MOOC10/8.37/23,MOOC10/8.37,17630719,1 strijkijser,"1 bijl, 1 rooster, 1 strijkijser, 1 halfaam en wat romm:",irons,8,1,1.15,1.15,1,0,0,0
+MOOC10/8.52/59,MOOC10/8.52,17640330,3 cop:e strijkijsers,3 cop:e strijkijsers,irons,8,3,1.15,0.38,0,0,0,0
+MOOC10/9.4_1/2/9,MOOC10/9.4_1/2,17650223,1 copere strijkijser,1 copere strijkijser,irons,9,1,1.15,1.15,0,0,0,0
+MOOC10/9.42/55,MOOC10/9.42,17691113,3 cop:e strijkeijsers,3 cop:e strijkeijsers en 1 cop:e vuurtest,irons,9,3,1.15,0.38,1,0,0,0
+MOOC10/10.18/44,MOOC10/10.18,17700314,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,10,2,2.15,1.07,0,0,0,0
+MOOC10/10.78/24,MOOC10/10.78,17730510,1 copere strijkijser,1 copere strijkijser,irons,10,1,2.15,2.15,0,0,0,0
+MOOC10/11.62/441,MOOC10/11.62,17770220/17770221,3 ijzere strijkijzers,3 ijzere strijkijzers,irons,11,3,2.15,0.72,0,0,0,0
+MOOC10/14.38/160,MOOC10/14.38,17840413/17840414,1 cop: strijkijzer,1 cop: strijkijzer,irons,14,1,2.15,2.15,0,0,0,0
+MOOC10/16.37/97,MOOC10/16.37,17940125,1 koopere strijkijsers,1 koopere strijkijsers,irons,16,1,2.15,2.15,0,0,0,0
+MOOC10/17.38/393,MOOC10/17.38,17951110/17951111,6 cop: strijk ijzers,6 cop: strijk ijzers,irons,17,6,2.15,0.36,0,0,0,0
+MOOC10/18.19/178,MOOC10/18.19,17980312/17980313,1 strijk ijzer,1 strijk ijzer en 1 aarde potje,irons,18,1,2.15,2.15,1,0,0,0
+MOOC10/2.3/88,MOOC10/2.3,17180725,1 kooper strijkijser,1 kooper strijkijser,irons,2,1,2.15,2.15,0,0,0,0
+MOOC10/20.51/149,MOOC10/20.51,18041203/18041204,1 kopere strijk ijzer,1 kopere strijk ijzer,irons,20,1,2.15,2.15,0,0,0,0
+MOOC10/21.64/108,MOOC10/21.64,18060418,1 strijkijzer,1 strijkijzer,irons,21,1,2.15,2.15,0,0,0,0
+MOOC10/24.7/54,MOOC10/24.7,18090105,1 strijk eijster,1 strijk eijster,irons,24,1,2.15,2.15,0,0,0,0
+MOOC10/24.33/236,MOOC10/24.33,18100810/18100811,2 strijkijzers,2 strijkijzers,irons,24,2,2.15,1.07,0,0,0,0
+MOOC10/24.35/107,MOOC10/24.35,18100723/18100724,1 strijkijzer,1 strijkijzer en 2 tregters,irons,24,1,2.15,2.15,1,0,0,0
+MOOC10/6.12/80,MOOC10/6.12,17510604,1 coper strijkijser,1 coper strijkijser met sijn voet,irons,6,1,2.15,2.15,1,0,0,0
+MOOC10/6.20/64,MOOC10/6.20,17491021/17491022,1 coper strijkijser,1 coper strijkijser,irons,6,1,2.15,2.15,0,0,0,0
+MOOC10/8.49/318,MOOC10/8.49,17620329/17620330,1 cop:e strijkijser,1 cop:e strijkijser met sijn voet,irons,8,1,2.15,2.15,1,0,0,0
+MOOC10/8.59/158,MOOC10/8.59,17640402,1 cop:e strijkijser,"1 cop:e poffertjespan, 1 cop:e vergiettest en 1 cop:e strijkijser",irons,8,1,2.15,2.15,1,0,0,0
+MOOC10/9.15/571,MOOC10/9.15,17640717/17640720,2 cop:e strijkijsers,2 cop:e strijkijsers met 2 voeten,irons,9,2,2.15,1.07,1,0,0,0
+MOOC10/4.120/36,MOOC10/4.120,17340609,2 kopere strijkijsers,"2 kopere strijkijsers, 1 tregter, 1 beker en 1 coffijkan",irons,4,2,3.15,1.57,1,0,0,0
+MOOC10/10.14/351,MOOC10/10.14,17700427/17700428,2 cop:e strijkijsers,2 cop:e strijkijsers met haar roosters,irons,10,2,3.15,1.57,1,0,0,0
+MOOC10/10.64/69,MOOC10/10.64,17730215,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,10,2,3.15,1.57,0,0,0,0
+MOOC10/13.52/48,MOOC10/13.52,17821211,1 cop: strijkijzer,1 cop: strijkijzer,irons,13,1,3.15,3.15,0,0,0,0
+MOOC10/14.48/132,MOOC10/14.48,17840406,2 cop: strijkijsers,2 cop: strijkijsers,irons,14,2,3.15,1.57,0,0,0,0
+MOOC10/15.95/54,MOOC10/15.95,17900630,2 cop: strijkijsers,2 cop: strijkijsers en 1 rooster,irons,15,2,3.15,1.57,1,0,0,0
+MOOC10/20.48/254,MOOC10/20.48,18050325/18050326,1 strijk ijzer,1 strijk ijzer,irons,20,1,3.15,3.15,0,0,0,0
+MOOC10/20.68/46,MOOC10/20.68,18050518,3 ijzere strijkijzers,"3 ijzere strijkijzers, 3 hamers en 2 zagen",irons,20,3,3.15,1.05,1,0,0,0
+MOOC10/21.33/3,MOOC10/21.33,18040507,2 strijk ijzers,2 strijk ijzers en wat rommeling,irons,21,2,3.15,1.57,1,0,0,0
+MOOC10/26.37/11,MOOC10/26.37,18120601,1 strijk ijzer,1 strijk ijzer,irons,26,1,3.15,3.15,0,0,0,0
+MOOC10/8.41/1837,MOOC10/8.41,"17600922/17600924, 17600929",1 cop:e strijkijser,2 cop:e blakers en 1 cop:e strijkijser,irons,8,1,3.15,3.15,1,0,0,0
+MOOC10/5.46/28,MOOC10/5.46,17440720,2 copere strijkysers,2 copere strijkysers,irons,5,2,4.15,2.08,0,0,0,0
+MOOC10/10.34/241,MOOC10/10.34,17710819,1 strijkijser,"1 ijsere confoor, 1 strijkijser, 1 tregter en 1 staartpannetje",irons,10,1,4.15,4.15,1,0,0,0
+MOOC10/15.13/162,MOOC10/15.13,17860519, zijn strijkstok,1 fiool met zijn strijkstok,irons,15,,4.15,-99,1,0,0,0
+MOOC10/18.62/7,MOOC10/18.62,17970930,1 strijkijzer,1 strijkijzer,irons,18,1,4.15,4.15,0,0,0,0
+MOOC10/20.6_1/2/363,MOOC10/20.6_1/2,18030620/18030621,4 kopere strijk ijzers in zoort,4 kopere strijk ijzers in zoort,irons,20,4,4.15,1.04,0,0,0,0
+MOOC10/22.17/91,MOOC10/22.17,18051219/18051220,1 strijkijzer,1 strijkijzer,irons,22,1,4.15,4.15,0,0,0,0
+MOOC10/8.27/41,MOOC10/8.27,17601023,1 cop:e strijkijser,1 cop:e strijkijser,irons,8,1,4.15,4.15,0,0,0,0
+MOOC10/5.46/25,MOOC10/5.46,17440720,2 copere strykysers,2 copere strykysers,irons,5,2,5.15,2.58,0,0,0,0
+MOOC10/24.2/328,MOOC10/24.2,18090112/18090113,1 strijkijzer,1 strijkijzer,irons,24,1,5.15,5.15,0,0,0,0
+MOOC10/9.31/272,MOOC10/9.31,17660403,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,9,2,5.15,2.58,0,0,0,0
+MOOC10/4.113/95,MOOC10/4.113,17330527,3 kopere strijkijsers,3 kopere strijkijsers,irons,4,3,6.15,2.05,0,0,0,0
+MOOC10/11.5/959,MOOC10/11.5,17730329/17730330 17730401/17730402,2 cop: strijkijsers,2 cop: strijkijsers,irons,11,2,6.15,3.08,0,0,0,0
+MOOC10/19.11/432,MOOC10/19.11,18000505/18000506,2 kopere strijkijzers,2 kopere strijkijzers,irons,19,2,6.15,3.08,0,0,0,0
+MOOC10/20.25/40,MOOC10/20.25,18040418, strijk leder,4 scheermessen en strijk leder,irons,20,,6.15,-99,1,0,0,0
+MOOC10/24.33/237,MOOC10/24.33,18100810/18100811,1 strijkijzers,1 strijkijzers,irons,24,1,6.15,6.15,0,0,0,0
+MOOC10/22.56/109,MOOC10/22.56,18060926,1 strijkijzer,"1 strijkijzer, kopere",irons,22,1,7.15,7.15,1,0,0,0
+MOOC10/24.2/327,MOOC10/24.2,18090112/18090113,1 strijkijzer,1 strijkijzer,irons,24,1,7.15,7.15,0,0,0,0
+MOOC10/23.15/46,MOOC10/23.15,18071223,1 strijkijzer,1 strijkijzer,irons,23,1,9.15,9.15,0,0,0,0
+MOOC10/23.41/184,MOOC10/23.41,18080614,1 koopere strijk ijzer,1 koopere strijk ijzer,irons,23,1,11.15,11.15,0,0,0,0
+MOOC10/19.45/585,MOOC10/19.45,18020712,2 strijk ijzers,2 strijk ijzers,irons,19,2,14.15,7.08,0,0,0,0
+MOOC10/4.119/183,MOOC10/4.119,17330713,3 strijkijsers,3 strijkijsers,irons,4,3,0.19,0.06,0,0,0,0
+MOOC10/10.63/89,MOOC10/10.63,17721223,1 cop:e strijkijser,1 cop:e strijkijser,irons,10,1,0.19,0.19,0,0,0,0
+MOOC10/11.41/1280,MOOC10/11.41,17741219/17741222,2 strijkijsers,2 strijkijsers,irons,11,2,0.19,0.1,0,0,0,0
+MOOC10/11.41/1282,MOOC10/11.41,17741219/17741222,2 strijkijsers,2 strijkijsers,irons,11,2,0.19,0.1,0,0,0,0
+MOOC10/11.41/1286,MOOC10/11.41,17741219/17741222,2 strijkijsers,2 strijkijsers,irons,11,2,0.19,0.1,0,0,0,0
+MOOC10/11.41/1287,MOOC10/11.41,17741219/17741222,2 strijkijsers,2 strijkijsers,irons,11,2,0.19,0.1,0,0,0,0
+MOOC10/12.21/152,MOOC10/12.21,17781022,1 strijkleer,"1 olijsteen, 1 papier schaar en 1 strijkleer",irons,12,1,0.19,0.19,1,0,0,0
+MOOC10/14.59/11,MOOC10/14.59,17841106,1 strijk ijzer,1 strijk ijzer,irons,14,1,0.19,0.19,0,0,0,0
+MOOC10/15.3/208,MOOC10/15.3,17851003,1 ijzere strijkijzer,1 ijzere strijkijzer,irons,15,1,0.19,0.19,0,0,0,0
+MOOC10/15.31/140,MOOC10/15.31,17870706,3 ijzere strijkijzers,3 ijzere strijkijzers en 5 stucken gewigt,irons,15,3,0.19,0.06,1,0,0,0
+MOOC10/15.31/180,MOOC10/15.31,17870706,1 strijkijzer,"1 ijzere ketel, 1 slonsje, 1 beker en 1 strijkijzer",irons,15,1,0.19,0.19,1,0,0,0
+MOOC10/15.36/73,MOOC10/15.36,17870126,2 strijk ijsers,2 strijk ijsers,irons,15,2,0.19,0.1,0,0,0,0
+MOOC10/15.37/31,MOOC10/15.37,17870803,4 strijkijzers,"1 kapblok, 1 backen, 1 haspel, 4 strijkijzers en wat romm:",irons,15,4,0.19,0.05,1,0,0,0
+MOOC10/15.96/86,MOOC10/15.96,17901230,2 strijkijsers,2 strijkijsers en 1 rooster,irons,15,2,0.19,0.1,1,0,0,0
+MOOC10/16.1/122,MOOC10/16.1,17901015,1 kopere strijk ijzer,1 kopere strijk ijzer,irons,16,1,0.19,0.19,0,0,0,0
+MOOC10/16.7/48,MOOC10/16.7,17901118,1 copre strijkijzer,1 copre keeteltje en 1 copre strijkijzer,irons,16,1,0.19,0.19,1,0,0,0
+MOOC10/16.21/112,MOOC10/16.21,17901115,1 strijkijser,1 strijkijser,irons,16,1,0.19,0.19,0,0,0,0
+MOOC10/17.17_1/2/46,MOOC10/17.17_1/2,17940519,1 strijkijser,"1 emmer, 1 strijkijser, 1 oude keetel en wat rommel:",irons,17,1,0.19,0.19,1,0,0,0
+MOOC10/18.22/348,MOOC10/18.22,17910606/17910608,1 kopere strijkijzer,1 kopere strijkijzer,irons,18,1,0.19,0.19,0,0,0,0
+MOOC10/19.16/29,MOOC10/19.16,18001129,1 ijzer strijk ijzer,1 ijzer strijk ijzer,irons,19,1,0.19,0.19,0,0,0,0
+MOOC10/2.34/195,MOOC10/2.34,17211128,1 stryk yzer,1 stryk yzer met een schuymspaan,irons,2,1,0.19,0.19,1,0,0,0
+MOOC10/20.27/89,MOOC10/20.27,18040704,3 strijkijzers in soort,3 strijkijzers in soort,irons,20,3,0.19,0.06,0,0,0,0
+MOOC10/20.38/22,MOOC10/20.38,18031209,1 strijkijzer,"1 strijkijzer en 1 vleesch vork, def:",irons,20,1,0.19,0.19,1,0,0,0
+MOOC10/22.95/152,MOOC10/22.95,18070618/18070619,1 strijkijzer,1 strijkijzer,irons,22,1,0.19,0.19,0,0,0,0
+MOOC10/23.35/156,MOOC10/23.35,17950330/17950331,1 kopere strijk ijzer,1 kopere strijk ijzer,irons,23,1,0.19,0.19,0,0,0,0
+MOOC10/6.42/155,MOOC10/6.42,17520502,1 strijkijser,1 roster tot een strijkijser,irons,6,1,0.19,0.19,1,0,0,0
+MOOC10/6.50/571,MOOC10/6.50,17520523/17520527,1 strijkijser,1 strijkijser,irons,6,1,0.19,0.19,0,0,0,0
+MOOC10/6.60/217,MOOC10/6.60,17561026,1 ijser strijkijser,1 cop:r ink kooker en 1 ijser strijkijser,irons,6,1,0.19,0.19,1,0,0,0
+MOOC10/8.3/45,MOOC10/8.3,17570627,1 strijkijser,1 zift en 1 strijkijser,irons,8,1,0.19,0.19,1,0,0,0
+MOOC10/8.25/104,MOOC10/8.25,17601215,3 ijsere strijkijsers,3 ijsere strijkijsers,irons,8,3,0.19,0.06,0,0,0,0
+MOOC10/9.1/132,MOOC10/9.1,17650401,2 strijkijsers,2 strijkijsers,irons,9,2,0.19,0.1,0,0,0,0
+MOOC10/9.31/354,MOOC10/9.31,17660403,1 strijkijser,1 spiegel en 1 strijkijser met de rooster,irons,9,1,0.19,0.19,1,0,0,0
+MOOC10/9.37/138,MOOC10/9.37,17670914,1 strijkijser,"2 houte polleepels, 1 strijkijser, 1 parsijser en wat ijser werk",irons,9,1,0.19,0.19,1,0,0,0
+MOOC10/9.48/71,MOOC10/9.48,17680604,3 cop:e strijkijsers,3 cop:e strijkijsers,irons,9,3,0.19,0.06,0,0,0,0
+MOOC10/9.48/172,MOOC10/9.48,17680604,1 strijkijser,1 strijkijser,irons,9,1,0.19,0.19,0,0,0,0
+MOOC10/9.61/58,MOOC10/9.61,17690227,1 strijkijser,1 harsvang:s en 1 strijkijser,irons,9,1,0.19,0.19,1,0,0,0
+MOOC10/5.18/23,MOOC10/5.18,17381018,1 strijkijser,"1 strijkijser, 1 schuijmspaan, 2 kopere en 1 ijsere tang",irons,5,1,1.19,1.19,1,0,0,0
+MOOC10/5.44/36,MOOC10/5.44,17441014,1 kopere strijkijser,1 kopere strijkijser,irons,5,1,1.19,1.19,0,0,0,0
+MOOC10/5.44/39,MOOC10/5.44,17441014,1 kopere strijkijser,1 kopere strijkijser,irons,5,1,1.19,1.19,0,0,0,0
+MOOC10/5.58_1/2/165,MOOC10/5.58_1/2,17431212,1 stryk ijser,1 stryk ijser en 1 rooster,irons,5,1,1.19,1.19,1,0,0,0
+MOOC10/5.74/283,MOOC10/5.74,17470111,1 yser strijkijser,1 coper bottelgreep en 1 yser strijkijser,irons,5,1,1.19,1.19,1,0,0,0
+MOOC10/10.43/41,MOOC10/10.43,17710415,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,10,2,1.19,0.59,0,0,0,0
+MOOC10/11.41/1281,MOOC10/11.41,17741219/17741222,4 strijkijsers,4 strijkijsers,irons,11,4,1.19,0.3,0,0,0,0
+MOOC10/11.41/1283,MOOC10/11.41,17741219/17741222,4 strijkijsers,4 strijkijsers,irons,11,4,1.19,0.3,0,0,0,0
+MOOC10/11.41/1284,MOOC10/11.41,17741219/17741222,4 strijkijsers,4 strijkijsers,irons,11,4,1.19,0.3,0,0,0,0
+MOOC10/11.41/1288,MOOC10/11.41,17741219/17741222,4 strijkijsers,4 strijkijsers,irons,11,4,1.19,0.3,0,0,0,0
+MOOC10/13.3/8,MOOC10/13.3,17790430,1 strijkeijster,een strijkeijster,irons,13,1,1.19,1.19,0,0,0,0
+MOOC10/14.65/241,MOOC10/14.65,17850225,1 cop: strijk ijzer,1 cop: strijk ijzer,irons,14,1,1.19,1.19,0,0,0,0
+MOOC10/15.29/98,MOOC10/15.29,17870427,2 strijkijzers,2 strijkijzers en 1 taartepan,irons,15,2,1.19,0.59,1,0,0,0
+MOOC10/15.40/97,MOOC10/15.40,17870623,2 cop: strijkijzers,2 cop: strijkijzers,irons,15,2,1.19,0.59,0,0,0,0
+MOOC10/19.28/12,MOOC10/19.28,17990720,1 strijk ijzer,1 strijk ijzer,irons,19,1,1.19,1.19,0,0,0,0
+MOOC10/19.30/302,MOOC10/19.30,18020308/18020309,1 strijkijzer,1 strijkijzer,irons,19,1,1.19,1.19,0,0,0,0
+MOOC10/20.13/74,MOOC10/20.13,18031022,1 strijkijzer,1 strijkijzer,irons,20,1,1.19,1.19,0,0,0,0
+MOOC10/20.78/321,MOOC10/20.78,18050702/18050703,1 strijk ijzer,1 strijk ijzer,irons,20,1,1.19,1.19,0,0,0,0
+MOOC10/21.26/20,MOOC10/21.26,18041220,1 strijkijzer,"1 koffijmoole, 1 strijkijzer",irons,21,1,1.19,1.19,1,0,0,0
+MOOC10/6.14/14,MOOC10/6.14,17501204,1 strijkijser,1 strijkijser en 1 confoor,irons,6,1,1.19,1.19,1,0,0,0
+MOOC10/6.48/75,MOOC10/6.48,17520529/17520530,2 coper strijkijsers,2 coper strijkijsers,irons,6,2,1.19,0.59,0,0,0,0
+MOOC10/6.52/396,MOOC10/6.52,"17540522, 17540524/17540525",1 copere strijkijser,1 copere strijkijser,irons,6,1,1.19,1.19,0,0,0,0
+MOOC10/7.11/299,MOOC10/7.11,17551118/17551119,2 cop: strijkijsers,2 cop: strijkijsers met haar rooster,irons,7,2,1.19,0.59,1,0,0,0
+MOOC10/7.22/82,MOOC10/7.22,17560428/17560430,4 strijkijsers,4 strijkijsers,irons,7,4,1.19,0.3,0,0,0,0
+MOOC10/7.28/150,MOOC10/7.28,17551028,2 strijk eijsers,2 strijk eijsers,irons,7,2,1.19,0.59,0,0,0,0
+MOOC10/7.31/104,MOOC10/7.31,17560330,1 cop: strijkijser,1 cop: strijkijser,irons,7,1,1.19,1.19,0,0,0,0
+MOOC10/7.43/119,MOOC10/7.43,17551227,3 strijkijsers,3 strijkijsers met 2 roosters,irons,7,3,1.19,0.4,1,0,0,0
+MOOC10/8.2/505,MOOC10/8.2,17551104/17551106,1 strijkijser,"4 cop: kandelaars, 1 snuijter en 1 strijkijser",irons,8,1,1.19,1.19,1,0,0,0
+MOOC10/8.22/74,MOOC10/8.22,17591126,2 strijkijsers,2 strijkijsers,irons,8,2,1.19,0.59,0,0,0,0
+MOOC10/9.13/118,MOOC10/9.13,17641006,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,9,2,1.19,0.59,0,0,0,0
+MOOC10/9.25_1/2/143,MOOC10/9.25_1/2,17671026,2 cop:e strijkijsers,2 cop:e strijkijsers en 1 vleeschvork,irons,9,2,1.19,0.59,1,0,0,0
+MOOC10/3.70/25,MOOC10/3.70,17270628,1 strijkijser,1 strijkijser met zijn rooster,irons,3,1,2.19,2.19,1,0,0,0
+MOOC10/3.93/40,MOOC10/3.93,17320412,1 kopere strijkijser,"1 kopere beckentje, 1 kopere keteltje, 1 kopere schuijmspaan, 1 kopere zuijker doosje, 1 kopere peperdoos en 1 kopere strijkijser",irons,3,1,2.19,2.19,1,0,0,0
+MOOC10/4.119/146,MOOC10/4.119,17330713,2 kopere strijkijsers,2 kopere strijkijsers,irons,4,2,2.19,1.09,0,0,0,0
+MOOC10/5.22/375,MOOC10/5.22,17380428,1 kopere strijkijser,"1 porcelijne boterpot, 1 kopere strijkijser, 1 rooster, 1 vleijsvork en 1 asschop met wat rommeling",irons,5,1,2.19,2.19,1,0,0,0
+MOOC10/10.42/165,MOOC10/10.42,17701101,3 strijkijsers,2 tinne schotels en 3 strijkijsers,irons,10,3,2.19,0.73,1,0,0,0
+MOOC10/11.7/130,MOOC10/11.7,17741004,1 cop: strijkijzer,1 cop: strijkijzer,irons,11,1,2.19,2.19,0,0,0,0
+MOOC10/11.41/538,MOOC10/11.41,17741219/17741222,2 strijkijsers,2 strijkijsers,irons,11,2,2.19,1.09,0,0,0,0
+MOOC10/11.65/83,MOOC10/11.65,17770606,1 strijkijzer,1 coffijmolen en 1 strijkijzer,irons,11,1,2.19,2.19,1,0,0,0
+MOOC10/16.11/107,MOOC10/16.11,17900401/17900403,2 strijkijsers,"2 copre doorslagen, 1 waterbekken, 2 strijkijsers",irons,16,2,2.19,1.09,1,0,0,0
+MOOC10/19.11/306,MOOC10/19.11,18000505/18000506,1 kleine kopere strijk ijzer,1 kleine kopere strijk ijzer,irons,19,1,2.19,2.19,0,0,0,0
+MOOC10/19.45/586,MOOC10/19.45,18020712,2 strijk ijzers,2 strijk ijzers,irons,19,2,2.19,1.09,0,0,0,0
+MOOC10/20.82/103,MOOC10/20.82,18030521,2 strijk ijzers,2 strijk ijzers,irons,20,2,2.19,1.09,0,0,0,0
+MOOC10/6.33/101,MOOC10/6.33,17480823/17480824|17480902/17480905|17480921,1 coper strijkijser,1 coper strijkijser,irons,6,1,2.19,2.19,0,0,0,0
+MOOC10/6.41/553,MOOC10/6.41,"17520323/17520325, 17520327",2 coper strijkijsers,2 coper strijkijsers,irons,6,2,2.19,1.09,0,0,0,0
+MOOC10/7.19/126,MOOC10/7.19,17541030,2 strijkijsers,"2 kapmesse, 1 coopere vergiet test, 2 strijkijsers en 1 theekeetel",irons,7,2,2.19,1.09,1,0,0,0
+MOOC10/9.57/155,MOOC10/9.57,17660818,1 strijkijser,1 ijzere pot en 1 strijkijser,irons,9,1,2.19,2.19,1,0,0,0
+MOOC10/3.67/141,MOOC10/3.67,17240531,1 kopere strijkijser,1 kopere strijkijser met 1 ijsere braad pan,irons,3,1,3.19,3.19,1,0,0,0
+MOOC10/5.67/112,MOOC10/5.67,17451025,1 cooper strijkijser,1 cooper strijkijser,irons,5,1,3.19,3.19,0,0,0,0
+MOOC10/5.70/122,MOOC10/5.70,17460224,1 ijsere strykysers,2 copere en 1 ijsere strykysers,irons,5,1,3.19,3.19,1,0,0,0
+MOOC10/13.46/13,MOOC10/13.46,17820212/17820213,1 coper strijkijser,1 coper strijkijser,irons,13,1,3.19,3.19,0,0,0,0
+MOOC10/14.7/440,MOOC10/14.7,17830526/17830527/17830529,1 strijkijzer,1 coffijmolen en 1 strijkijzer,irons,14,1,3.19,3.19,1,0,0,0
+MOOC10/14.22/263,MOOC10/14.22,17831110,1 cop:e strijk ijzer,1 cop:e strijk ijzer en voet,irons,14,1,3.19,3.19,1,0,0,0
+MOOC10/15.27/23,MOOC10/15.27,17870126,2 strijkblokken,2 strijkblokken,irons,15,2,3.19,1.59,0,0,0,0
+MOOC10/15.58/102,MOOC10/15.58,17880403,1 cop:e strijkijzers,1 cop:e strijkijzers,irons,15,1,3.19,3.19,0,0,0,0
+MOOC10/17.62/127,MOOC10/17.62,17960422/17960423,1 strijkijzer,1 strijkijzer,irons,17,1,3.19,3.19,0,0,0,0
+MOOC10/23.56/32,MOOC10/23.56,18080811,1 kopere strijkijzer,1 kopere strijkijzer,irons,23,1,3.19,3.19,0,0,0,0
+MOOC10/11.59/25,MOOC10/11.59,17750626,3 cop: strijkijsers,3 cop: strijkijsers,irons,11,3,4.19,1.4,0,0,0,0
+MOOC10/15.95/55,MOOC10/15.95,17900630,2 cop: strijkijsers,2 cop: strijkijsers,irons,15,2,4.19,2.1,0,0,0,0
+MOOC10/20.48/253,MOOC10/20.48,18050325/18050326,1 strijk ijzer,1 strijk ijzer,irons,20,1,4.19,4.19,0,0,0,0
+MOOC10/4.137/5,MOOC10/4.137,17341220,1 strijk ijser,"1 ijsere confoor, 1 kopere kandelaar en 1 snuijter met 1 strijk ijser",irons,4,1,5.19,5.19,1,0,0,0
+MOOC10/5.46/26,MOOC10/5.46,17440720,2 copere strykysers,2 copere strykysers,irons,5,2,5.19,2.6,0,0,0,0
+MOOC10/16.17/95,MOOC10/16.17,17901011,3 strijk ijsers in soorten,3 strijk ijsers in soorten en 1 koper keteltje,irons,16,3,5.19,1.73,1,0,0,0
+MOOC10/20.55/209,MOOC10/20.55,18050718/18050719,2 strijk ijzers,2 strijk ijzers,irons,20,2,5.19,2.6,0,0,0,0
+MOOC10/15.114/103,MOOC10/15.114,17900227,4 strijkstokken,2 vioolen met 4 strijkstokken,irons,15,4,7.19,1.8,1,0,0,0
+MOOC10/26.13/93,MOOC10/26.13,18100928,1 koper strijk eijser,1 koper strijk eijser,irons,26,1,10.19,10.19,0,0,0,0
+MOOC10/3.38/146,MOOC10/3.38,17220624,1 copere strijk yzer,1 copere strijk yzer met een tinne water pot,irons,3,1,0.21,0.21,1,0,0,0
+MOOC10/2.5/104,MOOC10/2.5,17180822,2 koopere strijkijsers,2 koopere strijkijsers,irons,2,2,2.21,1.1,0,0,0,0
+MOOC10/3.50/165,MOOC10/3.50,17240612,2 kopere strijkijsers,2 kopere strijkijsers,irons,3,2,0.23,0.12,0,0,0,0
+MOOC10/3.59/53,MOOC10/3.59,17260425,2 kopere strijkijsers,2 kopere strijkijsers,irons,3,2,0.23,0.12,0,0,0,0
+MOOC10/3.67/115,MOOC10/3.67,17240531,1 strijkijser,"1 metalle potje, 1 strijkijser met 2 bennetjes",irons,3,1,0.23,0.23,1,0,0,0
+MOOC10/3.68/50,MOOC10/3.68,17261115,2 ijsere strijkijsers,"1 kopere armblaker, 2 ijsere strijkijsers en 1 kopere lampje",irons,3,2,0.23,0.12,1,0,0,0
+MOOC10/5.43/25,MOOC10/5.43,17440808,2 ijsere strykysers,2 ijsere strykysers,irons,5,2,0.23,0.12,0,0,0,0
+MOOC10/5.75/162,MOOC10/5.75,17470220,1 coper strijkijser,1 coper strijkijser,irons,5,1,0.23,0.23,0,0,0,0
+MOOC10/10.2/204,MOOC10/10.2,17680411/17680414, strijkstok,1 fiool en strijkstok,irons,10,,0.23,-99,1,0,0,0
+MOOC10/10.28/112,MOOC10/10.28,17691120,1 strijkijser,"1 trekpot, 1 strijkijser en een peeperdoos",irons,10,1,0.23,0.23,1,0,0,0
+MOOC10/11.7/134,MOOC10/11.7,17741004,1 cop: strijkijzer,1 cop: strijkijzer,irons,11,1,0.23,0.23,0,0,0,0
+MOOC10/12.27/61,MOOC10/12.27,"17790512, 17790514",3 strijkijzers,3 strijkijzers en wat oud thin en coper,irons,12,3,0.23,0.08,1,0,0,0
+MOOC10/12.48/63,MOOC10/12.48,17781207,1 cop: strijkijzer,1 cop: strijkijzer,irons,12,1,0.23,0.23,0,0,0,0
+MOOC10/13.20/76,MOOC10/13.20,17811027,1 cop: strijkijzer,1 cop: strijkijzer en voet,irons,13,1,0.23,0.23,1,0,0,0
+MOOC10/13.43/110,MOOC10/13.43,17820109,1 ijzere strijkijzer,1 doos met 1 parthij chirurgiale meesters gereedschappen en 1 ijzere strijkijzer,irons,13,1,0.23,0.23,1,0,0,0
+MOOC10/14.49/17,MOOC10/14.49,17840917,1 strijkleer,"2 scheermessen, 2 olij steenen en 1 strijkleer",irons,14,1,0.23,0.23,1,0,0,0
+MOOC10/14.56/9,MOOC10/14.56,17841111,1 strijk ijzer,1 strijk ijzer,irons,14,1,0.23,0.23,0,0,0,0
+MOOC10/15.9/192,MOOC10/15.9,17851209/17851210,1 cop: strijkijzer,1 cop: strijkijzer met zijn voet,irons,15,1,0.23,0.23,1,0,0,0
+MOOC10/15.32/116,MOOC10/15.32,17870615/17870616,2 strijkijzers,2 strijkijzers,irons,15,2,0.23,0.12,0,0,0,0
+MOOC10/15.74/332,MOOC10/15.74,17881103/17881104,1 strijk ijzer,1 strijk ijzer,irons,15,1,0.23,0.23,0,0,0,0
+MOOC10/15.103/159,MOOC10/15.103,17890914,2 strijk ijsers een zoort,"2 strijk ijsers een zoort, een blikke bus en 1 aarde pot",irons,15,2,0.23,0.12,1,0,0,0
+MOOC10/15.113/416,MOOC10/15.113,17891116/17891118,1 strijk ijser,1 strijk ijser en 1 coffijmoole,irons,15,1,0.23,0.23,1,0,0,0
+MOOC10/15.113/582,MOOC10/15.113,17891116/17891118,2 strijkijsers,2 strijkijsers,irons,15,2,0.23,0.12,0,0,0,0
+MOOC10/17.16_1/2/30,MOOC10/17.16_1/2,17940701,1 strijk ijzer,1 strijk ijzer,irons,17,1,0.23,0.23,0,0,0,0
+MOOC10/18.13/57,MOOC10/18.13,17940819,1 strijkijzer,1 strijkijzer,irons,18,1,0.23,0.23,0,0,0,0
+MOOC10/2.23/25,MOOC10/2.23,YYYY,2 strijk ijsers,2 strijk ijsers,irons,2,2,0.23,0.12,0,0,0,0
+MOOC10/2.31/265,MOOC10/2.31,17211008,1 kopere strijk ijser,1 kopere strijk ijser met een tinne boter pot,irons,2,1,0.23,0.23,1,0,0,0
+MOOC10/20.84/11,MOOC10/20.84,18021011,1 strijk ijzer,2 doosjes en 1 strijk ijzer,irons,20,1,0.23,0.23,1,0,0,0
+MOOC10/6.9/64,MOOC10/6.9,17520114,1 ijser strijkijser,1 ijser strijkijser,irons,6,1,0.23,0.23,0,0,0,0
+MOOC10/6.52/682,MOOC10/6.52,"17540522, 17540524/17540525",4 strijkijsers,4 strijkijsers,irons,6,4,0.23,0.06,0,0,0,0
+MOOC10/6.63/78,MOOC10/6.63,17550927,2 coopere strijkijsers,"2 coopere strijkijsers, 1 rasp en 1 peeperdoos",irons,6,2,0.23,0.12,1,0,0,0
+MOOC10/7.4/81,MOOC10/7.4,17550929,3 ijsere strijkijsers,3 ijsere strijkijsers,irons,7,3,0.23,0.08,0,0,0,0
+MOOC10/7.11/298,MOOC10/7.11,17551118/17551119,1 cop: strijkijser,1 cop: strijkijser,irons,7,1,0.23,0.23,0,0,0,0
+MOOC10/7.15/28,MOOC10/7.15,17551020,2 strijkijsers,2 roosters en 2 strijkijsers,irons,7,2,0.23,0.12,1,0,0,0
+MOOC10/7.16/23,MOOC10/7.16,17551107,2 ijser strijk eijsers,2 ijser strijk eijsers en 1 confoor,irons,7,2,0.23,0.12,1,0,0,0
+MOOC10/7.16/29,MOOC10/7.16,17551107,1 coop:r strijkijser,1 coop:r strijkijser en 1 coffij moole,irons,7,1,0.23,0.23,1,0,0,0
+MOOC10/7.24/37,MOOC10/7.24,17550811,2 coopere strijk ijsers,2 coopere strijk ijsers,irons,7,2,0.23,0.12,0,0,0,0
+MOOC10/7.31/105,MOOC10/7.31,17560330,1 ijser strijkijser,1 ijser strijkijser,irons,7,1,0.23,0.23,0,0,0,0
+MOOC10/7.48/131,MOOC10/7.48,17560319,1 strijkijsers,1 coffi moolen en 1 strijkijsers,irons,7,1,0.23,0.23,1,0,0,0
+MOOC10/8.51/61,MOOC10/8.51,17631210,1 strijkijser,"1 mandje met wat romm:, 2 boenders en 1 strijkijser",irons,8,1,0.23,0.23,1,0,0,0
+MOOC10/9.14/339,MOOC10/9.14,17651104/17651105,1 strijkeijser,1 strijkeijser,irons,9,1,0.23,0.23,0,0,0,0
+MOOC10/9.61/95,MOOC10/9.61,17690227,1 cop:e strijkijser,1 cop:e confoor en 1 cop:e strijkijser,irons,9,1,0.23,0.23,1,0,0,0
+MOOC10/9.62/70,MOOC10/9.62,17681123,1 strijkijser,1 cop:e leepel en 1 strijkijser,irons,9,1,0.23,0.23,1,0,0,0
+MOOC10/3.89_1/2/49,MOOC10/3.89_1/2,17290913,2 ijsere strijkijser,2 ijsere strijkijser,irons,3,2,1.23,0.61,0,0,0,0
+MOOC10/3.92/50,MOOC10/3.92,17300909,1 kopere strijkijser,1 kopere strijkijser met 1 slot,irons,3,1,1.23,1.23,1,0,0,0
+MOOC10/5.21/17,MOOC10/5.21,17380422,1 kopere strijkijser,"2 kopere kandelaars, 1 kopere vuurtesje en 1 kopere strijkijser",irons,5,1,1.23,1.23,1,0,0,0
+MOOC10/5.76/199,MOOC10/5.76,17470410,1 coper strykyser,1 coper strykyser,irons,5,1,1.23,1.23,0,0,0,0
+MOOC10/10.47/22,MOOC10/10.47,17711120,1 koper strijkijser,1 koper strijkijser,irons,10,1,1.23,1.23,0,0,0,0
+MOOC10/11.41/1285,MOOC10/11.41,17741219/17741222,4 strijkijsers,4 strijkijsers,irons,11,4,1.23,0.31,0,0,0,0
+MOOC10/11.41/1289,MOOC10/11.41,17741219/17741222,1 cop:e strijkijser,1 cop:e strijkijser,irons,11,1,1.23,1.23,0,0,0,0
+MOOC10/13.18/98,MOOC10/13.18,17810720,1 cop: strijk ijzer,1 cop: strijk ijzer,irons,13,1,1.23,1.23,0,0,0,0
+MOOC10/13.19/175,MOOC10/13.19,17810201,3 ijzere strijkijsters,3 ijzere strijkijsters en 1 ijzere rooster,irons,13,3,1.23,0.41,1,0,0,0
+MOOC10/14.4/61,MOOC10/14.4,17830114,1 strijk ijzer,1 strijk ijzer,irons,14,1,1.23,1.23,0,0,0,0
+MOOC10/14.55/58,MOOC10/14.55,17841027,2 ijzere strijkijzers,2 ijzere strijkijzers en 1 voet,irons,14,2,1.23,0.61,1,0,0,0
+MOOC10/15.18/41,MOOC10/15.18,17860627,1 strijkijzer,1 cop: kandelaar en 1 strijkijzer,irons,15,1,1.23,1.23,1,0,0,0
+MOOC10/15.53/61,MOOC10/15.53,17880107,2 strijkijzers,2 strijkijzers en 1 slonsje,irons,15,2,1.23,0.61,1,0,0,0
+MOOC10/15.68/112,MOOC10/15.68,17880908,2 tinne strijkijsers in zoort,2 tinne strijkijsers in zoort,irons,15,2,1.23,0.61,0,0,0,0
+MOOC10/15.84/274,MOOC10/15.84,17890513/17890514,4 ijser strijkijsers,4 ijser strijkijsers,irons,15,4,1.23,0.31,0,0,0,0
+MOOC10/16.19_1/2/82,MOOC10/16.19_1/2,17910104,1 strijkijser,1 strijkijser,irons,16,1,1.23,1.23,0,0,0,0
+MOOC10/16.35/37,MOOC10/16.35,17931108,1 ijser strijk ijser,1 ijser strijk ijser en 1 ophaal gordijn met desselfs plank,irons,16,1,1.23,1.23,1,0,0,0
+MOOC10/16.48/264,MOOC10/16.48,17920613/17920614,1 strijkijsers,"1 strijkijsers, 4 messen, 4 tinne leepels en 4 stale vorken",irons,16,1,1.23,1.23,1,0,0,0
+MOOC10/17.13/194,MOOC10/17.13,17940605/17940606,2 cop: strijkijzers,2 cop: strijkijzers,irons,17,2,1.23,0.61,0,0,0,0
+MOOC10/2.28/33,MOOC10/2.28,17210419, strijkijser,2 porcelijn potten en strijkijser,irons,2,,1.23,-99,1,0,0,0
+MOOC10/21.37/277,MOOC10/21.37,18041106/18041108,1 strijk ijzer,1 strijk ijzer,irons,21,1,1.23,1.23,0,0,0,0
+MOOC10/22.30/110,MOOC10/22.30,18060224/18060225,1 strijk ijzer,1 strijk ijzer,irons,22,1,1.23,1.23,0,0,0,0
+MOOC10/23.43/70,MOOC10/23.43,18080819,1 strijk ijzer,"1 strijk ijzer, defect",irons,23,1,1.23,1.23,1,0,0,0
+MOOC10/6.34/138,MOOC10/6.34,17491223/17491224,2 coper strijkijsers,2 coper strijkijsers met 1 coper rooster,irons,6,2,1.23,0.61,1,0,0,0
+MOOC10/6.50/330,MOOC10/6.50,17520523/17520527,1 coper strijkijser,1 coper strijkijser,irons,6,1,1.23,1.23,0,0,0,0
+MOOC10/6.50/877,MOOC10/6.50,17520523/17520527,1 strijkijser,1 ijserpot en 1 strijkijser,irons,6,1,1.23,1.23,1,0,0,0
+MOOC10/6.51/38,MOOC10/6.51,17550818,1 copere strijkijser,1 copere strijkijser,irons,6,1,1.23,1.23,0,0,0,0
+MOOC10/6.52/394,MOOC10/6.52,"17540522, 17540524/17540525",1 copere strijkijser,1 copere strijkijser,irons,6,1,1.23,1.23,0,0,0,0
+MOOC10/6.57_1/2/1033,MOOC10/6.57_1/2,"17551030/17551031, 17551101",2 strijkijsers,2 strijkijsers,irons,6,2,1.23,0.61,0,0,0,0
+MOOC10/8.13/73,MOOC10/8.13,17581201,3 ijsere strijkijsers,3 ijsere strijkijsers en 1 ijsere asschop,irons,8,3,1.23,0.41,1,0,0,0
+MOOC10/8.33/69,MOOC10/8.33,17600616,1 coopere strijkijser,1 coopere strijkijser,irons,8,1,1.23,1.23,0,0,0,0
+MOOC10/10.80/68,MOOC10/10.80,17730628,1 copere strijkijser,1 pagters spulletje en 1 copere strijkijser,irons,10,1,2.23,2.23,1,0,0,0
+MOOC10/11.7/132,MOOC10/11.7,17741004,1 cop: strijkijzer,1 cop: strijkijzer,irons,11,1,2.23,2.23,0,0,0,0
+MOOC10/12.43/43,MOOC10/12.43,17791116,2 cop: strijkijzers,2 cop: strijkijzers,irons,12,2,2.23,1.11,0,0,0,0
+MOOC10/16.37/96,MOOC10/16.37,17940125,2 koopere strijkijsers,2 koopere strijkijsers,irons,16,2,2.23,1.11,0,0,0,0
+MOOC10/20.54/733,MOOC10/20.54,18041015/18041019,1 partij strijkijzers,1 mand met 1 partij strijkijzers,irons,20,1,2.23,2.23,1,1,0,0
+MOOC10/6.18/116,MOOC10/6.18,17491229,2 coper strijkijsers,1 coper theeketel en 2 coper strijkijsers,irons,6,2,2.23,1.11,1,0,0,0
+MOOC10/6.20/66,MOOC10/6.20,17491021/17491022,1 coper strijkijser,1 coper strijkijser en 1 tafelschel,irons,6,1,2.23,2.23,1,0,0,0
+MOOC10/6.32/254,MOOC10/6.32,17520508/17520510,2 coper strijkijsers,2 coper strijkijsers,irons,6,2,2.23,1.11,0,0,0,0
+MOOC10/8.55/295,MOOC10/8.55,17620504/17620506,2 cop:e strijkijser,2 cop:e strijkijser met sijn voet,irons,8,2,2.23,1.11,1,0,0,0
+MOOC10/9.15/572,MOOC10/9.15,17640717/17640720,3 cop:e strijkijsers,3 cop:e strijkijsers,irons,9,3,2.23,0.74,0,0,0,0
+MOOC10/10.34/208,MOOC10/10.34,17710819,1 cop:e strijkijser,1 cop:e keetel en 1 cop:e strijkijser,irons,10,1,3.23,3.23,1,0,0,0
+MOOC10/10.63/88,MOOC10/10.63,17721223,1 cop:e strijkijser,1 cop:e strijkijser,irons,10,1,3.23,3.23,0,0,0,0
+MOOC10/16.10/111,MOOC10/16.10,17900308,2 kopere strijkijsers,2 kopere strijkijsers,irons,16,2,3.23,1.61,0,0,0,0
+MOOC10/6.59/53,MOOC10/6.59,17541216,2 coopere strijkeijsers,2 coopere strijkeijsers en 1 eijser strijkijser,irons,6,2,3.23,1.61,1,0,0,0
+MOOC10/9.61/94,MOOC10/9.61,17690227,2 cop:e strijkijsers,2 cop:e strijkijsers en hun rooster,irons,9,2,3.23,1.61,1,0,0,0
+MOOC10/13.36/295,MOOC10/13.36,17811211/17811212,1 cop: strijkijzer,1 cop: strijkijzer,irons,13,1,4.23,4.23,0,0,0,0
+MOOC10/26.45/48,MOOC10/26.45,18110713/18110730,1 strijkijzer,1 strijkijzer,irons,26,1,4.23,4.23,0,0,0,0
+MOOC10/9.2/80,MOOC10/9.2,17640712/17640713,4 cop:e strijkijsers,4 cop:e strijkijsers met 2 houte voeten,irons,9,4,4.23,1.06,1,0,0,0
+MOOC10/9.50/67,MOOC10/9.50,17680917,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,9,2,4.23,2.12,0,0,0,0
+MOOC10/5.46/24,MOOC10/5.46,17440720,2 copere strykysers,2 copere strykysers,irons,5,2,5.23,2.62,0,0,0,0
+MOOC10/5.46/27,MOOC10/5.46,17440720,2 copere strijkysers,2 copere strijkysers,irons,5,2,5.23,2.62,0,0,0,0
+MOOC10/5.46/29,MOOC10/5.46,17440720,2 copere strijkysers,2 copere strijkysers,irons,5,2,5.23,2.62,0,0,0,0
+MOOC10/16.2/61,MOOC10/16.2,17910923,4 strijkijzers,4 strijkijzers,irons,16,4,5.23,1.31,0,0,0,0
+MOOC10/18.78/415,MOOC10/18.78,"18000626/18000628, 18000703/18000704",1 strijk ijzer,1 strijk ijzer met 1 schuimspan en defecte inkkoker,irons,18,1,5.23,5.23,1,0,0,0
+MOOC10/19.45/582,MOOC10/19.45,18020712,2 strijk ijzers,2 strijk ijzers,irons,19,2,5.23,2.62,0,0,0,0
+MOOC10/19.45/588,MOOC10/19.45,18020712,2 strijk ijzers,2 strijk ijzers,irons,19,2,6.23,3.12,0,0,0,0
+MOOC10/26.31/161,MOOC10/26.31,18111202,1 strijk eizer,1 strijk eizer,irons,26,1,7.23,7.23,0,0,0,0
+MOOC10/2.26/107,MOOC10/2.26,17210115,1 kopere strijkijser,1 kopere strijkijser en een ijsere strijkijser,irons,2,1,0.25,0.25,1,0,0,0
+MOOC10/3.42/43,MOOC10/3.42,17230809,1 strijkijser,"1 tang, 1 strijkijser, 1 rooster, 1 blaker en 1 beeker",irons,3,1,0.27,0.27,1,0,0,0
+MOOC10/4.158/247,MOOC10/4.158,17370624,2 kopere strijkijsers,2 kopere strijkijsers,irons,4,2,0.27,0.14,0,0,0,0
+MOOC10/4.161/61,MOOC10/4.161,17361123,1 strijk ijser,1 strijk ijser en 1 kapmes,irons,4,1,0.27,0.27,1,0,0,0
+MOOC10/5.51/102,MOOC10/5.51,17421001,1 copere strijkijser,1 copere strijkijser,irons,5,1,0.27,0.27,0,0,0,0
+MOOC10/10.53/127,MOOC10/10.53,17720302,1 cop:e strijkijser,1 cop:e strijkijser en 2 mutsebollen,irons,10,1,0.27,0.27,1,0,0,0
+MOOC10/11.7/133,MOOC10/11.7,17741004,1 cop: strijkijzer,1 cop: strijkijzer,irons,11,1,0.27,0.27,0,0,0,0
+MOOC10/12.17/200,MOOC10/12.17,17780421/17780422,1 strijkijzer,1 strijkijzer met zijn voet,irons,12,1,0.27,0.27,1,0,0,0
+MOOC10/12.27/76,MOOC10/12.27,"17790512, 17790514",3 strijkijzers in zoort,3 strijkijzers in zoort,irons,12,3,0.27,0.09,0,0,0,0
+MOOC10/12.33/154,MOOC10/12.33,17790125/17790126,1 coper strijkijser,"1 coper strijkijser, 3 tafelmessen en 2 borstels",irons,12,1,0.27,0.27,1,0,0,0
+MOOC10/13.48/56,MOOC10/13.48,17820527,1 cop: strijkijzer,1 cop: strijkijzer,irons,13,1,0.27,0.27,0,0,0,0
+MOOC10/14.17/285,MOOC10/14.17,17830606/17830607,1 cop: strijkijzer,1 cop: tabaksdoos en 1 cop: strijkijzer,irons,14,1,0.27,0.27,1,0,0,0
+MOOC10/14.39/160,MOOC10/14.39,17841006,1 strijkijzer,1 strijkijzer,irons,14,1,0.27,0.27,0,0,0,0
+MOOC10/14.56/48,MOOC10/14.56,17841111,1 chitze strijk combaars,1 chitze strijk combaars,irons,14,1,0.27,0.27,0,0,0,0
+MOOC10/15.10/66,MOOC10/15.10,17860310,1 cop: strijkijzer,1 cop: strijkijzer,irons,15,1,0.27,0.27,0,0,0,0
+MOOC10/15.32/115,MOOC10/15.32,17870615/17870616,2 strijkijzers,2 strijkijzers,irons,15,2,0.27,0.14,0,0,0,0
+MOOC10/15.80_1/2/276,MOOC10/15.80_1/2,17890223,2 strijk ijsers,2 strijk ijsers,irons,15,2,0.27,0.14,0,0,0,0
+MOOC10/15.83/16,MOOC10/15.83,17890418,3 strijkijsers in zoort,3 strijkijsers in zoort,irons,15,3,0.27,0.09,0,0,0,0
+MOOC10/15.113/547,MOOC10/15.113,17891116/17891118,4 strijk ijsers in soort,4 strijk ijsers in soort,irons,15,4,0.27,0.07,0,0,0,0
+MOOC10/16.52/216,MOOC10/16.52,17911010/17911011,1 strijkijser,"1 copere bak, 1 strijkijser en 2 tinne zoutvaatjes",irons,16,1,0.27,0.27,1,0,0,0
+MOOC10/16.54/9,MOOC10/16.54,17920109,1 strijkijser,"1 waterpot, een strijkijser",irons,16,1,0.27,0.27,1,0,0,0
+MOOC10/16.65/102,MOOC10/16.65,17920319,1 strijkijzer,1 tinne trekpot en 1 strijkijzer,irons,16,1,0.27,0.27,1,0,0,0
+MOOC10/17.52/156,MOOC10/17.52,17960404/17960405,1 strijk eijzer,1 strijk eijzer,irons,17,1,0.27,0.27,0,0,0,0
+MOOC10/17.60/57,MOOC10/17.60,17960319,2 strijkijzers,2 strijkijzers,irons,17,2,0.27,0.14,0,0,0,0
+MOOC10/18.37/124,MOOC10/18.37,17980901,1 strijk eijzer,1 strijk eijzer,irons,18,1,0.27,0.27,0,0,0,0
+MOOC10/20.70/11,MOOC10/20.70,18020417,1 strijk ijzer,1 strijk ijzer,irons,20,1,0.27,0.27,0,0,0,0
+MOOC10/21.9/12,MOOC10/21.9,18041201,1 strijk ijzer,1 strijk ijzer en tregter,irons,21,1,0.27,0.27,1,0,0,0
+MOOC10/23.7/50,MOOC10/23.7,18080718,1 strijkijser,1 strijkijser,irons,23,1,0.27,0.27,0,0,0,0
+MOOC10/24.25/3,MOOC10/24.25,18100702,1 strijk eijzer,1 strijk eijzer,irons,24,1,0.27,0.27,0,0,0,0
+MOOC10/6.41/690,MOOC10/6.41,"17520323/17520325, 17520327",2 coper strijkijsers,2 coper strijkijsers,irons,6,2,0.27,0.14,0,0,0,0
+MOOC10/7.4/79,MOOC10/7.4,17550929,2 ijsere strijkijsers,2 ijsere strijkijsers,irons,7,2,0.27,0.14,0,0,0,0
+MOOC10/7.4/80,MOOC10/7.4,17550929,3 ijsere strijkijsers,3 ijsere strijkijsers,irons,7,3,0.27,0.09,0,0,0,0
+MOOC10/7.27/187,MOOC10/7.27,17551024,1 coopere strijkijser,"1 coopere strijkijser, 1 confoor, 1 snuijter en 1 ijsere confoor",irons,7,1,0.27,0.27,1,0,0,0
+MOOC10/9.20/35,MOOC10/9.20,17670427,1 cop:e strijkijser,1 cop:e strijkijser en wat romm:,irons,9,1,0.27,0.27,1,0,0,0
+MOOC10/9.43/15,MOOC10/9.43,17650715,1 ijsere strijkijser,1 ijsere strijkijser,irons,9,1,0.27,0.27,0,0,0,0
+MOOC10/5.5/35,MOOC10/5.5,17380217,1 strijkijser,"1 kopere rasp, 1 kopere peperdoos en 1 strijkijser",irons,5,1,1.27,1.27,1,0,0,0
+MOOC10/5.56/48,MOOC10/5.56,17441204,1 kopere strijkyser,1 kopere strijkyser,irons,5,1,1.27,1.27,0,0,0,0
+MOOC10/10.43/40,MOOC10/10.43,17710415,1 cop:e strijkijser,1 cop:e strijkijser,irons,10,1,1.27,1.27,0,0,0,0
+MOOC10/10.62/127,MOOC10/10.62,17721214,1 cop:e strijkijser,1 cop:e strijkijser,irons,10,1,1.27,1.27,0,0,0,0
+MOOC10/11.9/51,MOOC10/11.9,17741107/17741108,1 strijkijser,"1 strijkijser, 1 candelaar, 1 tinne souplepel en 1 partij cnopen",irons,11,1,1.27,1.27,1,0,0,0
+MOOC10/11.57/145,MOOC10/11.57,17761223/17761224,3 cop: strijkijzers,3 cop: strijkijzers,irons,11,3,1.27,0.42,0,0,0,0
+MOOC10/11.57/220,MOOC10/11.57,17761223/17761224,2 strijkijzers,1 tinne theeketel en 2 strijkijzers,irons,11,2,1.27,0.64,1,0,0,0
+MOOC10/13.8/228,MOOC10/13.8,17800619/17800620,2 strijkijzers in zoort,2 strijkijzers in zoort,irons,13,2,1.27,0.64,0,0,0,0
+MOOC10/13.9/292,MOOC10/13.9,17800615/17800616,1 cop: strijkijzer,1 cop: strijkijzer,irons,13,1,1.27,1.27,0,0,0,0
+MOOC10/15.20/51,MOOC10/15.20,17861013,2 cop: strijkijzers,2 cop: strijkijzers,irons,15,2,1.27,0.64,0,0,0,0
+MOOC10/15.63/110,MOOC10/15.63,17880708,1 strijkijser,1 strijkijser,irons,15,1,1.27,1.27,0,0,0,0
+MOOC10/16.43/59,MOOC10/16.43,17921010,2 strijk ijsers,twee strijk ijsers,irons,16,2,1.27,0.64,0,0,0,0
+MOOC10/16.52/211,MOOC10/16.52,17911010/17911011,2 strijkijsers in zoort,2 strijkijsers in zoort met 1 stander,irons,16,2,1.27,0.64,1,0,0,0
+MOOC10/18.8/60,MOOC10/18.8,17970415,2 strijkijzers in zoort,2 strijkijzers in zoort,irons,18,2,1.27,0.64,0,0,0,0
+MOOC10/19.36/180,MOOC10/19.36,18000508/18000509,1 kleindere strijk ijzer,1 kleindere strijk ijzer,irons,19,1,1.27,1.27,0,0,0,0
+MOOC10/2.9/386,MOOC10/2.9,17190315,1 strijklap,1 strijklap,irons,2,1,1.27,1.27,0,0,0,0
+MOOC10/2.18/64,MOOC10/2.18,17191106,1 strijkijser,1 drievoet met 1 strijkijser,irons,2,1,1.27,1.27,1,0,0,0
+MOOC10/23.17/31,MOOC10/23.17,18071112,1 strijk ijzer,1 strijk ijzer,irons,23,1,1.27,1.27,0,0,0,0
+MOOC10/24.1/62,MOOC10/24.1,18011103/18011104,1 strijkijzer,"1 tinne taartepan, 1 strijkijzer en 2 balies",irons,24,1,1.27,1.27,1,0,0,0
+MOOC10/6.32/256,MOOC10/6.32,17520508/17520510,1 klijn coper strijkijser,1 klijn coper strijkijser,irons,6,1,1.27,1.27,0,0,0,0
+MOOC10/6.65/113,MOOC10/6.65,17551107,1 coop:r strijkijser,1 coop:r strijkijser en 1 ijser strijkijser,irons,6,1,1.27,1.27,1,0,0,0
+MOOC10/9.44/50,MOOC10/9.44,17680530,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,9,2,1.27,0.64,0,0,0,0
+MOOC10/11.56/42,MOOC10/11.56,17770517,1 cop: strijkijzer,1 cop: strijkijzer met zijn voet,irons,11,1,2.27,2.27,1,0,0,0
+MOOC10/11.62/440,MOOC10/11.62,17770220/17770221,2 cop: strijkijzers,2 cop: strijkijzers,irons,11,2,2.27,1.14,0,0,0,0
+MOOC10/12.39/48,MOOC10/12.39,17780810/17780811,1 coper strijkijser,1 coper strijkijser en zijn voet,irons,12,1,2.27,2.27,1,0,0,0
+MOOC10/13.52/47,MOOC10/13.52,17821211,1 cop: strijkijzer,1 cop: strijkijzer,irons,13,1,2.27,2.27,0,0,0,0
+MOOC10/15.92/106,MOOC10/15.92,17890929,2 cop: strijkijsers,2 cop: strijkijsers,irons,15,2,2.27,1.14,0,0,0,0
+MOOC10/16.39/381,MOOC10/16.39,17931028/17931029,1 strijkijser,1 strijkijser,irons,16,1,2.27,2.27,0,0,0,0
+MOOC10/17.8_1/2/2,MOOC10/17.8_1/2,17940605/17940606,1 strijk ijzer,1 strijk ijzer en 1 stoof,irons,17,1,2.27,2.27,1,0,0,0
+MOOC10/19.36/179,MOOC10/19.36,18000508/18000509,1 grote strijk ijzer,1 grote strijk ijzer,irons,19,1,2.27,2.27,0,0,0,0
+MOOC10/9.15/570,MOOC10/9.15,17640717/17640720,2 cop:e strijkijsers,2 cop:e strijkijsers met haar voeten,irons,9,2,2.27,1.14,1,0,0,0
+MOOC10/3.99/56,MOOC10/3.99,17311019,2 kopere strijkijsers,2 kopere strijkijsers,irons,3,2,3.27,1.64,0,0,0,0
+MOOC10/10.81/508,MOOC10/10.81,17730308/17730311,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,10,2,3.27,1.64,0,0,0,0
+MOOC10/15.96/114,MOOC10/15.96,17901230,2 cop:r strijkijsers,2 cop:r strijkijsers,irons,15,2,3.27,1.64,0,0,0,0
+MOOC10/19.56/81,MOOC10/19.56,18020622,1 strijk ijzer,1 strijk ijzer,irons,19,1,3.27,3.27,0,0,0,0
+MOOC10/21.12/77,MOOC10/21.12,18051025,1 strijkijzer,1 strijkijzer,irons,21,1,3.27,3.27,0,0,0,0
+MOOC10/6.19/356,MOOC10/6.19,17481017/17481019,1 coper strijkijser,1 coper strijkijser met 1 coper roster tot strijkijser,irons,6,1,3.27,3.27,1,0,0,0
+MOOC10/22.43/162,MOOC10/22.43,18070205/18070207,2 strijkijzers,"2 strijkijzers, 2 tregters, 1 kopere bus en 1 vergiettest",irons,22,2,4.27,2.13,1,0,0,0
+MOOC10/22.104/18,MOOC10/22.104,18080623,1 strijkijser,1 strijkijser,irons,22,1,4.27,4.27,0,0,0,0
+MOOC10/5.46/23,MOOC10/5.46,17440720,2 copere strykysers,2 copere strykysers,irons,5,2,5.27,2.63,0,0,0,0
+MOOC10/20.48/250,MOOC10/20.48,18050325/18050326,1 strijk ijzer,1 strijk ijzer,irons,20,1,5.27,5.27,0,0,0,0
+MOOC10/20.48/252,MOOC10/20.48,18050325/18050326,1 strijk ijzer,1 strijk ijzer,irons,20,1,5.27,5.27,0,0,0,0
+MOOC10/20.41/307,MOOC10/20.41,18041001/18041004,1 strijk tafel,1 strijk tafel,irons,20,1,8.27,8.27,0,0,0,0
+MOOC10/22.67/34,MOOC10/22.67,18060301/18060303,2 strijkijzers,2 strijkijzers,irons,22,2,8.27,4.13,0,0,0,0
+MOOC10/22.34/528,MOOC10/22.34,18070608/18070611,2 strijkijzers,2 strijkijzers,irons,22,2,12.27,6.13,0,0,0,0
+MOOC10/15.52/116,MOOC10/15.52,17871108/17871109, n:o 86. een strijklap,n:o 86. een strijklap met eenige lappen in zoort,irons,15,,2.92,-99,1,0,0,0
+MOOC10/15.52/69,MOOC10/15.52,17871108/17871109, n:o 113. 2 strijkijsers,"n:o 113. 2 strijkijsers, een kandelaar en een blaker",irons,15,,5.92,-99,1,0,0,0
+MOOC10/13.37/55,MOOC10/13.37,17811228,1 ijzere strijkijzer,"1 coffijmolen, 1 ijzere strijkijzer en 1 cop: craan",irons,13,1,0.0,0.0,1,0,0,0
+MOOC10/10.7/109,MOOC10/10.7,17680525,2 cop:e strijkijsers,2 cop:e strijkijsers,irons,10,2,1.0,0.5,0,0,0,0
