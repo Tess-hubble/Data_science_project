@@ -47,13 +47,13 @@ titledmen_locator <- function(titled_men, vector_input) {
     return(titled_men)
 }
 
-title_counter <- function(merged_df, title_total, title_type) {
+title_counter <- function(purchases, title_total, title_type) {
     for (i in seq_along(title_type)) {
-        merged_df <- merged_df %>%
+        purchases <- purchases %>%
             group_by(mooc_id) %>%
-            mutate(!!title_total[i] := sum(title_type[i]))
+            mutate(!!title_total[i] := sum(title_type[i], na.rm=TRUE))
     }
-    return(merged_df)
+    return(purchases)
 }
 
 

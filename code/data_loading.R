@@ -1,10 +1,27 @@
+data_loader <- function(data_dest){
 
-item_runner <- function(n, item){
-    item <- loaded_data[[n]] %>% dplyr::select(purchase_id, mooc_id, date, focal_good, type, unit_price, bundle)
-    return(item)
+    library(tidyverse)
+    library(purrr)
+
+    reader <- function(x){
+        hushread <- purrr::quietly(read_csv)
+        df <- hushread(x)
+        df$result %>% dplyr::select(mooc_id, date, type, bundle)
+    }
+
+    data_merger <-
+        list.files(data_dest, recursive=TRUE, full.names=TRUE) %>%
+        .[!grepl("Full_Rec_Mooc", .)] %>%
+        as.list() %>%
+        map(~reader(.)) %>%
+        bind_rows()
+
+        return(data_merger)
 }
 
 merger <- function(item_df){
-    goods <- inner_join(auctions, item_df, by=c("mooc_id", "date"))
+    goods <- left_join(item_df, auctions, by=c("mooc_id", "date"))
     return(goods)
 }
+
+
