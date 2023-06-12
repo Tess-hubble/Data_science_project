@@ -43,7 +43,6 @@ purchases_df <- purchases_df %>% group_by(mooc_id) %>%
     distinct(mooc_id, .keep_all=TRUE)
 ### title_counter("women_tot", "women")
 
-rm(merged_df)
 # merging titles and auctions
 merged_df <- inner_join(merged_df,purchases_df, by="mooc_id") %>% select(-`month/day`, type)
 merged_df <- merged_df %>%  
@@ -52,10 +51,29 @@ merged_df <- merged_df %>%
     mutate(date=n())
 merged_df$date <- as.numeric(match(merged_df$year, unique(merged_df$year)))
 merged_df <- merged_df %>% filter(date<103) %>% filter(date!=1) %>% na.omit() 
-merged_df$auction_tot <- as.numeric(merged_df$auction_tot) 
-merged_df <- merged_df %>% na.omit() %>% dplyr::select(-mooc_id, -year)
+merged_df$auction_tot <- as.numeric(merged_df$auction_tot)
+merged_df <- merged_df %>% ungroup() %>% select(-mooc_id, -type, -year, -bundle) %>% 
+    filter(auction_tot>60)
+
+
 
 ```
+# descriptives
+```{r}
+
+Mean_auction_total <- mean(merged_df$auction_tot)
+sd_auction_total <- sd(merged_df$auction_tot)
+merged_df <- merged_df %>%
+    mutate(z_score=((auction_tot-Mean_auction_total)/sd_auction_total)) %>% 
+    ungroup() %>% 
+    arrange(z_score) %>% 
+    filter(z_score<5) 
+
+
+auction_timeline <- plotter(merged_df, auction_plot, merged_df$year, merged_df$auction_tot)
+
+```
+
 
 # splitting into testing and training
 ```{r}
@@ -93,6 +111,23 @@ knn_fit <- train(
 ggplot(knn_fit)
 # k = 2 has the lowest RMSE
 
+library(caret)
+
+# Train the KNN model with the chosen k value
+k <- 2
+knn_model <- train(
+  auction_tot ~ .,
+  data = training_data,
+  method = "knn",
+  trControl = sampling_strat,
+  tuneGrid = data.frame(k = k),
+  metric = "accuracy"
+)
+knn_model
+# Make predictions on the testing data
+predictions <- predict(knn_model, newdata = testing_data)
+
+
 
 ```
 
@@ -100,8 +135,27 @@ ggplot(knn_fit)
 ```{r}
 library(ranger)
 
+dim(merged_df)
+n_features <- length(setdiff(names(training_data), "auction_tot"))
 
+# train a default random forest model
+training_rf <- ranger(
+  auction_tot ~ ., 
+  data = training_data,
+  mtry = floor(n_features / 3),
+  respect.unordered.factors = "order",
+  importance= "permutation",
+  seed = 123
+)
+training_rf
+default_rmse <- sqrt(training_rf$prediction.error)
+rf_importance <- ranger::importance(training_rf)
+sort(rf_importance, decreasing = TRUE)
 
+# Predict auction total values
+predictions_rf <- predict(training_rf, data = testing_data)$predictions
+
+plot(training_data$auction_tot, training_rf$predictions)
 
 ```
 
