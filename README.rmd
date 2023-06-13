@@ -15,7 +15,7 @@ Add binary files in bin, and closed R functions in code. Human Readable settings
 
 ```{r}
 
-
+library(tidyverse)
 library(randomForest)
 library(caret)
 
@@ -25,7 +25,6 @@ purchases <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data s
 auctions <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data\\Full_Rec_Mooc.csv") %>% select(mooc_id, date, auction_tot)
 final_df <- data_loader("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data")
 merged_df <- merger(final_df)
-
 
 
 # counting total number of good types per auction 
@@ -52,8 +51,13 @@ merged_df <- merged_df %>%
 merged_df$date <- as.numeric(match(merged_df$year, unique(merged_df$year)))
 merged_df <- merged_df %>% filter(date<103) %>% filter(date!=1) %>% na.omit() 
 merged_df$auction_tot <- as.numeric(merged_df$auction_tot)
-merged_df <- merged_df %>% ungroup() %>% select(-mooc_id, -type, -year, -bundle) %>% 
+plotting_df <- merged_df %>% 
+        filter(auction_tot>60) %>% arrange(year)
+merged_df <- merged_df %>% ungroup() %>% select(-mooc_id,-year, -type, -bundle) %>% 
     filter(auction_tot>60)
+
+
+
 
 
 
@@ -70,7 +74,15 @@ merged_df <- merged_df %>%
     filter(z_score<5) 
 
 
-auction_timeline <- plotter(merged_df, auction_plot, merged_df$year, merged_df$auction_tot)
+
+auction_timeline <- plotter(plotting_df, plotting_df$year, plotting_df$auction_tot, "Total auction value")
+
+attendance_plotter(attendance_df, attendance_df$year, attendance_df$number, filler=attendance_df$title)
+
+slave_purchases <- plotter(plotting_df$slave_tot,"Total number of slaves sold per auction", "Number")
+wagon_purchases <- plotter(plotting_df$wagon_tot,"Total number of wagons sold per auction", "Number")
+horse_purchases <- plotter(plotting_df$horse_tot,"Total number of horses sold per auction", "Number")
+
 
 ```
 
@@ -88,7 +100,7 @@ testing_data <- merged_df[indices[(train_size + 1):nrow(merged_df)], ]
 
 ```
 
-# resampling methods
+# knn method
 ```{r}
 
 sampling_strat <- caret::trainControl(
@@ -161,10 +173,7 @@ plot(training_data$auction_tot, training_rf$predictions)
 
 
 ```{r}
-model <- randomForest(auction_tot ~ . , data = training_data)
-predictions <- predict(model, newdata = testing_data)
-predictions
-mean(abs(predictions - testing_data$auction_tot))
+
 # Calculate Mean Squared Error
 MSE <- mean((predictions - testing_data$auction_tot)^2)
 SSR <- sum((predictions - mean(testing_data$auction_tot))^2)
