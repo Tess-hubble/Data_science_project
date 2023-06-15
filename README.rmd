@@ -25,7 +25,9 @@ purchases <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data s
 auctions <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data\\Full_Rec_Mooc.csv") %>% select(mooc_id, date, auction_tot)
 final_df <- data_loader("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data")
 merged_df <- merger(final_df)
-
+        theme(axis.title.y = element_text(margin = margin(r = 10)))+
+                    theme(axis.title.x = element_text(margin = margin(t = 10)))+
+                    theme(plot.margin = margin(15, 10, 15, 10))+
 
 # counting total number of good types per auction 
 merged_df <- merged_df %>% group_by(mooc_id) %>% mutate(number_bundles=sum(bundle))%>% separate(date, into =c('year', 'month/day'), sep=4)
@@ -59,8 +61,6 @@ merged_df <- merged_df %>% ungroup() %>% select(-mooc_id,-year, -type, -bundle) 
 
 
 
-
-
 ```
 # descriptives
 ```{r}
@@ -72,8 +72,6 @@ merged_df <- merged_df %>%
     ungroup() %>% 
     arrange(z_score) %>% 
     filter(z_score<5) 
-
-
 
 auction_timeline <- plotter(plotting_df, plotting_df$year, plotting_df$auction_tot, "Total auction value")
 
@@ -122,6 +120,7 @@ knn_fit <- train(
     
 ggplot(knn_fit)
 # k = 2 has the lowest RMSE
+# RMSE is 1776
 
 library(caret)
 
@@ -135,7 +134,8 @@ knn_model <- train(
   tuneGrid = data.frame(k = k),
   metric = "accuracy"
 )
-knn_model
+knn_model # RMSE is 2471
+
 # Make predictions on the testing data
 predictions <- predict(knn_model, newdata = testing_data)
 
@@ -160,30 +160,41 @@ training_rf <- ranger(
   seed = 123
 )
 training_rf
-default_rmse <- sqrt(training_rf$prediction.error)
+default_rmse <- sqrt(training_rf$prediction.error) # RMSE: 759
 rf_importance <- ranger::importance(training_rf)
 sort(rf_importance, decreasing = TRUE)
 
-# Predict auction total values
-predictions_rf <- predict(training_rf, data = testing_data)$predictions
+# lowering RMSE
 
-plot(training_data$auction_tot, training_rf$predictions)
+# parameter grid
+parameter_grid <- expand.grid(
+  mtry = c(floor(n_features / 3)),
+  num.trees = c(50, 100, 200),
+  min.node.size = c(1, 5, 10)
+)
+
+results <- lapply(1:nrow(parameter_grid), function(i) {
+  model <- ranger(
+    auction_tot ~ .,
+    data = training_data,
+    num.trees = parameter_grid$num.trees[i],
+    mtry = parameter_grid$mtry[i],
+    min.node.size = parameter_grid$min.node.size[i],
+    respect.unordered.factors = "order",
+    importance = "permutation",
+    seed = 123
+  )
+  predictions <- predict(model, data = testing_data)$predictions
+  rmse <- sqrt(mean((predictions - testing_data$auction_tot)^2))
+  list(model = model, rmse = rmse)
+})
+
+best_model_index <- which.min(sapply(results, function(x) x$rmse))
+best_model <- results[[best_model_index]]$model
+
+predictions <- predict(best_model, data = testing_data)$predictions
+rmse_rf <- sqrt(mean((predictions - testing_data$auction_tot)^2)) # RMSE:584
+
 
 ```
-
-
-```{r}
-
-# Calculate Mean Squared Error
-MSE <- mean((predictions - testing_data$auction_tot)^2)
-SSR <- sum((predictions - mean(testing_data$auction_tot))^2)
-SST <- sum((testing_data$auction_tot - mean(testing_data$auction_tot))^2)
-R_squared <- SSR / SST
-mean(predictions == testing_data$auction_tot)
-
-
-
-```
-
-
 

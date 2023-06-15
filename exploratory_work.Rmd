@@ -1,6 +1,4 @@
----
----
----
+Descriptives
 
 ```{r Echo=FALSE}
 
@@ -18,7 +16,6 @@ purchases <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data s
 auctions <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data\\Full_Rec_Mooc.csv") %>% select(mooc_id, date, auction_tot)
 final_df <- data_loader("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data")
 merged_df <- merger(final_df)
-
 
 # counting total number of good types per auction 
 merged_df <- merged_df %>% group_by(mooc_id) %>% mutate(number_bundles=sum(bundle))%>% separate(date, into =c('year', 'month/day'), sep=4)
@@ -55,7 +52,7 @@ merged_df <- merged_df %>% ungroup() %>% select(-mooc_id,-year, -type, -bundle) 
 
 source("code/ggplots.R")
 
-auction_timeline <- plotter(plotting_df, plotting_df$year, plotting_df$auction_tot)
+auction_timeline <- plotter(y=plotting_df$auction_tot, "Total auction values by auctions", "Total value")
 auction_timeline
 
 attendance_plot <- ggplot(attendance_df, aes(x=year, y=number, fill=title))+
