@@ -47,13 +47,17 @@ titledmen_locator <- function(titled_men, vector_input) {
     return(titled_men)
 }
 
-title_counter <- function(purchases, title_total, title_type) {
-    for (i in seq_along(title_type)) {
-        purchases <- purchases %>%
+title_counter <- function(purchases) {
+        purchases_titles <- purchases %>%
             group_by(mooc_id) %>%
-            mutate(!!title_total[i] := sum(title_type[i], na.rm=TRUE))
-    }
-    return(purchases)
+            mutate(women_tot=sum(women, na.rm=TRUE),
+                   men_total=sum(men, na.rm=TRUE)) %>%
+            select(mooc_id, women_tot, men_total) %>%
+            distinct(mooc_id, .keep_all=TRUE)
+
+    return(purchases_titles)
 }
+
+
 
 
