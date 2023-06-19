@@ -1,3 +1,5 @@
+# loading all the good_type datasets and binding them together
+
 data_loader <- function(data_dest){
 
     library(tidyverse)
@@ -6,7 +8,11 @@ data_loader <- function(data_dest){
     reader <- function(x){
         hushread <- purrr::quietly(read_csv)
         df <- hushread(x)
-        df$result %>% dplyr::select(mooc_id, date, type, bundle)
+        df$result %>%
+            dplyr::select(mooc_id, date, type, count,
+                                    unit_price, bundle) %>%
+            mutate(count = as.numeric(count)) %>%
+            mutate(unit_price = log(unit_price))
     }
 
     data_merger <-
@@ -19,8 +25,11 @@ data_loader <- function(data_dest){
         return(data_merger)
 }
 
-merger <- function(item_df){
-    goods <- left_join(item_df, auctions, by=c("mooc_id", "date"))
+
+# joining the goods dataset to the auction dataset
+
+merger <- function(data1, data2){
+    goods <- left_join(data1, data2 , by=c("mooc_id", "date"))
     return(goods)
 }
 

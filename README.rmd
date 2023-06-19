@@ -6,12 +6,7 @@ output:
 
 # Purpose
 
-Purpose of this work folder.
-
-Ideally store a minimum working example data set in data folder.
-
-Add binary files in bin, and closed R functions in code. Human Readable settings files (e.g. csv) should be placed in settings/
-
+Proposed layout: EDA (univariate, bivariate analysis), model (compare hard to interpret results against bivariate)
 
 ```{r}
 
@@ -21,17 +16,35 @@ library(caret)
 
 
 # loading and merging data
+
+art <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data\\priceseries_art_products_purch_rec.csv")
 purchases <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data\\Full_Rec_Mooc_Purchases.csv") %>% select(mooc_id, buyer_id)
-auctions <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data\\Full_Rec_Mooc.csv") %>% select(mooc_id, date, auction_tot)
+auctions <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data\\Full_Rec_Mooc.csv") %>% 
+    select(mooc_id, date, auction_tot) %>% 
+    mutate(auction_tot= as.numeric(auction_tot)) %>% 
+    mutate(auction_tot = log(auction_tot))
 final_df <- data_loader("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data")
-merged_df <- merger(final_df)
-        theme(axis.title.y = element_text(margin = margin(r = 10)))+
-                    theme(axis.title.x = element_text(margin = margin(t = 10)))+
-                    theme(plot.margin = margin(15, 10, 15, 10))+
+merged_df <- merger(final_df, auctions)
+       
 
 # counting total number of good types per auction 
-merged_df <- merged_df %>% group_by(mooc_id) %>% mutate(number_bundles=sum(bundle))%>% separate(date, into =c('year', 'month/day'), sep=4)
+goods <- c("books", "art_products", "scales", "beds", "cattle", "chairs", "china", 
+           "coatrack", "cups", "guns", "hammers", "horse_cart", "horses", "irons", 
+           "jewelry", "lamps", "oven", "plates", "pot", "sheep", "slaves", "tables", 
+           "utensils", "wagons")
+
+total_value_good_auction <- total_purchase_value(goods = c("books", "art_products", "scales", 
+                                        "beds", "cattle", "chairs", "china", 
+                                        "coatrack", "cups", "guns", "hammers", 
+                                        "horse_cart", "horses", "irons", "jewelry", 
+                                        "lamps", "oven", "plates", "pot", "sheep", 
+                                        "slaves", "tables", "utensils", "wagons")) %>% 
+    spread(key = type, value = total_value, fill = 0)
+
+
+
 merged_df <- good_counter(merged_df, c("books", "art_products", "scales", "beds", "cattle", "chairs", "china", "coatrack", "cups", "guns", "hammers", "horse_cart", "horses", "irons", "jewelry", "lamps", "oven", "plates", "pot", "sheep", "slaves", "tables", "utensils", "wagons"), c("book_tot", "art_tot", "scale_tot", "bed_tot", "cattle_tot", "chairs_tot", "china_tot", "coatrack_tot", "cup_tot", "guns_tot", "hammer_tot", "horsecart_tot", "horse_tot", "irons_tot", "jewelry_tot", "lamp_tot", "oven_tot", "plates_tot", "pot_total", "sheep_tot", "slave_tot", "table_tot", "utensil_tot", "wagon_tot" )) 
+
 merged_df <- merged_df %>% distinct(mooc_id, .keep_all=TRUE)
 
 # counting attendance by titled men and women per auction
