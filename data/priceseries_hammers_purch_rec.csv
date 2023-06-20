@@ -1,0 +1,401 @@
+purchase_id,mooc_id,date,focal_good,good_desc,type,mooc_set,count,price,unit_price,bundle,group,old,new
+MOOC10/5.74/333,MOOC10/5.74,17470111,1 belhaamer,1 snymes en 1 belhaamer,hammers,5,1,1.0,1.0,1,0,0,0
+MOOC10/13.5/48,MOOC10/13.5,17791227/17791228,3 hamers,3 hamers,hammers,13,3,1.0,0.33,0,0,0,0
+MOOC10/13.26/25,MOOC10/13.26,17811119,1 hamer,1 dissel met 1 hamer,hammers,13,1,1.0,1.0,1,0,0,0
+MOOC10/13.60/49,MOOC10/13.60,17821022,1 haamer,1 haamer,hammers,13,1,1.0,1.0,0,0,0,0
+MOOC10/14.7/112,MOOC10/14.7,17830526/17830527/17830529,1 parthij hamers,1 parthij hamers,hammers,14,1,1.0,1.0,0,1,0,0
+MOOC10/15.18/14,MOOC10/15.18,17860627,1 hamer,"1 handschroef, 1 hamer en 1 tang",hammers,15,1,1.0,1.0,1,0,0,0
+MOOC10/15.63/34,MOOC10/15.63,17880708,2 belhamers,2 belhamers,hammers,15,2,1.0,0.5,0,0,0,0
+MOOC10/16.32/71,MOOC10/16.32,17900930,1 voorhamer,1 voorhamer en passer,hammers,16,1,1.0,1.0,1,0,0,0
+MOOC10/18.27/105,MOOC10/18.27,"17980927/179820929, 17981001, 17981008",1 hamer,"1 hamer, 1 duimstok en 1 kleederborstel",hammers,18,1,1.0,1.0,1,0,0,0
+MOOC10/19.42/30,MOOC10/19.42,18010910/18010912,2 smitshamers,2 smitshamers,hammers,19,2,1.0,0.5,0,0,0,0
+MOOC10/19.66/38,MOOC10/19.66,18020127/18020128,2 handhaamers,2 handhaamers,hammers,19,2,1.0,0.5,0,0,0,0
+MOOC10/20.1/36,MOOC10/20.1,18030531,2 hamers,2 hamers,hammers,20,2,1.0,0.5,0,0,0,0
+MOOC10/20.51/34,MOOC10/20.51,18041203/18041204,3 hamers,3 hamers en 1 oude coffer,hammers,20,3,1.0,0.33,1,0,0,0
+MOOC10/20.79/45,MOOC10/20.79,18050208,1 hamer 1 rijx:der,1 hamer 1 rijx:der,hammers,20,1,1.0,1.0,0,0,0,0
+MOOC10/21.42/29,MOOC10/21.42,[...]0429,1 haamer,1 haamer,hammers,21,1,1.0,1.0,0,0,0,0
+MOOC10/21.44/11,MOOC10/21.44,18050827,1 hamer,1 vuilnisblik en 1 hamer,hammers,21,1,1.0,1.0,1,0,0,0
+MOOC10/21.50/9,MOOC10/21.50,18031120,1 houte hamer,"3 oude leggers, 4 boortjes en 1 houte hamer",hammers,21,1,1.0,1.0,1,0,0,0
+MOOC10/21.50/10,MOOC10/21.50,18031120,1 hamer,"11 vijlen, 1 hamer en 1 nijptang",hammers,21,1,1.0,1.0,1,0,0,0
+MOOC10/22.73/34,MOOC10/22.73,18071115,1 hamer,"1 slot,1 hamer, 1 saag",hammers,22,1,1.0,1.0,1,0,0,0
+MOOC10/22.79/71,MOOC10/22.79,18070511,2 p:s kleijne hamers,twee p:s kleijne hamers,hammers,22,2,1.0,0.5,0,0,0,0
+MOOC10/23.43/105,MOOC10/23.43,18080819,1 haamer etc:a,1 haamer etc:a,hammers,23,1,1.0,1.0,0,0,0,0
+MOOC10/26.19/39,MOOC10/26.19,18110801,1 hamer,"een hamer, een hoepel",hammers,26,1,1.0,1.0,1,0,0,0
+MOOC10/7.10_1/2/4,MOOC10/7.10_1/2,17531022,1 hamer,"1 hamer, 1 zoutvat",hammers,7,1,1.0,1.0,1,0,0,0
+MOOC10/7.23/40,MOOC10/7.23,17550627,1 hamer,"1 kapmes, 1 handbijl, 2 vleesvorken, 2 tangen, 1 hamer, 2 ijsere snuijters en 1 vuurtangh",hammers,7,1,1.0,1.0,1,0,0,0
+MOOC10/7.42/270,MOOC10/7.42,17551203/17551204,2 hamers,2 hamers en 1 uijntjes ijser,hammers,7,2,1.0,0.5,1,0,0,0
+MOOC10/8.58/121,MOOC10/8.58,17640731,3 haamers,3 haamers en 2 nijptangen,hammers,8,3,1.0,0.33,1,0,0,0
+MOOC10/4.136/61,MOOC10/4.136,17341124,1 hamer,"1 hamer, een crom mes, een saage, een avegaar en 5 sickels",hammers,4,1,2.0,2.0,1,0,0,0
+MOOC10/10.84/30,MOOC10/10.84,17720914,3 hamers,2 molen steenen en 3 hamers,hammers,10,3,2.0,0.67,1,0,0,0
+MOOC10/14.4/31,MOOC10/14.4,17830114,1 schoenmakers hamer,1 schoenmakers hamer,hammers,14,1,2.0,2.0,0,0,0,0
+MOOC10/14.11/205,MOOC10/14.11,17830324/17830325,1 haamer,"1 ijzere es, 2 houte essen en 1 haamer",hammers,14,1,2.0,2.0,1,0,0,0
+MOOC10/16.39/156,MOOC10/16.39,17931028/17931029,3 hamers,3 hamers en 1 bijl,hammers,16,3,2.0,0.67,1,0,0,0
+MOOC10/16.41/24,MOOC10/16.41,17921001,1 hamer,"2 sagen, 1 hamer en kauwbeijtel",hammers,16,1,2.0,2.0,1,0,0,0
+MOOC10/17.16/7,MOOC10/17.16,17940118,2 hamers,"2 dekstoelen, 2 hamers en 1 winkelhaak",hammers,17,2,2.0,1.0,1,0,0,0
+MOOC10/17.18/10,MOOC10/17.18,17941013,2 hamers,"2 knijptange en 2 hamers, 1 passer",hammers,17,2,2.0,1.0,1,0,0,0
+MOOC10/18.21/10,MOOC10/18.21,17940116,3 hamers,3 hamers,hammers,18,3,2.0,0.67,0,0,0,0
+MOOC10/18.76/57,MOOC10/18.76,17990315,1 part: hamers,1 part: hamers,hammers,18,1,2.0,2.0,0,1,0,0
+MOOC10/19.7/18,MOOC10/19.7,18000107,2 hamers,2 hamers en 1 stuk ijzer,hammers,19,2,2.0,1.0,1,0,0,0
+MOOC10/20.14/151,MOOC10/20.14,18040130,1 copere hamer,1 copere hamer,hammers,20,1,2.0,2.0,0,0,0,0
+MOOC10/22.8/5,MOOC10/22.8,18060825,1 hamer,"2 hoeden, 1 kan, 1 keetel, 2 kommen, 2 pijpekoppen, 2 knipmessen, 1 hamer en wat romm:",hammers,22,1,2.0,2.0,1,0,0,0
+MOOC10/22.84/10,MOOC10/22.84,18070603,1 bilhamer,1 bilhamer,hammers,22,1,2.0,2.0,0,0,0,0
+MOOC10/23.61/9,MOOC10/23.61,18081129,1 partij hamers,1 partij hamers,hammers,23,1,2.0,2.0,0,1,0,0
+MOOC10/8.45/68,MOOC10/8.45,17631015,1 hamer,"1 draaijbank, 1 dissel, 1 hamer, 3 bijtels, 2 oude vijlen",hammers,8,1,2.0,2.0,1,0,0,0
+MOOC10/4.126/20,MOOC10/4.126,17340716,1 hamer,"2 ijsere slagroeijen, 1 hamer, 1 set, 2 verlaatboren, 1 kuijpersdissel en 2 haalmessen",hammers,4,1,3.0,3.0,1,0,0,0
+MOOC10/14.4/36,MOOC10/14.4,17830114,1 hamer,"1 hamer, nijptang en snijmes",hammers,14,1,3.0,3.0,1,0,0,0
+MOOC10/15.50/212,MOOC10/15.50,17870821/17870822,2 hamers,1 kraan en 2 hamers,hammers,15,2,3.0,1.5,1,0,0,0
+MOOC10/18.3/100,MOOC10/18.3,17970405,1 voorhamer,1 voorhamer,hammers,18,1,3.0,3.0,0,0,0,0
+MOOC10/21.43/39,MOOC10/21.43,18050705,1 handhamer,1 handhamer en bijl,hammers,21,1,3.0,3.0,1,0,0,0
+MOOC10/26.7/141,MOOC10/26.7,18121015,1 hand hamer,1 hand hamer en haken,hammers,26,1,3.0,3.0,1,0,0,0
+MOOC10/26.36/20,MOOC10/26.36,18100813,1 schoenmaakers hamer,1 schoenmaakers hamer,hammers,26,1,3.0,3.0,0,0,0,0
+MOOC10/8.50/48,MOOC10/8.50,17640227,1 hamer,"2 coevoeten, 5 bijlen en 1 hamer",hammers,8,1,3.0,3.0,1,0,0,0
+MOOC10/9.21/32,MOOC10/9.21,17670415,2 haamers,2 haamers en 1 deurslag,hammers,9,2,3.0,1.5,1,0,0,0
+MOOC10/11.9/15,MOOC10/11.9,17741107/17741108,3 hamers,"9 bijlen, 1 moker en 3 hamers",hammers,11,3,4.0,1.33,1,0,0,0
+MOOC10/12.22/7,MOOC10/12.22,17781026,8 hamers,"8 hamers, 3 tange, 1 bijl en 1 pik",hammers,12,8,4.0,0.5,1,0,0,0
+MOOC10/14.34/10,MOOC10/14.34,1784,2 hamers,2 hamers,hammers,14,2,4.0,2.0,0,0,0,0
+MOOC10/15.48/183,MOOC10/15.48,17860315/17860316,2 hamers,2 hamers,hammers,15,2,4.0,2.0,0,0,0,0
+MOOC10/20.20/6,MOOC10/20.20,18040526,1 ijzere hamer,1 ijzere hamer en 2 bijlen,hammers,20,1,4.0,4.0,1,0,0,0
+MOOC10/21.13/29,MOOC10/21.13,18060203,4 hamers,4 hamers,hammers,21,4,4.0,1.0,0,0,0,0
+MOOC10/21.45/173,MOOC10/21.45,18050301/18050302,2 haamers,"2 haamers, 1 knijptang, 1 duimsboor",hammers,21,2,4.0,2.0,1,0,0,0
+MOOC10/22.42/40,MOOC10/22.42,18060516,1 bilhamer,"1 bilhamer, bijtel en bijl",hammers,22,1,4.0,4.0,1,0,0,0
+MOOC10/23.55/16,MOOC10/23.55,18090130,3 hamers,"1 pijp, 3 hamers, 5 boeken, 1 tobaksdoos en 1 kruijd-hoorn",hammers,23,3,4.0,1.33,1,0,0,0
+MOOC10/24.16/22,MOOC10/24.16,18100514,5 hamers,4 tangen en 5 hamers,hammers,24,5,4.0,0.8,1,0,0,0
+MOOC10/13.9/216,MOOC10/13.9,17800615/17800616,1 voorslaghamers,1 voorslaghamers,hammers,13,1,5.0,5.0,0,0,0,0
+MOOC10/19.27/92,MOOC10/19.27,18020115/18020116,4 hamers,4 hamers,hammers,19,4,5.0,1.25,0,0,0,0
+MOOC10/19.27/94,MOOC10/19.27,18020115/18020116,11 hamers,11 hamers,hammers,19,11,5.0,0.45,0,0,0,0
+MOOC10/20.55/82,MOOC10/20.55,18050718/18050719,1 houte hamer,"2 emmers, 1 houte hamer en 1 kopere kraan",hammers,20,1,5.0,5.0,1,0,0,0
+MOOC10/11.62/7,MOOC10/11.62,17770220/17770221,1 hamer,"1 koevoet, 1 uijntjesijzer, 3 klip pikken, 1 pik, 4 graven, 4 bijlen, 1 kapmes, 1 holdissel, 2 bijtels, 1 vijl, 1 schaaf, 1 omslag, 1 hamer, 1 schop, 1 handzaag, 1 theerputs en 3 schepels zout",hammers,11,1,6.0,6.0,1,0,0,0
+MOOC10/13.13/69,MOOC10/13.13,17810109,1 hamer,1 casje met 1 hamer en 1 parthij bijtels,hammers,13,1,6.0,6.0,1,0,0,0
+MOOC10/19.45/226,MOOC10/19.45,18020712,1 partij hamers,1 partij hamers,hammers,19,1,6.0,6.0,0,1,0,0
+MOOC10/26.31/73,MOOC10/26.31,18111202,7 smiths hamers,7 smiths hamers,hammers,26,7,6.0,0.86,0,0,0,0
+MOOC10/26.44/36,MOOC10/26.44,18110828/18110829, hamer,1 oude slijpsteen en hamer,hammers,26,,6.0,-99,1,0,0,0
+MOOC10/13.13/68,MOOC10/13.13,17810109,1 hamer,1 casje met 1 hamer en 1 parthij bijtels,hammers,13,1,7.0,7.0,1,0,0,0
+MOOC10/26.45/36,MOOC10/26.45,18110713/18110730,1 bilhaamer,1 dissel en 1 bilhaamer,hammers,26,1,7.0,7.0,1,0,0,0
+MOOC10/10.14/237,MOOC10/10.14,17700427/17700428,1 partij hamers,1 partij hamers,hammers,10,1,8.0,8.0,0,1,0,0
+MOOC10/19.24/115,MOOC10/19.24,18011027,1 hamer,1 beijl en 1 hamer,hammers,19,1,9.0,9.0,1,0,0,0
+MOOC10/19.66/36,MOOC10/19.66,18020127/18020128,1 voorhaamer,1 voorhaamer,hammers,19,1,9.0,9.0,0,0,0,0
+MOOC10/19.23/24,MOOC10/19.23,18000718,1 bilhamer,2 molen steen en 1 bilhamer,hammers,19,1,12.0,12.0,1,0,0,0
+MOOC10/10.36/57,MOOC10/10.36,17710430, zijn belhamer,1 water moolen met zijn belhamer,hammers,10,,15.0,-99,1,0,0,0
+MOOC10/21.14/87,MOOC10/21.14,18051120,8 hamers,8 hamers en 1 nijptang,hammers,21,8,15.0,1.88,1,0,0,0
+MOOC10/22.32/20,MOOC10/22.32,18060620/18060621, voorhamer,1 spierhaak en voorhamer,hammers,22,,19.0,-99,1,0,0,0
+MOOC10/22.66/82,MOOC10/22.66,18060218/18060219,1 parthij smits hamers,1 parthij smits hamers en tangen,hammers,22,1,20.0,20.0,1,1,0,0
+MOOC10/14.4/108,MOOC10/14.4,17830114,2 belhamers,1 molen en 2 belhamers,hammers,14,2,24.0,12.0,1,0,0,0
+MOOC10/14.28/20,MOOC10/14.28,1783, bilhamer,"2 meulen steene, spil, bilhamer",hammers,14,,25.0,-99,1,0,0,0
+MOOC10/26.31/69,MOOC10/26.31,18111202,2 voorhamers,2 voorhamers,hammers,26,2,26.0,13.0,0,0,0,0
+MOOC10/16.31/2,MOOC10/16.31,17900920/17900923,2 belhamers,"1 moolen, 2 belhamers, 2 ploegen, 1 oude kadel, 3 oude stoelen, 1 oude tafel, 1 lamsieke os, 1 lamsieke bulletje, 1 koeij met kalf, 8 klijne verkens en 5 mudden tarwe, welk een en ander zig op voorsz: plaatsen komt te bevinden",hammers,16,2,30.0,15.0,1,0,0,0
+MOOC10/19.19/16,MOOC10/19.19,18010212,2 belhamers,1 hand molen en 2 belhamers,hammers,19,2,82.0,41.0,1,0,0,0
+MOOC10/3.78/54,MOOC10/3.78,17280602,1 hamer,1 hand kuijper sol met 1 hamer,hammers,3,1,0.04,0.04,1,0,0,0
+MOOC10/13.5/43,MOOC10/13.5,17791227/17791228,2 hamers,2 hamers,hammers,13,2,0.04,0.02,0,0,0,0
+MOOC10/13.13/86,MOOC10/13.13,17810109,1 hamer,"3 geweer kolven, 1 hamer en wat gereedschappen",hammers,13,1,0.04,0.04,1,0,0,0
+MOOC10/18.3/104,MOOC10/18.3,17970405,1 bilhamer,1 bilhamer,hammers,18,1,0.04,0.04,0,0,0,0
+MOOC10/2.9/806,MOOC10/2.9,17190315,1 houte hamer,1 bankje met 1 houte hamer,hammers,2,1,0.04,0.04,1,0,0,0
+MOOC10/2.10/581,MOOC10/2.10,17190403,2 sethamers,2 sethamers en 3 schrapers,hammers,2,2,0.04,0.02,1,0,0,0
+MOOC10/2.19/62,MOOC10/2.19,17200309,3 houte hamers,3 houte hamers en 3 houte klampen,hammers,2,3,0.04,0.01,1,0,0,0
+MOOC10/21.16/51,MOOC10/21.16,18050306,1 hamer,1 hamer,hammers,21,1,0.04,0.04,0,0,0,0
+MOOC10/21.39/447,MOOC10/21.39,18051030/18051031/18051101,1 hamer,1 hamer,hammers,21,1,0.04,0.04,0,0,0,0
+MOOC10/23.44/55,MOOC10/23.44,18080328,1 hamer,1 hamer,hammers,23,1,0.04,0.04,0,0,0,0
+MOOC10/6.63/249,MOOC10/6.63,17550927,1 bil hamer,1 bil hamer en 2 tangen,hammers,6,1,0.04,0.04,1,0,0,0
+MOOC10/3.70/85,MOOC10/3.70,17270628,1 spijker hamer,"1 mandje met 2 aarde potten, 1 tabakx mes en 1 spijker hamer",hammers,3,1,1.04,1.04,1,0,0,0
+MOOC10/10.21/266,MOOC10/10.21,17690109/17690110,2 hamers,2 hamers en 1 dissel,hammers,10,2,1.04,0.52,1,0,0,0
+MOOC10/12.14/33,MOOC10/12.14,17780221,1 hamer,"3 kruijs houte, 1 slag lijn en 1 duijmstok en 1 hamer",hammers,12,1,1.04,1.04,1,0,0,0
+MOOC10/13.54/117,MOOC10/13.54,17820816/17820817,1 hamer,"2 handsagen, 1 hamer, 5 sikkels en 1 hamer",hammers,13,1,1.04,1.04,1,0,0,0
+MOOC10/14.39/11,MOOC10/14.39,17841006,1 hamer,2 raspen en 1 hamer,hammers,14,1,1.04,1.04,1,0,0,0
+MOOC10/16.19_1/2/20,MOOC10/16.19_1/2,17910104,2 hamers,2 hamers,hammers,16,2,1.04,0.52,0,0,0,0
+MOOC10/17.29/174,MOOC10/17.29,17950126/17950128,4 hamers,4 hamers,hammers,17,4,1.04,0.26,0,0,0,0
+MOOC10/17.37/97,MOOC10/17.37,17951218/17951219,1 parthij hamers,1 parthij hamers,hammers,17,1,1.04,1.04,0,1,0,0
+MOOC10/18.10/46,MOOC10/18.10,17940701,1 bilhamer,1 bilhamer,hammers,18,1,1.04,1.04,0,0,0,0
+MOOC10/19.42/29,MOOC10/19.42,18010910/18010912,2 smitshamers,2 smitshamers,hammers,19,2,1.04,0.52,0,0,0,0
+MOOC10/19.42/33,MOOC10/19.42,18010910/18010912,1 bilhaamer,1 bilhaamer,hammers,19,1,1.04,1.04,0,0,0,0
+MOOC10/19.42/35,MOOC10/19.42,18010910/18010912,1 hamer,1 hamer en deurslag,hammers,19,1,1.04,1.04,1,0,0,0
+MOOC10/20.33/78,MOOC10/20.33,18031217,1 bilhaamer etc:a,"2 troffels, 1 bilhaamer etc:a",hammers,20,1,1.04,1.04,1,0,0,0
+MOOC10/20.36/2,MOOC10/20.36,18041215,2 hamers,"1 dissel, 2 hamers, 2 knijptangs en 1 olij steen",hammers,20,2,1.04,0.52,1,0,0,0
+MOOC10/21.16/40,MOOC10/21.16,18050306,1 bilhamer,1 bilhamer,hammers,21,1,1.04,1.04,0,0,0,0
+MOOC10/21.56/16,MOOC10/21.56,18030418,1 partij hamers,1 partij hamers en bijtels,hammers,21,1,1.04,1.04,1,1,0,0
+MOOC10/23.41/73,MOOC10/23.41,18080614,1 hamer,"1 winkelhaak, 1 snijmes, 1 hamer, 1 boor, defect",hammers,23,1,1.04,1.04,1,0,0,0
+MOOC10/24.27/26,MOOC10/24.27,18090325,1 hamer,1 hamer en knijptang,hammers,24,1,1.04,1.04,1,0,0,0
+MOOC10/11.44/253,MOOC10/11.44,17760925/17760926,1 hamer,"2 hangstoffers, 1 nijptang en 1 hamer",hammers,11,1,2.04,2.04,1,0,0,0
+MOOC10/11.47/221,MOOC10/11.47,17761107/17761108,1 smits hamer,1 smits hamer,hammers,11,1,2.04,2.04,0,0,0,0
+MOOC10/13.5/49,MOOC10/13.5,17791227/17791228,1 voorhamer,1 voorhamer,hammers,13,1,2.04,2.04,0,0,0,0
+MOOC10/13.5/51,MOOC10/13.5,17791227/17791228,1 voorhamer,1 voorhamer,hammers,13,1,2.04,2.04,0,0,0,0
+MOOC10/13.13/49,MOOC10/13.13,17810109,1 groote voorslag haamer,1 groote voorslag haamer,hammers,13,1,2.04,2.04,0,0,0,0
+MOOC10/13.59/38,MOOC10/13.59,17820821,1 hamer,"1 handbijl, 1 hamer en 1 pik",hammers,13,1,2.04,2.04,1,0,0,0
+MOOC10/14.14/16,MOOC10/14.14,17830423/17830424,2 hamers,2 hamers,hammers,14,2,2.04,1.02,0,0,0,0
+MOOC10/14.57/104,MOOC10/14.57,178[...]1103,4 hamers,4 hamers,hammers,14,4,2.04,0.51,0,0,0,0
+MOOC10/18.64/2,MOOC10/18.64,17990816/17990817,1 hamer,"6 schaaven, 2 bijlen, 1 hamer",hammers,18,1,2.04,2.04,1,0,0,0
+MOOC10/23.7/40,MOOC10/23.7,18080718,1 hamer,"1 boor, 1 hamer",hammers,23,1,2.04,2.04,1,0,0,0
+MOOC10/23.46/9,MOOC10/23.46,18081110,1 hamer,1 hamer en 2 troffels,hammers,23,1,2.04,2.04,1,0,0,0
+MOOC10/15.8/118,MOOC10/15.8,17851114/17851115,1 parthij smits hamers,1 parthij smits hamers,hammers,15,1,3.04,3.04,0,1,0,0
+MOOC10/19.42/27,MOOC10/19.42,18010910/18010912,1 smitshamer,1 smitshamer,hammers,19,1,3.04,3.04,0,0,0,0
+MOOC10/21.37/279,MOOC10/21.37,18041106/18041108,1 belhaamer,1 belhaamer,hammers,21,1,3.04,3.04,0,0,0,0
+MOOC10/8.54/42,MOOC10/8.54,17640319,3 haamers,"2 braadspit staanders, 2 mookers en 3 haamers",hammers,8,3,3.04,1.01,1,0,0,0
+MOOC10/12.22/6,MOOC10/12.22,17781026,4 voorslagers hamers,4 voorslagers hamers,hammers,12,4,4.04,1.01,0,0,0,0
+MOOC10/14.13/20,MOOC10/14.13,17830114,1 belhamer,1 belhamer,hammers,14,1,4.04,4.04,0,0,0,0
+MOOC10/22.56/25,MOOC10/22.56,18060926,1 hamer,"1 hamer, zethamer",hammers,22,1,4.04,4.04,1,0,0,0
+MOOC10/22.101/93,MOOC10/22.101,18070812/18070813,1 hamer,"1 teerputs, 1 emmer, 1 hamer, 1 koevoet",hammers,22,1,4.04,4.04,1,0,0,0
+MOOC10/6.47/24,MOOC10/6.47,17531024,5 hamers,5 hamers,hammers,6,5,4.04,0.81,0,0,0,0
+MOOC10/10.77/19,MOOC10/10.77,17730302,3 hamers,3 hamers,hammers,10,3,5.04,1.68,0,0,0,0
+MOOC10/15.48/187,MOOC10/15.48,17860315/17860316,2 hamers,2 hamers en 1 troffel,hammers,15,2,5.04,2.52,1,0,0,0
+MOOC10/19.66/37,MOOC10/19.66,18020127/18020128,1 voorhaamer,1 voorhaamer,hammers,19,1,5.04,5.04,0,0,0,0
+MOOC10/21.33/18,MOOC10/21.33,18040507,8 hammers in zoort,8 hammers in zoort,hammers,21,8,5.04,0.63,0,0,0,0
+MOOC10/22.15/3,MOOC10/22.15,18050604,1 haamer,1 spier haak en 1 haamer,hammers,22,1,5.04,5.04,1,0,0,0
+MOOC10/24.15/12,MOOC10/24.15,18100302,4 hamers,"4 hamers, 1 bijl en 1 dissel",hammers,24,4,6.04,1.51,1,0,0,0
+MOOC10/26.31/71,MOOC10/26.31,18111202,6 smiths hamers,6 smiths hamers,hammers,26,6,6.04,1.01,0,0,0,0
+MOOC10/26.31/72,MOOC10/26.31,18111202,6 smiths hamers,6 smiths hamers,hammers,26,6,6.04,1.01,0,0,0,0
+MOOC10/4.126/3,MOOC10/4.126,17340716, hamer,"1 rakje, 1 trapje, 1 partij ijserwerk, 2 schilderijtjes met 1 koevoet en hamer",hammers,4,,7.04,-99,1,0,0,0
+MOOC10/15.48/208,MOOC10/15.48,17860315/17860316,1 hamer,2 holdissels en 1 hamer,hammers,15,1,7.04,7.04,1,0,0,0
+MOOC10/18.19/6,MOOC10/18.19,17980312/17980313,6 smits hamers,6 smits hamers,hammers,18,6,8.04,1.34,0,0,0,0
+MOOC10/9.14/213,MOOC10/9.14,17651104/17651105,3 hamers,"2 beijlen, drie hamers, 2 beijtels, een rasp, een kraansaag, twee holdissels",hammers,9,3,9.04,3.01,1,0,0,0
+MOOC10/22.42/59,MOOC10/22.42,18060516,1 hamer,"1 hamer, tang, knijper etc:a",hammers,22,1,10.04,10.04,1,0,0,0
+MOOC10/13.9/215,MOOC10/13.9,17800615/17800616,2 voorslaghamers,2 voorslaghamers,hammers,13,2,11.04,5.52,0,0,0,0
+MOOC10/19.27/91,MOOC10/19.27,18020115/18020116,2 hamers,2 hamers,hammers,19,2,11.04,5.52,0,0,0,0
+MOOC10/20.19/66,MOOC10/20.19,18040723,3 hamers,3 hamers,hammers,20,3,11.04,3.68,0,0,0,0
+MOOC10/17.38/74,MOOC10/17.38,17951110/17951111,3 hamers,3 hamers,hammers,17,3,13.04,4.35,0,0,0,0
+MOOC10/24.27/23,MOOC10/24.27,18090325,1 belhamer,1 hand molen met 1 belhamer,hammers,24,1,14.04,14.04,1,0,0,0
+MOOC10/17.52/103,MOOC10/17.52,17960404/17960405,5 hamers in zoort,5 hamers in zoort,hammers,17,5,20.04,4.01,0,0,0,0
+MOOC10/26.31/68,MOOC10/26.31,18111202,2 voorhamers,2 voorhamers,hammers,26,2,30.04,15.02,0,0,0,0
+MOOC10/2.3/23,MOOC10/2.3,17180725,1 hamer etc:a,1 kelder met ledige flessen en 1 hamer etc:a,hammers,2,1,1.06,1.06,1,0,0,0
+MOOC10/11.51/49,MOOC10/11.51,17760920,1 hamer,1 hamer en 1 beijtel,hammers,11,1,0.08,0.08,1,0,0,0
+MOOC10/13.5/46,MOOC10/13.5,17791227/17791228,2 hamers,2 hamers,hammers,13,2,0.08,0.04,0,0,0,0
+MOOC10/13.5/47,MOOC10/13.5,17791227/17791228,2 hamers,2 hamers,hammers,13,2,0.08,0.04,0,0,0,0
+MOOC10/13.18/112,MOOC10/13.18,17810720,1 hamer,"1 hamer, 2 bijtels en 1 tang",hammers,13,1,0.08,0.08,1,0,0,0
+MOOC10/18.58/46,MOOC10/18.58,17980417,1 bilhamer,1 bilhamer,hammers,18,1,0.08,0.08,0,0,0,0
+MOOC10/18.74/142,MOOC10/18.74,18000505,2 bil hamers,2 bil hamers,hammers,18,2,0.08,0.04,0,0,0,0
+MOOC10/20.55/81,MOOC10/20.55,18050718/18050719,1 houte hamer,1 houte hamer,hammers,20,1,0.08,0.08,0,0,0,0
+MOOC10/6.19/53,MOOC10/6.19,17481017/17481019,1 bilhamer,"1 bilhamer, 2 kapblocken, 1 kadelraam en wat oud ijserwerk",hammers,6,1,0.08,0.08,1,0,0,0
+MOOC10/9.14/226,MOOC10/9.14,17651104/17651105,3 seth hamers,3 seth hamers,hammers,9,3,0.08,0.03,0,0,0,0
+MOOC10/9.46/142,MOOC10/9.46,17680926,1 hamer,1 hamer en 1 mes,hammers,9,1,0.08,0.08,1,0,0,0
+MOOC10/11.47/222,MOOC10/11.47,17761107/17761108,3 hamers,3 hamers,hammers,11,3,1.08,0.36,0,0,0,0
+MOOC10/12.41/102,MOOC10/12.41,17790917,1 hamer,"1 bijtel, 1 hamer en 1 dissel",hammers,12,1,1.08,1.08,1,0,0,0
+MOOC10/13.13/50,MOOC10/13.13,17810109,6 hamers in zoort,6 hamers in zoort,hammers,13,6,1.08,0.18,0,0,0,0
+MOOC10/13.28/481,MOOC10/13.28,17810716/17810717,2 smitshamers,2 smitshamers,hammers,13,2,1.08,0.54,0,0,0,0
+MOOC10/13.28/482,MOOC10/13.28,17810716/17810717,2 smitshamers,2 smitshamers,hammers,13,2,1.08,0.54,0,0,0,0
+MOOC10/14.7/116,MOOC10/14.7,17830526/17830527/17830529,2 hamers,2 hamers,hammers,14,2,1.08,0.54,0,0,0,0
+MOOC10/15.113/557,MOOC10/15.113,17891116/17891118,1 hamer,1 hamer,hammers,15,1,1.08,1.08,0,0,0,0
+MOOC10/16.53/6,MOOC10/16.53,17910718,1 hamer,1 hamer en 2 doorslager,hammers,16,1,1.08,1.08,1,0,0,0
+MOOC10/17.29/273,MOOC10/17.29,17950126/17950128, bil hamer,1 drie voet en bil hamer,hammers,17,,1.08,-99,1,0,0,0
+MOOC10/19.6/88,MOOC10/19.6,18000121, hamer,"1 handbijl, kogelform, hamer en zaag",hammers,19,,1.08,-99,1,0,0,0
+MOOC10/19.42/28,MOOC10/19.42,18010910/18010912,1 smitshamer,1 smitshamer,hammers,19,1,1.08,1.08,0,0,0,0
+MOOC10/21.64/51,MOOC10/21.64,18060418,1 parthij hamers,1 parthij hamers en doorslagen,hammers,21,1,1.08,1.08,1,1,0,0
+MOOC10/6.9/99,MOOC10/6.9,17520114,2 hamers,2 hamers,hammers,6,2,1.08,0.54,0,0,0,0
+MOOC10/17.3/4,MOOC10/17.3,17930916,2 hamers,"2 raspen, 2 hamers en 1 vijl",hammers,17,2,2.08,1.04,1,0,0,0
+MOOC10/18.22/153,MOOC10/18.22,17910606/17910608,3 hamers,3 hamers,hammers,18,3,2.08,0.69,0,0,0,0
+MOOC10/18.72/26,MOOC10/18.72,17970525,1 hamer,1 hamer,hammers,18,1,2.08,2.08,0,0,0,0
+MOOC10/21.43/44,MOOC10/21.43,18050705,2 hamers,2 hamers en 1 doorslag,hammers,21,2,2.08,1.04,1,0,0,0
+MOOC10/13.19/173,MOOC10/13.19,17810201,1 hamer,1 hanglantaarn en 1 hamer,hammers,13,1,3.08,3.08,1,0,0,0
+MOOC10/14.16/80,MOOC10/14.16,17830115/17830116,2 hamers,"2 hamers, 1 dissel en 1 maatstok",hammers,14,2,3.08,1.54,1,0,0,0
+MOOC10/19.2/50,MOOC10/19.2,17990503,3 haamers,3 haamers,hammers,19,3,3.08,1.03,0,0,0,0
+MOOC10/19.27/93,MOOC10/19.27,18020115/18020116,12 hamers,12 hamers,hammers,19,12,3.08,0.26,0,0,0,0
+MOOC10/22.95/28,MOOC10/22.95,18070618/18070619,3 voorhamers,"3 voorhamers, 1 holdissel etc:a",hammers,22,3,3.08,1.03,1,0,0,0
+MOOC10/26.31/70,MOOC10/26.31,18111202,3 handhamers,3 handhamers,hammers,26,3,3.08,1.03,0,0,0,0
+MOOC10/9.2/278,MOOC10/9.2,17640712/17640713,1 set haamer,"1 houte tregter, 1 craan en 1 set haamer",hammers,9,1,3.08,3.08,1,0,0,0
+MOOC10/15.3/135,MOOC10/15.3,17851003,6 ijzere smitshamers in zoort,6 ijzere smitshamers in zoort,hammers,15,6,4.08,0.68,0,0,0,0
+MOOC10/20.53/74,MOOC10/20.53,18050516,12 belhamers,12 belhamers,hammers,20,12,4.08,0.34,0,0,0,0
+MOOC10/23.27/71,MOOC10/23.27,18081208,5 hamers,5 hamers,hammers,23,5,4.08,0.82,0,0,0,0
+MOOC10/15.105/48,MOOC10/15.105,No date,2 hamers,twee hamers en een kroos,hammers,15,2,5.08,2.54,1,0,0,0
+MOOC10/16.2/24,MOOC10/16.2,17910923,1 partij hamers in zoort,1 partij hamers in zoort,hammers,16,1,5.08,5.08,0,1,0,0
+MOOC10/16.30/9,MOOC10/16.30,17891110,2 ijzere voorhamers,2 ijzere voorhamers,hammers,16,2,5.08,2.54,0,0,0,0
+MOOC10/17.4/52,MOOC10/17.4,17931112,1 bilhamer,"3 schaaven, 1 avegaar, 1 dissel, 3 bijtels, 1 rasp, 1 passer, 1 bilhamer",hammers,17,1,5.08,5.08,1,0,0,0
+MOOC10/16.1/6,MOOC10/16.1,17901015, bilhamers,"1 ijzere combuijs, boor, bilhamers en hengsel van een pot",hammers,16,,6.08,-99,1,0,0,0
+MOOC10/17.22/42,MOOC10/17.22,17950216,3 smitshamers,3 smitshamers,hammers,17,3,15.08,5.03,0,0,0,0
+MOOC10/10.28/95,MOOC10/10.28,17691120,1 haamer,1 haamer en 1 saag,hammers,10,1,0.12,0.12,1,0,0,0
+MOOC10/10.[not_numbered]/11,MOOC10/10.[not_numbered],0,1 haamer,1 haamer,hammers,10,1,0.12,0.12,0,0,0,0
+MOOC10/10.[not_numbered]/11,MOOC10/10.[not_numbered],17701215,1 haamer,1 haamer,hammers,10,1,0.12,0.12,0,0,0,0
+MOOC10/10.[not_numbered]/11,MOOC10/10.[not_numbered],17710508,1 haamer,1 haamer,hammers,10,1,0.12,0.12,0,0,0,0
+MOOC10/11.2/29,MOOC10/11.2,17730326,3 haamers,3 haamers,hammers,11,3,0.12,0.04,0,0,0,0
+MOOC10/12.17/42,MOOC10/12.17,17780421/17780422,3 belhamers,3 belhamers,hammers,12,3,0.12,0.04,0,0,0,0
+MOOC10/13.27/34,MOOC10/13.27,17810522,1 ijzere hamer,"1 ijzere hamer, 1 rolstok en 1 kistje met wat romm:g",hammers,13,1,0.12,0.12,1,0,0,0
+MOOC10/13.28/74,MOOC10/13.28,17810716/17810717,1 metselaars hamer,1 metselaars hamer en 2 troffels,hammers,13,1,0.12,0.12,1,0,0,0
+MOOC10/13.60/50,MOOC10/13.60,17821022,2 haamers,2 haamers,hammers,13,2,0.12,0.06,0,0,0,0
+MOOC10/14.7/464,MOOC10/14.7,17830526/17830527/17830529,3 hamers,3 hamers en 1 bijtel,hammers,14,3,0.12,0.04,1,0,0,0
+MOOC10/17.24/64,MOOC10/17.24,17950509,1 hamer,1 rolstok en 1 hamer,hammers,17,1,0.12,0.12,1,0,0,0
+MOOC10/17.29/267,MOOC10/17.29,17950126/17950128,2 ijzere hamers,2 ijzere hamers,hammers,17,2,0.12,0.06,0,0,0,0
+MOOC10/2.25/113,MOOC10/2.25,17210224,1 hamer,1 kruijtproever en een hamer,hammers,2,1,0.12,0.12,1,0,0,0
+MOOC10/20.2/27,MOOC10/20.2,18030404,4 hamers,"1 gatschijff, 4 hamers",hammers,20,4,0.12,0.03,1,0,0,0
+MOOC10/20.57/21,MOOC10/20.57,18050112,1 hamer,"1 kapstok, 1 bijl, zaag en 1 hamer",hammers,20,1,0.12,0.12,1,0,0,0
+MOOC10/20.75/6,MOOC10/20.75,18041215,1 hamer,"1 rak, 1 rolstok en 1 hamer",hammers,20,1,0.12,0.12,1,0,0,0
+MOOC10/21.9/50,MOOC10/21.9,18041201,1 hamer,1 hamer,hammers,21,1,0.12,0.12,0,0,0,0
+MOOC10/10.74/9,MOOC10/10.74,17730111,2 hamers,1 partij balijnen en 2 hamers,hammers,10,2,1.12,0.56,1,0,0,0
+MOOC10/12.13/45,MOOC10/12.13,17780211,4 hamers in zoort,4 hamers in zoort,hammers,12,4,1.12,0.28,0,0,0,0
+MOOC10/13.5/44,MOOC10/13.5,17791227/17791228,2 hamers,2 hamers,hammers,13,2,1.12,0.56,0,0,0,0
+MOOC10/14.6/53,MOOC10/14.6,17830613,1 hamer,1 hamer,hammers,14,1,1.12,1.12,0,0,0,0
+MOOC10/14.37/46,MOOC10/14.37,17840121,1 hamer,1 hamer en tregter,hammers,14,1,1.12,1.12,1,0,0,0
+MOOC10/16.39/157,MOOC10/16.39,17931028/17931029,4 hamers,4 hamers en 3 bijlen,hammers,16,4,1.12,0.28,1,0,0,0
+MOOC10/16.48/63,MOOC10/16.48,17920613/17920614,1 bilhamer,1 bilhamer,hammers,16,1,1.12,1.12,0,0,0,0
+MOOC10/19.11/309,MOOC10/19.11,18000505/18000506,3 hamers,3 hamers en 3 kwastjes,hammers,19,3,1.12,0.37,1,0,0,0
+MOOC10/19.42/34,MOOC10/19.42,18010910/18010912,1 bilhaamer,1 bilhaamer,hammers,19,1,1.12,1.12,0,0,0,0
+MOOC10/20.6_1/2/634,MOOC10/20.6_1/2,18030620/18030621,8 hamers in zoort,8 hamers in zoort,hammers,20,8,1.12,0.14,0,0,0,0
+MOOC10/23.27/74,MOOC10/23.27,18081208,1 hamer,1 hamer,hammers,23,1,1.12,1.12,0,0,0,0
+MOOC10/6.24/369,MOOC10/6.24,17540114/17540116,1 hamer,1 hamer en 1 olij steen,hammers,6,1,1.12,1.12,1,0,0,0
+MOOC10/11.47/219,MOOC10/11.47,17761107/17761108,1 smits hamer,1 smits hamer,hammers,11,1,2.12,2.12,0,0,0,0
+MOOC10/13.5/50,MOOC10/13.5,17791227/17791228,1 voorhamer,1 voorhamer,hammers,13,1,2.12,2.12,0,0,0,0
+MOOC10/14.21/139,MOOC10/14.21,17830221,3 hamers,3 hamers,hammers,14,3,2.12,0.71,0,0,0,0
+MOOC10/18.74/146,MOOC10/18.74,18000505,5 hamers,5 hamers,hammers,18,5,2.12,0.42,0,0,0,0
+MOOC10/19.18/9,MOOC10/19.18,18000117,1 hamer,1 hamer en 2 nijptangen,hammers,19,1,2.12,2.12,1,0,0,0
+MOOC10/20.78/24,MOOC10/20.78,18050702/18050703,1 hamer,1 hamer,hammers,20,1,2.12,2.12,0,0,0,0
+MOOC10/22.14/8,MOOC10/22.14,18060529,1 hamer,1 vat met wat oud ijzer en 1 hamer,hammers,22,1,2.12,2.12,1,0,0,0
+MOOC10/8.56/64,MOOC10/8.56,17640620,1 hamer,"2 dissels, 1 snijmes en 1 hamer",hammers,8,1,2.12,2.12,1,0,0,0
+MOOC10/4.161/106,MOOC10/4.161,17361123,1 strijthamer,4 sak pistolen en 1 strijthamer,hammers,4,1,3.12,3.12,1,0,0,0
+MOOC10/11.47/220,MOOC10/11.47,17761107/17761108,1 smits hamer,1 smits hamer,hammers,11,1,3.12,3.12,0,0,0,0
+MOOC10/13.9/218,MOOC10/13.9,17800615/17800616,27 hamers in zoort,27 hamers in zoort,hammers,13,27,3.12,0.12,0,0,0,0
+MOOC10/15.64/64,MOOC10/15.64,17880728,1 handhamer,1 parthij spijkers en 1 handhamer,hammers,15,1,3.12,3.12,1,0,0,0
+MOOC10/21.13/30,MOOC10/21.13,18060203,5 hamers,5 hamers,hammers,21,5,3.12,0.62,0,0,0,0
+MOOC10/6.11/67,MOOC10/6.11,17500924/17500925,1 bilhaamer,"2 mokers, 5 koevoeten en 1 bilhaamer",hammers,6,1,3.12,3.12,1,0,0,0
+MOOC10/26.39/216,MOOC10/26.39,18121208/18121209,1 groote hamer,1 groote hamer,hammers,26,1,4.12,4.12,0,0,0,0
+MOOC10/7.9/37,MOOC10/7.9,17560323, hamers,1 partij smitsgereetschap en hamers,hammers,7,,4.12,-99,1,0,0,0
+MOOC10/12.53/45,MOOC10/12.53,17800229,1 zethamer,"1 ploegspil, 2 bijlen, 1 moker en 1 zethamer",hammers,12,1,5.12,5.12,1,0,0,0
+MOOC10/19.10/66,MOOC10/19.10,18000113/18000114,1 bilhamer,2 kl: molensteenen en 1 bilhamer,hammers,19,1,5.12,5.12,1,0,0,0
+MOOC10/21.14/86,MOOC10/21.14,18051120,8 hamers,8 hamers en 1 nijptang,hammers,21,8,5.12,0.64,1,0,0,0
+MOOC10/15.84/352,MOOC10/15.84,17890513/17890514,2 hammers,6 troffels en 2 hammers,hammers,15,2,6.12,3.06,1,0,0,0
+MOOC10/21.64/49,MOOC10/21.64,18060418,2 hamers,2 hamers,hammers,21,2,6.12,3.06,0,0,0,0
+MOOC10/19.42/26,MOOC10/19.42,18010910/18010912,1 smitshamer,1 smitshamer,hammers,19,1,9.12,9.12,0,0,0,0
+MOOC10/23.61/25,MOOC10/23.61,18081129,6 hamers,6 hamers,hammers,23,6,10.12,1.69,0,0,0,0
+MOOC10/16.19/10,MOOC10/16.19,17910301,1 hamer,"1 blaasbalk, een aanbeeld, 1 moker, 1 hamer en 1 tang",hammers,16,1,17.12,17.12,1,0,0,0
+MOOC10/10.[not_numbered]/15,MOOC10/10.[not_numbered],0,1 sethaamer,1 sethaamer,hammers,10,1,0.15,0.15,0,0,0,0
+MOOC10/10.[not_numbered]/15,MOOC10/10.[not_numbered],17701215,1 sethaamer,1 sethaamer,hammers,10,1,0.15,0.15,0,0,0,0
+MOOC10/10.[not_numbered]/15,MOOC10/10.[not_numbered],17710508,1 sethaamer,1 sethaamer,hammers,10,1,0.15,0.15,0,0,0,0
+MOOC10/13.5/42,MOOC10/13.5,17791227/17791228,2 hamers,2 hamers,hammers,13,2,0.15,0.07,0,0,0,0
+MOOC10/13.54/131,MOOC10/13.54,17820816/17820817,1 hamer,3 messen en 1 hamer,hammers,13,1,0.15,0.15,1,0,0,0
+MOOC10/14.43/107,MOOC10/14.43,17840305,1 hamer,1 hamer en 1 nijptang,hammers,14,1,0.15,0.15,1,0,0,0
+MOOC10/16.4/7,MOOC10/16.4,No date,1 hamer,1 hamer,hammers,16,1,0.15,0.15,0,0,0,0
+MOOC10/19.8/51,MOOC10/19.8,17990620/17990621,1 sethamer,"1 schaven, 1 sethamer, 1 snijmes en 1 bout",hammers,19,1,0.15,0.15,1,0,0,0
+MOOC10/21.16/57,MOOC10/21.16,18050306,1 hamer,1 hamer,hammers,21,1,0.15,0.15,0,0,0,0
+MOOC10/21.25/3,MOOC10/21.25,18050520,1 hamer,1 hamer,hammers,21,1,0.15,0.15,0,0,0,0
+MOOC10/22.73/11,MOOC10/22.73,18071115,1 belhamer,1 belhamer,hammers,22,1,0.15,0.15,0,0,0,0
+MOOC10/24.21/25,MOOC10/24.21,18081116,1 hamer,1 hamer,hammers,24,1,0.15,0.15,0,0,0,0
+MOOC10/10.51/15,MOOC10/10.51,17720330,1 hamer,"5 beijlen, 1 pik en 1 hamer",hammers,10,1,1.15,1.15,1,0,0,0
+MOOC10/10.59/77,MOOC10/10.59,17730111,3 hamers,3 hamers,hammers,10,3,1.15,0.38,0,0,0,0
+MOOC10/12.25/163,MOOC10/12.25,[...]0201/[...]0202,2 bilhamers,2 bilhamers,hammers,12,2,1.15,0.57,0,0,0,0
+MOOC10/12.27/578,MOOC10/12.27,"17790512, 17790514",1 stemhaamer,"1 mes met walrust hegt, 1 chineese pijp en 1 stemhaamer",hammers,12,1,1.15,1.15,1,0,0,0
+MOOC10/12.36/178,MOOC10/12.36,17790506,1 hamer,"1 dissel, 1 hamer en 1 p:r oude pistolen",hammers,12,1,1.15,1.15,1,0,0,0
+MOOC10/13.60/48,MOOC10/13.60,17821022,1 haamer,1 haamer,hammers,13,1,1.15,1.15,0,0,0,0
+MOOC10/16.48/62,MOOC10/16.48,17920613/17920614,1 bilhamer,1 bilhamer,hammers,16,1,1.15,1.15,0,0,0,0
+MOOC10/19.66/41,MOOC10/19.66,18020127/18020128,1 handhaamer,1 handhaamer en 2 tangen,hammers,19,1,1.15,1.15,1,0,0,0
+MOOC10/2.19/73,MOOC10/2.19,17200309,2 hamers,2 hamers en 1 ijzere nijptang,hammers,2,2,1.15,0.57,1,0,0,0
+MOOC10/21.37/421,MOOC10/21.37,18041106/18041108,1 hamer,1 hamer en 1 rij,hammers,21,1,1.15,1.15,1,0,0,0
+MOOC10/21.64/50,MOOC10/21.64,18060418,5 hamers,5 hamers,hammers,21,5,1.15,0.23,0,0,0,0
+MOOC10/24.7/66,MOOC10/24.7,18090105,1 hamer,1 hamer,hammers,24,1,1.15,1.15,0,0,0,0
+MOOC10/26.13/6,MOOC10/26.13,18100928,1 hamer,2 boors en een hamer,hammers,26,1,1.15,1.15,1,0,0,0
+MOOC10/26.13/14,MOOC10/26.13,18100928,1 hamer,2 bijle en een hamer,hammers,26,1,1.15,1.15,1,0,0,0
+MOOC10/26.45/31,MOOC10/26.45,18110713/18110730,1 haamer,1 haamer en 1 loodleepel,hammers,26,1,1.15,1.15,1,0,0,0
+MOOC10/6.22/18,MOOC10/6.22,17481019,1 hamer,"1 ledig kelder, 1 kist met 1 bijl, 1 zaag, 1 hamer en wat rommeling",hammers,6,1,1.15,1.15,1,0,0,0
+MOOC10/6.63/154,MOOC10/6.63,17550927,4 haamers,16 mookers en 4 haamers,hammers,6,4,1.15,0.29,1,0,0,0
+MOOC10/8.51/15,MOOC10/8.51,17631210,1 hamer,"2 graven, 1 hark, 1 bijl en 1 hamer",hammers,8,1,1.15,1.15,1,0,0,0
+MOOC10/9.27/52,MOOC10/9.27,17071005,1 haamer,1 haamer en 1 dissel,hammers,9,1,1.15,1.15,1,0,0,0
+MOOC10/10.59/78,MOOC10/10.59,17730111,2 hamers,2 hamers,hammers,10,2,2.15,1.07,0,0,0,0
+MOOC10/14.53/60,MOOC10/14.53,17840917,1 hamer,3 bijtels en een hamer,hammers,14,1,2.15,2.15,1,0,0,0
+MOOC10/15.55/59,MOOC10/15.55,17880215,2 handhamers,2 handhamers,hammers,15,2,2.15,1.07,0,0,0,0
+MOOC10/16.48/113,MOOC10/16.48,17920613/17920614,1 hamer,1 hamer,hammers,16,1,2.15,2.15,0,0,0,0
+MOOC10/18.76/16,MOOC10/18.76,17990315,1 hamer,"1 zaag, 1 hamer, 1 bijl",hammers,18,1,2.15,2.15,1,0,0,0
+MOOC10/19.3/10,MOOC10/19.3,18000123,1 hamer,1 hamer en boor,hammers,19,1,2.15,2.15,1,0,0,0
+MOOC10/23.27/72,MOOC10/23.27,18081208,7 hamers,7 hamers,hammers,23,7,2.15,0.31,0,0,0,0
+MOOC10/23.44/4,MOOC10/23.44,18080328,1 hamer,1 hamer en tang,hammers,23,1,2.15,2.15,1,0,0,0
+MOOC10/6.47/25,MOOC10/6.47,17531024,1 partij doorslag hamers,1 partij doorslag hamers,hammers,6,1,2.15,2.15,0,1,0,0
+MOOC10/14.28/7,MOOC10/14.28,1783,1 hamer,"1 hamer, koubijtel, nijptang",hammers,14,1,3.15,3.15,1,0,0,0
+MOOC10/20.68/46,MOOC10/20.68,18050518,3 hamers,"3 ijzere strijkijzers, 3 hamers en 2 zagen",hammers,20,3,3.15,1.05,1,0,0,0
+MOOC10/21.13/31,MOOC10/21.13,18060203,6 hamers,6 hamers,hammers,21,6,3.15,0.53,0,0,0,0
+MOOC10/16.52/56,MOOC10/16.52,17911010/17911011,1 hamer,"2 pikken, 2 bijlen, 1 dissel, 1 hamer en 1 koevoet",hammers,16,1,4.15,4.15,1,0,0,0
+MOOC10/18.66/28,MOOC10/18.66,17991221,1 partij smits hamers,1 partij smits hamers,hammers,18,1,4.15,4.15,0,1,0,0
+MOOC10/21.37/735,MOOC10/21.37,18041106/18041108,2 haamers,2 haamers,hammers,21,2,4.15,2.08,0,0,0,0
+MOOC10/15.103/52,MOOC10/15.103,17890914,4 hamers een zoort,4 hamers een zoort,hammers,15,4,7.15,1.79,0,0,0,0
+MOOC10/20.33/81,MOOC10/20.33,18031217,6 haamers in z:t,6 haamers in z:t,hammers,20,6,7.15,1.19,0,0,0,0
+MOOC10/15.3/134,MOOC10/15.3,17851003,2 ijzere voorslaghamers,2 ijzere voorslaghamers,hammers,15,2,8.15,4.08,0,0,0,0
+MOOC10/15.8/116,MOOC10/15.8,17851114/17851115,2 voorslag hamers,2 voorslag hamers,hammers,15,2,10.15,5.08,0,0,0,0
+MOOC10/11.60/67,MOOC10/11.60,17750220/17750221,2 smits hamers,2 smits hamers,hammers,11,2,11.15,5.58,0,0,0,0
+MOOC10/18.22/67,MOOC10/18.22,17910606/17910608,1 partij smitshamers,1 partij smitshamers,hammers,18,1,15.15,15.15,0,1,0,0
+MOOC10/17.51/119,MOOC10/17.51,17960523/17960524,1 handhamer,3 mookers en 1 handhamer,hammers,17,1,23.15,23.15,1,0,0,0
+MOOC10/5.20/62,MOOC10/5.20,17380324,2 bilhamers,"1 handmolen, 2 bilhamers, 1 eg met houte tanden, 1 ploeg met zijn toebehoren, 30 mudden zout, 1 bakkist, 1 ijsere pot, 1 kadel met 2 oude molen steenen",hammers,5,2,70.15,35.08,1,0,0,0
+MOOC10/11.47/265,MOOC10/11.47,17761107/17761108,3 hamers,3 hamers,hammers,11,3,0.19,0.06,0,0,0,0
+MOOC10/11.64/168,MOOC10/11.64,17761202,3 belhamers,3 belhamers,hammers,11,3,0.19,0.06,0,0,0,0
+MOOC10/12.31/9,MOOC10/12.31,17790617,1 hamer,1 bijl en 1 hamer,hammers,12,1,0.19,0.19,1,0,0,0
+MOOC10/13.36/298,MOOC10/13.36,17811211/17811212,1 haamer,1 haamer,hammers,13,1,0.19,0.19,0,0,0,0
+MOOC10/15.9/6,MOOC10/15.9,17851209/17851210,4 metzelaars hamers,4 metzelaars hamers en 2 breekijzers,hammers,15,4,0.19,0.05,1,0,0,0
+MOOC10/17.4/49,MOOC10/17.4,17931112, hamer,"1 krooshout, hamer, bijl, snijmes en 1 doorslag",hammers,17,,0.19,-99,1,0,0,0
+MOOC10/19.57/40,MOOC10/19.57,18020329,1 hamer,"2 bijlen, 1 dissel en 1 hamer",hammers,19,1,0.19,0.19,1,0,0,0
+MOOC10/22.79/69,MOOC10/22.79,18070511,1 p:s groote hamer,een p:s groote hamer,hammers,22,1,0.19,0.19,0,0,0,0
+MOOC10/22.79/70,MOOC10/22.79,18070511,2 p:s kleijne hamers,twee p:s kleijne hamers,hammers,22,2,0.19,0.1,0,0,0,0
+MOOC10/24.8/17,MOOC10/24.8,18090105,1 hamer,1 hamer,hammers,24,1,0.19,0.19,0,0,0,0
+MOOC10/9.29/111,MOOC10/9.29,17670318,3 hamers,3 hamers,hammers,9,3,0.19,0.06,0,0,0,0
+MOOC10/12.14/29,MOOC10/12.14,17780221,1 hamer,1 hamer en 2 set hamers,hammers,12,1,1.19,1.19,1,0,0,0
+MOOC10/12.40/152,MOOC10/12.40,17790909,2 hamers,2 hamers en 1 bijl,hammers,12,2,1.19,0.59,1,0,0,0
+MOOC10/12.46/2,MOOC10/12.46,17800117,1 bilhamer,"1 bijl, 1 pik en 1 bilhamer",hammers,12,1,1.19,1.19,1,0,0,0
+MOOC10/13.9/217,MOOC10/13.9,17800615/17800616,1 voorslaghamers,1 voorslaghamers en 1 moker,hammers,13,1,1.19,1.19,1,0,0,0
+MOOC10/13.14/12,MOOC10/13.14,17810109,5 hamers in zoort,5 hamers in zoort,hammers,13,5,1.19,0.24,0,0,0,0
+MOOC10/14.4/15,MOOC10/14.4,17830114,2 hamers,2 hamers,hammers,14,2,1.19,0.59,0,0,0,0
+MOOC10/16.53/18,MOOC10/16.53,17910718, bilhamer,1 deksel en bilhamer,hammers,16,,1.19,-99,1,0,0,0
+MOOC10/22.73/23,MOOC10/22.73,18071115,1 hamer,"1 schaal, 1 hamer, 1 knijptang",hammers,22,1,1.19,1.19,1,0,0,0
+MOOC10/5.75/144,MOOC10/5.75,17470220,4 hamers,4 hamers en 1 snijmes,hammers,5,4,2.19,0.55,1,0,0,0
+MOOC10/11.41/1274,MOOC10/11.41,17741219/17741222,1 hamer,"9 troffels, 1 cop:e craan, 8 houtvaten en 1 hamer",hammers,11,1,2.19,2.19,1,0,0,0
+MOOC10/15.113/558,MOOC10/15.113,17891116/17891118,11 hamers,11 hamers en 2 deessels,hammers,15,11,2.19,0.2,1,0,0,0
+MOOC10/19.30/2,MOOC10/19.30,18020308/18020309,2 bilhamers,2 bilhamers,hammers,19,2,2.19,1.09,0,0,0,0
+MOOC10/22.42/39,MOOC10/22.42,18060516,1 hamer,"1 hamer, tang en rasp",hammers,22,1,2.19,2.19,1,0,0,0
+MOOC10/22.84/11,MOOC10/22.84,18070603,1 bilhamer,1 bilhamer,hammers,22,1,2.19,2.19,0,0,0,0
+MOOC10/11.47/223,MOOC10/11.47,17761107/17761108,1 partij hamers,1 partij hamers,hammers,11,1,3.19,3.19,0,1,0,0
+MOOC10/15.3/163,MOOC10/15.3,17851003,4 bilhamers,4 bilhamers,hammers,15,4,3.19,0.8,0,0,0,0
+MOOC10/17.22/43,MOOC10/17.22,17950216,1 partij hamers,1 partij hamers,hammers,17,1,3.19,3.19,0,1,0,0
+MOOC10/21.33/19,MOOC10/21.33,18040507,10 hammers,10 hammers,hammers,21,10,3.19,0.32,0,0,0,0
+MOOC10/13.8/137,MOOC10/13.8,17800619/17800620,1 parthij spitshamers in zoort,1 parthij spitshamers in zoort,hammers,13,1,4.19,4.19,0,1,0,0
+MOOC10/13.8/133,MOOC10/13.8,17800619/17800620,4 voorslaghamers,4 voorslaghamers,hammers,13,4,7.19,1.8,0,0,0,0
+MOOC10/10.82/34,MOOC10/10.82,17730227,1 hamer,"1 handmolen, 1 hamer, 1 bijtel",hammers,10,1,21.19,21.19,1,0,0,0
+MOOC10/3.84/44,MOOC10/3.84,17300711,1 hamer,"1 kopere kraan, 1 kopere rasp en 1 hamer",hammers,3,1,0.23,0.23,1,0,0,0
+MOOC10/4.122/43,MOOC10/4.122,17330420,1 hamer,1 water emmer en 1 hamer,hammers,4,1,0.23,0.23,1,0,0,0
+MOOC10/10.16/41,MOOC10/10.16,17700801,1 hamer,"1 hamer, 1 lode tabaks doos en 1 partij boeken",hammers,10,1,0.23,0.23,1,0,0,0
+MOOC10/11.51/45,MOOC10/11.51,17760920,1 hamer,1 truffel en 1 hamer,hammers,11,1,0.23,0.23,1,0,0,0
+MOOC10/11.51/50,MOOC10/11.51,17760920,1 bilhamer,handbijl en 1 bilhamer,hammers,11,1,0.23,0.23,1,0,0,0
+MOOC10/13.5/45,MOOC10/13.5,17791227/17791228,2 hamers,2 hamers,hammers,13,2,0.23,0.12,0,0,0,0
+MOOC10/13.43/79,MOOC10/13.43,17820109,1 haamer,"1 tinne tregter, 1 pomp en 1 haamer",hammers,13,1,0.23,0.23,1,0,0,0
+MOOC10/14.2/30,MOOC10/14.2,17830512,1 hamer,1 hamer,hammers,14,1,0.23,0.23,0,0,0,0
+MOOC10/15.9/50,MOOC10/15.9,17851209/17851210,1 hamer,1 hamer en 1 bijl,hammers,15,1,0.23,0.23,1,0,0,0
+MOOC10/20.6_1/2/635,MOOC10/20.6_1/2,18030620/18030621,8 hamers in zoort,8 hamers in zoort,hammers,20,8,0.23,0.03,0,0,0,0
+MOOC10/20.9/4,MOOC10/20.9,18000428,2 hamers,1 handbijl en 2 hamers,hammers,20,2,0.23,0.12,1,0,0,0
+MOOC10/20.42/4,MOOC10/20.42,18041215,2 hamers,2 hamers en 1 knijptang,hammers,20,2,0.23,0.12,1,0,0,0
+MOOC10/22.86/134,MOOC10/22.86,18070209,1 handhamer,1 handhamer,hammers,22,1,0.23,0.23,0,0,0,0
+MOOC10/13.5/52,MOOC10/13.5,17791227/17791228,2 handhamers,2 handhamers,hammers,13,2,1.23,0.61,0,0,0,0
+MOOC10/13.8/135,MOOC10/13.8,17800619/17800620,1 parthij hamers,1 parthij hamers,hammers,13,1,1.23,1.23,0,1,0,0
+MOOC10/13.28/483,MOOC10/13.28,17810716/17810717,1 parthij hamers in zoort,1 parthij hamers in zoort,hammers,13,1,1.23,1.23,0,1,0,0
+MOOC10/14.17/185,MOOC10/14.17,17830606/17830607,5 hamers in soort,5 hamers in soort,hammers,14,5,1.23,0.25,0,0,0,0
+MOOC10/16.23/94,MOOC10/16.23,17910131,1 hamer,1 bijl en 1 hamer,hammers,16,1,1.23,1.23,1,0,0,0
+MOOC10/18.58/66,MOOC10/18.58,17980417,1 hand hamer,1 hand hamer,hammers,18,1,1.23,1.23,0,0,0,0
+MOOC10/19.34/2,MOOC10/19.34,18010404,1 hamer,"1 persijzer, 4 schaven, 1 priem, 1 hamer en 1 slijpsteen",hammers,19,1,1.23,1.23,1,0,0,0
+MOOC10/20.5/39,MOOC10/20.5,18030526,1 hamer,2 hout bijlen en 1 hamer,hammers,20,1,1.23,1.23,1,0,0,0
+MOOC10/20.54/628,MOOC10/20.54,18041015/18041019,2 hamers,"1 rol stok, 2 hamers, 2 schrapers en wat romm:",hammers,20,2,1.23,0.61,1,0,0,0
+MOOC10/21.37/736,MOOC10/21.37,18041106/18041108,2 haamers,2 haamers,hammers,21,2,1.23,0.61,0,0,0,0
+MOOC10/9.1/87,MOOC10/9.1,17650401,3 hamers,3 hamers,hammers,9,3,1.23,0.41,0,0,0,0
+MOOC10/13.8/138,MOOC10/13.8,17800619/17800620,1 parthij spitshamers in zoort,1 parthij spitshamers in zoort,hammers,13,1,2.23,2.23,0,1,0,0
+MOOC10/14.2/20,MOOC10/14.2,17830512,2 hamers,2 hamers,hammers,14,2,2.23,1.11,0,0,0,0
+MOOC10/15.91/38,MOOC10/15.91,17890926,1 hamer,2 hand rottings en 1 hamer,hammers,15,1,2.23,2.23,1,0,0,0
+MOOC10/15.105/40,MOOC10/15.105,No date,3 belhamers,drie belhamers,hammers,15,3,2.23,0.74,0,0,0,0
+MOOC10/19.23/8,MOOC10/19.23,18000718,1 hand hamer,1 hand hamer,hammers,19,1,2.23,2.23,0,0,0,0
+MOOC10/11.17/219,MOOC10/11.17,17741205/17741206,5 hamers in zoort,5 hamers in zoort,hammers,11,5,3.23,0.65,0,0,0,0
+MOOC10/15.13/119,MOOC10/15.13,17860519,1 hamer,2 bank schroeven en 1 hamer,hammers,15,1,3.23,3.23,1,0,0,0
+MOOC10/23.46/7,MOOC10/23.46,18081110,1 hamer,"2 bijtels, 2 raspen en 1 hamer",hammers,23,1,3.23,3.23,1,0,0,0
+MOOC10/23.41/66,MOOC10/23.41,18080614,1 hamer,"1 handbijl, 1 hamer",hammers,23,1,4.23,4.23,1,0,0,0
+MOOC10/5.20/173,MOOC10/5.20,17380324,1 hamer,"1 slagroe, 1 dissel, 1 aanset en 1 hamer",hammers,5,1,0.27,0.27,1,0,0,0
+MOOC10/11.64/174,MOOC10/11.64,17761202,1 hamer,"1 hamer, 1 bijtel en 1 passer",hammers,11,1,0.27,0.27,1,0,0,0
+MOOC10/13.52/2,MOOC10/13.52,17821211,1 hamer,"1 bak met ijzerwerk, 1 hamer en 1 nijptang",hammers,13,1,0.27,0.27,1,0,0,0
+MOOC10/15.55/60,MOOC10/15.55,17880215,2 kleene handhamers,2 kleene handhamers,hammers,15,2,0.27,0.14,0,0,0,0
+MOOC10/16.30/23,MOOC10/16.30,17891110,1 hamer,1 hamer en raps,hammers,16,1,0.27,0.27,1,0,0,0
+MOOC10/18.20/5,MOOC10/18.20,17900128,2 handhamers,2 handhamers,hammers,18,2,0.27,0.14,0,0,0,0
+MOOC10/19.35/101,MOOC10/19.35,18010420/18010421,1 hamer,1 hand zaag en 1 hamer,hammers,19,1,0.27,0.27,1,0,0,0
+MOOC10/19.66/39,MOOC10/19.66,18020127/18020128,2 handhaamers,2 handhaamers,hammers,19,2,0.27,0.14,0,0,0,0
+MOOC10/19.66/40,MOOC10/19.66,18020127/18020128,3 handhaamers,3 handhaamers,hammers,19,3,0.27,0.09,0,0,0,0
+MOOC10/9.5_1/2/210,MOOC10/9.5_1/2,17650114,1 hamer,"1 craan, 1 tregter en 1 hamer",hammers,9,1,0.27,0.27,1,0,0,0
+MOOC10/11.2/27,MOOC10/11.2,17730326,2 haamers,2 haamers,hammers,11,2,1.27,0.64,0,0,0,0
+MOOC10/13.57/17,MOOC10/13.57,17820816,2 hamers,2 hamers,hammers,13,2,1.27,0.64,0,0,0,0
+MOOC10/16.36/430,MOOC10/16.36,17940219/17940221,6 hamers,6 hamers,hammers,16,6,1.27,0.21,0,0,0,0
+MOOC10/16.48/112,MOOC10/16.48,17920613/17920614,1 hamer,1 hamer en 1 hand bijltje,hammers,16,1,1.27,1.27,1,0,0,0
+MOOC10/19.50/12,MOOC10/19.50,18011210,2 hammers,2 hammers,hammers,19,2,1.27,0.64,0,0,0,0
+MOOC10/20.2/26,MOOC10/20.2,18030404,5 hamers,"1 gatschijff, 5 hamers",hammers,20,5,1.27,0.25,1,0,0,0
+MOOC10/21.58/26,MOOC10/21.58,18050724,4 hamers,4 hamers,hammers,21,4,1.27,0.32,0,0,0,0
+MOOC10/22.50/35,MOOC10/22.50,18071121,11 hamers in zoort,11 hamers in zoort,hammers,22,11,1.27,0.12,0,0,0,0
+MOOC10/24.17/4,MOOC10/24.17,18090316,1 hamer,1 hamer,hammers,24,1,1.27,1.27,0,0,0,0
+MOOC10/9.1/86,MOOC10/9.1,17650401,2 hamers,2 hamers,hammers,9,2,1.27,0.64,0,0,0,0
+MOOC10/9.59/47,MOOC10/9.59,17681010,4 haamers,4 haamers,hammers,9,4,1.27,0.32,0,0,0,0
+MOOC10/14.17/234,MOOC10/14.17,17830606/17830607,1 hamer,2 bijlen en 1 hamer,hammers,14,1,2.27,2.27,1,0,0,0
+MOOC10/17.38/72,MOOC10/17.38,17951110/17951111,1 parthij nuts hamers,1 parthij nuts hamers,hammers,17,1,2.27,2.27,0,1,0,0
+MOOC10/22.96/10,MOOC10/22.96,18080616,2 hamers,"1 schaaf, 2 hamers en 1 nijptang",hammers,22,2,2.27,1.14,1,0,0,0
+MOOC10/5.48/55,MOOC10/5.48,17441212,11 hamers,11 hamers,hammers,5,11,3.27,0.3,0,0,0,0
+MOOC10/20.2/23,MOOC10/20.2,18030404,2 voorhamers,2 voorhamers,hammers,20,2,4.27,2.13,0,0,0,0
+MOOC10/5.22/156,MOOC10/5.22,17380428,1 hamer,"8 schaven, 4 omslagen, 2 avegaars, 3 bijtels, 1 nijptang, 1 snijmes, 1 winkelhaak, 1 hamer en 1 passer",hammers,5,1,6.27,6.27,1,0,0,0
+MOOC10/12.32/144,MOOC10/12.32,17761101,2 smitshamers,2 smitshamers,hammers,12,2,8.27,4.13,0,0,0,0
+MOOC10/21.55/52,MOOC10/21.55,18051209,2 hamers,2 hamers,hammers,21,2,2.69,1.34,0,0,0,0
+MOOC10/22.11/36,MOOC10/22.11,18051209,1 hamer,"1 hamer, 1 knijptang",hammers,22,1,1.15,1.15,1,0,0,0

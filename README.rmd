@@ -13,6 +13,7 @@ Proposed layout: EDA (univariate, bivariate analysis), model (compare hard to in
 library(tidyverse)
 library(randomForest)
 library(caret)
+library(tidyr)
 
 
 # loading and merging data
@@ -29,32 +30,48 @@ merged_df <- merger(final_df, auctions) %>%
        
 
 # summing total purchase value of all the items within a good type at an auction 
-goods <- c("books", "art_products", "scales", "beds", "cattle", "chairs", "china", 
+goods <- c("books", "art_products", "balance", "beds", "cattle", "chairs", "china", "clocks", 
            "coatrack", "cups", "guns", "hammers", "horse_cart", "horses", "irons", 
-           "jewelry", "lamps", "oven", "plates", "pot", "sheep", "slaves", "tables", 
+           "jewlery", "lamps", "oven", "plates", "pot", "plough", "sheep", "slaves", "tables", 
            "utensils", "wagons")
-
-total_value_good_auction <- total_purchase_value(goods = c("books", "art_products", "scales", 
-                                        "beds", "cattle", "chairs", "china", 
-                                        "coatrack", "cups", "guns", "hammers", 
-                                        "horse_cart", "horses", "irons", "jewelry", 
-                                        "lamps", "oven", "plates", "pot", "sheep", 
-                                        "slaves", "tables", "utensils", "wagons")) %>% 
-    spread(key = type, value = total_value, fill = 0) %>% 
-    distinct(mooc_id, .keep_all=TRUE)
-
+total_value_good_auction <- total_purchase_value(goods = c("books", "art_products", "balance", 
+                                                           "beds", "cattle", "chairs", "china", 
+                                                           "clocks", "coatrack", "cups", "guns", 
+                                                           "hammers", "horse_cart", "horses", "irons", 
+                                                           "jewlery", "lamps", "oven", "plates", 
+                                                           "pot", "plough", "sheep", "slaves", "tables", 
+                                                           "utensils", "wagons")) %>% 
+    spread(key = type, value = total_value, fill = 0) 
+    
 # summing the number of items within a good type per auction 
 
-total_number_good_acution <-  good_counter(goods=c("books", "art_products", "scales", 
-                                        "beds", "cattle", "chairs", "china", 
-                                        "coatrack", "cups", "guns", "hammers", 
-                                        "horse_cart", "horses", "irons", "jewelry", 
-                                        "lamps", "oven", "plates", "pot", "sheep", 
-                                        "slaves", "tables", "utensils", "wagons")) %>% 
-    spread(key = type, value = total_goods, fill = 0) %>% 
-    distinct(mooc_id, .keep_all=TRUE)
+goods_id_str <- paste0("total_", goods)
 
-pen_ultimate_df <- merger(total_value_good_auction, total_number_good_acution)
+total_number_good_auction <-  good_counter(goods = c("books", "art_products", "balance", 
+                                                     "beds", "cattle", "chairs", "china", 
+                                                     "clocks", "coatrack", "cups", "guns", 
+                                                     "hammers", "horse_cart", "horses", "irons", 
+                                                     "jewlery", "lamps", "oven", "plates", 
+                                                     "pot", "plough", "sheep", "slaves", "tables", 
+                                                     "utensils", "wagons")) %>% 
+    distinct(mooc_id, .keep_all=TRUE) %>% 
+    ungroup() %>% 
+    dplyr::select(mooc_id, total_goods, goods_id) %>% 
+    arrange(mooc_id) %>% 
+    pivot_wider(names_from = goods_id, values_from = total_goods) %>% 
+    as.data.frame() %>% 
+    mutate(across(all_of(goods_id_str), ~ ifelse(is.na(.), 0, .)))
+
+# determining auction size
+
+auction_size <- merged_df %>% 
+        group_by(mooc_id) %>% 
+    mutate(auction_size=sum(count)) %>% 
+    distinct(mooc_id, .keep_all=TRUE) %>% 
+    dplyr::select(mooc_id, date, auction_tot, auction_size)
+
+interim_df <- left_join(total_value_good_auction, total_number_good_auction, "mooc_id")
+pen_ultimate_df <- left_join(interim_df, auction_size, "mooc_id")
 
 
 # counting attendance by titled men and women per auction
@@ -63,44 +80,41 @@ women <- titledwomen_locator(titled_women, purchases$buyer_id) %>%
 men <- titledmen_locator(titled_men, purchases$buyer_id) %>% 
     as.numeric()
 purchases_df <- tibble(purchases, women, men)
-purchases_df <- title_counter(purchases)
+purchases_df <- title_counter(purchases_df)
 
 
 # merging titles and auctions
-model_df <- inner_join(pen_ultimate_df,purchases_df, by="mooc_id") 
-
-
-merged_df <- merged_df %>%  
+model_df <- inner_join(pen_ultimate_df,purchases_df, by="mooc_id") %>% 
+    mutate(year = substr(date, 1, 4)) %>% 
     arrange(year) %>% 
     group_by(year) %>% 
-    mutate(date=n())
-merged_df$date <- as.numeric(match(merged_df$year, unique(merged_df$year)))
-merged_df <- merged_df %>% filter(date<103) %>% filter(date!=1) %>% na.omit() 
+      mutate(date=n())
 
-# adding numeric values to auctions in order of date
-merged_df$auction_tot <- as.numeric(merged_df$auction_tot)
+# assigning value from 1 to N for each year
+model_df$date <- as.numeric(match(model_df$year, unique(model_df$year)))
 
-plotting_df <- merged_df %>% 
-        filter(auction_tot>60) %>% arrange(year)
-merged_df <- merged_df %>% ungroup() %>% select(-mooc_id,-year, -type, -bundle) %>% 
-    filter(auction_tot>60)
-
-
+# filtering table based on recording errors in year transcription
+model_df <- model_df %>% 
+    filter(date<103) %>% 
+    filter(date!=1)  %>% 
+    filter(auction_tot>0) %>% 
+    filter(auction_tot!=-Inf)
 
 
 ```
+
 # descriptives
 ```{r}
 
-Mean_auction_total <- mean(merged_df$auction_tot)
-sd_auction_total <- sd(merged_df$auction_tot)
-merged_df <- merged_df %>%
-    mutate(z_score=((auction_tot-Mean_auction_total)/sd_auction_total)) %>% 
-    ungroup() %>% 
-    arrange(z_score) %>% 
-    filter(z_score<5) 
+Mean_auction_total <- mean(model_df$auction_tot)
+sd_auction_total <- sd(model_df$auction_tot)
 
-auction_timeline <- plotter(plotting_df, plotting_df$year, plotting_df$auction_tot, "Total auction value")
+summary(model_df)
+
+ggplot(model_df, aes(x=year, fill=total_slaves))+
+    geom_density()
+
+auction_timeline <- plotter(model_df, model_df$year, model_df$auction_tot, "Total auction value")
 
 attendance_plotter(attendance_df, attendance_df$year, attendance_df$number, filler=attendance_df$title)
 

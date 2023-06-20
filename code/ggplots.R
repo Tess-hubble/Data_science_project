@@ -1,6 +1,6 @@
-plotter <- function(y_value, title_graph, axis_label_y){
+plotter <- function(data, y_value, title_graph, axis_label_y){
 
-    auction_plot <- ggplot(plotting_df, aes(year, y_value))+
+    auction_plot <- ggplot(data, aes(year, y_value))+
         geom_point()+
         labs(title=title_graph,
              x="Date", y=axis_label_y)+

@@ -1,0 +1,934 @@
+purchase_id,mooc_id,date,focal_good,good_desc,type,mooc_set,count,price,unit_price,bundle,group,old,new
+MOOC10/3.76/29,MOOC10/3.76,17271110,1 ijsere balans+sch,1 ijsere balans+sch,balance,3,1,1.0,1.0,0,0,0,0
+MOOC10/11.62/150,MOOC10/11.62,17770220/17770221,1 balans+sch,1 tabaksmes en 1 balans+sch,balance,11,1,1.0,1.0,1,0,0,0
+MOOC10/15.68/24,MOOC10/15.68,17880908,1 balans+sch,1 balans+sch,balance,15,1,1.0,1.0,0,0,0,0
+MOOC10/15.96/130,MOOC10/15.96,17901230,1 balans+sch,"1 balans+sch, ½ lb: gewigt en 1 kleijn belletje",balance,15,1,1.0,1.0,1,0,0,0
+MOOC10/16.52/5,MOOC10/16.52,17911010/17911011,1 ijsere balans,1 led: kistje en 1 ijsere balans,balance,16,1,1.0,1.0,1,0,0,0
+MOOC10/20.78/7,MOOC10/20.78,18050702/18050703,1 balans+sch,1 balans+sch,balance,20,1,1.0,1.0,0,0,0,0
+MOOC10/23.27/88,MOOC10/23.27,18081208,1 ijzere balance,1 ijzere balance en 1 zeepvorm,balance,23,1,1.0,1.0,1,0,0,0
+MOOC10/24.19/32,MOOC10/24.19,18080204,1 ijzere balans+sch,1 ijzere balans+sch,balance,24,1,1.0,1.0,0,0,0,0
+MOOC10/6.46/50,MOOC10/6.46,17550507,1 houte balans +gewigt,1 houte balans +gewigt,balance,6,1,1.0,1.0,0,0,0,0
+MOOC10/7.15/15,MOOC10/7.15,17551020,1 houte balans+sch +gewigt,1 houte balans+sch +gewigt,balance,7,1,1.0,1.0,0,0,0,0
+MOOC10/7.16/34,MOOC10/7.16,17551107,1 houte balans+sch,1 hakbord met 1 houte balans+sch,balance,7,1,1.0,1.0,1,0,0,0
+MOOC10/9.14/399,MOOC10/9.14,17651104/17651105,1 balans+sch,1 balans+sch,balance,9,1,1.0,1.0,0,0,0,0
+MOOC10/9.60/59,MOOC10/9.60,17690501,1 ijsere balans+sch,1 ijsere balans+sch,balance,9,1,1.0,1.0,0,0,0,0
+MOOC10/3.38/153,MOOC10/3.38,17220624,1 ijzere balans+sch,1 ijzere balans+sch,balance,3,1,2.0,2.0,0,0,0,0
+MOOC10/11.12/407,MOOC10/11.12,17740829/17740830,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,11,1,2.0,2.0,0,0,0,0
+MOOC10/11.47/311,MOOC10/11.47,17761107/17761108,1 balans,"1 cas met wat thee, 1 balans en wat romm:g",balance,11,1,2.0,2.0,1,0,0,0
+MOOC10/12.21/59,MOOC10/12.21,17781022,1 ijzere balans+sch,1 ijzere balans+sch,balance,12,1,2.0,2.0,0,0,0,0
+MOOC10/12.27/114,MOOC10/12.27,"17790512, 17790514",1 ijzere balans+sch,1 ijzere balans+sch,balance,12,1,2.0,2.0,0,0,0,0
+MOOC10/12.32/205,MOOC10/12.32,17761101,1 balans+sch,1 balans+sch,balance,12,1,2.0,2.0,0,0,0,0
+MOOC10/14.11/160,MOOC10/14.11,17830324/17830325,1 ijzere balans+sch,1 ijzere balans+sch,balance,14,1,2.0,2.0,0,0,0,0
+MOOC10/15.12/14,MOOC10/15.12,17860505/17860506, ,"9 sikkels, 1 houte schaal+bal",balance,15,,2.0,-99,1,0,0,0
+MOOC10/15.31/144,MOOC10/15.31,17870706,4 cop: schaal+bal,4 cop: schaal+bal,balance,15,4,2.0,0.5,0,0,0,0
+MOOC10/15.86/204,MOOC10/15.86,17890722,1 cop: balans+sch,1 cop: balans+sch,balance,15,1,2.0,2.0,0,0,0,0
+MOOC10/16.61/52,MOOC10/16.61,17930215,1 ijser balans+sch,1 ijser balans+sch,balance,16,1,2.0,2.0,0,0,0,0
+MOOC10/17.26/142,MOOC10/17.26,17950508,1 ijzer balans+sch,1 ijzer balans+sch,balance,17,1,2.0,2.0,0,0,0,0
+MOOC10/19.20/28,MOOC10/19.20,18010404, kopere balans,1 tinne ketel en kopere balans,balance,19,,2.0,-99,1,0,0,0
+MOOC10/2.9/355,MOOC10/2.9,17190315,1 ijsere balans,1 ijsere balans,balance,2,1,2.0,2.0,0,0,0,0
+MOOC10/20.12/143,MOOC10/20.12,18021015,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,20,1,2.0,2.0,0,0,0,0
+MOOC10/20.33/34,MOOC10/20.33,18031217,1 houte balans+sch +gewigt,1 houte balans+sch +gewigt,balance,20,1,2.0,2.0,0,0,0,0
+MOOC10/21.39/323,MOOC10/21.39,18051030/18051031/18051101,1 balans,1 balans,balance,21,1,2.0,2.0,0,0,0,0
+MOOC10/23.2/62,MOOC10/23.2,18071230,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,23,1,2.0,2.0,0,0,0,0
+MOOC10/3.73/125,MOOC10/3.73,17270709,1 balans+sch,1 balans+sch en 1 stuk roode pelangh,balance,3,1,3.0,3.0,1,0,0,0
+MOOC10/4.103/5,MOOC10/4.103,17301108,1 ijsere balans+sch,1 ijsere balans+sch,balance,4,1,3.0,3.0,0,0,0,0
+MOOC10/10.40/69,MOOC10/10.40,17701217,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,10,1,3.0,3.0,0,0,0,0
+MOOC10/11.41/496,MOOC10/11.41,17741219/17741222,1 ijsere balans+sch,1 ijsere balans+sch,balance,11,1,3.0,3.0,0,0,0,0
+MOOC10/14.7/231,MOOC10/14.7,17830526/17830527/17830529,1 balans+sch,1 balans+sch,balance,14,1,3.0,3.0,0,0,0,0
+MOOC10/14.45/347,MOOC10/14.45,17840309/17840311,2 ijzere balancen,2 ijzere balancen,balance,14,2,3.0,1.5,0,0,0,0
+MOOC10/15.37/12,MOOC10/15.37,17870803,1 ijzere balans+sch+gewigt,1 ijzere balans+sch+gewigt en 1 cop: bak,balance,15,1,3.0,3.0,1,0,0,0
+MOOC10/18.69/6,MOOC10/18.69,18000113,1 hout balans+sch +gewigt,1 hout balans+sch +gewigt,balance,18,1,3.0,3.0,0,0,0,0
+MOOC10/19.4/4,MOOC10/19.4,18001004,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,19,1,3.0,3.0,0,0,0,0
+MOOC10/19.16/21,MOOC10/19.16,18001129,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,19,1,3.0,3.0,0,0,0,0
+MOOC10/19.45/469,MOOC10/19.45,18020712,1 kleine balans+sch +gewigt,1 kleine balans+sch +gewigt,balance,19,1,3.0,3.0,0,0,0,0
+MOOC10/6.31/23,MOOC10/6.31,17520509,1 ijser balans+sch,1 ijser balans+sch,balance,6,1,3.0,3.0,0,0,0,0
+MOOC10/6.32/384,MOOC10/6.32,17520508/17520510,1 klijn balans+sch +gewigt,1 klijn balans+sch +gewigt,balance,6,1,3.0,3.0,0,0,0,0
+MOOC10/6.41/405,MOOC10/6.41,"17520323/17520325, 17520327",1 balans+sch,1 balans+sch en ½ lb: gewigt,balance,6,1,3.0,3.0,1,0,0,0
+MOOC10/6.41/551,MOOC10/6.41,"17520323/17520325, 17520327",1 balans+sch,1 balans+sch,balance,6,1,3.0,3.0,0,0,0,0
+MOOC10/7.14_1/2/57,MOOC10/7.14_1/2,17560825,1 kl: balans,1 kl: balans en 1 cas met w: rom:g,balance,7,1,3.0,3.0,1,0,0,0
+MOOC10/7.24/63,MOOC10/7.24,17550811,2 coop:r schaal+bal +gewigt,2 coop:r schaal+bal +gewigt,balance,7,2,3.0,1.5,0,0,0,0
+MOOC10/7.28/263,MOOC10/7.28,17551028,1 balans+sch,1 balans+sch en haak,balance,7,1,3.0,3.0,1,0,0,0
+MOOC10/8.47/79,MOOC10/8.47,17611029,1 ijsere balans+sch,1 ijsere balans+sch,balance,8,1,3.0,3.0,0,0,0,0
+MOOC10/9.53/218,MOOC10/9.53,17670330,1 ijsere balans+sch,1 ijsere balans+sch,balance,9,1,3.0,3.0,0,0,0,0
+MOOC10/5.22/177,MOOC10/5.22,17380428,1 ijsere balans+sch,1 ijsere balans+sch,balance,5,1,4.0,4.0,0,0,0,0
+MOOC10/5.73/169,MOOC10/5.73,17460523,1 ijser balans+sch +gewigt,1 ijser balans+sch +gewigt,balance,5,1,4.0,4.0,0,0,0,0
+MOOC10/10.28/105,MOOC10/10.28,17691120,2 houte schaal+bal,2 houte schaal+bal,balance,10,2,4.0,2.0,0,0,0,0
+MOOC10/13.54/105,MOOC10/13.54,17820816/17820817,2 cop: weeg schaal+bal +gewigt in soort,2 cop: weeg schaal+bal +gewigt in soort,balance,13,2,4.0,2.0,0,0,0,0
+MOOC10/14.35/36,MOOC10/14.35,17840820,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,14,1,4.0,4.0,0,0,0,0
+MOOC10/15.10/57,MOOC10/15.10,17860310,2 cop: schaal+bal +gewigt,2 cop: schaal+bal +gewigt,balance,15,2,4.0,2.0,0,0,0,0
+MOOC10/15.39/37,MOOC10/15.39,17870622,1 ijzere balans+sch,1 ijzere balans+sch,balance,15,1,4.0,4.0,0,0,0,0
+MOOC10/15.63/83,MOOC10/15.63,17880708,1 schaal+bal,1 schaal+bal,balance,15,1,4.0,4.0,0,0,0,0
+MOOC10/16.29/33,MOOC10/16.29,17910606/17910607,1 ijsere balans+sch,1 ijsere balans+sch,balance,16,1,4.0,4.0,0,0,0,0
+MOOC10/20.19/113,MOOC10/20.19,18040723,2 cop: schaal+bal,2 cop: schaal+bal,balance,20,2,4.0,2.0,0,0,0,0
+MOOC10/6.19/339,MOOC10/6.19,17481017/17481019,1 ijser balans+sch +gewigt,1 ijser balans+sch +gewigt,balance,6,1,4.0,4.0,0,0,0,0
+MOOC10/6.41/552,MOOC10/6.41,"17520323/17520325, 17520327",1 balans+sch,1 balans+sch,balance,6,1,4.0,4.0,0,0,0,0
+MOOC10/6.61/218,MOOC10/6.61,17550728,2 ijsere balans+sch,2 ijsere balans+sch,balance,6,2,4.0,2.0,0,0,0,0
+MOOC10/7.11/348,MOOC10/7.11,17551118/17551119,1 ijsere balans+sch,1 ijsere balans+sch,balance,7,1,4.0,4.0,0,0,0,0
+MOOC10/7.17/878,MOOC10/7.17,17520327/17520330,1 ijser balans+sch,1 ijser balans+sch,balance,7,1,4.0,4.0,0,0,0,0
+MOOC10/9.13/195,MOOC10/9.13,17641006,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,9,1,4.0,4.0,0,0,0,0
+MOOC10/9.31/307,MOOC10/9.31,17660403,1 ijsere balans+sch,1 ijsere balans+sch,balance,9,1,4.0,4.0,0,0,0,0
+MOOC10/9.36/3,MOOC10/9.36,17681128,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,9,1,4.0,4.0,0,0,0,0
+MOOC10/9.48/78,MOOC10/9.48,17680604,1 ijsere balans+sch,1 ijsere balans+sch,balance,9,1,4.0,4.0,0,0,0,0
+MOOC10/3.53/88,MOOC10/3.53,17240512,2 schaal+bal +gewigt,2 schaal+bal +gewigt,balance,3,2,5.0,2.5,0,0,0,0
+MOOC10/5.8/10,MOOC10/5.8,17280901,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,5,1,5.0,5.0,0,0,0,0
+MOOC10/10.2/212,MOOC10/10.2,17680411/17680414,1 ijsere balans+sch,1 ijsere balans+sch,balance,10,1,5.0,5.0,0,0,0,0
+MOOC10/11.12/461,MOOC10/11.12,17740829/17740830,3 balans+sch,3 balans+sch,balance,11,3,5.0,1.67,0,0,0,0
+MOOC10/11.46/234,MOOC10/11.46,17761023,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,11,1,5.0,5.0,0,0,0,0
+MOOC10/12.21/13,MOOC10/12.21,17781022,1 ijzere balans+sch,1 ijzere balans+sch,balance,12,1,5.0,5.0,0,0,0,0
+MOOC10/12.30/288,MOOC10/12.30,17790607/17790608,1 balance,1 balance,balance,12,1,5.0,5.0,0,0,0,0
+MOOC10/12.33/67,MOOC10/12.33,17790125/17790126,1 ijsere balans+sch,1 ijsere balans+sch,balance,12,1,5.0,5.0,0,0,0,0
+MOOC10/14.22/278,MOOC10/14.22,17831110,1 cop: balans+sch,1 cop: balans+sch,balance,14,1,5.0,5.0,0,0,0,0
+MOOC10/15.52/77,MOOC10/15.52,17871108/17871109, ,"n:o 101 en 104. een koper schaal+bal, een inktkoker, etc:",balance,15,,5.0,-99,1,0,0,0
+MOOC10/16.1/4,MOOC10/16.1,17901015,1 balans+sch,1 balans+sch,balance,16,1,5.0,5.0,0,0,0,0
+MOOC10/18.69/163,MOOC10/18.69,18000113,1 balans+sch,1 balans+sch,balance,18,1,5.0,5.0,0,0,0,0
+MOOC10/19.55/102,MOOC10/19.55,18020520,1 schaal+bal,1 schaal+bal,balance,19,1,5.0,5.0,0,0,0,0
+MOOC10/20.24/211,MOOC10/20.24,18040628/18040702/18040703,1 balans+sch,1 balans+sch,balance,20,1,5.0,5.0,0,0,0,0
+MOOC10/24.5/127,MOOC10/24.5,18091114,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,24,1,5.0,5.0,0,0,0,0
+MOOC10/6.17/26,MOOC10/6.17,17500916,1 ijserbalans+sch,1 ijserbalans+sch,balance,6,1,5.0,5.0,0,0,0,0
+MOOC10/8.49/228,MOOC10/8.49,17620329/17620330,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,8,1,5.0,5.0,0,0,0,0
+MOOC10/3.97/31,MOOC10/3.97,17310919,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,3,1,6.0,6.0,0,0,0,0
+MOOC10/16.14/132,MOOC10/16.14,17900816,1 ijsere balance,"1 ijsere balance, met 2 copre schalen +gewigt",balance,16,1,6.0,6.0,1,0,0,0
+MOOC10/19.66/183,MOOC10/19.66,18020127/18020128,1 balans+sch,1 balans+sch,balance,19,1,6.0,6.0,0,0,0,0
+MOOC10/2.13/135,MOOC10/2.13,17200823,2 coopere schaal+bal,2 coopere schaal+bal,balance,2,2,6.0,3.0,0,0,0,0
+MOOC10/8.2/108,MOOC10/8.2,17551104/17551106,1 gr: balans+sch,1 gr: balans+sch,balance,8,1,6.0,6.0,0,0,0,0
+MOOC10/8.43/195,MOOC10/8.43,17611026/17611028,1 ijsere balans+sch,1 ijsere balans+sch,balance,8,1,6.0,6.0,0,0,0,0
+MOOC10/4.146/107,MOOC10/4.146,17360928,1 ijsere balans+sch,1 ijsere balans+sch,balance,4,1,7.0,7.0,0,0,0,0
+MOOC10/13.36/267,MOOC10/13.36,17811211/17811212,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,13,1,7.0,7.0,0,0,0,0
+MOOC10/15.24/260,MOOC10/15.24,17861228/17861230,2 cop: schaal+bal,2 cop: schaal+bal,balance,15,2,7.0,3.5,0,0,0,0
+MOOC10/18.4/240,MOOC10/18.4,17960826/17960827,1 ijzere balans+sch,1 ijzere balans+sch,balance,18,1,7.0,7.0,0,0,0,0
+MOOC10/20.82/30,MOOC10/20.82,18030521,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,20,1,7.0,7.0,0,0,0,0
+MOOC10/22.29/85,MOOC10/22.29,18070209,1 ijzere balans+sch,1 ijzere balans+sch,balance,22,1,7.0,7.0,0,0,0,0
+MOOC10/8.42/45,MOOC10/8.42,17630117,1 ijsere balans+sch,1 ijsere balans+sch,balance,8,1,7.0,7.0,0,0,0,0
+MOOC10/10.2/376,MOOC10/10.2,17680411/17680414,1 ijsere balans+sch,1 ijsere balans+sch,balance,10,1,8.0,8.0,0,0,0,0
+MOOC10/14.16/180,MOOC10/14.16,17830115/17830116,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,14,1,8.0,8.0,0,0,0,0
+MOOC10/15.11/85,MOOC10/15.11,17860317,1 ijzere balans+sch,1 ijzere balans+sch,balance,15,1,8.0,8.0,0,0,0,0
+MOOC10/15.14/61,MOOC10/15.14,17860512/17860513,1 cop: schaal+bal,1 cop: schaal+bal,balance,15,1,8.0,8.0,0,0,0,0
+MOOC10/15.67/139,MOOC10/15.67,17880915,1 balans+sch,1 balans+sch,balance,15,1,8.0,8.0,0,0,0,0
+MOOC10/15.116/66,MOOC10/15.116,17900529,1 paar coopere schaal+bal,1 paar coopere schaal+bal,balance,15,1,8.0,8.0,0,0,0,0
+MOOC10/16.36/253,MOOC10/16.36,17940219/17940221,1 ijser balans+sch,1 ijser balans+sch,balance,16,1,8.0,8.0,0,0,0,0
+MOOC10/19.30/76,MOOC10/19.30,18020308/18020309,1 ijsere balans+sch+gewigt,1 ijsere balans+sch+gewigt,balance,19,1,8.0,8.0,0,0,0,0
+MOOC10/21.37/282,MOOC10/21.37,18041106/18041108,1 balans schaal +gewigt,1 balans schaal +gewigt,balance,21,1,8.0,8.0,0,0,0,0
+MOOC10/22.66/142,MOOC10/22.66,18060218/18060219,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,22,1,8.0,8.0,0,0,0,0
+MOOC10/9.15/565,MOOC10/9.15,17640717/17640720,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,9,1,8.0,8.0,0,0,0,0
+MOOC10/15.116/65,MOOC10/15.116,17900529,1 paar coopere schaal+bal,1 paar coopere schaal+bal,balance,15,1,9.0,9.0,0,0,0,0
+MOOC10/16.17/88,MOOC10/16.17,17901011,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,16,1,9.0,9.0,0,0,0,0
+MOOC10/17.57_1/2/40,MOOC10/17.57_1/2,17961126,1 balans+sch,1 balans+sch,balance,17,1,9.0,9.0,0,0,0,0
+MOOC10/6.50/127,MOOC10/6.50,17520523/17520527,1 ijser balans+sch,1 ijser balans+sch,balance,6,1,9.0,9.0,0,0,0,0
+MOOC10/7.22/208,MOOC10/7.22,17560428/17560430,2 cop: schaal+bal +gewigt,2 cop: schaal+bal +gewigt,balance,7,2,9.0,4.5,0,0,0,0
+MOOC10/11.38/47,MOOC10/11.38,17760910,1 ijzere balans+sch,1 ijzere balans+sch,balance,11,1,10.0,10.0,0,0,0,0
+MOOC10/13.39/15,MOOC10/13.39,17820103,1 balance,1 balance,balance,13,1,10.0,10.0,0,0,0,0
+MOOC10/14.17/224,MOOC10/14.17,17830606/17830607,1 houte balans +gewigt,1 houte balans +gewigt,balance,14,1,10.0,10.0,0,0,0,0
+MOOC10/15.11/43,MOOC10/15.11,17860317,1 ijzere balans+sch,1 ijzere balans+sch,balance,15,1,10.0,10.0,0,0,0,0
+MOOC10/15.116/69,MOOC10/15.116,17900529,1 paar coopere schaal+bal,1 paar coopere schaal+bal,balance,15,1,10.0,10.0,0,0,0,0
+MOOC10/15.116/72,MOOC10/15.116,17900529,1 paar coopere schaal+bal,1 paar coopere schaal+bal,balance,15,1,10.0,10.0,0,0,0,0
+MOOC10/16.48/135,MOOC10/16.48,17920613/17920614,1 balans+sch,1 balans+sch,balance,16,1,10.0,10.0,0,0,0,0
+MOOC10/16.52/7,MOOC10/16.52,17911010/17911011,1 ijsere balans+sch +gewigt in soort,1 ijsere balans+sch +gewigt in soort,balance,16,1,10.0,10.0,0,0,0,0
+MOOC10/18.1/62,MOOC10/18.1,17971127,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,18,1,10.0,10.0,0,0,0,0
+MOOC10/20.53/79,MOOC10/20.53,18050516,1 ijzere balans+sch,1 ijzere balans+sch,balance,20,1,10.0,10.0,0,0,0,0
+MOOC10/6.34/66,MOOC10/6.34,17491223/17491224,1 ijser balans+sch +gewigt,1 ijser balans+sch +gewigt,balance,6,1,10.0,10.0,0,0,0,0
+MOOC10/12.33/93,MOOC10/12.33,17790125/17790126,1 ijsere balans+sch,1 ijsere balans+sch,balance,12,1,12.0,12.0,0,0,0,0
+MOOC10/14.10/338,MOOC10/14.10,17830519/17830510/17830521,1 ijzere balans+sch,1 ijzere balans+sch,balance,14,1,12.0,12.0,0,0,0,0
+MOOC10/20.68/240,MOOC10/20.68,18050518,1 balans+sch,1 balans+sch,balance,20,1,12.0,12.0,0,0,0,0
+MOOC10/6.12/82,MOOC10/6.12,17510604,1 ijser balans+sch +gewigt,1 ijser balans+sch +gewigt,balance,6,1,12.0,12.0,0,0,0,0
+MOOC10/16.11/11,MOOC10/16.11,17900401/17900403,1 ijsere balans+sch,1 ijsere balans+sch,balance,16,1,13.0,13.0,0,0,0,0
+MOOC10/14.7/351,MOOC10/14.7,17830526/17830527/17830529,2 ijzere balans+sch +gewigt,2 ijzere balans+sch +gewigt,balance,14,2,15.0,7.5,0,0,0,0
+MOOC10/15.106/99,MOOC10/15.106,17901104,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,15,1,16.0,16.0,0,0,0,0
+MOOC10/16.28/46,MOOC10/16.28,17920614,1 ijsere balans+sch,1 ijsere balans+sch,balance,16,1,16.0,16.0,0,0,0,0
+MOOC10/6.63/202,MOOC10/6.63,17550927,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,6,1,16.0,16.0,0,0,0,0
+MOOC10/2.9/486,MOOC10/2.9,17190315,1 balans+sch,1 balans+sch,balance,2,1,17.0,17.0,0,0,0,0
+MOOC10/26.31/49,MOOC10/26.31,18111202,1 schaal+bal +gewigt,1 schaal+bal +gewigt,balance,26,1,17.0,17.0,0,0,0,0
+MOOC10/16.50/112,MOOC10/16.50,17910915/17910916,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,16,1,18.0,18.0,0,0,0,0
+MOOC10/19.27/251,MOOC10/19.27,18020115/18020116,1 ijzer balans+sch +gewigt,1 ijzer balans+sch +gewigt,balance,19,1,20.0,20.0,0,0,0,0
+MOOC10/23.54/27,MOOC10/23.54,18090424/18090428,1 ijzere balans+sch,1 ijzere balans+sch,balance,23,1,20.0,20.0,0,0,0,0
+MOOC10/20.51/78,MOOC10/20.51,18041203/18041204,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,20,1,22.0,22.0,0,0,0,0
+MOOC10/14.7/319,MOOC10/14.7,17830526/17830527/17830529,1 ijzere balans+sch,1 ijzere balans+sch,balance,14,1,25.0,25.0,0,0,0,0
+MOOC10/14.10/163,MOOC10/14.10,17830519/17830510/17830521,1 ijzere balans+sch,1 ijzere balans+sch,balance,14,1,25.0,25.0,0,0,0,0
+MOOC10/2.10/429,MOOC10/2.10,17190403,1 ysere balans,1 ysere balans,balance,2,1,25.0,25.0,0,0,0,0
+MOOC10/10.22/2295,MOOC10/10.22,17690123/17690130,1 cop:e balans+sch,1 cop:e balans+sch,balance,10,1,26.0,26.0,0,0,0,0
+MOOC10/19.11/371,MOOC10/19.11,18000505/18000506,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,19,1,26.0,26.0,0,0,0,0
+MOOC10/15.62/76,MOOC10/15.62,17880630/17880701,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,15,1,28.0,28.0,0,0,0,0
+MOOC10/14.45/43,MOOC10/14.45,17840309/17840311,1 ijzere balans+sch,1 ijzere balans+sch,balance,14,1,29.0,29.0,0,0,0,0
+MOOC10/21.39/445,MOOC10/21.39,18051030/18051031/18051101,1 balans+sch,1 balans+sch,balance,21,1,32.0,32.0,0,0,0,0
+MOOC10/10.22/2298,MOOC10/10.22,17690123/17690130,1 cop:e balans+sch,1 cop:e balans+sch,balance,10,1,34.0,34.0,0,0,0,0
+MOOC10/5.63/156,MOOC10/5.63,17410420,1 grote yser balans+sch +gewigt,1 grote yser balans+sch +gewigt,balance,5,1,37.0,37.0,0,0,0,0
+MOOC10/22.34/238,MOOC10/22.34,18070608/18070611,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,22,1,37.0,37.0,0,0,0,0
+MOOC10/23.54/139,MOOC10/23.54,18090424/18090428,1 ijzere balans+sch,1 ijzere balans+sch,balance,23,1,57.0,57.0,0,0,0,0
+MOOC10/18.4/272,MOOC10/18.4,17960826/17960827,1 balans+sch,"1 balans+sch, 1 bok +gewigt",balance,18,1,90.0,90.0,1,0,0,0
+MOOC10/5.73/330,MOOC10/5.73,17460523,3 balans+sch+gewigt,"4 klijne kopere distileerketels met haar helmen, 1 plysterpan, 1 parthy chururgyns gereetschappen, 1 parthy potjes, flesjes en doosjes met medicynen, met haar rakjes, 2 clisteerspuyten, 1 groote coper mortier met 1 yser stamper, 2 trommelsiften, 3 balans+sch+gewigt, 9 copere en 2 tinne koppen met syn lamp, 1 lapdoos, 1 kisje met agt flesjes, 1 medicijn kisje, 2 steenen mortier, 2 scheepsmedicijn kist, 3 glase kolven, 1 doosje met 1 parthy leedige flessen, 9 medicijnse boeken",balance,5,3,150.0,50.0,1,0,0,0
+MOOC10/2.10/428,MOOC10/2.10,17190403,2 houte schaal+bal,2 houte schaal+bal,balance,2,2,2.02,1.01,0,0,0,0
+MOOC10/17.39/64,MOOC10/17.39,17951127,1 balans+sch,1 balans+sch,balance,17,1,0.04,0.04,0,0,0,0
+MOOC10/10.55/60,MOOC10/10.55,17720127,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,10,1,1.04,1.04,0,0,0,0
+MOOC10/12.21/62,MOOC10/12.21,17781022,3 cop: schaal+bal,3 cop: schaal+bal,balance,12,3,1.04,0.35,0,0,0,0
+MOOC10/12.27/218,MOOC10/12.27,"17790512, 17790514",1 ijzere balans haak,1 ijzere balans haak,balance,12,1,1.04,1.04,0,0,0,0
+MOOC10/13.8/275,MOOC10/13.8,17800619/17800620,1 ijzere balans+sch,1 ijzere balans+sch en ½ lb: inzetgewigt,balance,13,1,1.04,1.04,1,0,0,0
+MOOC10/15.113/293,MOOC10/15.113,17891116/17891118,1 balans+sch,1 balans+sch,balance,15,1,1.04,1.04,0,0,0,0
+MOOC10/16.39/167,MOOC10/16.39,17931028/17931029,1 klijne balans+sch,1 klijne balans+sch en 2 trossen lijn,balance,16,1,1.04,1.04,1,0,0,0
+MOOC10/17.15/316,MOOC10/17.15,17940327/17940329,1 ijzere balans+sch,1 ijzere balans+sch,balance,17,1,1.04,1.04,0,0,0,0
+MOOC10/17.67_1/2/53,MOOC10/17.67_1/2,17970708,1 balans,2 rakken en 1 balans,balance,17,1,1.04,1.04,1,0,0,0
+MOOC10/2.10/527,MOOC10/2.10,17190403,2 koopere schaal+bal,2 koopere schaal+bal,balance,2,2,1.04,0.52,0,0,0,0
+MOOC10/6.7/118,MOOC10/6.7,17520602,1 ijser balans+sch,1 ijser balans+sch,balance,6,1,1.04,1.04,0,0,0,0
+MOOC10/6.24/366,MOOC10/6.24,17540114/17540116,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,6,1,1.04,1.04,0,0,0,0
+MOOC10/6.57_1/2/1047,MOOC10/6.57_1/2,"17551030/17551031, 17551101",1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,6,1,1.04,1.04,0,0,0,0
+MOOC10/7.7/45,MOOC10/7.7,17551001,1 balans+sch,1 balans+sch,balance,7,1,1.04,1.04,0,0,0,0
+MOOC10/8.41/1191,MOOC10/8.41,"17600922/17600924, 17600929",1 klijne balans+sch,1  klijne balans+sch,balance,8,1,1.04,1.04,0,0,0,0
+MOOC10/9.19/29,MOOC10/9.19,17661202,1 ijsere balans+sch,1 ijsere balans+sch,balance,9,1,1.04,1.04,0,0,0,0
+MOOC10/9.28/155,MOOC10/9.28,17660602,1 cop:e balans+sch,1 tinne keetel en 1 cop:e balans+sch,balance,9,1,1.04,1.04,1,0,0,0
+MOOC10/9.29/24,MOOC10/9.29,17670318,1 houte balans+sch +gewigt,1 houte balans+sch +gewigt,balance,9,1,1.04,1.04,0,0,0,0
+MOOC10/9.57/152,MOOC10/9.57,17660818,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,9,1,1.04,1.04,0,0,0,0
+MOOC10/9.62/22,MOOC10/9.62,17681123,1 houte balans+sch +gewigt,1 houte balans+sch +gewigt,balance,9,1,1.04,1.04,0,0,0,0
+MOOC10/3.60/6,MOOC10/3.60,17260617,1 grote houte balans,1 grote houte balans,balance,3,1,2.04,2.04,0,0,0,0
+MOOC10/3.73/28,MOOC10/3.73,17270709,2 kopere schaal+bal,2 kopere schaal+bal,balance,3,2,2.04,1.02,0,0,0,0
+MOOC10/3.88/54,MOOC10/3.88,17291130,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,3,1,2.04,2.04,0,0,0,0
+MOOC10/4.133/81,MOOC10/4.133,17370429,1 ijsere balans+sch,1 ijsere balans+sch en 1 guerridon,balance,4,1,2.04,2.04,1,0,0,0
+MOOC10/12.21/60,MOOC10/12.21,17781022,1 ijzere balans+sch,1 ijzere balans+sch,balance,12,1,2.04,2.04,0,0,0,0
+MOOC10/14.4/40,MOOC10/14.4,17830114,1 balans,1 balans,balance,14,1,2.04,2.04,0,0,0,0
+MOOC10/14.39/144,MOOC10/14.39,17841006,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,14,1,2.04,2.04,0,0,0,0
+MOOC10/18.78/245,MOOC10/18.78,"18000626/18000628, 18000703/18000704",1 ijzere balans,1 ijzere balans met koper en 1 beker,balance,18,1,2.04,2.04,1,0,0,0
+MOOC10/19.59/5,MOOC10/19.59,18010811,1 balans,1 balans,balance,19,1,2.04,2.04,0,0,0,0
+MOOC10/21.19/11,MOOC10/21.19,18050312,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,21,1,2.04,2.04,0,0,0,0
+MOOC10/22.30/119,MOOC10/22.30,18060224/18060225,1 balans+sch 4 ½ gewigt,1 balans+sch 4 ½ gewigt,balance,22,1,2.04,2.04,0,0,0,0
+MOOC10/6.33/106,MOOC10/6.33,17480823/17480824|17480902/17480905|17480921,1 ijser balans+sch,1 ijser balans+sch,balance,6,1,2.04,2.04,0,0,0,0
+MOOC10/6.50/405,MOOC10/6.50,17520523/17520527,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,6,1,2.04,2.04,0,0,0,0
+MOOC10/7.43/40,MOOC10/7.43,17551227,1 ijsere balans+sch,1 ijsere balans+sch,balance,7,1,2.04,2.04,0,0,0,0
+MOOC10/8.14/250,MOOC10/8.14,17580116/17580117,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,8,1,2.04,2.04,0,0,0,0
+MOOC10/9.17/145,MOOC10/9.17,17550925,1 ijsere balans+sch,1 ijsere balans+sch,balance,9,1,2.04,2.04,0,0,0,0
+MOOC10/10.11/82,MOOC10/10.11,17680201,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,10,1,3.04,3.04,0,0,0,0
+MOOC10/10.14/9,MOOC10/10.14,17700427/17700428,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,10,1,3.04,3.04,0,0,0,0
+MOOC10/11.9/34,MOOC10/11.9,17741107/17741108,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,11,1,3.04,3.04,0,0,0,0
+MOOC10/12.22/14,MOOC10/12.22,17781026,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,12,1,3.04,3.04,0,0,0,0
+MOOC10/15.6/231,MOOC10/15.6,17851107/17851108,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,15,1,3.04,3.04,0,0,0,0
+MOOC10/15.28/25,MOOC10/15.28,17870223,2 cop: schaal+bal +gewigt,2 cop: schaal+bal +gewigt,balance,15,2,3.04,1.52,0,0,0,0
+MOOC10/18.58/235,MOOC10/18.58,17980417,1 kopere balans+sch +gewigt,1 kopere balans+sch +gewigt,balance,18,1,3.04,3.04,0,0,0,0
+MOOC10/26.45/52,MOOC10/26.45,18110713/18110730,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,26,1,3.04,3.04,0,0,0,0
+MOOC10/6.57_1/2/1046,MOOC10/6.57_1/2,"17551030/17551031, 17551101",1 ijsere balans+sch,1 ijsere balans+sch,balance,6,1,3.04,3.04,0,0,0,0
+MOOC10/6.60/206,MOOC10/6.60,17561026,1 ijsere balans+sch,1 ijsere balans+sch,balance,6,1,3.04,3.04,0,0,0,0
+MOOC10/7.28/180,MOOC10/7.28,17551028,1 ijsere balans+sch,1 ijsere balans+sch,balance,7,1,3.04,3.04,0,0,0,0
+MOOC10/8.26/81,MOOC10/8.26,17610731,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,8,1,3.04,3.04,0,0,0,0
+MOOC10/9.5_1/2/170,MOOC10/9.5_1/2,17650114,1 houte balans+sch,1 houte balans+sch,balance,9,1,3.04,3.04,0,0,0,0
+MOOC10/4.158/214,MOOC10/4.158,17370624,1 ijsere balans+sch,1 ijsere balans+sch,balance,4,1,4.04,4.04,0,0,0,0
+MOOC10/10.14/163,MOOC10/10.14,17700427/17700428,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,10,1,4.04,4.04,0,0,0,0
+MOOC10/10.22/2297,MOOC10/10.22,17690123/17690130,1 ijsere balans+sch,1 ijsere balans+sch,balance,10,1,4.04,4.04,0,0,0,0
+MOOC10/11.64/3,MOOC10/11.64,17761202,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,11,1,4.04,4.04,0,0,0,0
+MOOC10/14.10/339,MOOC10/14.10,17830519/17830510/17830521,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,14,1,4.04,4.04,0,0,0,0
+MOOC10/15.74/190,MOOC10/15.74,17881103/17881104,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,15,1,4.04,4.04,0,0,0,0
+MOOC10/16.31/13,MOOC10/16.31,17900920/17900923,1 ijzere balans+sch,1 ijzere balans+sch,balance,16,1,4.04,4.04,0,0,0,0
+MOOC10/16.43/4,MOOC10/16.43,17921010,1 schaal+bal,een schaal+bal,balance,16,1,4.04,4.04,0,0,0,0
+MOOC10/18.38/83,MOOC10/18.38,17990504,1 houte +gewigt,1 houte +gewigt,balance,18,1,4.04,4.04,0,0,0,0
+MOOC10/21.12/66,MOOC10/21.12,18051025,1 houte ballans +gewigt,1 houte ballans +gewigt,balance,21,1,4.04,4.04,0,0,0,0
+MOOC10/21.15/44,MOOC10/21.15,18050910, ,1 kopere schaal+bal en 2 strijk ijzers,balance,21,,4.04,-99,1,0,0,0
+MOOC10/7.36/25,MOOC10/7.36,17560513,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,7,1,4.04,4.04,0,0,0,0
+MOOC10/8.22/153,MOOC10/8.22,17591126,1 ijsere balans+sch,1 ijsere balans+sch,balance,8,1,4.04,4.04,0,0,0,0
+MOOC10/8.41/2000,MOOC10/8.41,"17600922/17600924, 17600929",1 ijsere balans+sch,1 ijsere balans+sch,balance,8,1,4.04,4.04,0,0,0,0
+MOOC10/10.67/67,MOOC10/10.67,17730119,1 balans+sch,1 balans+sch,balance,10,1,5.04,5.04,0,0,0,0
+MOOC10/11.57/113,MOOC10/11.57,17761223/17761224,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,11,1,5.04,5.04,0,0,0,0
+MOOC10/13.31/36,MOOC10/13.31,17810313,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,13,1,5.04,5.04,0,0,0,0
+MOOC10/15.8/181,MOOC10/15.8,17851114/17851115,1 ijzere balans+sch +gewigt in soort,1 ijzere balans+sch +gewigt in soort,balance,15,1,5.04,5.04,0,0,0,0
+MOOC10/15.96/81,MOOC10/15.96,17901230,1 ijsere balans+sch,1 ijsere balans+sch en 1 ijsere arm,balance,15,1,5.04,5.04,1,0,0,0
+MOOC10/15.100/57,MOOC10/15.100,17900115,1 ijsere balans+sch,1 ijsere balans+sch,balance,15,1,5.04,5.04,0,0,0,0
+MOOC10/17.13/363,MOOC10/17.13,17940605/17940606,1 ijzere balans+sch,1 ijzere balans+sch,balance,17,1,5.04,5.04,0,0,0,0
+MOOC10/19.5/73,MOOC10/19.5,18000719,1 balans+sch,1 balans+sch en 15 pond aan gewicht,balance,19,1,5.04,5.04,1,0,0,0
+MOOC10/2.30/136,MOOC10/2.30,17211013, ,"1 kopere wyn bekker, 1 houte schaal+bal, een tinnen bekken en een tinne beeker",balance,2,,5.04,-99,1,0,0,0
+MOOC10/20.22/160,MOOC10/20.22,18040511,2 kooper schaal+bal +gewigt,2 kooper schaal+bal +gewigt,balance,20,2,5.04,2.52,0,0,0,0
+MOOC10/22.95/12,MOOC10/22.95,18070618/18070619,1 schaal balans +gewigt,1 schaal balans +gewigt,balance,22,1,5.04,5.04,0,0,0,0
+MOOC10/24.31/151,MOOC10/24.31,18100820/18100821,1 ijzere balans+sch,1 ijzere balans+sch,balance,24,1,5.04,5.04,0,0,0,0
+MOOC10/6.49/270,MOOC10/6.49,17491103/17491104,1 ijser balans+sch,1 ijser balans+sch,balance,6,1,5.04,5.04,0,0,0,0
+MOOC10/6.57_1/2/20,MOOC10/6.57_1/2,"17551030/17551031, 17551101",1 ijsere balans,1 ijsere balans,balance,6,1,5.04,5.04,0,0,0,0
+MOOC10/6.63/373,MOOC10/6.63,17550927,1 ijsere balans+sch,1 ijsere balans+sch,balance,6,1,5.04,5.04,0,0,0,0
+MOOC10/7.11/16,MOOC10/7.11,17551118/17551119,1 houte balans schaal +gewigt,1 houte balans schaal +gewigt,balance,7,1,5.04,5.04,0,0,0,0
+MOOC10/8.43/502,MOOC10/8.43,17611026/17611028,2 ijzere balans+sch +gewigt,2 ijzere balans+sch +gewigt,balance,8,2,5.04,2.52,0,0,0,0
+MOOC10/10.29/65,MOOC10/10.29,17710814,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,10,1,6.04,6.04,0,0,0,0
+MOOC10/14.65/243,MOOC10/14.65,17850225,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,14,1,6.04,6.04,0,0,0,0
+MOOC10/19.45/565,MOOC10/19.45,18020712,1 balans+sch,1 balans+sch,balance,19,1,6.04,6.04,0,0,0,0
+MOOC10/20.6_1/2/53,MOOC10/20.6_1/2,18030620/18030621,1 balans+sch,1 balans+sch,balance,20,1,6.04,6.04,0,0,0,0
+MOOC10/8.58/70,MOOC10/8.58,17640731,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,8,1,6.04,6.04,0,0,0,0
+MOOC10/9.4_1/2/18,MOOC10/9.4_1/2,17650223,1 ijsere balans+sch,1 ijsere balans+sch,balance,9,1,6.04,6.04,0,0,0,0
+MOOC10/4.133/21,MOOC10/4.133,17370429,1 groote ijsere balans+sch +gewigt,1 groote ijsere balans+sch +gewigt,balance,4,1,7.04,7.04,0,0,0,0
+MOOC10/10.81/444,MOOC10/10.81,17730308/17730311,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,10,1,7.04,7.04,0,0,0,0
+MOOC10/15.11/35,MOOC10/15.11,17860317, zijn balanc,1 tafel met zijn balanc,balance,15,,7.04,-99,1,0,0,0
+MOOC10/15.39/36,MOOC10/15.39,17870622,1 ijzere balans+sch,1 ijzere balans+sch,balance,15,1,7.04,7.04,0,0,0,0
+MOOC10/16.31/711,MOOC10/16.31,17900920/17900923,1 ijsere balance,1 ijsere balance,balance,16,1,7.04,7.04,0,0,0,0
+MOOC10/19.45/568,MOOC10/19.45,18020712,1 balans+sch,1 balans+sch,balance,19,1,7.04,7.04,0,0,0,0
+MOOC10/6.52/541,MOOC10/6.52,"17540522, 17540524/17540525",2 copere schaal+bal,2 copere schaal+bal,balance,6,2,7.04,3.52,0,0,0,0
+MOOC10/16.11/117,MOOC10/16.11,17900401/17900403,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,16,1,8.04,8.04,0,0,0,0
+MOOC10/20.7/39,MOOC10/20.7,18030820,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,20,1,8.04,8.04,0,0,0,0
+MOOC10/23.37/19,MOOC10/23.37,18090512,1 ijzere balans+sch,1 ijzere balans+sch en 1 houte schaal+gewigt en 2 gordijnplanken,balance,23,1,8.04,8.04,1,0,0,0
+MOOC10/26.6/105,MOOC10/26.6,18120720,1 balans +gewigt,1 balans +gewigt,balance,26,1,8.04,8.04,0,0,0,0
+MOOC10/6.17/45,MOOC10/6.17,17500916,1 ijserbalans+sch,1 ijserbalans+sch,balance,6,1,8.04,8.04,0,0,0,0
+MOOC10/7.7/42,MOOC10/7.7,17551001,1 gr: balans+sch +gewigt,1 gr: balans+sch +gewigt,balance,7,1,8.04,8.04,0,0,0,0
+MOOC10/7.22/359,MOOC10/7.22,17560428/17560430,1 gr: balans+sch +gewigt,1 gr: balans+sch +gewigt,balance,7,1,8.04,8.04,0,0,0,0
+MOOC10/15.9/202,MOOC10/15.9,17851209/17851210,1 ijzere balans+sch,1 ijzere balans+sch,balance,15,1,9.04,9.04,0,0,0,0
+MOOC10/26.11/20,MOOC10/26.11,18120914,1 balans+sch,1 balans+sch,balance,26,1,9.04,9.04,0,0,0,0
+MOOC10/8.28/49,MOOC10/8.28,17610727,1 ijsere balans,1 ijsere balans en 2 cop:e schaaren,balance,8,1,9.04,9.04,1,0,0,0
+MOOC10/11.41/786,MOOC10/11.41,17741219/17741222,1 ijser balans+sch,1 ijser balans+sch,balance,11,1,10.04,10.04,0,0,0,0
+MOOC10/15.116/71,MOOC10/15.116,17900529,1 paar coopere schaal+bal,1 paar coopere schaal+bal,balance,15,1,10.04,10.04,0,0,0,0
+MOOC10/16.47/11,MOOC10/16.47,17931004/17931005/17931007,1 groote ijsere balans+sch,1 groote ijsere balans+sch,balance,16,1,10.04,10.04,0,0,0,0
+MOOC10/21.17/195,MOOC10/21.17,18050808,1 koper schaal+bal +gewigt,1 koper schaal+bal +gewigt,balance,21,1,10.04,10.04,0,0,0,0
+MOOC10/15.113/672,MOOC10/15.113,17891116/17891118,2 ijserne balans+sch,2 ijserne balans+sch,balance,15,2,11.04,5.52,0,0,0,0
+MOOC10/9.31/340,MOOC10/9.31,17660403,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,9,1,11.04,11.04,0,0,0,0
+MOOC10/12.39/99,MOOC10/12.39,17780810/17780811,1 ijser balans+sch,1 ijser balans+sch,balance,12,1,12.04,12.04,0,0,0,0
+MOOC10/21.7/42,MOOC10/21.7,18050423,1 balans+sch,1 balans+sch,balance,21,1,12.04,12.04,0,0,0,0
+MOOC10/15.78/69,MOOC10/15.78,17890116,1 ijser balans+sch +gewigt in zoort,1 ijser balans+sch +gewigt in zoort,balance,15,1,14.04,14.04,0,0,0,0
+MOOC10/21.17/19,MOOC10/21.17,18050808,1 schaal+bal,1 schaal+bal,balance,21,1,15.04,15.04,0,0,0,0
+MOOC10/17.25/75,MOOC10/17.25,17951030/17951031,1 ijzer balans+sch,1 ijzer balans+sch,balance,17,1,16.04,16.04,0,0,0,0
+MOOC10/17.51/164,MOOC10/17.51,17960523/17960524,1 ijzer balans+sch +gewigt,1 ijzer balans+sch +gewigt,balance,17,1,16.04,16.04,0,0,0,0
+MOOC10/22.91/30,MOOC10/22.91,18081008,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,22,1,16.04,16.04,0,0,0,0
+MOOC10/24.2/123,MOOC10/24.2,18090112/18090113,1 ijzere balans+sch,1 ijzere balans+sch,balance,24,1,16.04,16.04,0,0,0,0
+MOOC10/24.35/121,MOOC10/24.35,18100723/18100724,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt en blaauwzel,balance,24,1,19.04,19.04,1,0,0,0
+MOOC10/18.78/555,MOOC10/18.78,"18000626/18000628, 18000703/18000704",1 ijzer balans+sch +gewigt,1 ijzer balans+sch +gewigt,balance,18,1,21.04,21.04,0,0,0,0
+MOOC10/14.11/19,MOOC10/14.11,17830324/17830325,1 ijzere balans+sch,1 ijzere balans+sch,balance,14,1,25.04,25.04,0,0,0,0
+MOOC10/18.64/65,MOOC10/18.64,17990816/17990817,1 ijzere balans+sch,1 ijzere balans+sch,balance,18,1,25.04,25.04,0,0,0,0
+MOOC10/13.28/65,MOOC10/13.28,17810716/17810717,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,13,1,29.04,29.04,0,0,0,0
+MOOC10/22.43/329,MOOC10/22.43,18070205/18070207,1 balans+sch,1 balans+sch,balance,22,1,32.04,32.04,0,0,0,0
+MOOC10/14.38/144,MOOC10/14.38,17840413/17840414,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,14,1,53.04,53.04,0,0,0,0
+MOOC10/2.9/526,MOOC10/2.9,17190315,2 koopere schaal+bal +gewigt,2 koopere schaal+bal +gewigt,balance,2,2,4.06,2.03,0,0,0,0
+MOOC10/5.78/167,MOOC10/5.78,17480205,1 balans+sch,1 lantaarentje met 1 balans+sch,balance,5,1,0.08,0.08,1,0,0,0
+MOOC10/10.49/134,MOOC10/10.49,17711104,1 balans+sch,1 balans+sch,balance,10,1,0.08,0.08,0,0,0,0
+MOOC10/12.18/20,MOOC10/12.18,17780625,1 balance,1 korensift en 1 balance,balance,12,1,0.08,0.08,1,0,0,0
+MOOC10/12.36/1,MOOC10/12.36,17790506,1 houte balans+sch,1 houte balans+sch,balance,12,1,0.08,0.08,0,0,0,0
+MOOC10/13.42/13,MOOC10/13.42,17820415,1 houte balans+sch,2 dekspaanen en 1 houte balans+sch,balance,13,1,0.08,0.08,1,0,0,0
+MOOC10/14.42/1,MOOC10/14.42,17840714,1 houte balans+sch,1 houte balans+sch en 1 tafel,balance,14,1,0.08,0.08,1,0,0,0
+MOOC10/17.3/37,MOOC10/17.3,17930916,1 houte balans+sch,1 houte balans+sch,balance,17,1,0.08,0.08,0,0,0,0
+MOOC10/23.7/24,MOOC10/23.7,18080718,1 houte schaal+bal,1 houte schaal+bal,balance,23,1,0.08,0.08,0,0,0,0
+MOOC10/6.14/29,MOOC10/6.14,17501204,1 ijserbalans+sch,1 ijserbalans+sch en 1 lepelrak,balance,6,1,0.08,0.08,1,0,0,0
+MOOC10/6.48/1,MOOC10/6.48,17520529/17520530,1 balans+sch,1 balans+sch,balance,6,1,0.08,0.08,0,0,0,0
+MOOC10/6.48/448,MOOC10/6.48,17520529/17520530,2 klijne balans+sch,2 klijne balans+sch,balance,6,2,0.08,0.04,0,0,0,0
+MOOC10/6.53/22,MOOC10/6.53,17551013,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,6,1,0.08,0.08,0,0,0,0
+MOOC10/7.3/67,MOOC10/7.3,17560908,1 houte balans+sch,1 houte balans+sch,balance,7,1,0.08,0.08,0,0,0,0
+MOOC10/7.43/27,MOOC10/7.43,17551227,1 balans+sch,1 balans+sch,balance,7,1,0.08,0.08,0,0,0,0
+MOOC10/9.11/218,MOOC10/9.11,17660127,1 balans+sch,1 ceifferleij en 1 balans+sch,balance,9,1,0.08,0.08,1,0,0,0
+MOOC10/3.37/26,MOOC10/3.37,17260215,1 ijsere balans+sch,1 ijsere balans+sch,balance,3,1,1.08,1.08,0,0,0,0
+MOOC10/5.17/1,MOOC10/5.17,17380715,1 balans+gewigt,"1 tafeltje, 1 balans+gewigt en 1 papegaaijs kooij",balance,5,1,1.08,1.08,1,0,0,0
+MOOC10/5.23/32,MOOC10/5.23,17390504,4 balans+sch,4 balans+sch,balance,5,4,1.08,0.27,0,0,0,0
+MOOC10/5.72/37,MOOC10/5.72,17451210,1 klijn ysere balans+sch,1 klijn ysere balans+sch,balance,5,1,1.08,1.08,0,0,0,0
+MOOC10/5.73/168,MOOC10/5.73,17460523,1 ijser balans+sch,1 ijser balans+sch,balance,5,1,1.08,1.08,0,0,0,0
+MOOC10/10.22/2127,MOOC10/10.22,17690123/17690130,2 cop:e schaal+bal,2 cop:e schaal+bal,balance,10,2,1.08,0.54,0,0,0,0
+MOOC10/10.62/69,MOOC10/10.62,17721214,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,10,1,1.08,1.08,0,0,0,0
+MOOC10/11.15/61,MOOC10/11.15,17750628,1 ijzere balans,1 cop: strijkijzer en 1 ijzere balans,balance,11,1,1.08,1.08,1,0,0,0
+MOOC10/11.17/5,MOOC10/11.17,17741205/17741206,1 ijzere balans+sch,1 ijzere balans+sch,balance,11,1,1.08,1.08,0,0,0,0
+MOOC10/12.27/498,MOOC10/12.27,"17790512, 17790514",5 neurenburger balans+sch,"5 neurenburger balans+sch, 4 bladen blick en 2 omslagen",balance,12,5,1.08,0.22,1,0,0,0
+MOOC10/14.57/98,MOOC10/14.57,178[...]1103,1 ijzere balans +gewigt,1 ijzere balans +gewigt,balance,14,1,1.08,1.08,0,0,0,0
+MOOC10/19.5/37,MOOC10/19.5,18000719,1 kleine balans,"1 kleine balans en 1 kastje, 3 horlogie glasen, 1 blikke bus en wat rommeling",balance,19,1,1.08,1.08,1,0,0,0
+MOOC10/2.12/11,MOOC10/2.12,17200914,2 koopere schaal+bal,2 koopere schaal+bal,balance,2,2,1.08,0.54,0,0,0,0
+MOOC10/2.27/79,MOOC10/2.27,17210125,1 ijsere balans+sch,1 ijsere balans+sch,balance,2,1,1.08,1.08,0,0,0,0
+MOOC10/6.16/86,MOOC10/6.16,16501116,1 houte balans+sch,1 houte balans+sch en 1 blicke trommel,balance,6,1,1.08,1.08,1,0,0,0
+MOOC10/6.19/340,MOOC10/6.19,17481017/17481019,1 ijser balans,1 ijser balans,balance,6,1,1.08,1.08,0,0,0,0
+MOOC10/7.49/77,MOOC10/7.49,17570228,4 cop: schaal+bal,4 cop: schaal+bal,balance,7,4,1.08,0.27,0,0,0,0
+MOOC10/10.16/39,MOOC10/10.16,17700801,1 ijsere balans+sch+gewigt +gewigt,1 ijsere balans+sch+gewigt +gewigt,balance,10,1,2.08,2.08,0,0,0,0
+MOOC10/13.29/18,MOOC10/13.29,17811027,1 houte balans+sch +gewigt,1 houte balans+sch +gewigt,balance,13,1,2.08,2.08,0,0,0,0
+MOOC10/13.31/26,MOOC10/13.31,17810313,1 balans+sch,1 balans+sch en 1 tafel,balance,13,1,2.08,2.08,1,0,0,0
+MOOC10/15.13/77,MOOC10/15.13,17860519,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,15,1,2.08,2.08,0,0,0,0
+MOOC10/17.70/67,MOOC10/17.70,17980505,1 houte balans+sch +gewigt,1 houte balans+sch +gewigt,balance,17,1,2.08,2.08,0,0,0,0
+MOOC10/8.23/108,MOOC10/8.23,17600804,1 cop:e balans+sch +gewigt,1 cop:e balans+sch +gewigt,balance,8,1,2.08,2.08,0,0,0,0
+MOOC10/8.41/1968,MOOC10/8.41,"17600922/17600924, 17600929",1 ijsere balans+sch,1 ijsere balans+sch en 1 beeker,balance,8,1,2.08,2.08,1,0,0,0
+MOOC10/8.57/189,MOOC10/8.57,17640601,1 ijsere balans+sch,1 ijsere balans+sch,balance,8,1,2.08,2.08,0,0,0,0
+MOOC10/9.33/259,MOOC10/9.33,17670402,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,9,1,2.08,2.08,0,0,0,0
+MOOC10/3.42/45,MOOC10/3.42,17230809,1 paar copere schaal+bal +gewigt,1 paar copere schaal+bal +gewigt,balance,3,1,3.08,3.08,0,0,0,0
+MOOC10/5.70/5,MOOC10/5.70,17460224,1 ysere balans+sch +gewigt,1 ysere balans+sch +gewigt,balance,5,1,3.08,3.08,0,0,0,0
+MOOC10/14.7/356,MOOC10/14.7,17830526/17830527/17830529,1 ijzere balans+sch,"1 cop: rasp, 1 cop: vuurtesje, 1 ijzere balans+sch",balance,14,1,3.08,3.08,1,0,0,0
+MOOC10/15.18/70,MOOC10/15.18,17860627,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt en 2 cop: kraanen,balance,15,1,3.08,3.08,1,0,0,0
+MOOC10/17.14/46,MOOC10/17.14,17940920,1 ijzer balans+sch,1 ijzer balans+sch,balance,17,1,3.08,3.08,0,0,0,0
+MOOC10/2.13/134,MOOC10/2.13,17200823,2 coopere schaal+bal,2 coopere schaal+bal,balance,2,2,3.08,1.54,0,0,0,0
+MOOC10/20.25/33,MOOC10/20.25,18040418,1 kopere balans+sch,1 kopere balans+sch,balance,20,1,3.08,3.08,0,0,0,0
+MOOC10/6.41/546,MOOC10/6.41,"17520323/17520325, 17520327",1 balans+sch,1 balans+sch,balance,6,1,3.08,3.08,0,0,0,0
+MOOC10/6.41/547,MOOC10/6.41,"17520323/17520325, 17520327",1 balans+sch,1 balans+sch,balance,6,1,3.08,3.08,0,0,0,0
+MOOC10/6.41/548,MOOC10/6.41,"17520323/17520325, 17520327",1 balans+sch,1 balans+sch,balance,6,1,3.08,3.08,0,0,0,0
+MOOC10/6.41/549,MOOC10/6.41,"17520323/17520325, 17520327",1 balans+sch,1 balans+sch,balance,6,1,3.08,3.08,0,0,0,0
+MOOC10/6.41/550,MOOC10/6.41,"17520323/17520325, 17520327",1 balans+sch,1 balans+sch,balance,6,1,3.08,3.08,0,0,0,0
+MOOC10/8.22/61,MOOC10/8.22,17591126,1 houte balans+sch +gewigt,1 houte balans+sch +gewigt,balance,8,1,3.08,3.08,0,0,0,0
+MOOC10/8.52/55,MOOC10/8.52,17640330,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,8,1,3.08,3.08,0,0,0,0
+MOOC10/13.57/46,MOOC10/13.57,17820816,1 balans+sch,1 balans+sch,balance,13,1,4.08,4.08,0,0,0,0
+MOOC10/15.113/297,MOOC10/15.113,17891116/17891118,1 ijserne balans+sch +gewigt,1 ijserne balans+sch +gewigt,balance,15,1,4.08,4.08,0,0,0,0
+MOOC10/16.28/136,MOOC10/16.28,17920614,1 ijsere balans+sch,1 ijsere balans+sch,balance,16,1,4.08,4.08,0,0,0,0
+MOOC10/18.33/7,MOOC10/18.33,17961216,1 koper schaal+bal,1 koper schaal+bal,balance,18,1,4.08,4.08,0,0,0,0
+MOOC10/6.41/688,MOOC10/6.41,"17520323/17520325, 17520327",1 ijser balans+sch,1 ijser balans+sch en 1 inleg gewig van 4 lb:,balance,6,1,4.08,4.08,1,0,0,0
+MOOC10/8.33/86,MOOC10/8.33,17600616,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,8,1,4.08,4.08,0,0,0,0
+MOOC10/8.41/1190,MOOC10/8.41,"17600922/17600924, 17600929",1 ijsere balans+sch,1 ijsere balans+sch,balance,8,1,4.08,4.08,0,0,0,0
+MOOC10/5.63/132,MOOC10/5.63,17410420,1 ijser balans+sch,1 ijser balans+sch,balance,5,1,5.08,5.08,0,0,0,0
+MOOC10/10.86/36,MOOC10/10.86,17721026/17721027,1 ijsere balans+sch,1 ijsere balans+sch,balance,10,1,5.08,5.08,0,0,0,0
+MOOC10/15.65/80,MOOC10/15.65,17880818/17880819,2 cop: schaal+bal,2 cop: schaal+bal,balance,15,2,5.08,2.54,0,0,0,0
+MOOC10/19.27/105,MOOC10/19.27,18020115/18020116,1 ijzeer balans+sch,1 ijzeer balans+sch,balance,19,1,5.08,5.08,0,0,0,0
+MOOC10/24.31/153,MOOC10/24.31,18100820/18100821,1 ijzere balans +gewigt,1 ijzere balans +gewigt,balance,24,1,5.08,5.08,0,0,0,0
+MOOC10/9.23/154,MOOC10/9.23,17670828,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,9,1,5.08,5.08,0,0,0,0
+MOOC10/10.79/45,MOOC10/10.79,17721130,1 balans,"1 bak +gewigt, 1 balans met zijn cop:e scheeltjes en 1 partij rommeling",balance,10,1,6.08,6.08,1,0,0,0
+MOOC10/10.86/114,MOOC10/10.86,17721026/17721027,1 ijsere balans+sch,1 ijsere balans+sch,balance,10,1,6.08,6.08,0,0,0,0
+MOOC10/11.60/75,MOOC10/11.60,17750220/17750221,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,11,1,6.08,6.08,0,0,0,0
+MOOC10/4.124/56,MOOC10/4.124,17340615,1 houte balans+sch+gewigt,1 houte balans+sch+gewigt en 2 hevers met wat rommeling,balance,4,1,7.08,7.08,1,0,0,0
+MOOC10/15.96/23,MOOC10/15.96,17901230,1 ijsere balans+sch +gewigt in zoort,1 ijsere balans+sch +gewigt in zoort,balance,15,1,7.08,7.08,0,0,0,0
+MOOC10/15.116/76,MOOC10/15.116,17900529,1 paar coopere schaal+bal,1 paar coopere schaal+bal,balance,15,1,7.08,7.08,0,0,0,0
+MOOC10/9.2/205,MOOC10/9.2,17640712/17640713,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,9,1,7.08,7.08,0,0,0,0
+MOOC10/4.110/246,MOOC10/4.110,17330617,2 kopere schaal+bal +gewigt,2 kopere schaal+bal +gewigt,balance,4,2,8.08,4.04,0,0,0,0
+MOOC10/10.22/2294,MOOC10/10.22,17690123/17690130,1 ijsere balans+sch,1 ijsere balans+sch,balance,10,1,8.08,8.08,0,0,0,0
+MOOC10/7.17/439,MOOC10/7.17,17520327/17520330,1 ijser balans+sch,1 ijser balans+sch,balance,7,1,8.08,8.08,0,0,0,0
+MOOC10/15.42/116,MOOC10/15.42,17870824/17870825,1 ijsere balans,1 ijsere balans,balance,15,1,9.08,9.08,0,0,0,0
+MOOC10/15.91/24,MOOC10/15.91,17890926,1 ijser balans+sch +gewigt in zoort,1 ijser balans+sch +gewigt in zoort,balance,15,1,9.08,9.08,0,0,0,0
+MOOC10/20.6_1/2/397,MOOC10/20.6_1/2,18030620/18030621,1 ijzere balans+sch,1 ijzere balans+sch,balance,20,1,11.08,11.08,0,0,0,0
+MOOC10/21.36/183,MOOC10/21.36,18060414,1 ijzere balans+sch,1 ijzere balans+sch,balance,21,1,12.08,12.08,0,0,0,0
+MOOC10/16.36/68,MOOC10/16.36,17940219/17940221,1 ijser balans+sch +gewigt,1 ijser balans+sch +gewigt,balance,16,1,13.08,13.08,0,0,0,0
+MOOC10/26.11/35,MOOC10/26.11,18120914,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,26,1,13.08,13.08,0,0,0,0
+MOOC10/11.58/34,MOOC10/11.58,17750227/17750228,1 grote ijsere balans+sch,1 grote ijsere balans+sch,balance,11,1,14.08,14.08,0,0,0,0
+MOOC10/20.5/49,MOOC10/20.5,18030526,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,20,1,14.08,14.08,0,0,0,0
+MOOC10/17.37/90,MOOC10/17.37,17951218/17951219,1 ijzer balans+sch,1 ijzer balans+sch en zijn bok,balance,17,1,15.08,15.08,1,0,0,0
+MOOC10/24.33/30,MOOC10/24.33,18100810/18100811,1 ijzere balans+sch,1 tafel met een ijzere balans+sch,balance,24,1,18.08,18.08,1,0,0,0
+MOOC10/18.78/99,MOOC10/18.78,"18000626/18000628, 18000703/18000704",1 balans+sch,1 balans+sch,balance,18,1,19.08,19.08,0,0,0,0
+MOOC10/10.7/50,MOOC10/10.7,17680525,1 ijsere balans+sch,1 ijsere balans+sch,balance,10,1,20.08,20.08,0,0,0,0
+MOOC10/3.95/25,MOOC10/3.95,17310508,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,3,1,26.08,26.08,0,0,0,0
+MOOC10/18.17/137,MOOC10/18.17,17970313,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,18,1,27.08,27.08,0,0,0,0
+MOOC10/2.29/123,MOOC10/2.29,17210110, ,"1 houte schael +gewigt, een untsertje en een wolschaer",balance,2,,1.1,-99,1,0,0,0
+MOOC10/2.31/252,MOOC10/2.31,17211008,1 houte schaal+bal +gewigt,1 houte schaal+bal +gewigt,balance,2,1,2.1,2.1,0,0,0,0
+MOOC10/4.120/78,MOOC10/4.120,17340609,1 balans+sch,1 pijperakje en 1 balans+sch,balance,4,1,0.12,0.12,1,0,0,0
+MOOC10/10.79/37,MOOC10/10.79,17721130,1 balans+sch,1 balans+sch en wat romm:g,balance,10,1,0.12,0.12,1,0,0,0
+MOOC10/12.25/181,MOOC10/12.25,[...]0201/[...]0202,1 houte balans+sch,1 houte balans+sch,balance,12,1,0.12,0.12,0,0,0,0
+MOOC10/15.21/79,MOOC10/15.21,17861201,1 balans,"2 tinne souplepels, 1 soutvaatje, 1 balans en 1 blikke tabaksdoos",balance,15,1,0.12,0.12,1,0,0,0
+MOOC10/19.57/45,MOOC10/19.57,18020329,1 balans+sch,1 balans+sch,balance,19,1,0.12,0.12,0,0,0,0
+MOOC10/2.24/10,MOOC10/2.24,17210108,1 ijsere balans+sch,1 ijsere balans+sch,balance,2,1,0.12,0.12,0,0,0,0
+MOOC10/6.63/224,MOOC10/6.63,17550927,1 houte balans,1 houte balans en 1 tang en 1 hand zaag,balance,6,1,0.12,0.12,1,0,0,0
+MOOC10/7.14/3,MOOC10/7.14,17551110, ,"1 capstok, 1 balij, 2 houte schaal+bal en een partij schilderijjen",balance,7,,0.12,-99,1,0,0,0
+MOOC10/9.27/195,MOOC10/9.27,17071005,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,9,1,0.12,0.12,0,0,0,0
+MOOC10/3.37/18,MOOC10/3.37,17260215,1 ysere balans+sch,1 ysere balans+sch,balance,3,1,1.12,1.12,0,0,0,0
+MOOC10/3.97/61,MOOC10/3.97,17310919,1 balans+sch,1 doosje met 2 staale gespen en 1 balans+sch,balance,3,1,1.12,1.12,1,0,0,0
+MOOC10/10.69/6,MOOC10/10.69,17721012,1 balans+sch,"1 coffijmolen, 1 coffijkan met zijn testje en 1 balans+sch",balance,10,1,1.12,1.12,1,0,0,0
+MOOC10/10.81/576,MOOC10/10.81,17730308/17730311,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,10,1,1.12,1.12,0,0,0,0
+MOOC10/11.12/457,MOOC10/11.12,17740829/17740830,1 ijsere balans+sch,"1 ijsere balans+sch, 1 poffeertjespan, 1 chocolade can en 1 cop: confoortje",balance,11,1,1.12,1.12,1,0,0,0
+MOOC10/12.33/278,MOOC10/12.33,17790125/17790126,1 balans+sch,1 balans+sch,balance,12,1,1.12,1.12,0,0,0,0
+MOOC10/15.6/135,MOOC10/15.6,17851107/17851108,1 houte balans+sch,"1 capbijl, 1 houte balans+sch",balance,15,1,1.12,1.12,1,0,0,0
+MOOC10/15.113/294,MOOC10/15.113,17891116/17891118,1 balans+sch,1 balans+sch,balance,15,1,1.12,1.12,0,0,0,0
+MOOC10/16.37/291,MOOC10/16.37,17940125,1 klijne balans+sch,1 klijne balans+sch,balance,16,1,1.12,1.12,0,0,0,0
+MOOC10/16.37/292,MOOC10/16.37,17940125,1 klijne balans+sch,1 klijne balans+sch,balance,16,1,1.12,1.12,0,0,0,0
+MOOC10/16.47/10,MOOC10/16.47,17931004/17931005/17931007,2 ijsere balans+sch,1 slagtbank en 2 ijsere balans+sch,balance,16,2,1.12,0.56,1,0,0,0
+MOOC10/16.53/62,MOOC10/16.53,17910718,1 balans+sch,1 balans+sch,balance,16,1,1.12,1.12,0,0,0,0
+MOOC10/17.16/11,MOOC10/17.16,17940118,1 houte balans+sch,"1 houte balans+sch, 2 ijsere potten, 2 cofijmoolens en 1 partij leed: bottels en flesschen",balance,17,1,1.12,1.12,1,0,0,0
+MOOC10/17.52/149,MOOC10/17.52,17960404/17960405,1 eijzere balansje,1 koffij molen en 1 eijzere balansje,balance,17,1,1.12,1.12,1,0,0,0
+MOOC10/18.76/43,MOOC10/18.76,17990315,1 balans,1 balans,balance,18,1,1.12,1.12,0,0,0,0
+MOOC10/2.8/28,MOOC10/2.8,17181116, ,1 schaal+bal en een ijsere koevoet,balance,2,,1.12,-99,1,0,0,0
+MOOC10/6.50/42,MOOC10/6.50,17520523/17520527,1 ijser balans+sch,1 ijser balans+sch,balance,6,1,1.12,1.12,0,0,0,0
+MOOC10/6.63/223,MOOC10/6.63,17550927,2 ijsere balansen,2 ijsere balansen,balance,6,2,1.12,0.56,0,0,0,0
+MOOC10/9.34/64,MOOC10/9.34,17671215,1 houte balans+sch +gewigt,1 houte balans+sch +gewigt,balance,9,1,1.12,1.12,0,0,0,0
+MOOC10/3.39/102,MOOC10/3.39,17220528,1 p:r copere schaal+bal,1 p:r copere schaal+bal,balance,3,1,2.12,2.12,0,0,0,0
+MOOC10/4.120/14,MOOC10/4.120,17340609,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,4,1,2.12,2.12,0,0,0,0
+MOOC10/4.120/15,MOOC10/4.120,17340609,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,4,1,2.12,2.12,0,0,0,0
+MOOC10/10.41/82,MOOC10/10.41,17701229,4 copere schaal+bal,4 copere schaal+bal,balance,10,4,2.12,0.53,0,0,0,0
+MOOC10/10.67/68,MOOC10/10.67,17730119,1 balans+sch,1 balans+sch,balance,10,1,2.12,2.12,0,0,0,0
+MOOC10/11.12/460,MOOC10/11.12,17740829/17740830, ,"1 cop: ketel, 2 schaal+bal en 1 strijkijzer",balance,11,,2.12,-99,1,0,0,0
+MOOC10/12.41/140,MOOC10/12.41,17790917,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,12,1,2.12,2.12,0,0,0,0
+MOOC10/13.18/19,MOOC10/13.18,17810720,1 balans+sch +gewigt in zoort,1 balans+sch +gewigt in zoort,balance,13,1,2.12,2.12,0,0,0,0
+MOOC10/15.116/49,MOOC10/15.116,17900529,1 ijzere balans+sch,1 ijzere balans+sch,balance,15,1,2.12,2.12,0,0,0,0
+MOOC10/15.116/50,MOOC10/15.116,17900529,1 ijzere balans+sch,1 ijzere balans+sch,balance,15,1,2.12,2.12,0,0,0,0
+MOOC10/18.74/42,MOOC10/18.74,18000505,1 ijzer balans+sch +gewigt in zoort,1 ijzer balans+sch +gewigt in zoort,balance,18,1,2.12,2.12,0,0,0,0
+MOOC10/2.24/12,MOOC10/2.24,17210108,2 kopere schaal+bal,2 kopere schaal+bal,balance,2,2,2.12,1.06,0,0,0,0
+MOOC10/20.51/77,MOOC10/20.51,18041203/18041204,1 balans+sch,"1 balans+sch, 1 olij en azijn standart etc:a",balance,20,1,2.12,2.12,1,0,0,0
+MOOC10/22.51/4,MOOC10/22.51,18070625/18070627,1 balans+sch,1 balans+sch en 1 haspel,balance,22,1,2.12,2.12,1,0,0,0
+MOOC10/6.41/545,MOOC10/6.41,"17520323/17520325, 17520327",1 balans+sch,1 balans+sch,balance,6,1,2.12,2.12,0,0,0,0
+MOOC10/7.11/290,MOOC10/7.11,17551118/17551119,1 kl: balans +gewigt,1 kl: balans +gewigt,balance,7,1,2.12,2.12,0,0,0,0
+MOOC10/7.48/129,MOOC10/7.48,17560319,1 ijsere balans+sch,1 ijsere balans+sch,balance,7,1,2.12,2.12,0,0,0,0
+MOOC10/4.139/5,MOOC10/4.139,17350610, ,"1 pottebank, 1 schaal+bal",balance,4,,3.12,-99,1,0,0,0
+MOOC10/13.8/169,MOOC10/13.8,17800619/17800620,1 ijzere balans+sch,1 ijzere balans+sch,balance,13,1,3.12,3.12,0,0,0,0
+MOOC10/14.45/346,MOOC10/14.45,17840309/17840311,2 ijzere balancen,2 ijzere balancen,balance,14,2,3.12,1.56,0,0,0,0
+MOOC10/14.65/244,MOOC10/14.65,17850225,1 ijzere balans+sch,1 ijzere balans+sch,balance,14,1,3.12,3.12,0,0,0,0
+MOOC10/17.41/59,MOOC10/17.41,17960618,1 ijzere balans+sch +gewigt in soort,1 ijzere balans+sch +gewigt in soort,balance,17,1,3.12,3.12,0,0,0,0
+MOOC10/18.12/39,MOOC10/18.12,17981013,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,18,1,3.12,3.12,0,0,0,0
+MOOC10/19.4/43,MOOC10/19.4,18001004,1 balans+sch,1 balans+sch,balance,19,1,3.12,3.12,0,0,0,0
+MOOC10/26.7/76,MOOC10/26.7,18121015,1 schaal+bal +gewigt,1 schaal+bal +gewigt,balance,26,1,3.12,3.12,0,0,0,0
+MOOC10/6.24/437,MOOC10/6.24,17540114/17540116,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,6,1,3.12,3.12,0,0,0,0
+MOOC10/7.19/183,MOOC10/7.19,17541030,1 balans+sch+gewigt,1 balans+sch+gewigt en 1 tent zeijl,balance,7,1,3.12,3.12,1,0,0,0
+MOOC10/7.48/148,MOOC10/7.48,17560319,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,7,1,3.12,3.12,0,0,0,0
+MOOC10/9.25_1/2/112,MOOC10/9.25_1/2,17671026,1 ijsere balans+sch+gewigt,1 ijsere balans+sch+gewigt en romm: en 1 ijsere balans+sch,balance,9,1,3.12,3.12,1,0,0,0
+MOOC10/11.41/701,MOOC10/11.41,17741219/17741222,2 balans+sch,2 balans+sch en 2 tregters,balance,11,2,4.12,2.06,1,0,0,0
+MOOC10/11.44/268,MOOC10/11.44,17760925/17760926,1 balans+sch,1 balans+sch,balance,11,1,4.12,4.12,0,0,0,0
+MOOC10/12.17/165,MOOC10/12.17,17780421/17780422,1 ijzere balans+sch,1 ijzere balans+sch,balance,12,1,4.12,4.12,0,0,0,0
+MOOC10/17.37/156,MOOC10/17.37,17951218/17951219,2 ijzere balansen,2 ijzere balansen,balance,17,2,4.12,2.06,0,0,0,0
+MOOC10/7.14_1/2/56,MOOC10/7.14_1/2,17560825,1 gr: ijsere balans,1 gr: ijsere balans met 2 houte schaa:l,balance,7,1,4.12,4.12,1,0,0,0
+MOOC10/5.74/196,MOOC10/5.74,17470111,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,5,1,5.12,5.12,0,0,0,0
+MOOC10/10.11/84,MOOC10/10.11,17680201,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,10,1,5.12,5.12,0,0,0,0
+MOOC10/14.45/229,MOOC10/14.45,17840309/17840311,1 ijzere balans+sch,1 ijzere balans+sch,balance,14,1,5.12,5.12,0,0,0,0
+MOOC10/17.15/315,MOOC10/17.15,17940327/17940329,1 ijzere balans+sch,1 ijzere balans+sch,balance,17,1,5.12,5.12,0,0,0,0
+MOOC10/13.9/203,MOOC10/13.9,17800615/17800616,1 ijzere balans+sch,1 ijzere balans+sch,balance,13,1,6.12,6.12,0,0,0,0
+MOOC10/16.53/97,MOOC10/16.53,17910718,1 balans+sch,1 balans+sch en 1 roerpen,balance,16,1,6.12,6.12,1,0,0,0
+MOOC10/14.7/349,MOOC10/14.7,17830526/17830527/17830529,1 ijzere balans+sch,1 ijzere balans+sch,balance,14,1,7.12,7.12,0,0,0,0
+MOOC10/15.3/229,MOOC10/15.3,17851003,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,15,1,7.12,7.12,0,0,0,0
+MOOC10/22.34/301,MOOC10/22.34,18070608/18070611,1 ijzere balans+sch,1 ijzere balans+sch,balance,22,1,7.12,7.12,0,0,0,0
+MOOC10/8.29/55,MOOC10/8.29,17610530,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,8,1,7.12,7.12,0,0,0,0
+MOOC10/5.5/71,MOOC10/5.5,17380217,1 ijsere balans+sch,1 ijsere balans+sch,balance,5,1,8.12,8.12,0,0,0,0
+MOOC10/11.27/159,MOOC10/11.27,17740809/17740810,1 ijzere balans+sch,1 ijzere balans+sch,balance,11,1,8.12,8.12,0,0,0,0
+MOOC10/13.8/148,MOOC10/13.8,17800619/17800620,1 ijzere balans+sch,1 ijzere balans+sch,balance,13,1,8.12,8.12,0,0,0,0
+MOOC10/16.10/35,MOOC10/16.10,17900308,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,16,1,8.12,8.12,0,0,0,0
+MOOC10/10.81/491,MOOC10/10.81,17730308/17730311,1 ijsere balans+sch,1 ijsere balans+sch,balance,10,1,9.12,9.12,0,0,0,0
+MOOC10/16.38/62,MOOC10/16.38,17930530,1 ijsere balans+sch +gewigt in zoort,1 ijsere balans+sch +gewigt in zoort,balance,16,1,10.12,10.12,0,0,0,0
+MOOC10/23.56/29,MOOC10/23.56,18080811,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,23,1,10.12,10.12,0,0,0,0
+MOOC10/20.24/272,MOOC10/20.24,18040628/18040702/18040703,1 balans+sch,1 balans+sch,balance,20,1,13.12,13.12,0,0,0,0
+MOOC10/16.46/108,MOOC10/16.46,17890714/17890715,1 balans+sch,"1 balans+sch, 11 lb: gew:",balance,16,1,14.12,14.12,1,0,0,0
+MOOC10/23.54/375,MOOC10/23.54,18090424/18090428,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,23,1,16.12,16.12,0,0,0,0
+MOOC10/17.52/87,MOOC10/17.52,17960404/17960405,1 eijzere balans+sch +gewigt,1 eijzere balans+sch +gewigt,balance,17,1,19.12,19.12,0,0,0,0
+MOOC10/2.34/260,MOOC10/2.34,17211128,1 ysere balans+sch +gewigt,1 ysere balans+sch +gewigt,balance,2,1,26.12,26.12,0,0,0,0
+MOOC10/2.26/44,MOOC10/2.26,17210115,1 kleijne ballans,1 kleijne ballans,balance,2,1,0.13,0.13,0,0,0,0
+MOOC10/2.28/60,MOOC10/2.28,17210419,1 ijsere balans+sch,1 ijsere balans+sch,balance,2,1,2.13,2.13,0,0,0,0
+MOOC10/3.46/7,MOOC10/3.46,17231025,1 ijzere balans+sch,1 ijzere balans+sch,balance,3,1,0.15,0.15,0,0,0,0
+MOOC10/5.60/111,MOOC10/5.60,17411005,2 balans+sch,2 balans+sch en 1 pijperak,balance,5,2,0.15,0.07,1,0,0,0
+MOOC10/12.23/13,MOOC10/12.23,17781117,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,12,1,0.15,0.15,0,0,0,0
+MOOC10/12.29/110,MOOC10/12.29,17790526, ,"2 copere schaal+bal, 1 doos met ouwelen en wat vals goud",balance,12,,0.15,-99,1,0,0,0
+MOOC10/16.24/78,MOOC10/16.24,17900324,1 balans+sch,1 balans+sch en 1 kapmes,balance,16,1,0.15,0.15,1,0,0,0
+MOOC10/16.41/15,MOOC10/16.41,17921001,1 schaal+bal,een schaal+bal,balance,16,1,0.15,0.15,0,0,0,0
+MOOC10/16.52/272,MOOC10/16.52,17911010/17911011,1 balansje,"3 wijngaartmessen, 1 copere spuijtje en 1 balansje",balance,16,1,0.15,0.15,1,0,0,0
+MOOC10/2.13/66,MOOC10/2.13,17200823,1 balans+sch,1 balans+sch,balance,2,1,0.15,0.15,0,0,0,0
+MOOC10/2.25/128,MOOC10/2.25,17210224, ,1 houte schael +gewigt en wat swavel,balance,2,,0.15,-99,1,0,0,0
+MOOC10/2.27/124,MOOC10/2.27,17210125,1 kopere balans,1 doosje met een kopere balans,balance,2,1,0.15,0.15,1,0,0,0
+MOOC10/7.49/118,MOOC10/7.49,17570228,1 houte balans+sch,1 houte balans+sch en rommeling,balance,7,1,0.15,0.15,1,0,0,0
+MOOC10/8.13/11,MOOC10/8.13,17581201,1 balans+sch,1 balans+sch en 1 casje met wat boonen,balance,8,1,0.15,0.15,1,0,0,0
+MOOC10/9.13/196,MOOC10/9.13,17641006,1 houte balans+sch,1 houte balans+sch,balance,9,1,0.15,0.15,0,0,0,0
+MOOC10/10.41/6,MOOC10/10.41,17701229,2 houte schaal+bal +gewigt,2 houte schaal+bal +gewigt,balance,10,2,1.15,0.57,0,0,0,0
+MOOC10/10.67/110,MOOC10/10.67,17730119,3 cop:e schaal+bal,3 cop:e schaal+bal,balance,10,3,1.15,0.38,0,0,0,0
+MOOC10/13.42/126,MOOC10/13.42,17820415, ,2 cop: schaal+bal+gewigt en romm:g,balance,13,,1.15,-99,1,0,0,0
+MOOC10/14.10/151,MOOC10/14.10,17830519/17830510/17830521,1 cop: balans+sch +gewigt,1 cop: balans+sch +gewigt,balance,14,1,1.15,1.15,0,0,0,0
+MOOC10/15.87/45,MOOC10/15.87,17890728,2 copere schaal+bal,2 copere schaal+bal,balance,15,2,1.15,0.57,0,0,0,0
+MOOC10/16.37/293,MOOC10/16.37,17940125,2 ijsere balansjes,2 ijsere balansjes,balance,16,2,1.15,0.57,0,0,0,0
+MOOC10/16.39/460,MOOC10/16.39,17931028/17931029,1 klijne ijsere balans+sch +gewigt,1 klijne ijsere balans+sch +gewigt,balance,16,1,1.15,1.15,0,0,0,0
+MOOC10/17.13/362,MOOC10/17.13,17940605/17940606,2 ijzere balans+sch,2 ijzere balans+sch,balance,17,2,1.15,0.57,0,0,0,0
+MOOC10/2.13/136,MOOC10/2.13,17200823,2 coopere schaal+bal,2 coopere schaal+bal,balance,2,2,1.15,0.57,0,0,0,0
+MOOC10/2.18/55,MOOC10/2.18,17191106,2 houte schaal+bal,2 houte schaal+bal,balance,2,2,1.15,0.57,0,0,0,0
+MOOC10/20.6_1/2/398,MOOC10/20.6_1/2,18030620/18030621,1 ijzere balans+sch,"1 ijzere balans+sch, kleijnder",balance,20,1,1.15,1.15,1,0,0,0
+MOOC10/21.38/156,MOOC10/21.38,18060505,1 ijzere balans+sch,1 ijzere balans+sch,balance,21,1,1.15,1.15,0,0,0,0
+MOOC10/6.20/44,MOOC10/6.20,17491021/17491022,1 balans+sch,1 balans+sch,balance,6,1,1.15,1.15,0,0,0,0
+MOOC10/9.2/62,MOOC10/9.2,17640712/17640713,1 ijsere balans+sch,"1 cop:e tabaks doos, 1 cop:e tregter, 1 ijsere balans+sch",balance,9,1,1.15,1.15,1,0,0,0
+MOOC10/9.56/28,MOOC10/9.56,17690717,1 houte balans+sch,"1 baletje, 1 houte balans+sch, 1 hakkebord en 2 kapmessen",balance,9,1,1.15,1.15,1,0,0,0
+MOOC10/4.119/388,MOOC10/4.119,17330713,1 ijsere balans+sch,1 ijsere balans+sch,balance,4,1,2.15,2.15,0,0,0,0
+MOOC10/5.76/213,MOOC10/5.76,17470410,1 ysere balans+sch +gewigt,1 ysere balans+sch +gewigt,balance,5,1,2.15,2.15,0,0,0,0
+MOOC10/11.47/181,MOOC10/11.47,17761107/17761108,1 balans,1 balans,balance,11,1,2.15,2.15,0,0,0,0
+MOOC10/19.41/15,MOOC10/19.41,18010922,1 balans+sch,1 balans+sch,balance,19,1,2.15,2.15,0,0,0,0
+MOOC10/2.10/33,MOOC10/2.10,17190403,1 coper schaal+bal,1 coper schaal+bal,balance,2,1,2.15,2.15,0,0,0,0
+MOOC10/24.35/120,MOOC10/24.35,18100723/18100724,1 ijzere balans+sch,1 ijzere balans+sch,balance,24,1,2.15,2.15,0,0,0,0
+MOOC10/6.50/41,MOOC10/6.50,17520523/17520527,1 ijser balans+sch,1 ijser balans+sch,balance,6,1,2.15,2.15,0,0,0,0
+MOOC10/7.6/31,MOOC10/7.6,17550809,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,7,1,2.15,2.15,0,0,0,0
+MOOC10/7.11/289,MOOC10/7.11,17551118/17551119,1 ijsere balans+sch,1 ijsere balans+sch,balance,7,1,2.15,2.15,0,0,0,0
+MOOC10/10.40/71,MOOC10/10.40,17701217,1 ijsere balans+sch,1 ijsere balans+sch,balance,10,1,3.15,3.15,0,0,0,0
+MOOC10/11.44/269,MOOC10/11.44,17760925/17760926,1 balans+sch,1 balans+sch,balance,11,1,3.15,3.15,0,0,0,0
+MOOC10/12.11/25,MOOC10/12.11,17770911,1 ijzere balans+sch,1 ijzere balans+sch,balance,12,1,3.15,3.15,0,0,0,0
+MOOC10/12.39/8,MOOC10/12.39,17780810/17780811,1 ijser balans+sch,"1 ijser balans+sch, 1 bak en wat romm:g",balance,12,1,3.15,3.15,1,0,0,0
+MOOC10/13.17/7,MOOC10/13.17,17810522,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,13,1,3.15,3.15,0,0,0,0
+MOOC10/17.38/331,MOOC10/17.38,17951110/17951111,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,17,1,3.15,3.15,0,0,0,0
+MOOC10/19.11_1/2/16,MOOC10/19.11_1/2,17970209,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,19,1,3.15,3.15,0,0,0,0
+MOOC10/19.42/222,MOOC10/19.42,18010910/18010912,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,19,1,3.15,3.15,0,0,0,0
+MOOC10/6.41/544,MOOC10/6.41,"17520323/17520325, 17520327",1 balans+sch,1 balans+sch,balance,6,1,3.15,3.15,0,0,0,0
+MOOC10/11.15/58,MOOC10/11.15,17750628,2 balans+sch +gewigt,2 balans+sch +gewigt,balance,11,2,4.15,2.08,0,0,0,0
+MOOC10/14.28/85,MOOC10/14.28,1783,1 balans+sch:n 3 lb: gewigt,1 balans+sch:n 3 lb: gewigt,balance,14,1,4.15,4.15,0,0,0,0
+MOOC10/15.80_1/2/279,MOOC10/15.80_1/2,17890223,1 ijser balans+sch +gewigt,1 ijser balans+sch +gewigt,balance,15,1,4.15,4.15,0,0,0,0
+MOOC10/17.26/45,MOOC10/17.26,17950508,1 ijzere balans+sch,1 ijzere balans+sch,balance,17,1,4.15,4.15,0,0,0,0
+MOOC10/8.4/33,MOOC10/8.4,17590723,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,8,1,4.15,4.15,0,0,0,0
+MOOC10/8.27/50,MOOC10/8.27,17601023,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,8,1,5.15,5.15,0,0,0,0
+MOOC10/12.26/44,MOOC10/12.26,17790312,2 cop: weegschaal+bal,2 cop: weegschaal+bal,balance,12,2,6.15,3.08,0,0,0,0
+MOOC10/12.33/69,MOOC10/12.33,17790125/17790126,1 ijsere balans+sch,1 ijsere balans+sch,balance,12,1,6.15,6.15,0,0,0,0
+MOOC10/14.63/130,MOOC10/14.63,17850506/17850507,2 cop: schaal+bal,2 cop: schaal+bal,balance,14,2,6.15,3.08,0,0,0,0
+MOOC10/15.116/74,MOOC10/15.116,17900529,1 paar coopere schaal+bal,1 paar coopere schaal+bal,balance,15,1,6.15,6.15,0,0,0,0
+MOOC10/15.116/75,MOOC10/15.116,17900529,1 paar coopere schaal+bal,1 paar coopere schaal+bal,balance,15,1,6.15,6.15,0,0,0,0
+MOOC10/3.42/31,MOOC10/3.42,17230809,1 ijsere balance,1 ijsere balance,balance,3,1,7.15,7.15,0,0,0,0
+MOOC10/11.41/494,MOOC10/11.41,17741219/17741222,1 ijsere balans+sch,1 ijsere balans+sch,balance,11,1,9.15,9.15,0,0,0,0
+MOOC10/12.38/390,MOOC10/12.38,17790816/17790817, ijzer balans +gewigt,"2 coper schalen met haar coper kettings, ijzer balans +gewigt",balance,12,,9.15,-99,1,0,0,0
+MOOC10/10.21/17,MOOC10/10.21,17690109/17690110,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,10,1,10.15,10.15,0,0,0,0
+MOOC10/15.116/68,MOOC10/15.116,17900529,1 paar coopere schaal+bal,1 paar coopere schaal+bal,balance,15,1,10.15,10.15,0,0,0,0
+MOOC10/15.116/73,MOOC10/15.116,17900529,1 paar coopere schaal+bal,1 paar coopere schaal+bal,balance,15,1,10.15,10.15,0,0,0,0
+MOOC10/20.48/369,MOOC10/20.48,18050325/18050326,1 kopere schaal+bal +gewigt,1 kopere schaal+bal +gewigt,balance,20,1,10.15,10.15,0,0,0,0
+MOOC10/8.43/45,MOOC10/8.43,17611026/17611028,1 ijsere balans+sch,1 ijsere balans+sch,balance,8,1,11.15,11.15,0,0,0,0
+MOOC10/17.24/52,MOOC10/17.24,17950509,1 ijzere balans+sch +gewigt in zoort,1 ijzere balans+sch +gewigt in zoort,balance,17,1,14.15,14.15,0,0,0,0
+MOOC10/9.2/283,MOOC10/9.2,17640712/17640713,1 ijsere balans+sch,1 ijsere balans+sch,balance,9,1,17.15,17.15,0,0,0,0
+MOOC10/24.33/40,MOOC10/24.33,18100810/18100811,1 ijzere balans+sch,1 ijzere balans+sch,balance,24,1,35.15,35.15,0,0,0,0
+MOOC10/19.45/207,MOOC10/19.45,18020712,1 balans,"1 balans met 2 houte, schalen en zijn bak",balance,19,1,41.15,41.15,1,0,0,0
+MOOC10/2.13/67,MOOC10/2.13,17200823,1 balans+sch,1 balans+sch,balance,2,1,1.17,1.17,0,0,0,0
+MOOC10/3.66/34,MOOC10/3.66,17240602, ,1 houte schaal+bal en 1 schilderijtje,balance,3,,0.19,-99,1,0,0,0
+MOOC10/5.71/84,MOOC10/5.71,17460723,1 balans+sch,1 balans+sch,balance,5,1,0.19,0.19,0,0,0,0
+MOOC10/10.77/90,MOOC10/10.77,17730302,1 houte balans+sch,1 houte balans+sch en wat romm:g,balance,10,1,0.19,0.19,1,0,0,0
+MOOC10/13.5/118,MOOC10/13.5,17791227/17791228,2 balancen,2 balancen,balance,13,2,0.19,0.1,0,0,0,0
+MOOC10/13.53/32,MOOC10/13.53,17821003/17821004,1 ijzere balans+sch,"1 veldstoel, 1 castje, 1 ijzere balans+sch, 1 bos rottings en wat romm:",balance,13,1,0.19,0.19,1,0,0,0
+MOOC10/13.65/3,MOOC10/13.65,17820504,1 houte balans+sch +gewigt,1 houte balans+sch +gewigt,balance,13,1,0.19,0.19,0,0,0,0
+MOOC10/15.9/203,MOOC10/15.9,17851209/17851210, ijzere balans+sch,ijzere balans+sch,balance,15,,0.19,-99,0,0,0,0
+MOOC10/15.82/34,MOOC10/15.82,17890318,1 ijzere balans+sch,1 ijzere balans+sch,balance,15,1,0.19,0.19,0,0,0,0
+MOOC10/2.1/9,MOOC10/2.1,17180617,1 ijsere balans 2 net 2 houte schaalen,1 ijsere balans 2 net 2 houte schaalen,balance,2,1,0.19,0.19,0,0,0,0
+MOOC10/6.28/7,MOOC10/6.28,17520509,1 klijn balans+sch,1 klijn balans+sch,balance,6,1,0.19,0.19,0,0,0,0
+MOOC10/6.55/36,MOOC10/6.55,17551127/17551128,1 houte balans+sch,1 houte balans+sch,balance,6,1,0.19,0.19,0,0,0,0
+MOOC10/7.27/191,MOOC10/7.27,17551024,1 kl: balans+sch,1 kl: balans+sch en 1 coop:r crans,balance,7,1,0.19,0.19,1,0,0,0
+MOOC10/8.20/46,MOOC10/8.20,17551015,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,8,1,0.19,0.19,0,0,0,0
+MOOC10/9.10/4,MOOC10/9.10,17660226,1 ijsere balans+sch,1 ijsere balans+sch,balance,9,1,0.19,0.19,0,0,0,0
+MOOC10/9.50/55,MOOC10/9.50,17680917,1 ijsere balans,1 ijsere balans,balance,9,1,0.19,0.19,0,0,0,0
+MOOC10/4.113/99,MOOC10/4.113,17330527,1 ijsere balans+sch,1 ijsere balans+sch,balance,4,1,1.19,1.19,0,0,0,0
+MOOC10/4.158/45,MOOC10/4.158,17370624,1 ijsere balans,2 balijs met eenige pijpen en 1 ijsere balans en rommeling,balance,4,1,1.19,1.19,1,0,0,0
+MOOC10/14.7/232,MOOC10/14.7,17830526/17830527/17830529,3 p:r balansen,3 p:r balansen,balance,14,3,1.19,0.4,0,0,0,0
+MOOC10/15.11/87,MOOC10/15.11,17860317,1 ijzere balans+sch,1 ijzere balans+sch,balance,15,1,1.19,1.19,0,0,0,0
+MOOC10/15.84/136,MOOC10/15.84,17890513/17890514,2 ijser balansen,2 ijser balansen,balance,15,2,1.19,0.59,0,0,0,0
+MOOC10/16.38/28,MOOC10/16.38,17930530,1 ijsere balans+sch,1 ijsere balans+sch,balance,16,1,1.19,1.19,0,0,0,0
+MOOC10/17.38/82,MOOC10/17.38,17951110/17951111,1 ballans,1 ballans,balance,17,1,1.19,1.19,0,0,0,0
+MOOC10/2.33/256,MOOC10/2.33,17211023,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,2,1,1.19,1.19,0,0,0,0
+MOOC10/6.51/9,MOOC10/6.51,17550818,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,6,1,1.19,1.19,0,0,0,0
+MOOC10/6.52/530,MOOC10/6.52,"17540522, 17540524/17540525",1 copere balans+sch +gewigt,1 copere balans+sch +gewigt,balance,6,1,1.19,1.19,0,0,0,0
+MOOC10/9.19/70,MOOC10/9.19,17661202,1 ijsere balans+sch,1 ijsere balans+sch,balance,9,1,1.19,1.19,0,0,0,0
+MOOC10/5.13/71,MOOC10/5.13,17380714,1 ijsere balans+sch,1 ijsere balans+sch en 1 dito quispedoortje,balance,5,1,2.19,2.19,1,0,0,0
+MOOC10/10.4/25,MOOC10/10.4,17700312,2 copere schaal+bal +gewigt,2 copere schaal+bal +gewigt,balance,10,2,2.19,1.09,0,0,0,0
+MOOC10/11.20/32,MOOC10/11.20,17740413,1 balans+sch,1 balans+sch en wat rommeling,balance,11,1,2.19,2.19,1,0,0,0
+MOOC10/12.40/164,MOOC10/12.40,17790909,1 ijzere balans+sch,1 ijzere balans+sch,balance,12,1,2.19,2.19,0,0,0,0
+MOOC10/2.8/31,MOOC10/2.8,17181116,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,2,1,2.19,2.19,0,0,0,0
+MOOC10/10.86/284,MOOC10/10.86,17721026/17721027,1 balans+sch,1 opslag tafel en 1 balans+sch,balance,10,1,3.19,3.19,1,0,0,0
+MOOC10/6.34/143,MOOC10/6.34,17491223/17491224,1 ijser balans+sch +gewigt,1 ijser balans+sch +gewigt,balance,6,1,3.19,3.19,0,0,0,0
+MOOC10/7.28/6,MOOC10/7.28,17551028,1 gr: balans+sch,1 gr: balans+sch,balance,7,1,3.19,3.19,0,0,0,0
+MOOC10/8.39/61,MOOC10/8.39,17630303,1 klijne balans+sch+gewigt,1 klijne balans+sch+gewigt en wat romm:,balance,8,1,3.19,3.19,1,0,0,0
+MOOC10/11.5/769,MOOC10/11.5,17730329/17730330 17730401/17730402,1 ijsere balans+sch,1 ijsere balans+sch,balance,11,1,4.19,4.19,0,0,0,0
+MOOC10/12.32/213,MOOC10/12.32,17761101,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,12,1,4.19,4.19,0,0,0,0
+MOOC10/14.22/16,MOOC10/14.22,17831110,1 ijzere balans+sch,1 ijzere balans+sch,balance,14,1,4.19,4.19,0,0,0,0
+MOOC10/14.45/230,MOOC10/14.45,17840309/17840311,1 ijzere balans+sch,1 ijzere balans+sch,balance,14,1,4.19,4.19,0,0,0,0
+MOOC10/15.42/201,MOOC10/15.42,17870824/17870825,2 copere schaal+bal,2 copere schaal+bal,balance,15,2,4.19,2.1,0,0,0,0
+MOOC10/15.50/242,MOOC10/15.50,17870821/17870822,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,15,1,4.19,4.19,0,0,0,0
+MOOC10/15.112/134,MOOC10/15.112,17900416,1 ijsere balance +gewigt,1 ijsere balance +gewigt,balance,15,1,4.19,4.19,0,0,0,0
+MOOC10/17.29/115,MOOC10/17.29,17950126/17950128,1 balans+sch etc:a,1 balans+sch etc:a,balance,17,1,4.19,4.19,0,0,0,0
+MOOC10/20.6_1/2/623,MOOC10/20.6_1/2,18030620/18030621,1 ijzere balans+sch etc:a,1 ijzere balans+sch etc:a,balance,20,1,4.19,4.19,0,0,0,0
+MOOC10/6.20/43,MOOC10/6.20,17491021/17491022,1 balans+sch,1 balans+sch,balance,6,1,4.19,4.19,0,0,0,0
+MOOC10/17.37/157,MOOC10/17.37,17951218/17951219,1 ijzere balans+sch +gewigt in zoort,1 ijzere balans+sch +gewigt in zoort,balance,17,1,5.19,5.19,0,0,0,0
+MOOC10/8.41/1967,MOOC10/8.41,"17600922/17600924, 17600929",1 ijsere balans+sch,1 ijsere balans+sch,balance,8,1,5.19,5.19,0,0,0,0
+MOOC10/8.47/78,MOOC10/8.47,17611029,1 ijsere balans+sch,1 ijsere balans+sch,balance,8,1,5.19,5.19,0,0,0,0
+MOOC10/13.28/396,MOOC10/13.28,17810716/17810717,1 ijzere balans+sch+gewigt,1 ijzere balans+sch+gewigt en 1 ijzere muurhaak,balance,13,1,6.19,6.19,1,0,0,0
+MOOC10/2.31/253,MOOC10/2.31,17211008,4 kopere schaal+bal,4 kopere schaal+bal,balance,2,4,6.19,1.55,0,0,0,0
+MOOC10/6.52/635,MOOC10/6.52,"17540522, 17540524/17540525",1 gr: balans,1 gr: balans en 2 houte3 schalen,balance,6,1,6.19,6.19,1,0,0,0
+MOOC10/14.11/159,MOOC10/14.11,17830324/17830325,1 ijzere balans+sch,1 ijzere balans+sch,balance,14,1,8.19,8.19,0,0,0,0
+MOOC10/15.116/67,MOOC10/15.116,17900529,1 paar coopere schaal+bal,1 paar coopere schaal+bal,balance,15,1,8.19,8.19,0,0,0,0
+MOOC10/2.9/779,MOOC10/2.9,17190315,2 balans+sch +gewigt,2 balans+sch +gewigt,balance,2,2,8.19,4.09,0,0,0,0
+MOOC10/12.33/68,MOOC10/12.33,17790125/17790126,1 ijsere balans+sch,1 ijsere balans+sch,balance,12,1,9.19,9.19,0,0,0,0
+MOOC10/18.22/190,MOOC10/18.22,17910606/17910608,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,18,1,11.19,11.19,0,0,0,0
+MOOC10/2.18/35,MOOC10/2.18,17191106,1 ijsere balans 2 koopere schalen,1 ijsere balans 2 koopere schalen,balance,2,1,2.21,2.21,0,0,0,0
+MOOC10/3.70/31,MOOC10/3.70,17270628, ,"2 kopere schaal+bal, 1 tinne tregter en 1 kopere staart pannetje",balance,3,,0.23,-99,1,0,0,0
+MOOC10/3.82/5,MOOC10/3.82,17290520,1 houte balans+sch,1 ijsere en 1 houte balans+sch,balance,3,1,0.23,0.23,1,0,0,0
+MOOC10/10.50/111,MOOC10/10.50,17711130,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,10,1,0.23,0.23,0,0,0,0
+MOOC10/10.52/151,MOOC10/10.52,17710916,1 balans+sch,1 balans+sch,balance,10,1,0.23,0.23,0,0,0,0
+MOOC10/12.27/110,MOOC10/12.27,"17790512, 17790514",1 ijzere balans+sch,1 ijzere balans+sch,balance,12,1,0.23,0.23,0,0,0,0
+MOOC10/12.43/33,MOOC10/12.43,17791116,1 ijzere balans+sch,"1 ijzere balans+sch, 1 blicke bus +gewigt",balance,12,1,0.23,0.23,1,0,0,0
+MOOC10/15.68/103,MOOC10/15.68,17880908,2 rood coper schaal+bal,2 rood coper schaal+bal,balance,15,2,0.23,0.12,0,0,0,0
+MOOC10/15.79/12,MOOC10/15.79,17890203, ,2 houte schaal+bal en 1 lantaeren,balance,15,,0.23,-99,1,0,0,0
+MOOC10/16.37/15,MOOC10/16.37,17940125,1 ijsere balans+sch,1 ijsere balans+sch,balance,16,1,0.23,0.23,0,0,0,0
+MOOC10/18.37/142,MOOC10/18.37,17980901,1 houte balans+sch +gewigt,1 houte balans+sch +gewigt,balance,18,1,0.23,0.23,0,0,0,0
+MOOC10/6.11/175,MOOC10/6.11,17500924/17500925,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,6,1,0.23,0.23,0,0,0,0
+MOOC10/7.33/19,MOOC10/7.33,17561012,1 houte balans+sch,1 houte balans+sch en wat romm:g,balance,7,1,0.23,0.23,1,0,0,0
+MOOC10/3.50/167,MOOC10/3.50,17240612,2 kopere schaal+bal,2 kopere schaal+bal,balance,3,2,1.23,0.61,0,0,0,0
+MOOC10/3.95/29,MOOC10/3.95,17310508,1 ijsere balans+sch,1 ijsere balans+sch,balance,3,1,1.23,1.23,0,0,0,0
+MOOC10/3.99/57,MOOC10/3.99,17311019,1 ijsere balans+sch,1 ijsere balans+sch,balance,3,1,1.23,1.23,0,0,0,0
+MOOC10/4.162/21,MOOC10/4.162,17370122,1 ijsere balans +gewigt,1 ijsere balans +gewigt,balance,4,1,1.23,1.23,0,0,0,0
+MOOC10/10.29/142,MOOC10/10.29,17710814,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,10,1,1.23,1.23,0,0,0,0
+MOOC10/11.20/34,MOOC10/11.20,17740413,1 ijsere balans+sch,1 ijsere balans+sch,balance,11,1,1.23,1.23,0,0,0,0
+MOOC10/12.36/2,MOOC10/12.36,17790506,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,12,1,1.23,1.23,0,0,0,0
+MOOC10/13.53/8,MOOC10/13.53,17821003/17821004,1 ijzere balans,"1 parthij timmermansgereedschappen, 1 ijzere balans en 1 soldeer bout",balance,13,1,1.23,1.23,1,0,0,0
+MOOC10/14.21/122,MOOC10/14.21,17830221,1 houte balans+sch +gewigt,1 houte balans+sch +gewigt,balance,14,1,1.23,1.23,0,0,0,0
+MOOC10/16.37/14,MOOC10/16.37,17940125,1 ijsere balans+sch,1 ijsere balans+sch,balance,16,1,1.23,1.23,0,0,0,0
+MOOC10/6.41/406,MOOC10/6.41,"17520323/17520325, 17520327",1 balans+sch,1 balans+sch en ½ lb: gewigt,balance,6,1,1.23,1.23,1,0,0,0
+MOOC10/6.50/320,MOOC10/6.50,17520523/17520527,1 klijn balans+sch,1 klijn balans+sch,balance,6,1,1.23,1.23,0,0,0,0
+MOOC10/7.1/91,MOOC10/7.1,17551018,1 ijsere balans+sch,1 ijsere balans+sch,balance,7,1,1.23,1.23,0,0,0,0
+MOOC10/8.47/4,MOOC10/8.47,17611029,1 houte balans+sch,1 houte balans+sch,balance,8,1,1.23,1.23,0,0,0,0
+MOOC10/9.6/12,MOOC10/9.6,17650330,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,9,1,1.23,1.23,0,0,0,0
+MOOC10/4.130/3,MOOC10/4.130,17341025,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,4,1,2.23,2.23,0,0,0,0
+MOOC10/11.14/29,MOOC10/11.14,17741212,1 houte balans,"2 aarde potten, 2 cannen en 1 houte balans",balance,11,1,2.23,2.23,1,0,0,0
+MOOC10/14.45/348,MOOC10/14.45,17840309/17840311,2 ijzere balancen,2 ijzere balancen,balance,14,2,2.23,1.11,0,0,0,0
+MOOC10/16.37/294,MOOC10/16.37,17940125,1 ijsere balans+sch,1 ijsere balans+sch,balance,16,1,2.23,2.23,0,0,0,0
+MOOC10/2.24/11,MOOC10/2.24,17210108,1 ijsere balans+sch,1 ijsere balans+sch,balance,2,1,2.23,2.23,0,0,0,0
+MOOC10/21.36/182,MOOC10/21.36,18060414,2 ijzere balans+sch,2 ijzere balans+sch,balance,21,2,2.23,1.11,0,0,0,0
+MOOC10/3.60/95,MOOC10/3.60,17260617,2 kopere schaal+bal,2 kopere schaal+bal,balance,3,2,3.23,1.61,0,0,0,0
+MOOC10/11.38/41,MOOC10/11.38,17760910,1 houte balans+sch,"2 kelders, 1 houte balans+sch",balance,11,1,3.23,3.23,1,0,0,0
+MOOC10/21.39/343,MOOC10/21.39,18051030/18051031/18051101,1 balans+sch,1 balans+sch,balance,21,1,3.23,3.23,0,0,0,0
+MOOC10/8.2/217,MOOC10/8.2,17551104/17551106,1 ijsere balans+sch,1 ijsere balans+sch,balance,8,1,3.23,3.23,0,0,0,0
+MOOC10/9.1/120,MOOC10/9.1,17650401,1 balans+sch,1 balans+sch,balance,9,1,3.23,3.23,0,0,0,0
+MOOC10/9.19/69,MOOC10/9.19,17661202,1 ijsere balans+sch,1 ijsere balans+sch,balance,9,1,3.23,3.23,0,0,0,0
+MOOC10/5.67/168,MOOC10/5.67,17451025,1 ysere balans+sch,1 ysere balans+sch,balance,5,1,4.23,4.23,0,0,0,0
+MOOC10/11.5/1094,MOOC10/11.5,17730329/17730330 17730401/17730402,1 ijsere balans+sch,1 ijsere balans+sch,balance,11,1,4.23,4.23,0,0,0,0
+MOOC10/8.43/192,MOOC10/8.43,17611026/17611028,2 ijsere balans+sch,2 ijsere balans+sch,balance,8,2,4.23,2.12,0,0,0,0
+MOOC10/10.53/42,MOOC10/10.53,17720302,1 ijsere balans+sch,1 ijsere balans+sch,balance,10,1,5.23,5.23,0,0,0,0
+MOOC10/8.50/59,MOOC10/8.50,17640227,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,8,1,5.23,5.23,0,0,0,0
+MOOC10/4.158/308,MOOC10/4.158,17370624,1 ijsere balans+sch+gewigt,1 ijsere balans+sch+gewigt,balance,4,1,7.23,7.23,0,0,0,0
+MOOC10/10.43/31,MOOC10/10.43,17710415,1 ijsere balans+sch +gewigt in zoort,1 ijsere balans+sch +gewigt in zoort,balance,10,1,7.23,7.23,0,0,0,0
+MOOC10/20.55/189,MOOC10/20.55,18050718/18050719,1 ijzere balans+sch,1 ijzere balans+sch,balance,20,1,8.23,8.23,0,0,0,0
+MOOC10/6.49/261,MOOC10/6.49,17491103/17491104,1 ijser balans+sch,1 ijser balans+sch,balance,6,1,8.23,8.23,0,0,0,0
+MOOC10/10.2/8,MOOC10/10.2,17680411/17680414,1 ijsere balans+sch,1 ijsere balans+sch,balance,10,1,10.23,10.23,0,0,0,0
+MOOC10/15.92/111,MOOC10/15.92,17890929,1 ijser balans+sch,1 ijser balans+sch en 4 lb: cop: gew:t,balance,15,1,10.23,10.23,1,0,0,0
+MOOC10/16.37/16,MOOC10/16.37,17940125,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,16,1,11.23,11.23,0,0,0,0
+MOOC10/8.59/168,MOOC10/8.59,17640402,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,8,1,15.23,15.23,0,0,0,0
+MOOC10/18.78/404,MOOC10/18.78,"18000626/18000628, 18000703/18000704",1 balans+sch +gewigt,1 balans+sch +gewigt,balance,18,1,22.23,22.23,0,0,0,0
+MOOC10/11.58/165,MOOC10/11.58,17750227/17750228,1 balans+sch,2 guerridons en 1 balans+sch,balance,11,1,0.27,0.27,1,0,0,0
+MOOC10/12.22/13,MOOC10/12.22,17781026,1 ijzere balans+sch,1 ijzere balans+sch,balance,12,1,0.27,0.27,0,0,0,0
+MOOC10/14.65/39,MOOC10/14.65,17850225,1 ijzere balans+sch,1 ijzere balans+sch,balance,14,1,0.27,0.27,0,0,0,0
+MOOC10/17.22/161,MOOC10/17.22,17950216,2 houte schaal+bal +gewigt,2 houte schaal+bal +gewigt,balance,17,2,0.27,0.14,0,0,0,0
+MOOC10/22.80/1,MOOC10/22.80,18080416,1 ijzere balans+sch,1 ijzere balans+sch en romm:,balance,22,1,0.27,0.27,1,0,0,0
+MOOC10/7.14_1/2/197,MOOC10/7.14_1/2,17560825,1 balans+sch,"1 tang, 1 vleesvork,1 balans+sch en wat romm:g",balance,7,1,0.27,0.27,1,0,0,0
+MOOC10/7.25/18,MOOC10/7.25,17551020,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,7,1,0.27,0.27,0,0,0,0
+MOOC10/8.51/1,MOOC10/8.51,17631210,1 ijsere balans+sch,1 ijsere balans+sch,balance,8,1,0.27,0.27,0,0,0,0
+MOOC10/9.15/566,MOOC10/9.15,17640717/17640720,1 kleijne ijsere balans+sch +gewigt,1 kleijne ijsere balans+sch +gewigt,balance,9,1,0.27,0.27,0,0,0,0
+MOOC10/9.31/309,MOOC10/9.31,17660403,1 ijsere balans+sch,1 ijsere balans+sch,balance,9,1,0.27,0.27,0,0,0,0
+MOOC10/5.58_1/2/31,MOOC10/5.58_1/2,17431212,1 ijsere balans+sch,1 ijsere balans+sch,balance,5,1,1.27,1.27,0,0,0,0
+MOOC10/10.22/2128,MOOC10/10.22,17690123/17690130,2 cop:e schaal+bal,2 cop:e schaal+bal,balance,10,2,1.27,0.64,0,0,0,0
+MOOC10/10.34/235,MOOC10/10.34,17710819,1 houte schaal+bal +gewigt,1 houte schaal+bal +gewigt,balance,10,1,1.27,1.27,0,0,0,0
+MOOC10/13.28/360,MOOC10/13.28,17810716/17810717,2 ijzere balans+sch,2 ijzere balans+sch,balance,13,2,1.27,0.64,0,0,0,0
+MOOC10/16.48/134,MOOC10/16.48,17920613/17920614,1 romijnse balans,1 romijnse balans,balance,16,1,1.27,1.27,0,0,0,0
+MOOC10/17.13/26,MOOC10/17.13,17940605/17940606,1 ijzere balans+sch,1 ijzere balans+sch en 1 houte waterspuijt,balance,17,1,1.27,1.27,1,0,0,0
+MOOC10/18.19/34,MOOC10/18.19,17980312/17980313,1 ijzer balans+sch +gewigt,1 ijzer balans+sch +gewigt,balance,18,1,1.27,1.27,0,0,0,0
+MOOC10/2.26/43,MOOC10/2.26,17210115,1 balans+sch,1 balans+sch,balance,2,1,1.27,1.27,0,0,0,0
+MOOC10/22.42/9,MOOC10/22.42,18060516,1 houte balance,1 houte balance,balance,22,1,1.27,1.27,0,0,0,0
+MOOC10/6.24/391,MOOC10/6.24,17540114/17540116,1 ijsere balans+sch,1 ijsere balans+sch,balance,6,1,1.27,1.27,0,0,0,0
+MOOC10/6.59/140,MOOC10/6.59,17541216,1 eijsere balans+sch +gewigt,1 eijsere balans+sch +gewigt,balance,6,1,1.27,1.27,0,0,0,0
+MOOC10/7.23/42,MOOC10/7.23,17550627,1 ijsere balans,1 ijsere balans en 2 houte schaelen,balance,7,1,1.27,1.27,1,0,0,0
+MOOC10/9.17/147,MOOC10/9.17,17550925,4 coopere schaal+bal,4 coopere schaal+bal,balance,9,4,1.27,0.32,0,0,0,0
+MOOC10/12.26/45,MOOC10/12.26,17790312,1 ijzere balans+sch +gewigts,1 ijzere balans+sch +gewigts,balance,12,1,2.27,2.27,0,0,0,0
+MOOC10/19.8/57,MOOC10/19.8,17990620/17990621,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,19,1,2.27,2.27,0,0,0,0
+MOOC10/22.14/35,MOOC10/22.14,18060529,1 balans+sch,1 balans+sch en wat romm:,balance,22,1,2.27,2.27,1,0,0,0
+MOOC10/6.48/29,MOOC10/6.48,17520529/17520530,1 ijser balans+sch +gewigt,1 ijser balans+sch +gewigt,balance,6,1,2.27,2.27,0,0,0,0
+MOOC10/6.57_1/2/1045,MOOC10/6.57_1/2,"17551030/17551031, 17551101",1 ijsere balans+sch,1 ijsere balans+sch,balance,6,1,2.27,2.27,0,0,0,0
+MOOC10/8.25/90,MOOC10/8.25,17601215,1 ijsere balans+sch,1 ijsere balans+sch,balance,8,1,2.27,2.27,0,0,0,0
+MOOC10/9.61/74,MOOC10/9.61,17690227,1 ijsere balans+sch,1 ijsere balans+sch,balance,9,1,2.27,2.27,0,0,0,0
+MOOC10/3.89/71,MOOC10/3.89,17290910,1 ijsere balans+sch,1 ijsere balans+sch,balance,3,1,3.27,3.27,0,0,0,0
+MOOC10/10.18/218,MOOC10/10.18,17700314,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,10,1,3.27,3.27,0,0,0,0
+MOOC10/11.41/495,MOOC10/11.41,17741219/17741222,1 ijsere balans+sch,1 ijsere balans+sch,balance,11,1,3.27,3.27,0,0,0,0
+MOOC10/11.58/33,MOOC10/11.58,17750227/17750228,1 balans+sch +gewigt,1 balans+sch +gewigt,balance,11,1,3.27,3.27,0,0,0,0
+MOOC10/13.43/94,MOOC10/13.43,17820109,1 ijzere balans+sch +gewigt,1 ijzere balans+sch +gewigt,balance,13,1,3.27,3.27,0,0,0,0
+MOOC10/18.64/67,MOOC10/18.64,17990816/17990817,1 balans+sch,1 balans+sch en 1 boter vat,balance,18,1,3.27,3.27,1,0,0,0
+MOOC10/20.63/13,MOOC10/20.63,18041203/18041204,1 ijzere balans+sch,1 ijzere balans+sch,balance,20,1,3.27,3.27,0,0,0,0
+MOOC10/3.67/117,MOOC10/3.67,17240531,1 ijsere balans+sch+gewigt,1 ijsere balans+sch+gewigt en 1 copere inktkoker,balance,3,1,4.27,4.27,1,0,0,0
+MOOC10/5.72/8,MOOC10/5.72,17451210,1 grote yser balans+sch,1 grote yser balans+sch,balance,5,1,4.27,4.27,0,0,0,0
+MOOC10/15.29/32,MOOC10/15.29,17870427,1 balans+sch,1 balans+sch,balance,15,1,4.27,4.27,0,0,0,0
+MOOC10/4.145/3,MOOC10/4.145,17360202,1 balans,"1 partij ijserwerk, 1 balans en 1 ijser om pijpen te branden",balance,4,1,5.27,5.27,1,0,0,0
+MOOC10/15.76/47,MOOC10/15.76,17881223,2 cop: weegschaal+bal,2 cop: weegschaal+bal,balance,15,2,5.27,2.63,0,0,0,0
+MOOC10/20.55/188,MOOC10/20.55,18050718/18050719,1 ijzere balans+sch,1 ijzere balans+sch,balance,20,1,5.27,5.27,0,0,0,0
+MOOC10/6.32/248,MOOC10/6.32,17520508/17520510,1 coper balans+sch,1 coper balans+sch,balance,6,1,5.27,5.27,0,0,0,0
+MOOC10/7.23/43,MOOC10/7.23,17550627,1 ijsere balans+sch,1 ijsere balans+sch,balance,7,1,5.27,5.27,0,0,0,0
+MOOC10/5.20/491,MOOC10/5.20,17380324,1 ijsere balans+sch +gewigt,"1 ijsere balans+sch +gewigt, 5 kopere snuijters met 1 kopere rasp",balance,5,1,6.27,6.27,1,0,0,0
+MOOC10/15.8/99,MOOC10/15.8,17851114/17851115,1 ijzere balance,1 ijzere balance,balance,15,1,8.27,8.27,0,0,0,0
+MOOC10/8.55/305,MOOC10/8.55,17620504/17620506,1 ijsere balans+sch +gewigt,1 ijsere balans+sch +gewigt,balance,8,1,8.27,8.27,0,0,0,0
+MOOC10/15.116/70,MOOC10/15.116,17900529,1 paar coopere schaal+bal,1 paar coopere schaal+bal,balance,15,1,9.27,9.27,0,0,0,0
+MOOC10/6.11/331,MOOC10/6.11,17500924/17500925,1 grote ijserbalans+sch,1 grote ijserbalans+sch en 1 vleeskroon,balance,6,1,9.27,9.27,1,0,0,0
+MOOC10/15.51/71,MOOC10/15.51,17871026,1 ijzere balans+sch,1 ijzere balans+sch,balance,15,1,10.27,10.27,0,0,0,0
+MOOC10/6.57_1/2/1451,MOOC10/6.57_1/2,"17551030/17551031, 17551101",1 ijsere balans+sch,1 ijsere balans+sch,balance,6,1,10.27,10.27,0,0,0,0
+MOOC10/15.9/74,MOOC10/15.9,17851209/17851210,1 ijzere balans+sch,1 ijzere balans+sch en desselfs stander,balance,15,1,29.27,29.27,1,0,0,0
+MOOC10/10.22/2146,MOOC10/10.22,17690123/17690130,1 ijsere balans+sch,1 ijsere balans+sch,balance,10,1,35.27,35.27,0,0,0,0
+MOOC10/5.42/50,MOOC10/5.42,17440625,2 copere schalen,1 ysere belans met 2 copere schalen,balance,5,2,1.0,0.5,1,0,0,0
+MOOC10/10.22/1935,MOOC10/10.22,17690123/17690130,1 goud schaaltje,1 goud gewigt en 1 goud schaaltje,balance,10,1,1.0,1.0,1,0,1,0
+MOOC10/11.62/150,MOOC10/11.62,17770220/17770221, ,1 tabaksmes en 1 balans+sch,balance,11,,1.0,-99,1,0,0,0
+MOOC10/12.33/70,MOOC10/12.33,17790125/17790126,2 copere schaaltjes,2 copere schaaltjes,balance,12,2,1.0,0.5,0,0,0,0
+MOOC10/15.96/130,MOOC10/15.96,17901230, ,"1 balans+sch, ½ lb: gewigt en 1 kleijn belletje",balance,15,,1.0,-99,1,0,0,0
+MOOC10/2.1/36,MOOC10/2.1,17180617,1 kooper schaaltje +gewigt,1 kooper schaaltje +gewigt,balance,2,1,1.0,1.0,0,0,0,0
+MOOC10/21.13/19,MOOC10/21.13,18060203,2 goud schaal+gewigt,2 goud schaal+gewigt,balance,21,2,1.0,0.5,0,0,1,0
+MOOC10/21.64/5,MOOC10/21.64,18060418,1 houte schaal +gewigt,1 houte schaal +gewigt,balance,21,1,1.0,1.0,0,0,0,0
+MOOC10/22.29/32,MOOC10/22.29,18070209,2 houte schalen,2 houte schalen,balance,22,2,1.0,0.5,0,0,0,0
+MOOC10/6.55/371,MOOC10/6.55,17551127/17551128,2 cop: schalen,"2 cop: blakers, 1 zuijkerb:, 1 inkkoker, 2 cop: schalen en 1 profijtje",balance,6,2,1.0,0.5,1,0,0,0
+MOOC10/7.16/34,MOOC10/7.16,17551107, ,1 hakbord met 1 houte balans+sch,balance,7,,1.0,-99,1,0,0,0
+MOOC10/8.54/35,MOOC10/8.54,17640319,1 p:r oude cop:e schaalen,1 form en 1 lantaarn en 1 p:r oude cop:e schaalen,balance,8,1,1.0,1.0,1,0,1,0
+MOOC10/10.81/851,MOOC10/10.81,17730308/17730311,1 goud schaaltje,1 partij romm:g+gewigte en 1 goud schaaltje,balance,10,1,2.0,2.0,1,0,1,0
+MOOC10/12.33/92,MOOC10/12.33,17790125/17790126,2 houte schalen,2 houte schalen,balance,12,2,2.0,1.0,0,0,0,0
+MOOC10/14.13/11,MOOC10/14.13,17830114,1 schaal +gewigt,1 schaal +gewigt,balance,14,1,2.0,2.0,0,0,0,0
+MOOC10/15.12/14,MOOC10/15.12,17860505/17860506,1 houte schaal+bal,"9 sikkels, 1 houte schaal+bal",balance,15,1,2.0,2.0,1,0,0,0
+MOOC10/2.9/573,MOOC10/2.9,17190315,2 koopere schaaltje +gewigt,2 koopere schaaltje +gewigt,balance,2,2,2.0,1.0,0,0,0,0
+MOOC10/7.14_1/2/178,MOOC10/7.14_1/2,17560825,4 coop:r schaalen,4 coop:r schaalen en wat rom:g,balance,7,4,2.0,0.5,1,0,0,0
+MOOC10/3.73/125,MOOC10/3.73,17270709, ,1 balans+sch en 1 stuk roode pelangh,balance,3,,3.0,-99,1,0,0,0
+MOOC10/15.37/12,MOOC10/15.37,17870803, ,1 ijzere balans+sch+gewigt en 1 cop: bak,balance,15,,3.0,-99,1,0,0,0
+MOOC10/21.13/15,MOOC10/21.13,18060203,1 schaal,1 schaal,balance,21,1,3.0,3.0,0,0,0,0
+MOOC10/23.37/32,MOOC10/23.37,18090512,2 houte schaalen,2 houte schaalen,balance,23,2,3.0,1.5,0,0,0,0
+MOOC10/6.41/405,MOOC10/6.41,"17520323/17520325, 17520327", ,1 balans+sch en ½ lb: gewigt,balance,6,,3.0,-99,1,0,0,0
+MOOC10/7.28/263,MOOC10/7.28,17551028, ,1 balans+sch en haak,balance,7,,3.0,-99,1,0,0,0
+MOOC10/8.34/117,MOOC10/8.34,17611006,2 copere schaal+gewigt,2 copere schaal+gewigt,balance,8,2,3.0,1.5,0,0,0,0
+MOOC10/6.20/275,MOOC10/6.20,17491021/17491022,2 houte schaalen,1 kelder +gewigt en 2 houte schaalen,balance,6,2,4.0,2.0,1,0,0,0
+MOOC10/9.17/26,MOOC10/9.17,17550925,2 houte schaalen +gewigt,2 houte schaalen +gewigt,balance,9,2,4.0,2.0,0,0,0,0
+MOOC10/15.52/77,MOOC10/15.52,17871108/17871109, 104. een koper schaal+bal,"n:o 101 en 104. een koper schaal+bal, een inktkoker, etc:",balance,15,,5.0,-99,1,0,0,0
+MOOC10/16.30/60,MOOC10/16.30,17891110,2 kopere schaalen,2 kopere schaalen,balance,16,2,5.0,2.5,0,0,0,0
+MOOC10/4.146/204,MOOC10/4.146,17360928,2 st: goud schaletjes,2 krissen+gewigt en 2 st: goud schaletjes,balance,4,2,6.0,3.0,1,0,1,0
+MOOC10/16.14/132,MOOC10/16.14,17900816, met 2 copre schalen +gewigt,"1 ijsere balance, met 2 copre schalen +gewigt",balance,16,,6.0,-99,1,0,0,0
+MOOC10/17.30/274,MOOC10/17.30,17950326/17950328,2 koopere schalen,2 koopere schalen,balance,17,2,6.0,3.0,0,0,0,0
+MOOC10/13.36/167,MOOC10/13.36,17811211/17811212,2 houte schalen,1 domkragt en 2 houte schalen,balance,13,2,8.0,4.0,1,0,0,0
+MOOC10/6.34/8,MOOC10/6.34,17491223/17491224,2 houte schaalen +gewigt,2 houte schaalen +gewigt,balance,6,2,9.0,4.5,0,0,0,0
+MOOC10/13.24/52,MOOC10/13.24,17810724,1 veerscalf,3 bulletjes en 1 veerscalf,balance,13,1,11.0,11.0,1,0,0,0
+MOOC10/18.4/272,MOOC10/18.4,17960826/17960827, ,"1 balans+sch, 1 bok +gewigt",balance,18,,90.0,-99,1,0,0,0
+MOOC10/5.73/330,MOOC10/5.73,17460523, ,"4 klijne kopere distileerketels met haar helmen, 1 plysterpan, 1 parthy chururgyns gereetschappen, 1 parthy potjes, flesjes en doosjes met medicynen, met haar rakjes, 2 clisteerspuyten, 1 groote coper mortier met 1 yser stamper, 2 trommelsiften, 3 balans+sch+gewigt, 9 copere en 2 tinne koppen met syn lamp, 1 lapdoos, 1 kisje met agt flesjes, 1 medicijn kisje, 2 steenen mortier, 2 scheepsmedicijn kist, 3 glase kolven, 1 doosje met 1 parthy leedige flessen, 9 medicijnse boeken",balance,5,,150.0,-99,1,0,0,0
+MOOC10/24.15/29,MOOC10/24.15,18100302,1 schaal,1 schaal,balance,24,1,0.04,0.04,0,0,0,0
+MOOC10/10.50/154,MOOC10/10.50,17711130,2 cop:e schaaltjes,"2 cop:e schaaltjes, 1 cop:e ketel en 1 rasp",balance,10,2,1.04,0.52,1,0,0,0
+MOOC10/11.40/75,MOOC10/11.40,17750513,1 kopere schaal,"een kopere schaal en een snuijter, en een kopere candelaar",balance,11,1,1.04,1.04,1,0,0,0
+MOOC10/13.8/275,MOOC10/13.8,17800619/17800620, ,1 ijzere balans+sch en ½ lb: inzetgewigt,balance,13,,1.04,-99,1,0,0,0
+MOOC10/16.39/167,MOOC10/16.39,17931028/17931029, ,1 klijne balans+sch en 2 trossen lijn,balance,16,,1.04,-99,1,0,0,0
+MOOC10/6.52/84,MOOC10/6.52,"17540522, 17540524/17540525",2 houte schaalen,1 gr: houte tabaks doos en 2 houte schaalen,balance,6,2,1.04,0.52,1,0,0,0
+MOOC10/9.28/155,MOOC10/9.28,17660602, ,1 tinne keetel en 1 cop:e balans+sch,balance,9,,1.04,-99,1,0,0,0
+MOOC10/4.133/81,MOOC10/4.133,17370429, ,1 ijsere balans+sch en 1 guerridon,balance,4,,2.04,-99,1,0,0,0
+MOOC10/10.2/763,MOOC10/10.2,17680411/17680414,1 cop:e schaaltje +gewigt,1 cop:e schaaltje +gewigt,balance,10,1,2.04,2.04,0,0,0,0
+MOOC10/18.17/25,MOOC10/18.17,17970313,2 houte schalen,"1 rak, 2 houte schalen en 1 partij oude schilderijtjes",balance,18,2,2.04,1.02,1,0,0,0
+MOOC10/10.67/69,MOOC10/10.67,17730119,1 goud schaaltje,1 lb cop:e inset gewigt en 1 goud schaaltje,balance,10,1,3.04,3.04,1,0,1,0
+MOOC10/16.63/3,MOOC10/16.63,17921103,1 houte schaal+gewigt,1 houte schaal+gewigt en wat romm:,balance,16,1,3.04,3.04,1,0,0,0
+MOOC10/21.15/44,MOOC10/21.15,18050910,1 kopere schaal+bal,1 kopere schaal+bal en 2 strijk ijzers,balance,21,1,4.04,4.04,1,0,0,0
+MOOC10/11.58/36,MOOC10/11.58,17750227/17750228,2 cop: schal+gewigt,2 cop: schal+gewigt,balance,11,2,5.04,2.52,0,0,0,0
+MOOC10/15.96/81,MOOC10/15.96,17901230, ,1 ijsere balans+sch en 1 ijsere arm,balance,15,,5.04,-99,1,0,0,0
+MOOC10/19.5/73,MOOC10/19.5,18000719, ,1 balans+sch en 15 pond aan gewicht,balance,19,,5.04,-99,1,0,0,0
+MOOC10/2.30/136,MOOC10/2.30,17211013,1 houte schaal+bal,"1 kopere wyn bekker, 1 houte schaal+bal, een tinnen bekken en een tinne beeker",balance,2,1,5.04,5.04,1,0,0,0
+MOOC10/13.24/53,MOOC10/13.24,17810724,3 veerscalfen,1 koeij en 3 veerscalfen,balance,13,3,8.04,2.68,1,0,0,0
+MOOC10/18.9/74,MOOC10/18.9,17960118,1 schaal,1 schaal met sijn gewig,balance,18,1,8.04,8.04,1,0,0,0
+MOOC10/23.37/19,MOOC10/23.37,18090512,1 houte schaal+gewigt,1 ijzere balans+sch en 1 houte schaal+gewigt en 2 gordijnplanken,balance,23,1,8.04,8.04,1,0,0,0
+MOOC10/24.2/226,MOOC10/24.2,18090112/18090113,1 houte schaal +gewigt,1 houte schaal +gewigt,balance,24,1,8.04,8.04,0,0,0,0
+MOOC10/13.34/5,MOOC10/13.34,17810724,1 veerscalf,"2 koeijen, 2 bulletjes en 1 veerscalf",balance,13,1,11.04,11.04,1,0,0,0
+MOOC10/14.22/14,MOOC10/14.22,17831110, zijn cop: schaalen +gewigt,1 toonbank met zijn cop: schaalen +gewigt,balance,14,,13.04,-99,1,0,0,0
+MOOC10/22.44/1,MOOC10/22.44,18070210,1 kopere schaal +gewigt,1 kopere schaal +gewigt,balance,22,1,13.04,13.04,0,0,0,0
+MOOC10/24.35/121,MOOC10/24.35,18100723/18100724, ,1 ijzere balans+sch +gewigt en blaauwzel,balance,24,,19.04,-99,1,0,0,0
+MOOC10/4.123/82,MOOC10/4.123,17331102,2 houte schalen,"1 balij, 2 houte schalen en rommeling",balance,4,2,0.08,0.04,1,0,0,0
+MOOC10/5.78/167,MOOC10/5.78,17480205, ,1 lantaarentje met 1 balans+sch,balance,5,,0.08,-99,1,0,0,0
+MOOC10/13.42/13,MOOC10/13.42,17820415, ,2 dekspaanen en 1 houte balans+sch,balance,13,,0.08,-99,1,0,0,0
+MOOC10/14.42/1,MOOC10/14.42,17840714, ,1 houte balans+sch en 1 tafel,balance,14,,0.08,-99,1,0,0,0
+MOOC10/15.10/71,MOOC10/15.10,17860310,2 cop: schaaltjes,2 cop: schaaltjes,balance,15,2,0.08,0.04,0,0,0,0
+MOOC10/15.106/149,MOOC10/15.106,17901104,1 chineese schaaltje,1 chineese schaaltje,balance,15,1,0.08,0.08,0,0,0,0
+MOOC10/18.35/19,MOOC10/18.35,17990504,1 schaal,2 pennemesse en 1 schaal,balance,18,1,0.08,0.08,1,0,0,0
+MOOC10/6.14/29,MOOC10/6.14,17501204, ,1 ijserbalans+sch en 1 lepelrak,balance,6,,0.08,-99,1,0,0,0
+MOOC10/9.11/218,MOOC10/9.11,17660127, ,1 ceifferleij en 1 balans+sch,balance,9,,0.08,-99,1,0,0,0
+MOOC10/3.92/15,MOOC10/3.92,17300909,2 kopere schaaltjes,2 kopere blakers en 2 kopere snuijters met 2 kopere schaaltjes,balance,3,2,1.08,0.54,1,0,0,0
+MOOC10/10.22/2126,MOOC10/10.22,17690123/17690130,6 cop:e schaaltjes,6 cop:e schaaltjes,balance,10,6,1.08,0.18,0,0,0,0
+MOOC10/11.52/18,MOOC10/11.52,17770623,2 cop: schaaltjes,1 cop: beker en 2 cop: schaaltjes,balance,11,2,1.08,0.54,1,0,0,0
+MOOC10/12.27/498,MOOC10/12.27,"17790512, 17790514", ,"5 neurenburger balans+sch, 4 bladen blick en 2 omslagen",balance,12,,1.08,-99,1,0,0,0
+MOOC10/13.8/253,MOOC10/13.8,17800619/17800620,2 glaaze fruitschaale,2 glaaze fruitschaale,balance,13,2,1.08,0.54,0,0,0,0
+MOOC10/15.11/86,MOOC10/15.11,17860317,2 cop: schalen,2 cop: schalen,balance,15,2,1.08,0.54,0,0,0,0
+MOOC10/15.86/107,MOOC10/15.86,17890722,1 houte schaal +gewigt,1 houte schaal +gewigt,balance,15,1,1.08,1.08,0,0,0,0
+MOOC10/2.5/152,MOOC10/2.5,17180822,1 schaaltje,1 schaaltje met een partij silver,balance,2,1,1.08,1.08,1,0,0,0
+MOOC10/6.16/86,MOOC10/6.16,16501116, ,1 houte balans+sch en 1 blicke trommel,balance,6,,1.08,-99,1,0,0,0
+MOOC10/6.53/50,MOOC10/6.53,17551013,2 coop:r schaalen,2 coop:r schaalen,balance,6,2,1.08,0.54,0,0,0,0
+MOOC10/9.49/103,MOOC10/9.49,17680504,1 houte schaal +gewigt,1 houte schaal +gewigt,balance,9,1,1.08,1.08,0,0,0,0
+MOOC10/13.31/26,MOOC10/13.31,17810313, ,1 balans+sch en 1 tafel,balance,13,,2.08,-99,1,0,0,0
+MOOC10/20.10/31,MOOC10/20.10,18031029,1 kopere schaaltje +gewigten,1 kopere schaaltje +gewigten,balance,20,1,2.08,2.08,0,0,0,0
+MOOC10/8.41/1968,MOOC10/8.41,"17600922/17600924, 17600929", ,1 ijsere balans+sch en 1 beeker,balance,8,,2.08,-99,1,0,0,0
+MOOC10/13.15/59,MOOC10/13.15,17810410, copere schaalen +gewigt,1 ijzere balangs met copere schaalen +gewigt,balance,13,,3.08,-99,1,0,0,0
+MOOC10/14.7/356,MOOC10/14.7,17830526/17830527/17830529, ,"1 cop: rasp, 1 cop: vuurtesje, 1 ijzere balans+sch",balance,14,,3.08,-99,1,0,0,0
+MOOC10/15.18/70,MOOC10/15.18,17860627, ,1 ijzere balans+sch +gewigt en 2 cop: kraanen,balance,15,,3.08,-99,1,0,0,0
+MOOC10/8.55/92,MOOC10/8.55,17620504/17620506,2 houte schalen,2 houte schalen en 1 stelletje,balance,8,2,3.08,1.54,1,0,0,0
+MOOC10/5.47/39,MOOC10/5.47,17440807,1 ijsere belans +gewigt,1 ijsere belans +gewigt,balance,5,1,4.08,4.08,0,0,0,0
+MOOC10/6.41/688,MOOC10/6.41,"17520323/17520325, 17520327", ,1 ijser balans+sch en 1 inleg gewig van 4 lb:,balance,6,,4.08,-99,1,0,0,0
+MOOC10/4.124/56,MOOC10/4.124,17340615, ,1 houte balans+sch+gewigt en 2 hevers met wat rommeling,balance,4,,7.08,-99,1,0,0,0
+MOOC10/13.24/61,MOOC10/13.24,17810724,1 veerscalf,"2 koeijen, 2 bulletjes en 1 veerscalf",balance,13,1,12.08,12.08,1,0,0,0
+MOOC10/20.41/289,MOOC10/20.41,18041001/18041004,1 zilver schaaltje w:t 10 ½ l:t,1 zilver schaaltje w:t 10 ½ l:t,balance,20,1,13.08,13.08,0,0,0,0
+MOOC10/17.37/90,MOOC10/17.37,17951218/17951219, ,1 ijzer balans+sch en zijn bok,balance,17,,15.08,-99,1,0,0,0
+MOOC10/24.33/30,MOOC10/24.33,18100810/18100811, ,1 tafel met een ijzere balans+sch,balance,24,,18.08,-99,1,0,0,0
+MOOC10/4.120/78,MOOC10/4.120,17340609, ,1 pijperakje en 1 balans+sch,balance,4,,0.12,-99,1,0,0,0
+MOOC10/5.56/57,MOOC10/5.56,17441204,2 copere schaaltjes,"2 copere schaaltjes, 1 ijser belans",balance,5,2,0.12,0.06,1,0,0,0
+MOOC10/10.79/37,MOOC10/10.79,17721130, ,1 balans+sch en wat romm:g,balance,10,,0.12,-99,1,0,0,0
+MOOC10/7.14/3,MOOC10/7.14,17551110,2 houte schaal+bal,"1 capstok, 1 balij, 2 houte schaal+bal en een partij schilderijjen",balance,7,2,0.12,0.06,1,0,0,0
+MOOC10/3.97/61,MOOC10/3.97,17310919, ,1 doosje met 2 staale gespen en 1 balans+sch,balance,3,,1.12,-99,1,0,0,0
+MOOC10/10.69/6,MOOC10/10.69,17721012, ,"1 coffijmolen, 1 coffijkan met zijn testje en 1 balans+sch",balance,10,,1.12,-99,1,0,0,0
+MOOC10/11.12/457,MOOC10/11.12,17740829/17740830, ,"1 ijsere balans+sch, 1 poffeertjespan, 1 chocolade can en 1 cop: confoortje",balance,11,,1.12,-99,1,0,0,0
+MOOC10/15.6/135,MOOC10/15.6,17851107/17851108, ,"1 capbijl, 1 houte balans+sch",balance,15,,1.12,-99,1,0,0,0
+MOOC10/16.47/10,MOOC10/16.47,17931004/17931005/17931007, ,1 slagtbank en 2 ijsere balans+sch,balance,16,,1.12,-99,1,0,0,0
+MOOC10/17.16/11,MOOC10/17.16,17940118, ,"1 houte balans+sch, 2 ijsere potten, 2 cofijmoolens en 1 partij leed: bottels en flesschen",balance,17,,1.12,-99,1,0,0,0
+MOOC10/2.8/28,MOOC10/2.8,17181116,1 schaal+bal,1 schaal+bal en een ijsere koevoet,balance,2,1,1.12,1.12,1,0,0,0
+MOOC10/22.14/9,MOOC10/22.14,18060529,1 kopere schaal,1 kopere schaal,balance,22,1,1.12,1.12,0,0,0,0
+MOOC10/24.35/9,MOOC10/24.35,18100723/18100724,1 houte schaal,"2 zabels, 1 patroon tas, 1 houte schaal en 1 blikke schop",balance,24,1,1.12,1.12,1,0,0,0
+MOOC10/5.52/340,MOOC10/5.52,17450913,2 copere schaalen,1 silvere belansje met 2 copere schaalen,balance,5,2,2.12,1.06,1,0,0,0
+MOOC10/11.12/460,MOOC10/11.12,17740829/17740830,2 schaal+bal,"1 cop: ketel, 2 schaal+bal en 1 strijkijzer",balance,11,2,2.12,1.06,1,0,0,0
+MOOC10/13.16/4,MOOC10/13.16,17810516,1 veerskalf,1 bul en 1 veerskalf,balance,13,1,2.12,2.12,1,0,0,0
+MOOC10/2.30/133,MOOC10/2.30,17211013,1 chinese schaale,1 chinese schaale met gewicht,balance,2,1,2.12,2.12,1,0,0,0
+MOOC10/20.51/77,MOOC10/20.51,18041203/18041204, ,"1 balans+sch, 1 olij en azijn standart etc:a",balance,20,,2.12,-99,1,0,0,0
+MOOC10/22.51/4,MOOC10/22.51,18070625/18070627, ,1 balans+sch en 1 haspel,balance,22,,2.12,-99,1,0,0,0
+MOOC10/9.15/45,MOOC10/9.15,17640717/17640720,1 cop:e schaal,2 oude ijsere potten en 1 cop:e schaal,balance,9,1,2.12,2.12,1,0,0,0
+MOOC10/4.139/5,MOOC10/4.139,17350610,1 schaal+bal,"1 pottebank, 1 schaal+bal",balance,4,1,3.12,3.12,1,0,0,0
+MOOC10/5.46/270,MOOC10/5.46,17440720,2 copere schalen,2 copere schalen,balance,5,2,3.12,1.56,0,0,0,0
+MOOC10/6.31/44,MOOC10/6.31,17520509,2 coper schaalen,2 coper schaalen en 1 coper rasp,balance,6,2,3.12,1.56,1,0,0,0
+MOOC10/7.19/183,MOOC10/7.19,17541030, ,1 balans+sch+gewigt en 1 tent zeijl,balance,7,,3.12,-99,1,0,0,0
+MOOC10/9.25_1/2/112,MOOC10/9.25_1/2,17671026, ,1 ijsere balans+sch+gewigt en romm: en 1 ijsere balans+sch,balance,9,,3.12,-99,1,0,0,0
+MOOC10/11.41/701,MOOC10/11.41,17741219/17741222, ,2 balans+sch en 2 tregters,balance,11,,4.12,-99,1,0,0,0
+MOOC10/3.54/213,MOOC10/3.54,17220720,2 schal+gewigt,2 schal+gewigt en 1 dito craan,balance,3,2,6.12,3.06,1,0,0,0
+MOOC10/16.53/97,MOOC10/16.53,17910718, ,1 balans+sch en 1 roerpen,balance,16,,6.12,-99,1,0,0,0
+MOOC10/15.48/141,MOOC10/15.48,17860315/17860316,1 schaal +gewigt,1 schaal +gewigt,balance,15,1,10.12,10.12,0,0,0,0
+MOOC10/16.46/108,MOOC10/16.46,17890714/17890715, ,"1 balans+sch, 11 lb: gew:",balance,16,,14.12,-99,1,0,0,0
+MOOC10/5.43/3,MOOC10/5.43,17440808,1 belans+gewigt,1 belans+gewigt,balance,5,1,0.15,0.15,0,0,0,0
+MOOC10/5.60/111,MOOC10/5.60,17411005, ,2 balans+sch en 1 pijperak,balance,5,,0.15,-99,1,0,0,0
+MOOC10/10.6/78,MOOC10/10.6,17700319,1 schaal,1 tafel en 1 schaal,balance,10,1,0.15,0.15,1,0,0,0
+MOOC10/10.81/852,MOOC10/10.81,17730308/17730311,1 goud schaaltje +gewigt,1 goud schaaltje +gewigt,balance,10,1,0.15,0.15,0,0,1,0
+MOOC10/12.29/110,MOOC10/12.29,17790526,2 copere schaal+bal,"2 copere schaal+bal, 1 doos met ouwelen en wat vals goud",balance,12,2,0.15,0.07,1,0,0,0
+MOOC10/16.24/78,MOOC10/16.24,17900324, ,1 balans+sch en 1 kapmes,balance,16,,0.15,-99,1,0,0,0
+MOOC10/7.9/36,MOOC10/7.9,17560323,1 ijsere schaal,1 cens en 1 ijsere schaal,balance,7,1,0.15,0.15,1,0,0,0
+MOOC10/7.14_1/2/177,MOOC10/7.14_1/2,17560825,2 coop:r schaalen,"1 coop:r beeker, 2 coop:r schaalen",balance,7,2,0.15,0.07,1,0,0,0
+MOOC10/7.49/118,MOOC10/7.49,17570228, ,1 houte balans+sch en rommeling,balance,7,,0.15,-99,1,0,0,0
+MOOC10/8.13/11,MOOC10/8.13,17581201, ,1 balans+sch en 1 casje met wat boonen,balance,8,,0.15,-99,1,0,0,0
+MOOC10/9.62/56,MOOC10/9.62,17681123,2 cop:e schaaltjes,"1 cop:e vuurtesje, 2 cop:e schaaltjes en 1 strijkijser",balance,9,2,0.15,0.07,1,0,0,0
+MOOC10/5.52/289,MOOC10/5.52,17450913,1 belans +gewigt,1 belans +gewigt,balance,5,1,1.15,1.15,0,0,0,0
+MOOC10/13.8/252,MOOC10/13.8,17800619/17800620,2 glaaze fruitschaale,2 glaaze fruitschaale met haar deksels,balance,13,2,1.15,0.57,1,0,0,0
+MOOC10/13.42/126,MOOC10/13.42,17820415,2 cop: schaal+bal+gewigt,2 cop: schaal+bal+gewigt en romm:g,balance,13,2,1.15,0.57,1,0,0,0
+MOOC10/20.6_1/2/398,MOOC10/20.6_1/2,18030620/18030621, ,"1 ijzere balans+sch, kleijnder",balance,20,,1.15,-99,1,0,0,0
+MOOC10/26.11/52,MOOC10/26.11,18120914,1 goud schaaltje,1 doos met een goud schaaltje,balance,26,1,1.15,1.15,1,0,1,0
+MOOC10/6.59/139,MOOC10/6.59,17541216,1 paar houte schaalen,1 doosje met wat rommel:g en 1 paar houte schaalen,balance,6,1,1.15,1.15,1,0,0,0
+MOOC10/9.2/62,MOOC10/9.2,17640712/17640713, ,"1 cop:e tabaks doos, 1 cop:e tregter, 1 ijsere balans+sch",balance,9,,1.15,-99,1,0,0,0
+MOOC10/9.56/28,MOOC10/9.56,17690717, ,"1 baletje, 1 houte balans+sch, 1 hakkebord en 2 kapmessen",balance,9,,1.15,-99,1,0,0,0
+MOOC10/10.45/29,MOOC10/10.45,17711230,1 schaaltje,1 kisje met coper beslag en 1 schaaltje,balance,10,1,2.15,2.15,1,0,0,0
+MOOC10/11.28/299,MOOC10/11.28,17750328/17750329,2 cop: schaaltjes,"1 cop: vergiettest, 2 cop: schaaltjes, 1 cop: vuurtest, 1 cop: ketel en 1 souspotje",balance,11,2,2.15,1.07,1,0,0,0
+MOOC10/13.63/129,MOOC10/13.63,17821017,1 houte weegschaal,1 houte weegschaal,balance,13,1,2.15,2.15,0,0,0,0
+MOOC10/2.27/64,MOOC10/2.27,17210125,1 pr: kopere schalen,1 pr: kopere schalen,balance,2,1,2.15,2.15,0,0,0,0
+MOOC10/5.46/158,MOOC10/5.46,17440720,2 coper schalen,1 ysere belans met 2 coper schalen,balance,5,2,3.15,1.57,1,0,0,0
+MOOC10/12.39/8,MOOC10/12.39,17780810/17780811, ,"1 ijser balans+sch, 1 bak en wat romm:g",balance,12,,3.15,-99,1,0,0,0
+MOOC10/24.35/122,MOOC10/24.35,18100723/18100724,2 kopere schalen,2 kopere schalen,balance,24,2,3.15,1.57,0,0,0,0
+MOOC10/26.13/29,MOOC10/26.13,18100928, schaal,1 gewigt en schaal,balance,26,,3.15,-99,1,0,0,0
+MOOC10/9.17/204,MOOC10/9.17,17550925,1 zilv:r vergult wijn schaaltje,1 zilv:r vergult wijn schaaltje,balance,9,1,4.15,4.15,0,0,0,0
+MOOC10/3.68/195,MOOC10/3.68,17261115,1 silvere schaal,1 silvere schaal met sijn voet weegen 12 1/4 loot,balance,3,1,5.15,5.15,1,0,0,0
+MOOC10/5.22/401,MOOC10/5.22,17380428,2 kopere groote schalen,1 koper beslag tot 1 kist en 2 kopere groote schalen,balance,5,2,6.15,3.08,1,0,0,0
+MOOC10/6.20/273,MOOC10/6.20,17491021/17491022, houte schaalen,1 grote ijser belans met houte schaalen,balance,6,,8.15,-99,1,0,0,0
+MOOC10/12.38/390,MOOC10/12.38,17790816/17790817,2 coper schalen,"2 coper schalen met haar coper kettings, ijzer balans +gewigt",balance,12,2,9.15,4.58,1,0,0,0
+MOOC10/13.24/54,MOOC10/13.24,17810724,3 veerscalfen,"1 bul, 1 koeij en 3 veerscalfen",balance,13,3,13.15,4.38,1,0,0,0
+MOOC10/19.45/207,MOOC10/19.45,18020712, schalen,"1 balans met 2 houte, schalen en zijn bak",balance,19,,41.15,-99,1,0,0,0
+MOOC10/3.59/88,MOOC10/3.59,17260425,1 houte schaal +gewigt,1 houte schaal +gewigt,balance,3,1,0.19,0.19,0,0,0,0
+MOOC10/3.66/34,MOOC10/3.66,17240602,1 houte schaal+bal,1 houte schaal+bal en 1 schilderijtje,balance,3,1,0.19,0.19,1,0,0,0
+MOOC10/3.68/37,MOOC10/3.68,17261115,2 kopere schalen,2 kopere schalen,balance,3,2,0.19,0.1,0,0,0,0
+MOOC10/10.77/90,MOOC10/10.77,17730302, ,1 houte balans+sch en wat romm:g,balance,10,,0.19,-99,1,0,0,0
+MOOC10/13.53/32,MOOC10/13.53,17821003/17821004, ,"1 veldstoel, 1 castje, 1 ijzere balans+sch, 1 bos rottings en wat romm:",balance,13,,0.19,-99,1,0,0,0
+MOOC10/14.22/15,MOOC10/14.22,17831110,4 houte schalen,4 houte schalen en enige houte blokjes,balance,14,4,0.19,0.05,1,0,0,0
+MOOC10/17.38/415,MOOC10/17.38,17951110/17951111,2 cop: schaaltjes,2 cop: schaaltjes en 1 commetje,balance,17,2,0.19,0.1,1,0,0,0
+MOOC10/21.13/17,MOOC10/21.13,18060203,1 schaal,"1 schaal, kleinder",balance,21,1,0.19,0.19,1,0,0,0
+MOOC10/21.44/65,MOOC10/21.44,18050827,1 goud schaal,1 goud schaal en 1 zuijker tang,balance,21,1,0.19,0.19,1,0,1,0
+MOOC10/6.7/111,MOOC10/6.7,17520602,4 coper schaalen,4 coper schaalen,balance,6,4,0.19,0.05,0,0,0,0
+MOOC10/7.27/191,MOOC10/7.27,17551024, ,1 kl: balans+sch en 1 coop:r crans,balance,7,,0.19,-99,1,0,0,0
+MOOC10/7.48/127,MOOC10/7.48,17560319,3 schaalen,"1 cop: lamp, 1 rasp, 1 schuijmspaen en 3 schaalen",balance,7,3,0.19,0.06,1,0,0,0
+MOOC10/5.47/25,MOOC10/5.47,17440807,4 coopere schalen+gewigt,2 coopere belansen met 4 coopere schalen+gewigt,balance,5,4,1.19,0.3,1,0,0,0
+MOOC10/11.58/163,MOOC10/11.58,17750227/17750228,2 copere schalen,2 copere schalen en 1 partij boeken,balance,11,2,1.19,0.59,1,0,0,0
+MOOC10/15.27/63,MOOC10/15.27,17870126,2 schalen,"2 schalen, 1 cop: handquispedoortje",balance,15,2,1.19,0.59,1,0,0,0
+MOOC10/17.25/60,MOOC10/17.25,17951030/17951031,1 goud schaaltje,1 fauderaal met 1 goud schaaltje,balance,17,1,1.19,1.19,1,0,1,0
+MOOC10/22.73/23,MOOC10/22.73,18071115,1 schaal,"1 schaal, 1 hamer, 1 knijptang",balance,22,1,1.19,1.19,1,0,0,0
+MOOC10/5.13/71,MOOC10/5.13,17380714, ,1 ijsere balans+sch en 1 dito quispedoortje,balance,5,,2.19,-99,1,0,0,0
+MOOC10/11.20/32,MOOC10/11.20,17740413, ,1 balans+sch en wat rommeling,balance,11,,2.19,-99,1,0,0,0
+MOOC10/15.32/68,MOOC10/15.32,17870615/17870616,2 cop: schalen,2 cop: schalen,balance,15,2,2.19,1.09,0,0,0,0
+MOOC10/24.2/89,MOOC10/24.2,18090112/18090113,1 goudschaal,"1 kop instrument, 2 snippers en 1 goudschaal",balance,24,1,2.19,2.19,1,0,1,0
+MOOC10/6.50/408,MOOC10/6.50,17520523/17520527,2 coper schaalen,2 coper schaalen en 2 coper beekers,balance,6,2,2.19,1.09,1,0,0,0
+MOOC10/8.51/120,MOOC10/8.51,17631210,1 cop:e schaaltje +gewigt,1 cop:e schaaltje +gewigt,balance,8,1,2.19,2.19,0,0,0,0
+MOOC10/10.81/454,MOOC10/10.81,17730308/17730311,1 chin:e cop:e schaal +gewigt in een doosje,1 chin:e cop:e schaal +gewigt in een doosje,balance,10,1,3.19,3.19,0,0,0,0
+MOOC10/10.86/284,MOOC10/10.86,17721026/17721027, ,1 opslag tafel en 1 balans+sch,balance,10,,3.19,-99,1,0,0,0
+MOOC10/15.22/46,MOOC10/15.22,17861228/17861230,1 cop: schaal +gewigt,1 cop: schaal +gewigt en 1 goud schaaldje,balance,15,1,3.19,3.19,1,0,0,0
+MOOC10/8.39/61,MOOC10/8.39,17630303, ,1 klijne balans+sch+gewigt en wat romm:,balance,8,,3.19,-99,1,0,0,0
+MOOC10/8.20/68,MOOC10/8.20,17551015,2 coop:r schaalen,"2 coop:r schaalen, 2 coop:r craane en 1 bottel greep",balance,8,2,4.19,2.1,1,0,0,0
+MOOC10/13.28/396,MOOC10/13.28,17810716/17810717, ,1 ijzere balans+sch+gewigt en 1 ijzere muurhaak,balance,13,,6.19,-99,1,0,0,0
+MOOC10/6.52/635,MOOC10/6.52,"17540522, 17540524/17540525",2 houte3 schalen,1 gr: balans en 2 houte3 schalen,balance,6,2,6.19,3.1,1,0,0,0
+MOOC10/5.46/157,MOOC10/5.46,17440720,2 coper schalen,1 ysere belans met 2 coper schalen,balance,5,2,8.19,4.09,1,0,0,0
+MOOC10/3.70/31,MOOC10/3.70,17270628,2 kopere schaal+bal,"2 kopere schaal+bal, 1 tinne tregter en 1 kopere staart pannetje",balance,3,2,0.23,0.12,1,0,0,0
+MOOC10/3.82/5,MOOC10/3.82,17290520, ,1 ijsere en 1 houte balans+sch,balance,3,,0.23,-99,1,0,0,0
+MOOC10/5.75/151,MOOC10/5.75,17470220,1 yser belans +gewigt,1 yser belans +gewigt,balance,5,1,0.23,0.23,0,0,0,0
+MOOC10/10.22/2101,MOOC10/10.22,17690123/17690130,1 cop:e schaal,1 cop:e schaal met wat pruijmen,balance,10,1,0.23,0.23,1,0,0,0
+MOOC10/10.22/2125,MOOC10/10.22,17690123/17690130,4 cop:e schaaltjes,4 cop:e schaaltjes,balance,10,4,0.23,0.06,0,0,0,0
+MOOC10/12.43/33,MOOC10/12.43,17791116, ,"1 ijzere balans+sch, 1 blicke bus +gewigt",balance,12,,0.23,-99,1,0,0,0
+MOOC10/15.79/12,MOOC10/15.79,17890203,2 houte schaal+bal,2 houte schaal+bal en 1 lantaeren,balance,15,2,0.23,0.12,1,0,0,0
+MOOC10/15.84/10,MOOC10/15.84,17890513/17890514,2 houte weegschalen,2 houte weegschalen,balance,15,2,0.23,0.12,0,0,0,0
+MOOC10/7.33/19,MOOC10/7.33,17561012, ,1 houte balans+sch en wat romm:g,balance,7,,0.23,-99,1,0,0,0
+MOOC10/3.96/46,MOOC10/3.96,17310905,2 zilvere schaaltjes,2 zilvere schaaltjes en 2 eau de la reine flesjes,balance,3,2,1.23,0.61,1,0,0,0
+MOOC10/10.21/171,MOOC10/10.21,17690109/17690110,2 houte schal+gewigt,2 houte schal+gewigt,balance,10,2,1.23,0.61,0,0,0,0
+MOOC10/14.63/134,MOOC10/14.63,17850506/17850507,2 cop: schalen,"1 cop: rasp, 1 cop: schuijmspan en 2 cop: schalen",balance,14,2,1.23,0.61,1,0,0,0
+MOOC10/6.41/406,MOOC10/6.41,"17520323/17520325, 17520327", ,1 balans+sch en ½ lb: gewigt,balance,6,,1.23,-99,1,0,0,0
+MOOC10/3.59/68,MOOC10/3.59,17260425,1 p:r kopere schaletjes,"1 hakmes, 1 sift, 1 lamp, 1 drommeltje en 1 p:r kopere schaletjes",balance,3,1,2.23,2.23,1,0,0,0
+MOOC10/3.96/41,MOOC10/3.96,17310905,1 zilver schaaltje,1 zilver schaaltje en 1 zilver vork met 1 zilver naaldekoker,balance,3,1,2.23,2.23,1,0,0,0
+MOOC10/5.52/339,MOOC10/5.52,17450913,2 copere schaalen,1 silvere belansje met 2 copere schaalen,balance,5,2,2.23,1.11,1,0,0,0
+MOOC10/11.28/121,MOOC10/11.28,17750328/17750329, ,"1 kistje met 2 busjes thee, 1 partij romm:g +gewigt",balance,11,,2.23,-99,1,0,0,0
+MOOC10/13.17/35,MOOC10/13.17,17810522,2 blicke schaalen,2 blicke schaalen,balance,13,2,2.23,1.11,0,0,0,0
+MOOC10/8.47/197,MOOC10/8.47,17611029,1 silvere schaaltje,1 silvere schaaltje,balance,8,1,2.23,2.23,0,0,0,0
+MOOC10/11.38/41,MOOC10/11.38,17760910, ,"2 kelders, 1 houte balans+sch",balance,11,,3.23,-99,1,0,0,0
+MOOC10/3.73/120,MOOC10/3.73,17270709,1 silvere wijn schaal,1 silvere wijn schaal,balance,3,1,7.23,7.23,0,0,0,0
+MOOC10/15.92/111,MOOC10/15.92,17890929, ,1 ijser balans+sch en 4 lb: cop: gew:t,balance,15,,10.23,-99,1,0,0,0
+MOOC10/15.105/258,MOOC10/15.105,No date, e+gewigt,e+gewigt,balance,15,,12.23,-99,0,0,0,0
+MOOC10/3.68/34,MOOC10/3.68,17261115,2 kopere schalen,2 kopere schalen,balance,3,2,0.27,0.14,0,0,0,0
+MOOC10/3.92/22,MOOC10/3.92,17300909,1 schaaltje,"2 tinne zoutvatjes, 1 tinne peperdoos en 1 schaaltje",balance,3,1,0.27,0.27,1,0,0,0
+MOOC10/5.46/161,MOOC10/5.46,17440720,4 copere schalen,4 copere schalen met 1 houte belans,balance,5,4,0.27,0.07,1,0,0,0
+MOOC10/11.58/165,MOOC10/11.58,17750227/17750228, ,2 guerridons en 1 balans+sch,balance,11,,0.27,-99,1,0,0,0
+MOOC10/13.22/99,MOOC10/13.22,17810420,1 houte schaal,"1 leuijerbak, 1 lepelrak en 1 houte schaal",balance,13,1,0.27,0.27,1,0,0,0
+MOOC10/2.27/62,MOOC10/2.27,17210125,1 pr: kopere schalen,1 pr: kopere schalen,balance,2,1,0.27,0.27,0,0,0,0
+MOOC10/2.27/63,MOOC10/2.27,17210125,1 pr: kopere schalen,1 pr: kopere schalen,balance,2,1,0.27,0.27,0,0,0,0
+MOOC10/22.80/1,MOOC10/22.80,18080416, ,1 ijzere balans+sch en romm:,balance,22,,0.27,-99,1,0,0,0
+MOOC10/6.20/45,MOOC10/6.20,17491021/17491022,2 coper schaalen,2 coper schaalen,balance,6,2,0.27,0.14,0,0,0,0
+MOOC10/7.14_1/2/197,MOOC10/7.14_1/2,17560825, ,"1 tang, 1 vleesvork,1 balans+sch en wat romm:g",balance,7,,0.27,-99,1,0,0,0
+MOOC10/4.118/21,MOOC10/4.118,17330328,2 houte schal+gewigt,2 houte schal+gewigt,balance,4,2,1.27,0.64,0,0,0,0
+MOOC10/10.2/761,MOOC10/10.2,17680411/17680414,1 cop:e schaaltje +gewigt,1 cop:e schaaltje +gewigt,balance,10,1,1.27,1.27,0,0,0,0
+MOOC10/17.13/26,MOOC10/17.13,17940605/17940606, ,1 ijzere balans+sch en 1 houte waterspuijt,balance,17,,1.27,-99,1,0,0,0
+MOOC10/21.13/16,MOOC10/21.13,18060203,1 schaal,"1 schaal, kleinder",balance,21,1,1.27,1.27,1,0,0,0
+MOOC10/22.14/35,MOOC10/22.14,18060529, ,1 balans+sch en wat romm:,balance,22,,2.27,-99,1,0,0,0
+MOOC10/18.64/67,MOOC10/18.64,17990816/17990817, ,1 balans+sch en 1 boter vat,balance,18,,3.27,-99,1,0,0,0
+MOOC10/3.67/117,MOOC10/3.67,17240531, ,1 ijsere balans+sch+gewigt en 1 copere inktkoker,balance,3,,4.27,-99,1,0,0,0
+MOOC10/10.39/53,MOOC10/10.39,17710605, zijn cop:e schaalen,1 chinaas gewigt met zijn cop:e schaalen,balance,10,,5.27,-99,1,0,0,0
+MOOC10/5.20/491,MOOC10/5.20,17380324, ,"1 ijsere balans+sch +gewigt, 5 kopere snuijters met 1 kopere rasp",balance,5,,6.27,-99,1,0,0,0
+MOOC10/6.11/331,MOOC10/6.11,17500924/17500925, ,1 grote ijserbalans+sch en 1 vleeskroon,balance,6,,9.27,-99,1,0,0,0
+MOOC10/5.67/134,MOOC10/5.67,17451025,2 houte schaalen,1 grote ijser belans met 2 houte schaalen,balance,5,2,19.27,9.63,1,0,0,0
+MOOC10/15.9/74,MOOC10/15.9,17851209/17851210, ,1 ijzere balans+sch en desselfs stander,balance,15,,29.27,-99,1,0,0,0
+MOOC10/3.54/213,MOOC10/3.54,17220720, ,2 schal+gewigt en 1 dito craan,balance,3,,6.12,-99,1,0,0,0

@@ -50,10 +50,8 @@ titledmen_locator <- function(titled_men, vector_input) {
 title_counter <- function(purchases) {
         purchases_titles <- purchases %>%
             group_by(mooc_id) %>%
-            mutate(women_tot=sum(women, na.rm=TRUE),
-                   men_total=sum(men, na.rm=TRUE)) %>%
-            select(mooc_id, women_tot, men_total) %>%
-            distinct(mooc_id, .keep_all=TRUE)
+            summarise(women_tot=sum(women, na.rm=TRUE),
+                   men_total=sum(men, na.rm=TRUE))
 
     return(purchases_titles)
 }
