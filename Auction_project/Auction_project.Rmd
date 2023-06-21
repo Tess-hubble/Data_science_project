@@ -1,20 +1,37 @@
 ---
+title: "Predicting Auction Values"
+author: "Tessa Hubble"
+date: "June 2023"
+# date: "`r Sys.Date()`"
+bibliography: Tex/ref.bib       # Do not edit: Keep this naming convention and location.
 output:
-  md_document:
-    variant: markdown_github
+  pagedown::html_paged:
+    # template: wp_paged.html
+    # css: ['wp.css', 'wp-fonts.css', 'wp-page.css']
+    css: ["Template/default-fonts-Texevier.css", "Template/default-page-Texevier.css", "Template/default-Texevier.css"]
+    csl: Template/harvard-stellenbosch-university.csl # referencing format used.
+    template: ["Template/paged-Texevier.html"]
+
+    toc: true
+    # change to true for a self-contained document, but it'll be a litte slower for Pandoc to render
+    self_contained: TRUE
+abstract: |
+    Predicting total auction values from a Cape Colony auction dataset between 1720 and 1820. 
+
 ---
 
-# Purpose
+```{r setup, include=FALSE}
 
-Proposed layout: EDA (univariate, bivariate analysis), model (compare hard to interpret results against bivariate)
-
-```{r}
 
 library(tidyverse)
 library(randomForest)
 library(caret)
 library(tidyr)
+library(gridExtra)
 
+source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\data_loading.R")
+source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\column_mutations.R")
+source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\title_finders.R")
 
 # loading and merging data
 
@@ -30,10 +47,9 @@ merged_df <- merger(final_df, auctions) %>%
        
     
 # summing the number of items within a good type per auction 
-goods <- c("books", "art_products", "balance", "beds", "cattle", "chairs", "china", "clocks", 
-           "coatrack", "cups", "guns", "hammers", "horse_cart", "horses", "irons", "jewlery", 
-           "lamps", "oven", "plates", "pot", "plough", "sheep", "slaves", "tables", 
-                                                     "utensils", "wagons")
+goods <-  c("books", "art_products", "balance", "beds", "cattle", "chairs", "china", "clocks", 
+            "coatrack", "cups", "guns", "hammers", "horse_cart", "horses", "irons", "jewlery", "lamps", 
+            "oven", "plates", "pot", "plough", "sheep", "slaves", "tables", "utensils", "wagons")
 goods_id_str <- paste0("total_", goods)
 
 total_number_good_auction <-  good_counter(goods = c("books", "art_products", "balance", 
@@ -96,16 +112,15 @@ model_df <- model_df %>%
 
 ```
 
-# descriptives
-```{r}
+\newpage
 
-Mean_auction_total <- mean(model_df$auction_tot)
-sd_auction_total <- sd(model_df$auction_tot)
+# Introduction {-}
 
-summary(model_df)
+# Exploratory Data Analsysis 
 
-
-# trying out plots 
+```{r Figure1, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
+source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\ggplots.R")
+#trying out plots 
 trial_plots <- model_df %>% 
   filter(year >= 1720) %>% 
   mutate(time_period = ifelse(year > 1720 & year < 1730, "1720-1730", 
@@ -126,17 +141,15 @@ custom_breaks <- c(1720, 1740, 1760, 1780, 1800, 1820)
 custom_labels <- c("1720", "1740", "1760", "1780", "1800", "1820")
 trial_plots$year <- as.numeric(trial_plots$year)
 
-total_auction <- ggplot(trial_plots, aes(x = year, y = auction_tot)) +
-  geom_point() +
-  labs(title = "Total auction value over time",
-       x = "Year", y = "Auction total (Rix-dollars)") +
-  scale_x_continuous(breaks = custom_breaks, labels = custom_labels) +
-  theme_minimal() +
-  theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"),
-        axis.title.y = element_text(margin = margin(r = 10)),
-        axis.title.x = element_text(margin = margin(t = 10)),
-        axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
-        plot.margin = margin(15, 10, 15, 10))
+total_auction <- timeline_plot(trial_plots)
+
+
+total_auction
+
+```
+
+
+```{r Figure2, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
 
 # plotting all goods
 household_items <- c("beds", "chairs", "china", "clocks", "coatrack", "cups", "irons", "lamps", "tables", "balance")
@@ -175,10 +188,14 @@ household_goods <- ggplot(all_goods_household, aes(x=time_period, y=value, fill=
        fill = "Household goods") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"),
-        axis.title.y = element_text(margin = margin(r = 10)),
-        axis.title.x = element_text(margin = margin(t = 10)),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
+household_goods
 
+
+```
+
+
+```{r Figure3, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
 # kitchen items 
 
 all_goods_kitchen <- trial_plots %>% 
@@ -199,11 +216,13 @@ kitchen_goods <- ggplot(all_goods_kitchen, aes(x=time_period, y=value, fill= kit
        fill = "Kitchen goods") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"),
-        axis.title.y = element_text(margin = margin(r = 10)),
-        axis.title.x = element_text(margin = margin(t = 10)),
-        axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
-        plot.margin = margin(15, 10, 15, 10))
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
+kitchen_goods
 
+
+```
+
+```{r Figure4, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
 # farming items
 
 all_goods_farm <- trial_plots %>% 
@@ -228,11 +247,14 @@ farming_goods <- ggplot(all_goods_farm, aes(x=time_period, y=value, fill= farmin
        fill = "Farming goods") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"),
-        axis.title.y = element_text(margin = margin(r = 10)),
-        axis.title.x = element_text(margin = margin(t = 10)),
-        axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
-        plot.margin = margin(15, 10, 15, 10))
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
+farming_goods
 
+
+
+```
+
+```{r Figure5, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
 # select items
 
 all_goods_select <- trial_plots %>% 
@@ -252,11 +274,13 @@ select_goods <- ggplot(all_goods_select, aes(x=time_period, y=value, fill= selec
        fill = "Select goods") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"),
-        axis.title.y = element_text(margin = margin(r = 10)),
-        axis.title.x = element_text(margin = margin(t = 10)),
-        axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
-        plot.margin = margin(15, 10, 15, 10))
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
 
+select_goods
+```
+
+
+```{r Figure6, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
  
 # focus on 5 most common goods and how bundle changes over time 
 
@@ -278,12 +302,15 @@ big_five_boxplots <- ggplot(big_five_df, aes(x = time_period, y = value, fill = 
        fill = "Good type") +
   scale_fill_manual(values = c("#FFB400", "#C20008", "#A6BDDB", "#00B33C", "#FF6600")) +
   theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
-        axis.title.y = element_text(margin = margin(r = 10)),
-        axis.title.x = element_text(margin = margin(t = 10)),
-        axis.text.x = element_blank(),
-        plot.margin = margin(15, 10, 15, 10))
+        axis.text.x = element_blank())
+
+big_five_boxplots
+
+    
+```
 
 
+```{r Figure7, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
 # attendance
 
 library("remotes")
@@ -318,138 +345,41 @@ attendance_plot <- ggplot(attendance_df, aes(x = time_period, y = number, fill =
        fill = "Titled") +
   scale_fill_manual(values = c("#00B33C", "#13AFEF")) +
   theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
-        axis.title.y = element_text(margin = margin(r = 10)),
-        axis.title.x = element_text(margin = margin(t = 10)),
-        axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
-        plot.margin = margin(15, 10, 15, 10))
-    
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
+
+attendance_plot
+```
+
+```{r Figure8, warning=FALSE, message=FALSE, results='hide', echo=FALSE, fig.width=11, fig.height=5}
 # bivariate analysis 
 
-library(gridEtxra)
-auction_size <- scatter_plotter(trial_plots$auction_size, "Plotting auction total values against auction sizes","Auction size (number of goods on auction)")
-cattle <- scatter_plotter(trial_plots$total_cattle, "Plotting auction total values against number\n of cattle purchased at an auction","Total number of cattle purhased per auction")
-slaves <- scatter_plotter(trial_plots$total_slaves, "Plotting auction total values against number\n of slaves purchased at an auction","Total number of slaves purhased per auction")
-sheep <- scatter_plotter(trial_plots$total_sheep, "Plotting auction total values against number\n of sheep purchased at an auction","Total number of sheep purhased per auction")
-horses <- scatter_plotter(trial_plots$total_horses, "Plotting auction total values against number\n of cattle purchased at an auction","Total number of cattle purhased per auction")
-men <- scatter_plotter(trial_plots$men_total, "Plotting auction total values against number\n of titled men attending an auction","Total number of titled men per auction")
+source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\ggplots.R")
+
+auction_size <- scatter_plotter(trial_plots$auction_size, "Auction values vs auction size","Auction size (number\n of goods on auction)")
+cattle <- scatter_plotter(trial_plots$total_cattle, "Auction values vs cattle purchases","Total number of cattle\n purhased per auction")
+slaves <- scatter_plotter(trial_plots$total_slaves, "Auction values vs slave purchases","Total number of slaves\n purhased per auction")
+sheep <- scatter_plotter(trial_plots$total_sheep, "Auction values vs sheep purchases","Total number of sheep\n purhased per auction")
+horses <- scatter_plotter(trial_plots$total_horses, "Auction values vs sheep purchases","Total number of horses\n purhased per auction")
+men <- scatter_plotter(trial_plots$men_total, "Auction values vs attendance","Total number of titled\n men per auction")
 
 bivariat_plot <- grid.arrange(auction_size, cattle, slaves, sheep, horses, men, ncol = 3, nrow = 2)
 
+bivariat_plot
 
 ```
 
 
-# splitting into testing and training
-```{r}
-# testing and training 
-model_df <- model_df %>% ungroup() %>% 
-    dplyr::select(-year, -mooc_id)
+# Data  {-}
 
-set.seed(123)
-indices <- sample(nrow(merged_df))
-train_size <- floor(0.6 * nrow(merged_df))
-training_data <- merged_df[indices[1:train_size], ]
-testing_data <- merged_df[indices[(train_size + 1):nrow(merged_df)], ]
+
+```{r }
+
+  # This is just a random plot to show you a plot. This is done if the getwd() does not point to your Template's directory.
+  # Set WD below to your project's working directory.
+
+  
 
 ```
 
-# knn method
-```{r}
 
-sampling_strat <- caret::trainControl(
-    method="repeatedcv", 
-    number=10, 
-    repeats=5
-)
-
-hyper_grid <- expand.grid(k = seq(2, 25, by = 1))
-
-knn_fit <- train(
-  auction_tot ~ ., 
-  data = training_data, 
-  method = "knn", 
-  trControl = sampling_strat, 
-  tuneGrid = hyper_grid,
-  metric = "RMSE"
-)
-    
-ggplot(knn_fit)
-# k = 2 has the lowest RMSE
-# RMSE is 1776
-
-library(caret)
-
-# Train the KNN model with the chosen k value
-k <- 2
-knn_model <- train(
-  auction_tot ~ .,
-  data = training_data,
-  method = "knn",
-  trControl = sampling_strat,
-  tuneGrid = data.frame(k = k),
-  metric = "accuracy"
-)
-knn_model # RMSE is 2471
-
-# Make predictions on the testing data
-predictions <- predict(knn_model, newdata = testing_data)
-
-
-
-```
-
-# random forest
-```{r}
-library(ranger)
-
-dim(merged_df)
-n_features <- length(setdiff(names(training_data), "auction_tot"))
-
-# train a default random forest model
-training_rf <- ranger(
-  auction_tot ~ ., 
-  data = training_data,
-  mtry = floor(n_features / 3),
-  respect.unordered.factors = "order",
-  importance= "permutation",
-  seed = 123
-)
-training_rf
-default_rmse <- sqrt(training_rf$prediction.error) # RMSE: 759
-rf_importance <- ranger::importance(training_rf)
-sort(rf_importance, decreasing = TRUE)
-
-# lowering RMSE
-
-# parameter grid
-parameter_grid <- expand.grid(
-  mtry = c(floor(n_features / 3)),
-  num.trees = c(50, 100, 200),
-  min.node.size = c(1, 5, 10)
-)
-
-results <- lapply(1:nrow(parameter_grid), function(i) {
-  model <- ranger(
-    auction_tot ~ .,
-    data = training_data,
-    num.trees = parameter_grid$num.trees[i],
-    mtry = parameter_grid$mtry[i],
-    min.node.size = parameter_grid$min.node.size[i],
-    respect.unordered.factors = "order",
-    importance = "permutation",
-    seed = 123
-  )
-  predictions <- predict(model, data = testing_data)$predictions
-  rmse <- sqrt(mean((predictions - testing_data$auction_tot)^2))
-  list(model = model, rmse = rmse)
-})
-
-best_model_index <- which.min(sapply(results, function(x) x$rmse))
-best_model <- results[[best_model_index]]$model
-
-predictions <- predict(best_model, data = testing_data)$predictions
-rmse_rf <- sqrt(mean((predictions - testing_data$auction_tot)^2)) # RMSE:584
-
-
-```
 
