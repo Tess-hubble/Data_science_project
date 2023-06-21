@@ -11,7 +11,7 @@ Proposed layout: EDA (univariate, bivariate analysis), model (compare hard to in
 ```{r}
 
 library(tidyverse)
-library(randomForest)
+library(ranger)
 library(caret)
 library(tidyr)
 
@@ -93,10 +93,16 @@ model_df <- model_df %>%
     filter(auction_tot>0) %>% 
     filter(auction_tot!=-Inf)
 
-
+# table for machine learning models
+ml_df <- model_df %>% 
+    ungroup() %>% 
+    dplyr::select(-year, -mooc_id) %>% 
+    na.omit()
+ml_df$auction_size <- as.numeric(ml_df$auction_size)
 ```
 
 # descriptives
+
 ```{r}
 
 Mean_auction_total <- mean(model_df$auction_tot)
@@ -335,25 +341,44 @@ men <- scatter_plotter(trial_plots$men_total, "Plotting auction total values aga
 
 bivariat_plot <- grid.arrange(auction_size, cattle, slaves, sheep, horses, men, ncol = 3, nrow = 2)
 
+## correlation matrix 
+```
 
+stick to tuning two parameters: mtry(number of variables randomly sampled at each split) & ntree(number of trees to grow)
+-two elements of randomness: random sub-sample obtained via bootstrapping on which a single tree is built & random set of features selected for each tree
+- randomness: decreases variance in prediction at cost of creating slight bias in each tree but aggregating the trees using voting tends to eliminate bias = both bias and variance are minimised 
+- can choose the way each tree is build using hyperparameters
+
+# number of trees in random forest: 10p
+# mtry (split variable randomisation): helps to balance low tree correlation with reasonable predictive strength - However, when there are fewer relevant predictors (e.g., noisy data) a higher value of  mtry
+#  Node size is probably the most common hyperparameter to control tree complexity: if your data has many noisy predictors and higher  mtry
+  values are performing best, then performance may improve by increasing node size (i.e., decreasing tree depth and complexity
+  # The sample size parameter determines how many observations are drawn for the training of each tree. Decreasing the sample size leads to more diverse trees and thereby lower between-tree correlation, which can have a positive effect on the prediction accuracy. Consequently, if there are a few dominating features in your data set, reducing the sample size can also help to minimize between-tree correlation- Assess 3–4 values of sample sizes ranging from 25%–100% 
+
+  tends to perform better because it makes it more likely to select those features with the strongest signal
+# regression
+```{r}
+
+reg <- lm(auction_tot ~ ., data = ml_df)
+summary(reg)
 ```
 
 
 # splitting into testing and training
+
 ```{r}
 # testing and training 
-model_df <- model_df %>% ungroup() %>% 
-    dplyr::select(-year, -mooc_id)
 
 set.seed(123)
-indices <- sample(nrow(merged_df))
-train_size <- floor(0.6 * nrow(merged_df))
-training_data <- merged_df[indices[1:train_size], ]
-testing_data <- merged_df[indices[(train_size + 1):nrow(merged_df)], ]
+indices <- sample(nrow(ml_df))
+train_size <- floor(0.6 * nrow(ml_df_log))
+training_data <- ml_df_log[indices[1:train_size], ]
+testing_data <- ml_df_log[indices[(train_size + 1):nrow(ml_df_log)], ]
 
 ```
 
 # knn method
+
 ```{r}
 
 sampling_strat <- caret::trainControl(
@@ -399,11 +424,12 @@ predictions <- predict(knn_model, newdata = testing_data)
 ```
 
 # random forest
-```{r}
-library(ranger)
 
-dim(merged_df)
+```{r}
+ml_df_log <- data.frame(lapply(ml_df, function(x) if (is.numeric(x) && all(x > 0)) log(x) else x))
+dim(ml_df)
 n_features <- length(setdiff(names(training_data), "auction_tot"))
+training_data <- na.omit(training_data)
 
 # train a default random forest model
 training_rf <- ranger(
@@ -415,7 +441,7 @@ training_rf <- ranger(
   seed = 123
 )
 training_rf
-default_rmse <- sqrt(training_rf$prediction.error) # RMSE: 759
+default_rmse <- sqrt(training_rf$prediction.error) # RMSE: 2389.86
 rf_importance <- ranger::importance(training_rf)
 sort(rf_importance, decreasing = TRUE)
 
@@ -448,8 +474,7 @@ best_model_index <- which.min(sapply(results, function(x) x$rmse))
 best_model <- results[[best_model_index]]$model
 
 predictions <- predict(best_model, data = testing_data)$predictions
-rmse_rf <- sqrt(mean((predictions - testing_data$auction_tot)^2)) # RMSE:584
+rmse_rf <- sqrt(mean((predictions - testing_data$auction_tot)^2)) # RMSE:2474
 
 
 ```
-

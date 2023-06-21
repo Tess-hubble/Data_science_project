@@ -17,7 +17,6 @@ output:
     self_contained: TRUE
 abstract: |
     Predicting total auction values from a Cape Colony auction dataset between 1720 and 1820. 
-
 ---
 
 ```{r setup, include=FALSE}
@@ -114,9 +113,11 @@ model_df <- model_df %>%
 
 \newpage
 
-# Introduction {-}
+# Introduction {.unnumbered}
 
-# Exploratory Data Analsysis 
+dataset context
+
+# Exploratory Data Analysis
 
 ```{r Figure1, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
 source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\ggplots.R")
@@ -147,7 +148,6 @@ total_auction <- timeline_plot(trial_plots)
 total_auction
 
 ```
-
 
 ```{r Figure2, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
 
@@ -193,7 +193,6 @@ household_goods
 
 
 ```
-
 
 ```{r Figure3, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
 # kitchen items 
@@ -279,7 +278,6 @@ select_goods <- ggplot(all_goods_select, aes(x=time_period, y=value, fill= selec
 select_goods
 ```
 
-
 ```{r Figure6, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
  
 # focus on 5 most common goods and how bundle changes over time 
@@ -308,7 +306,6 @@ big_five_boxplots
 
     
 ```
-
 
 ```{r Figure7, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
 # attendance
@@ -368,18 +365,20 @@ bivariat_plot
 
 ```
 
-
-# Data  {-}
-
+# Feature engineering {.unnumbered}
 
 ```{r }
 
-  # This is just a random plot to show you a plot. This is done if the getwd() does not point to your Template's directory.
-  # Set WD below to your project's working directory.
+  
 
   
 
 ```
 
+# Methodology
 
+```{r}
+Random forest model 
+```
 
+# Random Forest Model 
