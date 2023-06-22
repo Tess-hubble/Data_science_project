@@ -14,6 +14,7 @@ library(tidyverse)
 library(ranger)
 library(caret)
 library(tidyr)
+library(corrplot)
 
 
 # loading and merging data
@@ -22,11 +23,29 @@ art <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science
 purchases <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data\\Full_Rec_Mooc_Purchases.csv") %>% select(mooc_id, buyer_id)
 auctions <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data\\Full_Rec_Mooc.csv") %>% 
     select(mooc_id, date, auction_tot) %>% 
-    mutate(auction_tot= as.numeric(auction_tot)) #%>% 
-   # mutate(auction_tot = log(auction_tot))
+    mutate(auction_tot= as.numeric(auction_tot)) 
 final_df <- data_loader("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data")
 merged_df <- merger(final_df, auctions) %>% 
     filter(unit_price>0)
+
+# auction example table
+auction_example <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data\\Full_Rec_Mooc_Purchases.csv") %>% arrange(mooc_id) %>% 
+    select(mooc_id, purchase_id, price, buyer_id, goods) %>% 
+    filter(mooc_id=="MOOC10/10.1")
+auction_example_goods <- data_auction("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data") %>% select(-bundle, -unit_price, -count) %>% mutate(year = substr(date, 1, 4))
+auction_table <- full_join(auction_example, auction_example_goods, by = c("mooc_id", "purchase_id")) %>% 
+    mutate(year="1770") %>% 
+    select(-date)
+
+# summing total value of items within good type per auction
+total_value_good_auction <- total_purchase_value(goods = c("books", "art_products", "balance", 
+                                                           "beds", "cattle", "chairs", "china", 
+                                                           "clocks", "coatrack", "cups", "guns", 
+                                                           "hammers", "horse_cart", "horses", "irons", 
+                                                           "jewlery", "lamps", "oven", "plates", 
+                                                           "pot", "plough", "sheep", "slaves", "tables", 
+                                                           "utensils", "wagons")) %>% 
+    spread(key = type, value = total_value, fill = 0)
        
     
 # summing the number of items within a good type per auction 
@@ -56,15 +75,18 @@ kitchen_items <- c("oven", "plates", "pot", "utensils")
 farming_items <- c("cattle", "sheep", "plough", "wagons", "horses", "horse_cart", "guns", "hammers")
 select_items <- c("books", "jewelry", "slaves", "art_products")
 
+
+
 # determining auction size
 
 auction_size <- merged_df %>% 
         group_by(mooc_id) %>% 
     mutate(auction_size=sum(count)) %>% 
     distinct(mooc_id, .keep_all=TRUE) %>% 
-    dplyr::select(mooc_id, date, auction_tot, auction_size)
+    dplyr::select(mooc_id, date, auction_tot, auction_size) 
 
-pen_ultimate_df <- left_join(total_number_good_auction, auction_size, "mooc_id")
+interim_df <- left_join(total_value_good_auction, total_number_good_auction, "mooc_id")
+pen_ultimate_df <- left_join(interim_df, auction_size, "mooc_id")
 
 
 # counting attendance by titled men and women per auction
@@ -73,11 +95,12 @@ women <- titledwomen_locator(titled_women, purchases$buyer_id) %>%
 men <- titledmen_locator(titled_men, purchases$buyer_id) %>% 
     as.numeric()
 purchases_df <- tibble(purchases, women, men)
-purchases_df <- title_counter(purchases_df)
-
+purchases_df <- title_counter(purchases_df) 
+   
 
 # merging titles and auctions
-model_df <- inner_join(pen_ultimate_df,purchases_df, by="mooc_id") %>% 
+model_df <- inner_join(pen_ultimate_df,purchases_df, by="mooc_id")
+model_df <- model_df %>% 
     mutate(year = substr(date, 1, 4)) %>% 
     arrange(year) %>% 
     group_by(year) %>% 
@@ -95,9 +118,10 @@ model_df <- model_df %>%
 
 # table for machine learning models
 ml_df <- model_df %>% 
-    ungroup() %>% 
+     ungroup() %>% 
     dplyr::select(-year, -mooc_id) %>% 
     na.omit()
+    
 ml_df$auction_size <- as.numeric(ml_df$auction_size)
 ```
 
@@ -342,6 +366,16 @@ men <- scatter_plotter(trial_plots$men_total, "Plotting auction total values aga
 bivariat_plot <- grid.arrange(auction_size, cattle, slaves, sheep, horses, men, ncol = 3, nrow = 2)
 
 ## correlation matrix 
+library("Hmisc")
+library("GGally")
+
+corr_ml_dff <- ml_df
+corr_ml_dff <- as.dist(round(cor(corr_ml_dff),2))
+ml_corr <- rcorr(as.matrix(corr_ml_dff))
+ggcorr(ml_df)+
+    labs(title="Correlation matrix")+
+    theme(text = element_text(size = 12, face="bold"))
+
 ```
 
 stick to tuning two parameters: mtry(number of variables randomly sampled at each split) & ntree(number of trees to grow)
@@ -371,9 +405,9 @@ summary(reg)
 
 set.seed(123)
 indices <- sample(nrow(ml_df))
-train_size <- floor(0.6 * nrow(ml_df_log))
-training_data <- ml_df_log[indices[1:train_size], ]
-testing_data <- ml_df_log[indices[(train_size + 1):nrow(ml_df_log)], ]
+train_size <- floor(0.6 * nrow(ml_df))
+training_data <- ml_df[indices[1:train_size], ]
+testing_data <- ml_df[indices[(train_size + 1):nrow(ml_df)], ]
 
 ```
 
@@ -399,13 +433,13 @@ knn_fit <- train(
 )
     
 ggplot(knn_fit)
-# k = 2 has the lowest RMSE
-# RMSE is 1776
+# k = 3 has the lowest RMSE
+# RMSE is 2935
 
 library(caret)
 
 # Train the KNN model with the chosen k value
-k <- 2
+k <- 3
 knn_model <- train(
   auction_tot ~ .,
   data = training_data,
@@ -414,7 +448,7 @@ knn_model <- train(
   tuneGrid = data.frame(k = k),
   metric = "accuracy"
 )
-knn_model # RMSE is 2471
+knn_model # RMSE is 2935
 
 # Make predictions on the testing data
 predictions <- predict(knn_model, newdata = testing_data)
@@ -426,10 +460,10 @@ predictions <- predict(knn_model, newdata = testing_data)
 # random forest
 
 ```{r}
-ml_df_log <- data.frame(lapply(ml_df, function(x) if (is.numeric(x) && all(x > 0)) log(x) else x))
+
 dim(ml_df)
 n_features <- length(setdiff(names(training_data), "auction_tot"))
-training_data <- na.omit(training_data)
+
 
 # train a default random forest model
 training_rf <- ranger(
@@ -441,7 +475,7 @@ training_rf <- ranger(
   seed = 123
 )
 training_rf
-default_rmse <- sqrt(training_rf$prediction.error) # RMSE: 2389.86
+default_rmse <- sqrt(training_rf$prediction.error) # RMSE: 2247.12
 rf_importance <- ranger::importance(training_rf)
 sort(rf_importance, decreasing = TRUE)
 
@@ -450,7 +484,7 @@ sort(rf_importance, decreasing = TRUE)
 # parameter grid
 parameter_grid <- expand.grid(
   mtry = c(floor(n_features / 3)),
-  num.trees = c(50, 100, 200),
+  num.trees = c(100, 300, 500),
   min.node.size = c(1, 5, 10)
 )
 
@@ -478,3 +512,22 @@ rmse_rf <- sqrt(mean((predictions - testing_data$auction_tot)^2)) # RMSE:2474
 
 
 ```
+
+# importance plot
+```{r}
+importance_df <- data.frame(
+  Feature = colnames(training_data)[1:ncol(training_data) - 1],
+  Importance = as.numeric(training_rf$variable.importance)
+)
+
+add_men <- c("men_total", 431116.1081)
+importance_df <- rbind(importance_df, add_men) %>% 
+    arrange(desc(Importance))
+
+importance_df <- importance_df[order(-importance_df$Importance), ]
+ggplot(importance_df, x= Feature y = Importance)) +
+  geom_bar(stat = "identity", fill = "skyblue") +
+  labs(title = "Feature Importance", x = "Feature", y = "Importance") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+

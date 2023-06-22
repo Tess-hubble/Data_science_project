@@ -377,8 +377,45 @@ bivariat_plot
 
 # Methodology
 
+This project aims to predict auction values based on a select bundle of goods present at an auction. Predicting a continuous, numerical value presents a regression problem. As a result, the k-Nearest Neighbours (KNN) model and a random forest model will be used. 
+
+## KNN model
+
+The KNN model creates predictions for a new observation based on matching it to the most similar training observations and aggregating their values. In the case of auctions when assessing a new observation, it will compare the bundle of goods present to other auctions with the most similar bundles of goods sold and average their total values to determine a prediction.
+
 ```{r}
-Random forest model 
+# testing and training sets
+set.seed(123)
+indices <- sample(nrow(ml_df))
+train_size <- floor(0.6 * nrow(ml_df))
+training_data <- ml_df[indices[1:train_size], ]
+testing_data <- ml_df[indices[(train_size + 1):nrow(ml_df)], ]
+
+# knn 
+sampling_strat <- caret::trainControl(
+    method="repeatedcv", 
+    number=10, 
+    repeats=5
+)
+
+hyper_grid <- expand.grid(k = seq(1, 25, by = 1))
+
+knn_fit <- train(
+  auction_tot ~ ., 
+  data = training_data, 
+  method = "knn", 
+  trControl = sampling_strat, 
+  tuneGrid = hyper_grid,
+  metric = "RMSE"
+)
+    
+knn_plot <- ggplot(knn_fit)+
+    labs(title= "Finding optimal k-value", 
+         x="Neighbours")+
+    theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
+
+knn_plot
 ```
 
-# Random Forest Model 
+# Random Forest Model
