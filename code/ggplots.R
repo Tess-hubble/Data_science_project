@@ -1,3 +1,15 @@
+unlogged_distribution <- function(input, graph_title, x_title ){
+
+   unlogged_plot <-  ggplot(model_df, aes(x=input))+
+    geom_density()+
+    labs(title = graph_title,
+         x = x_title, y = "Density") +
+    theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"))
+
+   return(unlogged_plot)
+}
+
+
 scatter_plotter <- function(predictor, graph_title, y_title){
     scatter <- ggplot(trial_plots, aes(x=predictor, y=auction_tot))+
         geom_point()+

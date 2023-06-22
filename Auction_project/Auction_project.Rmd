@@ -108,6 +108,14 @@ model_df <- model_df %>%
     filter(auction_tot>0) %>% 
     filter(auction_tot!=-Inf)
 
+# table for machine learning models
+ml_df <- model_df %>% 
+     ungroup() %>% 
+    dplyr::select(-year, -mooc_id) %>% 
+    na.omit() %>% 
+  mutate(across(everything(), ~ifelse(. != 0, log(.), .)))
+    
+
 
 ```
 
@@ -365,25 +373,63 @@ bivariat_plot
 
 ```
 
-# Feature engineering {.unnumbered}
+# Target and feature engineering {.unnumbered}
 
-```{r }
+The target in this project is the auction total value. The features used to predict the target include:
+total value of good type per auction, the total number of items within a good type per auction, total number of items within an auction, number of titled men and women in attendance per auction and the year of auction.  Figure 9 provides evidence that the features are skewed left. This is solved by applying a log transformation to all features (except for the date). 
 
-  
+```{r Figure9 }
+source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\ggplots.R")
 
-  
+auction_unlogged <- unlogged_distribution(model_df$auction_tot, "Distribution of total auction values", "Total auction value")
+auction_logged <- model_df %>% 
+    mutate(auction_tot=log(auction_tot)) %>% 
+     ggplot(aes(x=auction_tot))+
+    geom_density()+
+    labs(title = "Distribution of logged\n total auction values",
+         x = "Logged total auction value", y = "Density") +
+    theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"))
+cattle_unlogged <- unlogged_distribution(model_df$cattle, "Distribution of cattle\n values", "Total cattle value per auction")
+cattle_logged <- model_df %>% 
+    mutate(cattle = as.numeric(cattle)) %>%
+  filter(!is.na(cattle)) %>%
+     mutate(cattle = log(cattle)) %>% 
+     ggplot(aes(x=cattle))+
+    geom_density()+
+    labs(title = "Distribution of logged\n cattle values",
+         x = "Logged cattle value", y = "Density") +
+    theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"))
+men_attend_unlogged <- unlogged_distribution(model_df$cattle, "Distribution of titled\n men auction attendance", "Titled men attendance\n per auction")
+men_attend_logged <- model_df %>% mutate(men_total=log(men_total)) %>% 
+     ggplot(aes(x=men_total))+
+    geom_density()+
+    labs(title = "Distribution of logged\n titled men attendance",
+         x = "Logged titled men\n attendance per auction", y = "Density") +
+    theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"))
 
+distribution_plots <- grid.arrange(auction_unlogged, auction_logged, cattle_unlogged, cattle_logged, men_attend_unlogged, men_attend_logged, ncol = 2, nrow = 3)
+
+distribution_plots
 ```
+
 
 # Methodology
 
 This project aims to predict auction values based on a select bundle of goods present at an auction. Predicting a continuous, numerical value presents a regression problem. As a result, the k-Nearest Neighbours (KNN) model and a random forest model will be used. 
+metric: RMSE calculate how far predictions are from actual values on average 
+
+## Linear regression
+
+```{r}
+
+```
+
 
 ## KNN model
 
-The KNN model creates predictions for a new observation based on matching it to the most similar training observations and aggregating their values. In the case of auctions when assessing a new observation, it will compare the bundle of goods present to other auctions with the most similar bundles of goods sold and average their total values to determine a prediction.
+The KNN model creates predictions for a new observation based on matching it to the most similar training observations and aggregating their values. In the case of auctions when assessing a new observation, it will compare the bundle of goods present to other auctions with the most similar bundles of goods sold and average their total values to determine a prediction. Hyperperameter tuning is required to set the optimal value of k to maximise the accuracy of predictions. Figure 9 shows that k=5 is the optimal value. New observations predictions will be the average of its three most similar auctions. Although k = 9 has the lowest RMSE, k = 5 has a slightly higher RMSE. 
 
-```{r}
+```{r Figure10, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
 # testing and training sets
 set.seed(123)
 indices <- sample(nrow(ml_df))
@@ -408,9 +454,9 @@ knn_fit <- train(
   tuneGrid = hyper_grid,
   metric = "RMSE"
 )
-    
+# optimal k value    
 knn_plot <- ggplot(knn_fit)+
-    labs(title= "Finding optimal k-value", 
+    labs(title= "Optimal k-value", 
          x="Neighbours")+
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
@@ -418,4 +464,113 @@ knn_plot <- ggplot(knn_fit)+
 knn_plot
 ```
 
-# Random Forest Model
+With the training data set, RMSE is 1.16. With the testing data, RMSE reduces to 0.93. This shows that the model is more accurate . Figure 10 compares the model's predictions against the actual data within the testing data. The model somewhat nderpredicts auction values. A random forest model will be set up to determine whether a more accurate model exists, given the data available. 
+
+```{r Fgiure11, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
+# Make predictions on the testing data
+predictions_knn <- predict(knn_model, newdata = testing_data)
+rmse_knn_test <- RMSE(predictions_knn, testing_data$auction_tot) # RMSE 3025
+
+# plot
+prediction_knn_df <- data.frame(
+  Actual = testing_data$auction_tot,
+  Predicted = predictions_knn
+)
+
+knn_predictions_plot <- ggplot(prediction_knn_df, aes(x = Actual, y = Predicted)) +
+  geom_point() +
+  geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "#C20008") +
+  labs(title = "Predictions vs Actual Values", x = "Actual", y = "Predicted")+
+    theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
+
+knn_predictions_plot
+```
+
+## Random Forest Model
+
+
+```{r Figure12, , warning=FALSE, message=FALSE, results='hide', echo=FALSE}
+
+rf_importance_df <- data.frame(
+    Importance = training_rf[["variable.importance"]]
+) %>% rownames_to_column() %>% arrange(desc(Importance))
+colnames(rf_importance_df) <- c("Feature", "Importance")
+
+
+importance_plot <- ggplot(importance_df, aes(x= reorder(Feature, -Importance), y = Importance)) +
+  geom_bar(stat = "identity", fill = "#C20008") +
+  labs(title = "Feature Importance", x = "Feature", y = "Importance") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size=7))+
+    theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"))
+
+importance_plot
+```
+
+
+```{r Figure13}
+n_features <- length(setdiff(names(training_data), "auction_tot"))
+
+
+# train a default random forest model
+training_rf <- ranger(
+  auction_tot ~ ., 
+  data = training_data,
+  mtry = floor(n_features / 3),
+  respect.unordered.factors = "order",
+  importance= "permutation",
+  seed = 123
+)
+training_rf
+default_rmse <- sqrt(training_rf$prediction.error) # RMSE: 0.94
+rf_importance <- ranger::importance(training_rf)
+sort(rf_importance, decreasing = TRUE)
+
+# lowering RMSE
+
+# parameter grid
+parameter_grid <- expand.grid(
+  mtry = c(floor(n_features / 3)),
+  num.trees = c(100, 300, 500),
+  min.node.size = c(1, 5, 10)
+)
+
+results <- lapply(1:nrow(parameter_grid), function(i) {
+  model <- ranger(
+    auction_tot ~ .,
+    data = training_data,
+    num.trees = parameter_grid$num.trees[i],
+    mtry = parameter_grid$mtry[i],
+    min.node.size = parameter_grid$min.node.size[i],
+    respect.unordered.factors = "order",
+    importance = "permutation",
+    seed = 123
+  )
+  predictions <- predict(model, data = testing_data)$predictions
+  rmse <- sqrt(mean((predictions - testing_data$auction_tot)^2))
+  list(model = model, rmse = rmse)
+})
+
+best_model_index <- which.min(sapply(results, function(x) x$rmse))
+best_model <- results[[best_model_index]]$model
+
+predictions_rf <- predict(best_model, data = testing_data)$predictions
+rmse_rf <- sqrt(mean((predictions_rf - testing_data$auction_tot)^2)) # RMSE:0.769
+
+rf_predictions <- data.frame(
+  Actual = testing_data$auction_tot,
+  Predictions = predictions_rf
+)
+
+# plot
+rf_plot <- ggplot(rf_predictions, aes(x = Actual, y = Predictions)) +
+  geom_point() +
+    geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "#C20008") +
+  labs(title = "Predictions vs Actual Values", x = "Actual", y = "Predicted")+
+    theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
+rf_plot
+```
+
+
+# Critiques 

@@ -15,6 +15,7 @@ library(ranger)
 library(caret)
 library(tidyr)
 library(corrplot)
+library(gridExtra)
 
 
 # loading and merging data
@@ -120,10 +121,12 @@ model_df <- model_df %>%
 ml_df <- model_df %>% 
      ungroup() %>% 
     dplyr::select(-year, -mooc_id) %>% 
-    na.omit()
+    na.omit() %>% 
+  mutate(across(everything(), ~ifelse(. != 0, log(.), .)))
     
 ml_df$auction_size <- as.numeric(ml_df$auction_size)
 ```
+
 
 # descriptives
 
@@ -378,6 +381,36 @@ ggcorr(ml_df)+
 
 ```
 
+feature and target transformations
+```{r}
+
+auction_unlogged <- unlogged_distribution(model_df$auction_tot, "Distribution of total auction values", "Total auction value")
+auction_logged <- model_df %>% mutate(auction_tot=log(auction_tot)) %>% 
+     ggplot(aes(x=auction_tot))+
+    geom_density()+
+    labs(title = "Distribution of logged\n total auction values",
+         x = "Logged total auction value", y = "Density") +
+    theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"))
+cattle_unlogged <- unlogged_distribution(model_df$cattle, "Distribution of cattle\n values", "Total cattle value per auction")
+cattle_logged <- model_df %>% mutate(cattle=log(cattle)) %>% 
+     ggplot(aes(x=cattle))+
+    geom_density()+
+    labs(title = "Distribution of logged\n cattle values",
+         x = "Logged cattle value", y = "Density") +
+    theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"))
+men_attend_unlogged <- unlogged_distribution(model_df$cattle, "Distribution of titled\n men auction attendance", "Titled men attendance\n per auction")
+men_attend_logged <- model_df %>% mutate(men_total=log(men_total)) %>% 
+     ggplot(aes(x=men_total))+
+    geom_density()+
+    labs(title = "Distribution of logged\n titled men attendance",
+         x = "Logged titled men\n attendance per auction", y = "Density") +
+    theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"))
+
+distribution_plots <- grid.arrange(auction_unlogged, auction_logged, cattle_unlogged, cattle_logged, men_attend_unlogged, men_attend_logged, ncol = 2, nrow = 3)
+    
+
+```
+
 stick to tuning two parameters: mtry(number of variables randomly sampled at each split) & ntree(number of trees to grow)
 -two elements of randomness: random sub-sample obtained via bootstrapping on which a single tree is built & random set of features selected for each tree
 - randomness: decreases variance in prediction at cost of creating slight bias in each tree but aggregating the trees using voting tends to eliminate bias = both bias and variance are minimised 
@@ -402,7 +435,6 @@ summary(reg)
 
 ```{r}
 # testing and training 
-
 set.seed(123)
 indices <- sample(nrow(ml_df))
 train_size <- floor(0.6 * nrow(ml_df))
@@ -421,7 +453,7 @@ sampling_strat <- caret::trainControl(
     repeats=5
 )
 
-hyper_grid <- expand.grid(k = seq(2, 25, by = 1))
+hyper_grid <- expand.grid(k = seq(1, 25, by = 1))
 
 knn_fit <- train(
   auction_tot ~ ., 
@@ -432,27 +464,44 @@ knn_fit <- train(
   metric = "RMSE"
 )
     
-ggplot(knn_fit)
-# k = 3 has the lowest RMSE
-# RMSE is 2935
+knn_plot <- ggplot(knn_fit)+
+    labs(title= "Optimal k-value", 
+         x="Neighbours")+
+    theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
+# k = 5 has the lowest RMSE
+# RMSE is 1.16
 
 library(caret)
 
 # Train the KNN model with the chosen k value
-k <- 3
+k <- 5
 knn_model <- train(
   auction_tot ~ .,
   data = training_data,
   method = "knn",
   trControl = sampling_strat,
   tuneGrid = data.frame(k = k),
-  metric = "accuracy"
+  metric = "RMSE"
 )
-knn_model # RMSE is 2935
+knn_model # RMSE is 1.16
 
 # Make predictions on the testing data
-predictions <- predict(knn_model, newdata = testing_data)
+predictions_knn <- predict(knn_model, newdata = testing_data)
+rmse_knn_test <- RMSE(predictions_knn, testing_data$auction_tot) # RMSE is 0.93
 
+# plot
+prediction_knn_df <- data.frame(
+  Actual = testing_data$auction_tot,
+  Predicted = predictions_knn
+)
+
+knn_predictions_plot <- ggplot(prediction_knn_df, aes(x = Actual, y = Predicted)) +
+  geom_point() +
+  geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "#C20008") +
+  labs(title = "Predictions vs Actual Values", x = "Actual", y = "Predicted")+
+    theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
 
 
 ```
@@ -475,7 +524,7 @@ training_rf <- ranger(
   seed = 123
 )
 training_rf
-default_rmse <- sqrt(training_rf$prediction.error) # RMSE: 2247.12
+default_rmse <- sqrt(training_rf$prediction.error) # RMSE: 0.94
 rf_importance <- ranger::importance(training_rf)
 sort(rf_importance, decreasing = TRUE)
 
@@ -507,27 +556,40 @@ results <- lapply(1:nrow(parameter_grid), function(i) {
 best_model_index <- which.min(sapply(results, function(x) x$rmse))
 best_model <- results[[best_model_index]]$model
 
-predictions <- predict(best_model, data = testing_data)$predictions
-rmse_rf <- sqrt(mean((predictions - testing_data$auction_tot)^2)) # RMSE:2474
+predictions_rf <- predict(best_model, data = testing_data)$predictions
+rmse_rf <- sqrt(mean((predictions_rf - testing_data$auction_tot)^2)) # RMSE:0.769
+
+rf_predictions <- data.frame(
+  Actual = testing_data$auction_tot,
+  Predictions = predictions_rf
+)
+
+# plot
+rf_plot <- ggplot(rf_predictions, aes(x = Actual, y = Predictions)) +
+  geom_point() +
+    geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "#C20008") +
+  labs(title = "Predictions vs Actual Values", x = "Actual", y = "Predicted")+
+    theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
+    
+
 
 
 ```
 
 # importance plot
 ```{r}
-importance_df <- data.frame(
-  Feature = colnames(training_data)[1:ncol(training_data) - 1],
-  Importance = as.numeric(training_rf$variable.importance)
-)
 
-add_men <- c("men_total", 431116.1081)
-importance_df <- rbind(importance_df, add_men) %>% 
-    arrange(desc(Importance))
+rf_importance_df <- data.frame(
+    Importance = training_rf[["variable.importance"]]
+) %>% rownames_to_column() %>% arrange(desc(Importance))
+colnames(rf_importance_df) <- c("Feature", "Importance")
 
-importance_df <- importance_df[order(-importance_df$Importance), ]
-ggplot(importance_df, x= Feature y = Importance)) +
-  geom_bar(stat = "identity", fill = "skyblue") +
+
+importance_plot <- ggplot(importance_df, aes(x= reorder(Feature, -Importance), y = Importance)) +
+  geom_bar(stat = "identity", fill = "#C20008" ) +
   labs(title = "Feature Importance", x = "Feature", y = "Importance") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size=7))+
+    theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"))
 ```
 
