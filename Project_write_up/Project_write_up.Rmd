@@ -54,6 +54,8 @@ library(corrplot)
 library(gridExtra)
 library(broom)
 library(huxtable)
+library(ggplot2)
+library(xtable)
 
 
 # loading and merging data
@@ -151,10 +153,12 @@ ml_df <- model_df %>%
 
 # Introduction \label{Introduction}
 
-Over the first 150 years of the Cape Colony, deceased estate auctions were an important means of exchange for the burgeoning population present. The only other means of purchasing goods was through ships that docked along the coast. From livestock and furniture to slaves, a wide variety of goods were obtained through auctions. Although auction rolls from this time period have been transcribed, inconsistent spelling and errors are pervasive. 30 types of goods have been identified and tagged throughout the auction rolls. This project aims to use this subset of goods within auctions to predict total auction values. Focusing on approximately 1400 auctions between 1720 and 1820, two different machine learning techniques will be used to predict total auction values. Being able to assess the total auction value based on a subset of goods can be an important tool within historical data where there is limited information. Exploratory data analysis will provide context and support for the features included in the models. Throughout the exploratory data analysis and subsequent models, it becomes clear that the number of slaves, ....... consistently place upward pressure on total auction values.  The performance of a k-nearest neighbours model and random forest model will be compared to that of a linear regression to assess accuracy. (give brief results)
+Over the first 150 years of the Cape Colony, deceased estate auctions were an important means of exchange for the burgeoning population. The only other means of purchasing goods was through ships that docked along the coast. From livestock and furniture to slaves, a wide variety of goods were obtained through auctions. Although auction rolls from this time period have been transcribed, inconsistent spelling and errors are pervasive. 30 different types of goods have been identified and tagged throughout the auction rolls. This project aims to use this subset of goods within auctions to predict total auction values. Focusing on approximately 1400 auctions between 1720 and 1820, two different machine learning techniques will be used to predict total auction values. Being able to assess the total auction value based on a subset of goods can be an important tool within historical data where there is limited information. Exploratory data analysis will provide context and support for the features included in the models. Throughout the exploratory data analysis and subsequent models, it becomes clear that the number of slaves, the date and the auction size consistently place upward pressure on total auction values.  The performance of a k-nearest neighbours model and random forest model are compared to that of a linear regression to assess accuracy.Ultimately, it is concluded that the subset of goods offer limited predictive power.
+
+\newpage
 
 # Auction data
-Table 1 below provides an example of one auction in 1770. From this auction roll, one can see the goods sold, the price and the type of good sold. A buyer_id column exists as well. Within this column, some names include titles such as "de Wede" (widow) or "mijnheer" (mister) which enables one to determine how many titled men or women attend an auction. It is clear from this auction that only a few goods are tagged. The tagged/ subset group of goods will be as features therefore the accuracy of the machine learning models included may be hampered by limited presence of these goods across auctions. 
+Table 1 below provides an example of a portion of sales from one auction in 1770. This auction roll shows goods sold, the price and the type of good sold. A buyer_id column exists as well. Within this column, some names include titles such as "de Wede" (widow) or "mijnheer" (mister) which offers the possibility to determine how many titled men or women attend an auction. Table 1 shows that only a few goods are tagged.There are 26 different tagged goods in total. The number of different types of tagged goods per auction will act as predictors. It is therefore possible that the accuracy of the machine learning models included may be hampered by limited presence of these goods across auctions. 
 
 ```{r Table1,  warning =  FALSE, fig.align = 'center'}
 auction_example <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data\\Full_Rec_Mooc_Purchases.csv") %>% arrange(mooc_id) %>% 
@@ -162,20 +166,23 @@ auction_example <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\
     filter(mooc_id=="MOOC10/10.1")
 auction_example_goods <- data_auction("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data") %>% select(-bundle, -unit_price, -count) %>% mutate(year = substr(date, 1, 4))
 auction_table <- full_join(auction_example, auction_example_goods, by = c("mooc_id", "purchase_id")) %>% 
-    select(-date, -year, -buyer_id)
+    select(-date, -year, -buyer_id) %>% 
+    arrange(purchase_id) %>% 
+    filter(purchase_id< "MOOC10/10.1/20")
 
+auction_tab <- options(xtable.comment=FALSE) %>% as.data.frame()
+auction_tab <- xtable(auction_table)
+auction_tab
 
-hux_auction_table <- huxtable(auction_table)
-latex_auction_table <- to_latex(hux_auction_table)
-
-latex_auction_table
 ```
 
 # Exploratory Data Analysis
 
-Figure 1 provides a scatter plot of the total auction values between 1720 and 1820. There is a general upwards trend in the value of auctions over time. However, a large proportion of auctions remain under 50 Rix-dollars. Grouping the goods according to household, kitchen, farming and select goods allows for the total auction value to be broken down according to a subset of goods present at the auction. 
+Figure 1 provides a scatter plot of the total auction values between 1720 and 1820. There is a general upwards trend in the value of auctions over time. However, a large proportion of auctions remain under 50 Rix-dollars (currency at the time). Grouping the goods according to household, kitchen, farming and select goods allows for the total auction value to be broken down according to a different collections of goods present at the auction. 
 
-```{r Figure1, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
+\newpage
+
+```{r Figure1, warning=FALSE, message=FALSE, results='hide', echo=FALSE, fig.align = 'center'}
 source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\ggplots.R")
 
 #trying out plots 
@@ -208,7 +215,7 @@ total_auction
 
 Figure 2 makes it clear that china, cups and chairs make up a large amount of the household goods sold per auction. However, the number of household goods, in absolute terms, does decline over time. 
 
-```{r Figure2, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
+```{r Figure2, warning=FALSE, message=FALSE, results='hide', echo=FALSE, fig.align = 'center'}
 
 # plotting all goods
 household_items <- c("beds", "chairs", "china", "clocks", "coatrack", "cups", "irons", "lamps", "tables", "balance")
@@ -243,7 +250,7 @@ household_goods <- ggplot(all_goods_household, aes(x=time_period, y=value, fill=
     geom_bar(stat="identity")+
     scale_fill_manual(values = c("#FFB400", "#FFC740", "#C20008", "#FF020D", "#13AFEF", "#009944", "#8C4799", "#FF6600", "#A6BDDB", "#00B33C"))+
      labs(title = "Number of houshold goods per auction over time",
-       x = "Year", y = "Total number of household goods", 
+       x = "Year", y = "Number of household goods per auction", 
        fill = "Household goods")  +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"),
@@ -255,7 +262,7 @@ household_goods
 
 Figure 3 shows that utensils and plates make up the largest amount of kitchen goods sold per auction. As with household goods, kitchen goods also decline in absolute terms over time. 
 
-```{r Figure3, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
+```{r Figure3, warning=FALSE, message=FALSE, results='hide', echo=FALSE,  fig.align = 'center'}
 # kitchen items 
 
 all_goods_kitchen <- trial_plots %>% 
@@ -272,7 +279,7 @@ kitchen_goods <- ggplot(all_goods_kitchen, aes(x=time_period, y=value, fill= kit
     geom_bar(stat="identity")+
     scale_fill_manual(values = c("#FFB400", "#FFC740", "#C20008", "#FF020D"))+
      labs(title = "Number of kitchen goods per auction over time",
-       x = "Year", y = "Total number of kitchen goods", 
+       x = "Year", y = "Number of kitchen goods per auction", 
        fill = "Kitchen goods") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"),
@@ -284,7 +291,7 @@ kitchen_goods
 
 Figure 4 shows that the total number of farming goods is much higher than that of household and kitchen goods which peak at 200 and 120, respectively. Cattle and sheep are the most prominent farming goods sold per auction. 
 
-```{r Figure4, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
+```{r Figure4, warning=FALSE, message=FALSE, results='hide', echo=FALSE, fig.align = 'center'}
 # farming items
 
 all_goods_farm <- trial_plots %>% 
@@ -305,7 +312,7 @@ farming_goods <- ggplot(all_goods_farm, aes(x=time_period, y=value, fill= farmin
     geom_bar(stat="identity")+
     scale_fill_manual(values = c("#FFB400", "#FFC740","#8C4799" , "#FF020D", "#13AFEF", "#009944","#C20008" , "#FF6600"))+ 
      labs(title = "Number of farming goods per auction over time",
-       x = "Year", y = "Total number of farming goods", 
+       x = "Year", y = "Number of farming goods per auction", 
        fill = "Farming goods") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"),
@@ -316,9 +323,9 @@ farming_goods
 
 ```
 
-Figure 5 shows the average number of art products, books and slaves sold per auction over time. The absolute number of select goods is lower than the number of household, kitchen and farming goods. 
+Figure 5 shows the average number of art products, books and slaves sold per auction over time. The absolute number of select goods is lower than the number of household, kitchen and farming goods. The umber of select goods per auction is more consistent over time than the other collections of goods.
 
-```{r Figure5, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
+```{r Figure5, warning=FALSE, message=FALSE, results='hide', echo=FALSE, fig.align = 'center'}
 # select items
 
 all_goods_select <- trial_plots %>% 
@@ -334,7 +341,7 @@ select_goods <- ggplot(all_goods_select, aes(x=time_period, y=value, fill= selec
     geom_bar(stat="identity")+
     scale_fill_manual(values = c("#FFB400", "#C20008", "#FF020D"))+
      labs(title = "Number of select goods per auction over time",
-       x = "Year", y = "Total number of select goods", 
+       x = "Year", y = "Number of select goods", 
        fill = "Select goods") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"),
@@ -343,9 +350,9 @@ select_goods <- ggplot(all_goods_select, aes(x=time_period, y=value, fill= selec
 select_goods
 ```
 
-Figure 6 shows box plots of the number different types of goods that were frequently purchased in auctions. For visuals purposes, the y-axis was capped at 200 but there are a few outliers exceeding this number. Cattle and utensils appear to be some of the most frequently purchased goods throughout auctions yet the average number of goods per auction for each type remains very low. 
+The figures above indicate that the following goods the most frequently appear per auction: china, plates, utensils, sheep cattle, books, slaves and art products. Figure 6 shows box plots for some of these frequently purchased good types. For visual purposes, the y-axis was capped at 200 but there are a few outliers exceeding this number. Cattle and utensils appear to be some of the most frequently purchased goods throughout auctions yet the average number of goods per auction for each type remains very low. 
 
-```{r Figure6, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
+```{r Figure6, warning=FALSE, message=FALSE, results='hide', echo=FALSE, fig.align = 'center'}
  
 # focus on 5 most common goods and how bundle changes over time 
 
@@ -365,7 +372,8 @@ big_five_boxplots <- ggplot(big_five_df, aes(x = time_period, y = value, fill = 
        x = "Time Period",
        y = "Number of purchases",
        fill = "Good type") +
-   scale_fill_manual(values = c("#FFB400", "#FFC740", "#C20008", "#FF020D", "#13AFEF")) 
+      scale_fill_manual(values = c("#FFB400", "#FFC740", "#C20008", "#FF020D", "#13AFEF")) 
+    theme_minimal()+
   theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
         axis.text.x = element_blank())
 
@@ -374,14 +382,10 @@ big_five_boxplots
     
 ```
 
-In terms of attendance by titled men and women, Figure 7 shows the trends. There is a downward trend in attendance by titled purchasers from 1750 and titled men always outnumber titled women at auctions. 
+In terms of attendance by titled men and women, Figure 7 shows the trends over time. There is a downward trend in attendance by titled purchasers from 1750 onwards and titled men always outnumber titled women at auctions. Although this univariate analysis identifies potentially important good types, their relationship with auction total values is more important. 
 
-```{r Figure7, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
+```{r Figure7, warning=FALSE, message=FALSE, results='hide', echo=FALSE, fig.align = 'center'}
 # attendance
-
-library("remotes")
-library("ggstream")
-library(ggplot2)
 
 attendance_df <-  model_df %>% 
   filter(year >= 1720) %>% 
@@ -418,17 +422,17 @@ attendance_plot
 
 Figure 8 shows how certain good type purchases relate to total auction values. This shows that the data is heavily clustered close to 0 due to the small number of tagged goods present at each auction. 
 
-```{r Figure8, warning=FALSE, message=FALSE, results='hide', echo=FALSE, fig.width=11, fig.height=5}
+```{r Figure8, warning=FALSE, message=FALSE, results='hide', echo=FALSE, fig.align = 'center'}
 # bivariate analysis 
 
 source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\ggplots.R")
 
-auction_size <- scatter_plotter(trial_plots$auction_size, "Auction values vs auction size","Auction size (number\n of goods on auction)")
-cattle <- scatter_plotter(trial_plots$total_cattle, "Auction values vs cattle purchases","Total number of cattle\n purhased per auction")
-slaves <- scatter_plotter(trial_plots$total_slaves, "Auction values vs slave purchases","Total number of slaves\n purhased per auction")
-sheep <- scatter_plotter(trial_plots$total_sheep, "Auction values vs sheep purchases","Total number of sheep\n purhased per auction")
-horses <- scatter_plotter(trial_plots$total_horses, "Auction values vs sheep purchases","Total number of horses\n purhased per auction")
-men <- scatter_plotter(trial_plots$men_total, "Auction values vs attendance","Total number of titled\n men per auction")
+auction_size <- scatter_plotter(trial_plots$auction_size, "Auction values vs auction\n size","Auction size")
+cattle <- scatter_plotter(trial_plots$total_cattle, "Auction values vs cattle\n purchases","Total number of cattle\n purhased per auction")
+slaves <- scatter_plotter(trial_plots$total_slaves, "Auction values vs slave\n purchases","Total number of slaves\n purhased per auction")
+sheep <- scatter_plotter(trial_plots$total_sheep, "Auction values vs sheep\n purchases","Total number of sheep\n purhased per auction")
+horses <- scatter_plotter(trial_plots$total_horses, "Auction values vs horse\n purchases","Total number of horses\n purhased per auction")
+men <- scatter_plotter(trial_plots$men_total, "Auction values vs titled\n men attendance","Total number of titled\n men per auction")
 
 bivariat_plot <- grid.arrange(auction_size, cattle, slaves, sheep, horses, men, ncol = 3, nrow = 2)
 
@@ -436,12 +440,12 @@ bivariat_plot
 
 ```
 
-# Target and feature engineering {.unnumbered}
+# Target and feature engineering
 
 The target in this project is the auction total value. The features used to predict the target include:
 the total number of items within a good type per auction, total number of items within an auction (auction size), number of titled men and women in attendance per auction and the year of auction.  Figure 9 provides evidence that the features are skewed left. This is solved by applying a log transformation to all features (except for the date). 
 
-```{r Figure9 }
+```{r Figure9,  warning=FALSE, message=FALSE, results='hide', echo=FALSE, fig.align = 'center'}
 source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\ggplots.R")
 
 
@@ -475,13 +479,13 @@ distribution_plots
 
 # Methodology
 
-This project aims to predict auction values based on different types of goods present at an auction. Predicting a continuous, numerical value presents a regression problem. As a result, the k-Nearest Neighbours (KNN) model and a random forest model will be used. A linear regression model will be used to determine how well machine learning models compare to a regression. The metric used to assess the quality of the machine learning predictions will be root-mean-squared-error (RMSE). This metric indicates how far predictions are from actual values on average. Additionally, r^2 will be used to determine how well the model fits the data. A default model will be run for each model before conducting hyperparameter tuning to improve upon the model. 
+This project aims to predict auction values based on different types of goods present at an auction. Predicting a continuous, numerical value presents a regression problem. As a result, the k-Nearest Neighbours (KNN) model and a random forest model will be used. A linear regression model will be used to determine how well machine learning models compare to a regression. The metric used to assess the quality of the machine learning predictions will be root-mean-squared-error (RMSE). This metric indicates how far predictions are from actual values on average. Additionally, r^2 will be used to determine how well the model fits the data. A default model will be run for each model before conducting hyperparameter tuning to improve the model. 
 
-## KNN model
+# KNN model
 
-The KNN model generates predictions for a new observation based on matching it to the most similar training observations and aggregating their values. When assessing a new observation (auction), it will compare the bundle of goods present to other auctions with the most similar bundles of goods sold and average their total values to determine a prediction. Hyperperameter tuning is required to set the optimal value of k. Figure 10 shows that k=5 is the optimal value. New observations predictions will be the average of its five most similar auctions. 
+The KNN model generates predictions for a new observation based on matching it to the most similar training observations and aggregating their values. When assessing a new observation (auction), it will compare the bundle of goods present to other auctions with the most similar bundles of goods sold and average their total values to determine a prediction. Hyperparameter tuning is required to set the optimal value of k. Figure 10 shows that k=5 is the optimal value. New observations predictions will be the average of its five most similar auctions. 
 
-```{r Figure10, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
+```{r Figure10, warning=FALSE, message=FALSE, results='hide', echo=FALSE, fig.width=6, fig.height=5, fig.align = 'center'}
 # testing and training 
 set.seed(123)
 indices <- sample(nrow(ml_df))
@@ -521,10 +525,10 @@ knn_plot
 
 ```
 
-With the training data set, RMSE is 1.35 and r^2 is 0.59. With the testing data,however, RMSE reduces to 1.17 and r^2 increases to 0.83. This would indicate that the predictive accuracy and model fit improved between the training and testing data. The mean logged auction total is 6.32 which means that predictions in the training set are on average 1.35 points off the actual auction value. Figure 11 shows that a very small proportion of predictions are within 0.3 points of the actual value. This indicates that knn is a poor model for predicting total auction values. It is important to note that it is a problem that RMSE decreases and r^2 increases when moving from the training to the testing dataset. One would expect to see the opposite. Possible reasons for this may include data leakage. After checking for this, I could not come to an explanation for why this was occuring.  
+With the training data set, RMSE is 1.35 and r^2 is 0.59. When the model uses the testing data,however, RMSE reduces to 1.17 and r^2 increases to 0.83. This would indicate that the predictive accuracy and model fit improved between the training and testing data. It is important to note that it is a problem that RMSE decreases and r^2 increases when moving from the training to the testing dataset. One would expect to see the opposite. Possible reasons for this may include data leakage. After checking for this, I could not come to an explanation for why this was occurring.The mean logged auction total is 6.32 which means that the average difference between predictions and actual values is 1.35. As a proportion of the mean total auction value, this figure is quite large. Figure 11 shows that a very small proportion of predictions are within 0.3 points of the actual value. This indicates that knn is a poor model for predicting total auction values.   
 
 
-```{r Fgiure11, warning=FALSE, message=FALSE, results='hide', echo=FALSE}
+```{r Fgiure11, warning=FALSE, message=FALSE, results='hide', echo=FALSE, fig.align = 'center'}
 
 # Train the KNN model with the chosen k value
 k <- 5
@@ -569,12 +573,12 @@ knn_predictions_plot
 
 # Random Forest Model
 
-Random forest models include multiple decision trees to make predictions. Decision trees are built independently on a subset of data to introduce diversity among trees and reduce overfitting. Additionally, random features are selected at each node of the tree to cover a wider breadth of the data and include more robust predictions. Once the decision trees are trained, predictions of each tree are aggregated to generate predicitons. The randomness of random data and feature selection decreases variance in predictions and aggregating tree-level predictions minimises bias introduced at within trees. Tuning parameters such as the number of trees within the random forest and the number of features randomly selected at each node should improve predictions. Furthermore, the node size can also be tuned as it refers to the minimum number of observations required at a terminal node to ensure another split.
+Random forest models include multiple decision trees to make predictions. Decision trees are built independently on a subset of data to introduce diversity among trees and reduce overfitting. Additionally, random features are selected at each node of the tree to cover a wider breadth of the data and include more robust predictions. Once the decision trees are trained, predictions of each tree are aggregated to generate predictions. The randomness of data and feature selection decreases variance in predictions and aggregating tree-level predictions minimises bias introduced within trees. Tuning parameters such as the number of trees within the random forest and the number of features randomly selected at each node should improve predictions. Furthermore, the node size can also be tuned as it refers to the minimum number of observations required at a terminal node to ensure another split.
 
 The default model includes 500 trees, 10 features randomly selected at each split and a target node size of 10. The RMSE is 1.1 and the r^2 is 0.73. A random forest model offers information on each features' importance in generating predictions. It is clear from Figure 12 that the number of slaves at an auction is the most important feature, followed by the size of the auction, the year the auction took place and the number of titled men in attendance. These features make sense within the context of the Cape Colony.
 
 
-```{r Figure12, , warning=FALSE, message=FALSE, results='hide', echo=FALSE}
+```{r Figure12, , warning=FALSE, message=FALSE, results='hide', echo=FALSE, fig.align = 'center'}
 
 n_features <- length(setdiff(names(training_data), "auction_tot"))
 
@@ -612,7 +616,7 @@ importance_plot
 
 After completing a grid search to tune parameters, the default model is found to perform the best. When moving from the training to the testing data, RMSE increases to 2.68. Figure 13 below shows that only a small proportion of predictions are within 0.1 of the predicted value. Based on RMSE scores, the knn model performs better than the random forest model as its RMSE is 1.17. 
 
-```{r Figure13}
+```{r Figure13, warning=FALSE, message=FALSE, results='hide', echo=FALSE, fig.align = 'center'}
 
 # parameter grid
 #parameter_grid <- expand.grid(
@@ -661,7 +665,7 @@ rf_predictions <- data.frame(
 rf_plot <- ggplot(rf_predictions, aes(x = Actual, y = Predictions, color = Accuracy)) +
   geom_point() +
     geom_abline(intercept = 0, slope = 1, linetype = "dashed") +
-  labs(title = "Predictions vs Actual Values", x = "Actual", y = "Predicted")+
+  labs(title = "Random forest: predictions vs actual Values", x = "Actual", y = "Predicted")+
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
 
@@ -671,21 +675,11 @@ rf_plot
 
 # Linear regression
 
-A linear regression is shown below. The RMSE is 1.13 and the r^2 is 0.71. This linear regression model therefore performs than the machine learning models with a higher prediction accuracy and better fit. 
+A linear regression is shown below. The RMSE is 1.13 and the r^2 is 0.71. This linear regression model therefore performs better than the machine learning models with a higher prediction accuracy and better fit. 
 
 ```{r}
 reg <- lm(auction_tot ~ ., data = ml_df)
-summary(reg)
-Title <- "Auction total value regression"
-Label <- "Auctiont total"
-reg_tidy <- tidy(reg)
 
-output_reg <- huxreg(reg_tidy, note = "%stars%.") %>%
-  set_caption(Title)
-output_reg <- output_reg %>% slice(-1, -(nrow(output_reg) - 1))
-
-latex_reg <- to_latex(output_reg)
-latex_reg
 
 # comparison
 residuals <- reg$residuals
@@ -695,6 +689,10 @@ r_squared <- summary(reg)$r.squared # 0.71
 
 # Critiques 
 
-Although the linear regression performed better than the knn and random forest model, all three models have low predictive accuracy. It is clear that the subset of goods used to predict total auction values, are sufficient predictors of total auction values. 
+Although the linear regression performed better than the knn and random forest model, all three models have low predictive accuracy. It is clear that the subset of goods used to predict total auction values, are insufficient predictors of total auction values. 
 
 # Conclusion
+
+Predicting total auction value using a subset of goods present at auctions resulted in very inaccurate models. The knn and random forest models were tested and performed poorly given the constraints presented by the features chosen. This highlights the importance of choosing appropriate features when using using machine learning techniques. 
+
+

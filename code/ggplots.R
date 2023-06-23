@@ -16,7 +16,9 @@ scatter_plotter <- function(predictor, graph_title, y_title){
         labs(title = graph_title,
              x = "Auction total value",
              y = y_title) +
-        theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"))
+        theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold", size=8),
+        axis.title.x = element_text(size = 7),
+            axis.title.y = element_text(size = 7))
     return(scatter)
 }
 
