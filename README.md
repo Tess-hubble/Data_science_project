@@ -89,6 +89,19 @@ library(huxtable)
     ##     theme_grey
 
 ``` r
+library(xtable)
+```
+
+    ## Warning: package 'xtable' was built under R version 4.2.3
+
+    ## 
+    ## Attaching package: 'xtable'
+    ## 
+    ## The following objects are masked from 'package:huxtable':
+    ## 
+    ##     align, align<-, caption, caption<-, label, label<-, sanitize
+
+``` r
 source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\column_mutations.R")
 source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\data_loading.R")
 source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\ggplots.R")
@@ -259,9 +272,63 @@ auction_table <- full_join(auction_example, auction_example_goods, by = c("mooc_
     filter(purchase_id< "MOOC10/10.1/20")
 
 
-hux_auction_table <- huxtable(auction_table)
-latex_auction_table <- to_latex(hux_auction_table)
+auction_tab <- options(xtable.comment=FALSE) %>% as.data.frame()
+auction_tab <- xtable(auction_table)
+auction_tab
 ```
+
+    ## Warning in knit_print.huxtable(ht): Unrecognized output format "markdown". Using `to_screen` to print huxtables.
+    ## Set options("huxtable.knitr_output_format") manually to "latex", "html", "rtf", "docx", "pptx", "md" or "screen".
+
+         ┌───────────────────────────────────────────────────────────┐
+         │ mooc_id       purchase_id    price   goods          type  │
+         ├───────────────────────────────────────────────────────────┤
+         │ MOOC10/10.1   MOOC10/10.1/   0.7     1 partij             │
+         │               1                      flessen,             │
+         │                                      bottels en           │
+         │                                      aardwerk             │
+         │ MOOC10/10.1   MOOC10/10.1/   2.4     2 steenen            │
+         │               10                     vaderl:s             │
+         │                                      seep en 2            │
+         │                                      steenen              │
+         │                                      Caapse seep          │
+         │ MOOC10/10.1   MOOC10/10.1/   2.1     1 casje met    books │
+         │               11                     thee en 1            │
+         │                                      bijbel               │
+         │ MOOC10/10.1   MOOC10/10.1/   3.1     6 kussens            │
+         │               12                                          │
+         │ MOOC10/10.1   MOOC10/10.1/   3.2     5 kussens            │
+         │               13                                          │
+         │ MOOC10/10.1   MOOC10/10.1/   25.4    1 bed, 1       beds  │
+         │               14                     peul, 4              │
+         │                                      cussens en 2         │
+         │                                      combaarsen           │
+         │ MOOC10/10.1   MOOC10/10.1/   5.2     1 bijbel en    books │
+         │               15                     1                    │
+         │                                      nagtmaalboek         │
+         │                                      met silvere          │
+         │                                      beslag en 4          │
+         │                                      boeken               │
+         │ MOOC10/10.1   MOOC10/10.1/   5.2     1 bijbel en    books │
+         │               15                     1                    │
+         │                                      nagtmaalboek         │
+         │                                      met silvere          │
+         │                                      beslag en 4          │
+         │                                      boeken               │
+         │ MOOC10/10.1   MOOC10/10.1/   0.5     1 partij             │
+         │               16                     olijtijten           │
+         │ MOOC10/10.1   MOOC10/10.1/   1.6     1 partij             │
+         │               17                     canten en            │
+         │                                      lind                 │
+         │ MOOC10/10.1   MOOC10/10.1/   9.4     2 swarte             │
+         │               18                     chitsen              │
+         │ MOOC10/10.1   MOOC10/10.1/   9.7     2 swarte             │
+         │               19                     chitsen              │
+         │ MOOC10/10.1   MOOC10/10.1/   1.7     6 porc:ne      china │
+         │               2                      boterpotten          │
+         └───────────────────────────────────────────────────────────┘
+
+Column names: mooc_id, purchase_id, price, goods, type
 
 # descriptives
 
@@ -269,74 +336,9 @@ latex_auction_table <- to_latex(hux_auction_table)
 Mean_auction_total <- mean(ml_df$auction_tot)
 sd_auction_total <- sd(ml_df$auction_tot)
 
-summary(model_df)
-```
 
-    ##    mooc_id            total_beds      total_books        total_chairs   
-    ##  Length:1483        Min.   : 0.000   Min.   :   0.000   Min.   :  0.00  
-    ##  Class :character   1st Qu.: 0.000   1st Qu.:   0.000   1st Qu.:  0.00  
-    ##  Mode  :character   Median : 1.000   Median :   0.000   Median :  3.00  
-    ##                     Mean   : 2.355   Mean   :   6.549   Mean   : 10.11  
-    ##                     3rd Qu.: 3.000   3rd Qu.:   2.000   3rd Qu.: 13.00  
-    ##                     Max.   :48.000   Max.   :1144.000   Max.   :154.00  
-    ##   total_china       total_irons      total_jewlery     total_utensils   
-    ##  Min.   :   0.00   Min.   : 0.0000   Min.   : 0.0000   Min.   :   0.00  
-    ##  1st Qu.:   0.00   1st Qu.: 0.0000   1st Qu.: 0.0000   1st Qu.:   0.00  
-    ##  Median :   0.00   Median : 0.0000   Median : 0.0000   Median :   4.00  
-    ##  Mean   :  41.79   Mean   : 0.9737   Mean   : 0.3958   Mean   :  29.07  
-    ##  3rd Qu.:  24.00   3rd Qu.: 1.0000   3rd Qu.: 0.0000   3rd Qu.:  30.00  
-    ##  Max.   :8041.00   Max.   :37.0000   Max.   :60.0000   Max.   :3208.00  
-    ##  total_art_products total_balance      total_clocks     total_coatrack   
-    ##  Min.   :  0.000    Min.   : 0.0000   Min.   : 0.0000   Min.   : 0.0000  
-    ##  1st Qu.:  0.000    1st Qu.: 0.0000   1st Qu.: 0.0000   1st Qu.: 0.0000  
-    ##  Median :  0.000    Median : 0.0000   Median : 0.0000   Median : 0.0000  
-    ##  Mean   :  4.591    Mean   : 0.7546   Mean   : 0.2583   Mean   : 0.6433  
-    ##  3rd Qu.:  4.000    3rd Qu.: 1.0000   3rd Qu.: 0.0000   3rd Qu.: 1.0000  
-    ##  Max.   :130.000    Max.   :21.0000   Max.   :10.0000   Max.   :32.0000  
-    ##    total_guns      total_lamps        total_oven      total_plates   
-    ##  Min.   : 0.000   Min.   : 0.0000   Min.   : 0.000   Min.   :  0.00  
-    ##  1st Qu.: 0.000   1st Qu.: 0.0000   1st Qu.: 0.000   1st Qu.:  0.00  
-    ##  Median : 0.000   Median : 0.0000   Median : 0.000   Median :  4.00  
-    ##  Mean   : 1.287   Mean   : 0.8422   Mean   : 1.122   Mean   : 25.54  
-    ##  3rd Qu.: 2.000   3rd Qu.: 1.0000   3rd Qu.: 1.000   3rd Qu.: 30.00  
-    ##  Max.   :48.000   Max.   :32.0000   Max.   :26.000   Max.   :914.00  
-    ##    total_pot       total_tables     total_slaves     total_cattle    
-    ##  Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   :   0.00  
-    ##  1st Qu.: 0.000   1st Qu.: 0.000   1st Qu.: 0.000   1st Qu.:   0.00  
-    ##  Median : 2.000   Median : 1.000   Median : 1.000   Median :   0.00  
-    ##  Mean   : 4.983   Mean   : 2.695   Mean   : 3.419   Mean   :  28.59  
-    ##  3rd Qu.: 7.000   3rd Qu.: 4.000   3rd Qu.: 4.000   3rd Qu.:  20.00  
-    ##  Max.   :76.000   Max.   :36.000   Max.   :72.000   Max.   :1327.00  
-    ##  total_hammers     total_horse_cart   total_horses      total_plough    
-    ##  Min.   : 0.0000   Min.   :  0.000   Min.   :  0.000   Min.   : 0.0000  
-    ##  1st Qu.: 0.0000   1st Qu.:  0.000   1st Qu.:  0.000   1st Qu.: 0.0000  
-    ##  Median : 0.0000   Median :  0.000   Median :  0.000   Median : 0.0000  
-    ##  Mean   : 0.5604   Mean   :  1.557   Mean   :  3.647   Mean   : 0.5253  
-    ##  3rd Qu.: 0.0000   3rd Qu.:  1.000   3rd Qu.:  3.000   3rd Qu.: 0.0000  
-    ##  Max.   :31.0000   Max.   :189.000   Max.   :155.000   Max.   :18.0000  
-    ##   total_sheep      total_wagons       total_cups            date       
-    ##  Min.   :   0.0   Min.   : 0.0000   Min.   :   0.000   Min.   :  2.00  
-    ##  1st Qu.:   0.0   1st Qu.: 0.0000   1st Qu.:   0.000   1st Qu.: 50.00  
-    ##  Median :   0.0   Median : 0.0000   Median :   0.000   Median : 70.00  
-    ##  Mean   : 189.5   Mean   : 0.8699   Mean   :   8.155   Mean   : 66.76  
-    ##  3rd Qu.:  80.0   3rd Qu.: 1.0000   3rd Qu.:   0.000   3rd Qu.: 91.00  
-    ##  Max.   :5744.0   Max.   :26.0000   Max.   :3944.000   Max.   :102.00  
-    ##   auction_tot       auction_size       women_tot     men_total     
-    ##  Min.   :    0.2   Min.   :    1.0   Min.   :  0   Min.   :  0.00  
-    ##  1st Qu.:  158.3   1st Qu.:   11.0   1st Qu.:  0   1st Qu.:  1.00  
-    ##  Median :  699.5   Median :  107.0   Median :  1   Median :  8.00  
-    ##  Mean   : 2347.2   Mean   :  370.8   Mean   : 10   Mean   : 26.47  
-    ##  3rd Qu.: 2572.9   3rd Qu.:  389.5   3rd Qu.:  8   3rd Qu.: 28.00  
-    ##  Max.   :58825.2   Max.   :14171.0   Max.   :354   Max.   :565.00  
-    ##      year          
-    ##  Length:1483       
-    ##  Class :character  
-    ##  Mode  :character  
-    ##                    
-    ##                    
-    ## 
 
-``` r
+
 # trying out plots 
 trial_plots <- model_df %>% 
   filter(year >= 1720) %>% 
@@ -373,7 +375,14 @@ total_auction <- ggplot(trial_plots, aes(x = year, y = auction_tot)) +
         axis.title.x = element_text(margin = margin(t = 10)),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
         plot.margin = margin(15, 10, 15, 10))
+total_auction
+```
 
+    ## Warning: Removed 3 rows containing missing values (`geom_point()`).
+
+![](README_files/figure-markdown_github/unnamed-chunk-3-1.png)
+
+``` r
 # plotting all goods
 household_items <- c("beds", "chairs", "china", "clocks", "coatrack", "cups", "irons", "lamps", "tables", "balance")
 household_items <- paste0("total_", household_items)
@@ -428,7 +437,12 @@ household_goods <- ggplot(all_goods_household, aes(x=time_period, y=value, fill=
         axis.title.y = element_text(margin = margin(r = 10)),
         axis.title.x = element_text(margin = margin(t = 10)),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
+household_goods
+```
 
+![](README_files/figure-markdown_github/unnamed-chunk-3-2.png)
+
+``` r
 # kitchen items 
 
 all_goods_kitchen <- trial_plots %>% 
@@ -469,6 +483,12 @@ kitchen_goods <- ggplot(all_goods_kitchen, aes(x=time_period, y=value, fill= kit
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
         plot.margin = margin(15, 10, 15, 10))
 
+kitchen_goods
+```
+
+![](README_files/figure-markdown_github/unnamed-chunk-3-3.png)
+
+``` r
 # farming items
 
 all_goods_farm <- trial_plots %>% 
@@ -513,6 +533,12 @@ farming_goods <- ggplot(all_goods_farm, aes(x=time_period, y=value, fill= farmin
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
         plot.margin = margin(15, 10, 15, 10))
 
+farming_goods
+```
+
+![](README_files/figure-markdown_github/unnamed-chunk-3-4.png)
+
+``` r
 # select items
 
 all_goods_select <- trial_plots %>% 
@@ -552,7 +578,12 @@ select_goods <- ggplot(all_goods_select, aes(x=time_period, y=value, fill= selec
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
         plot.margin = margin(15, 10, 15, 10))
 
- 
+ select_goods
+```
+
+![](README_files/figure-markdown_github/unnamed-chunk-3-5.png)
+
+``` r
 # focus on 5 most common goods and how bundle changes over time 
 
 big_five_df <- model_df %>% 
@@ -582,7 +613,12 @@ big_five_boxplots <- ggplot(big_five_df, aes(x = time_period, y = value, fill = 
         axis.text.x = element_blank(),
         plot.margin = margin(15, 10, 15, 10))
 
+big_five_boxplots
+```
 
+![](README_files/figure-markdown_github/unnamed-chunk-3-6.png)
+
+``` r
 # attendance
 
 library("remotes")
@@ -631,7 +667,13 @@ attendance_plot <- ggplot(attendance_df, aes(x = time_period, y = number, fill =
         axis.title.x = element_text(margin = margin(t = 10)),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
         plot.margin = margin(15, 10, 15, 10))
-    
+   
+attendance_plot
+```
+
+![](README_files/figure-markdown_github/unnamed-chunk-3-7.png)
+
+``` r
 # bivariate analysis 
 
 auction_size <- scatter_plotter(trial_plots$auction_size, "Auction values vs auction\n size","Auction size")
@@ -644,7 +686,20 @@ men <- scatter_plotter(trial_plots$men_total, "Auction values vs titled\n men at
 bivariat_plot <- grid.arrange(auction_size, cattle, slaves, sheep, horses, men, ncol = 3, nrow = 2)
 ```
 
-![](README_files/figure-markdown_github/unnamed-chunk-3-1.png)
+![](README_files/figure-markdown_github/unnamed-chunk-3-8.png)
+
+``` r
+bivariat_plot
+```
+
+    ## TableGrob (2 x 3) "arrange": 6 grobs
+    ##   z     cells    name           grob
+    ## 1 1 (1-1,1-1) arrange gtable[layout]
+    ## 2 2 (1-1,2-2) arrange gtable[layout]
+    ## 3 3 (1-1,3-3) arrange gtable[layout]
+    ## 4 4 (2-2,1-1) arrange gtable[layout]
+    ## 5 5 (2-2,2-2) arrange gtable[layout]
+    ## 6 6 (2-2,3-3) arrange gtable[layout]
 
 feature and target transformations
 
@@ -679,6 +734,19 @@ distribution_plots <- grid.arrange(auction_unlogged, auction_logged, cattle_unlo
     ## Warning: Removed 273 rows containing non-finite values (`stat_density()`).
 
 ![](README_files/figure-markdown_github/unnamed-chunk-4-1.png)
+
+``` r
+distribution_plots
+```
+
+    ## TableGrob (3 x 2) "arrange": 6 grobs
+    ##   z     cells    name           grob
+    ## 1 1 (1-1,1-1) arrange gtable[layout]
+    ## 2 2 (1-1,2-2) arrange gtable[layout]
+    ## 3 3 (2-2,1-1) arrange gtable[layout]
+    ## 4 4 (2-2,2-2) arrange gtable[layout]
+    ## 5 5 (3-3,1-1) arrange gtable[layout]
+    ## 6 6 (3-3,2-2) arrange gtable[layout]
 
 # regression
 
@@ -736,29 +804,6 @@ summary(reg)
     ## F-statistic: 115.7 on 30 and 1452 DF,  p-value: < 2.2e-16
 
 ``` r
-Title <- "Auction total value regression"
-Label <- "Auctiont total"
-reg_tidy <- tidy(reg)
-
-output_reg <- huxreg(reg_tidy, note = "%stars%.") %>%
-  set_caption(Title)
-```
-
-    ## Warning in FUN(X[[i]], ...): Error calling `glance` on model 1, of class
-    ## `tbl_df`:
-
-    ## Warning in FUN(X[[i]], ...): Error : There is no glance method for tibbles. Did you mean `tibble::glimpse()`?
-
-    ## Warning in nobs.default(m, use.fallback = TRUE): no 'nobs' method is available
-
-    ## Warning in huxreg(reg_tidy, note = "%stars%."): Unrecognized statistics: r.squared, logLik, AIC
-    ## Try setting `statistics` explicitly in the call to `huxreg()`
-
-``` r
-output_reg <- output_reg %>% slice(-1, -(nrow(output_reg) - 1))
-
-latex_reg <- to_latex(output_reg)
-
 # comparison
 residuals <- reg$residuals
 rmse <- sqrt(mean(residuals^2)) # 1.13
@@ -802,7 +847,12 @@ knn_plot <- ggplot(knn_fit)+
          x="Neighbours")+
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
+knn_plot
+```
 
+![](README_files/figure-markdown_github/unnamed-chunk-7-1.png)
+
+``` r
 # k = 5 has the lowest RMSE
 #  k=5 RMSE = 1.345573  Rsquared = 0.5987131 MAE = 0.9381762  
 
@@ -818,25 +868,8 @@ knn_model <- train(
   tuneGrid = data.frame(k = k),
   metric = "RMSE"
 )
-knn_model
-```
 
-    ## k-Nearest Neighbors 
-    ## 
-    ## 889 samples
-    ##  30 predictor
-    ## 
-    ## No pre-processing
-    ## Resampling: Cross-Validated (10 fold, repeated 5 times) 
-    ## Summary of sample sizes: 800, 800, 798, 801, 801, 800, ... 
-    ## Resampling results:
-    ## 
-    ##   RMSE      Rsquared   MAE      
-    ##   1.348051  0.5968507  0.9350051
-    ## 
-    ## Tuning parameter 'k' was held constant at a value of 5
 
-``` r
 # Make predictions on the testing data
 predictions_knn <- predict(knn_model, newdata = testing_data)
 RMSE(predictions_knn, testing_data$auction_tot) # 1.17
@@ -874,7 +907,11 @@ knn_predictions_plot <- ggplot(prediction_knn_df, aes(x = Actual, y = Predicted,
   labs(title = "knn model: predictions vs actual values", x = "Actual", y = "Predicted")+
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
+
+knn_predictions_plot
 ```
+
+![](README_files/figure-markdown_github/unnamed-chunk-7-2.png)
 
 # random forest
 
@@ -994,7 +1031,1208 @@ rf_plot <- ggplot(rf_predictions, aes(x = Actual, y = Predictions, color = Accur
   labs(title = "Random forest: predictions vs actual values", x = "Actual", y = "Predicted")+
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
+    
+
+rf_predictions
 ```
+
+    ## Warning in knit_print.huxtable(ht): Unrecognized output format "markdown". Using `to_screen` to print huxtables.
+    ## Set options("huxtable.knitr_output_format") manually to "latex", "html", "rtf", "docx", "pptx", "md" or "screen".
+
+               ┌────────────────────────────────────────────────┐
+               │ Actual   Predictions   Accuracy                │
+               ├────────────────────────────────────────────────┤
+               │  7.23           7.33   Within 0.1 of predicted │
+               │                        value                   │
+               │  3.87           3.8    Within 0.1 of predicted │
+               │                        value                   │
+               │  7.62           7.71   Within 0.1 of predicted │
+               │                        value                   │
+               │  3.28           4.17   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.18           6.33   Within 0.2 of predicted │
+               │                        value                   │
+               │  8.13           7.43   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.15           9.27   Within 0.2 of predicted │
+               │                        value                   │
+               │  3.1            4.18   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.35           5.51   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.41           4.48   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.13           8.09   Within 0.1 of predicted │
+               │                        value                   │
+               │  8.92           8.71   Within 0.3 of predicted │
+               │                        value                   │
+               │  4.01           4.64   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.38           3.91   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.07           5.1    Within 0.1 of predicted │
+               │                        value                   │
+               │  5.4            5.14   Within 0.3 of predicted │
+               │                        value                   │
+               │  6.88           6.88   Within 0.1 of predicted │
+               │                        value                   │
+               │  6.85           6.18   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.54           7.05   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.15           7.9    Within 0.3 of predicted │
+               │                        value                   │
+               │  7.46           7.44   Within 0.1 of predicted │
+               │                        value                   │
+               │  8.56           8.48   Within 0.1 of predicted │
+               │                        value                   │
+               │  3.4            4.82   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.52           5.27   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.72           7.28   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.77           7.88   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.53           8.15   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.9            7.17   Within 0.3 of predicted │
+               │                        value                   │
+               │  8.67           7.95   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.5            8.03   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.78           6.9    Within 0.2 of predicted │
+               │                        value                   │
+               │  5.38           5.89   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.17           6.11   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.68           3.76   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.43           5.16   Within 0.3 of predicted │
+               │                        value                   │
+               │  9.34           8.92   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.43           5.2    Within 0.3 of predicted │
+               │                        value                   │
+               │  6.11           6.67   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.24           5.18   Within 0.1 of predicted │
+               │                        value                   │
+               │  5.9            4.49   More than 0.3 from      │
+               │                        predicted value         │
+               │ 10.2            9.39   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.83           3.69   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.95           4.13   Within 0.2 of predicted │
+               │                        value                   │
+               │  5.7            3.85   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.79           5.54   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.62           4.69   Within 0.1 of predicted │
+               │                        value                   │
+               │  3.01           4.97   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.27           8.68   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.75           8.46   Within 0.3 of predicted │
+               │                        value                   │
+               │  7.31           6.73   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.91           8.19   Within 0.3 of predicted │
+               │                        value                   │
+               │  6.44           6.29   Within 0.2 of predicted │
+               │                        value                   │
+               │  6.68           6.95   Within 0.3 of predicted │
+               │                        value                   │
+               │  6.27           4.49   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.07           7.68   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.96           6.85   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.34           7.03   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.88           4.93   Within 0.1 of predicted │
+               │                        value                   │
+               │  5.82           4.97   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.39           5.05   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.04           7.1    Within 0.1 of predicted │
+               │                        value                   │
+               │  8.39           7.92   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.36           4.02   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.73           9.04   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.82           3.79   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.69           7.13   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.4            7.1    More than 0.3 from      │
+               │                        predicted value         │
+               │  5.99           6.34   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.79           6.78   Within 0.1 of predicted │
+               │                        value                   │
+               │  8.34           6.37   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.55           3.88   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.74           5.48   Within 0.3 of predicted │
+               │                        value                   │
+               │  6.31           5.87   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.63           3.72   More than 0.3 from      │
+               │                        predicted value         │
+               │  0.693          4.57   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.45           5.54   Within 0.1 of predicted │
+               │                        value                   │
+               │  8.87           8.81   Within 0.1 of predicted │
+               │                        value                   │
+               │  7.15           6.03   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.25           6.7    More than 0.3 from      │
+               │                        predicted value         │
+               │  8.26           7.52   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.07           4.04   Within 0.1 of predicted │
+               │                        value                   │
+               │  6.1            6.45   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.37           4.53   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.81           5.54   Within 0.3 of predicted │
+               │                        value                   │
+               │  7.28           7.39   Within 0.2 of predicted │
+               │                        value                   │
+               │  2.43           3.85   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.45           5.51   Within 0.1 of predicted │
+               │                        value                   │
+               │  5.95           5.31   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.55           6.46   Within 0.1 of predicted │
+               │                        value                   │
+               │  8              8      Within 0.1 of predicted │
+               │                        value                   │
+               │  4.48           3.61   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.44           6.16   Within 0.3 of predicted │
+               │                        value                   │
+               │  5.66           6.05   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.53           8.38   Within 0.2 of predicted │
+               │                        value                   │
+               │  5.04           5.06   Within 0.1 of predicted │
+               │                        value                   │
+               │  8.79           8.54   Within 0.3 of predicted │
+               │                        value                   │
+               │  6.17           5.27   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.06           8.53   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.72           7.2    More than 0.3 from      │
+               │                        predicted value         │
+               │  5.51           6.71   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.69           3.93   Within 0.3 of predicted │
+               │                        value                   │
+               │  6.26           5.35   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.39           8.83   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.2            5.13   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.61           8.8    Within 0.2 of predicted │
+               │                        value                   │
+               │  2.5            4.18   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.75           6.78   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.31           8.1    More than 0.3 from      │
+               │                        predicted value         │
+               │  4.69           5.06   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.33           4.63   More than 0.3 from      │
+               │                        predicted value         │
+               │ 10.2            9.15   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.15           4.98   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.71           6.17   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.72           5.5    Within 0.3 of predicted │
+               │                        value                   │
+               │  6.11           6.35   Within 0.3 of predicted │
+               │                        value                   │
+               │  8.84           8.38   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.26           4.8    More than 0.3 from      │
+               │                        predicted value         │
+               │  7.07           7.14   Within 0.1 of predicted │
+               │                        value                   │
+               │  8.34           8.14   Within 0.2 of predicted │
+               │                        value                   │
+               │  7.51           6.2    More than 0.3 from      │
+               │                        predicted value         │
+               │  1.19           1.54   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.41           7.47   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.42           8.76   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.16           7.38   Within 0.3 of predicted │
+               │                        value                   │
+               │  8.27           8.46   Within 0.2 of predicted │
+               │                        value                   │
+               │  6.49           6.94   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.48           7.8    More than 0.3 from      │
+               │                        predicted value         │
+               │  2.71           3.85   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.7            6.28   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.44           4.46   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.76           8.86   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.06           8.36   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.21           6.82   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.49           6.89   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.74           7.05   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.58           9.34   Within 0.3 of predicted │
+               │                        value                   │
+               │  7.91           7.01   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.57           6.93   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.12           8.91   Within 0.3 of predicted │
+               │                        value                   │
+               │  7.03           6.99   Within 0.1 of predicted │
+               │                        value                   │
+               │  6.83           6.64   Within 0.2 of predicted │
+               │                        value                   │
+               │  4.9            2.96   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.17           7.86   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.43           4.84   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.12           7.93   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.29           3.91   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.28           7.26   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.3            3.85   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.8            3.98   Within 0.2 of predicted │
+               │                        value                   │
+               │  4.51           5.11   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.19           5.48   Within 0.3 of predicted │
+               │                        value                   │
+               │  6.86           6.69   Within 0.2 of predicted │
+               │                        value                   │
+               │  4.9            4.7    Within 0.2 of predicted │
+               │                        value                   │
+               │  8.48           7.98   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.79           7.17   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.45           4.5    More than 0.3 from      │
+               │                        predicted value         │
+               │  5.85           5.27   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.53           6.48   Within 0.1 of predicted │
+               │                        value                   │
+               │  7.07           7.32   Within 0.3 of predicted │
+               │                        value                   │
+               │  3.16           3.65   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.92           7.78   Within 0.2 of predicted │
+               │                        value                   │
+               │  6.39           5.4    More than 0.3 from      │
+               │                        predicted value         │
+               │  9              8.17   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.22           4.63   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.6            3.8    More than 0.3 from      │
+               │                        predicted value         │
+               │  5.35           5.78   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.99           4.45   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.35           7.66   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.55           6.94   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.84           8.62   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.22           6.9    More than 0.3 from      │
+               │                        predicted value         │
+               │  8.23           7.83   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.89           5.91   Within 0.1 of predicted │
+               │                        value                   │
+               │  5.28           5.07   Within 0.3 of predicted │
+               │                        value                   │
+               │  5.92           5.76   Within 0.2 of predicted │
+               │                        value                   │
+               │ 10.3            9.6    More than 0.3 from      │
+               │                        predicted value         │
+               │  7.08           7.05   Within 0.1 of predicted │
+               │                        value                   │
+               │  4.44           4.11   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.9            5.28   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.91           5.26   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.27           4.89   More than 0.3 from      │
+               │                        predicted value         │
+               │  2.34           4.2    More than 0.3 from      │
+               │                        predicted value         │
+               │  7              5.73   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.07           6.09   Within 0.1 of predicted │
+               │                        value                   │
+               │  6.57           6.65   Within 0.1 of predicted │
+               │                        value                   │
+               │  5.46           3.86   More than 0.3 from      │
+               │                        predicted value         │
+               │  1.61           3.69   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.5            5.72   Within 0.3 of predicted │
+               │                        value                   │
+               │  4.68           5.78   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.62           7.84   Within 0.3 of predicted │
+               │                        value                   │
+               │  6.54           6.75   Within 0.3 of predicted │
+               │                        value                   │
+               │  1.82           2.54   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.94           3.8    More than 0.3 from      │
+               │                        predicted value         │
+               │  2.71           3.9    More than 0.3 from      │
+               │                        predicted value         │
+               │  5.54           5.64   Within 0.2 of predicted │
+               │                        value                   │
+               │  9.64           9.45   Within 0.2 of predicted │
+               │                        value                   │
+               │  8.18           8.05   Within 0.2 of predicted │
+               │                        value                   │
+               │  4.09           4.76   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.62           4.49   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.94           5.01   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.75           5.77   Within 0.1 of predicted │
+               │                        value                   │
+               │  9.43           8.85   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.15           4.65   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.15           7.61   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.63           5.62   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.45           7.94   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.17           6.46   Within 0.3 of predicted │
+               │                        value                   │
+               │  4.58           5.15   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.36           5.16   Within 0.3 of predicted │
+               │                        value                   │
+               │  3.98           3.93   Within 0.1 of predicted │
+               │                        value                   │
+               │  7.68           7.11   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.94           5.42   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.17           8.04   Within 0.2 of predicted │
+               │                        value                   │
+               │  0              2.32   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.79           7.28   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.47           4.11   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.57           4.14   More than 0.3 from      │
+               │                        predicted value         │
+               │ 10.1            9.23   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.06           7.49   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.72           6.2    More than 0.3 from      │
+               │                        predicted value         │
+               │  9.63           9.28   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.06           6.25   Within 0.2 of predicted │
+               │                        value                   │
+               │  5.98           5.53   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.74           8.37   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.64           6.73   Within 0.1 of predicted │
+               │                        value                   │
+               │  8.1            7.08   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.51           4.44   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.1            5.5    More than 0.3 from      │
+               │                        predicted value         │
+               │  7              6.33   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.61           4.93   More than 0.3 from      │
+               │                        predicted value         │
+               │  6              4.01   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.42           5.85   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.24           6.23   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.39           7.28   Within 0.2 of predicted │
+               │                        value                   │
+               │  9.36           9.49   Within 0.2 of predicted │
+               │                        value                   │
+               │  3.56           3.43   Within 0.2 of predicted │
+               │                        value                   │
+               │  3.48           4.77   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.93           5.91   Within 0.1 of predicted │
+               │                        value                   │
+               │  5.86           5.17   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.25           4.8    More than 0.3 from      │
+               │                        predicted value         │
+               │  5.57           5.83   Within 0.3 of predicted │
+               │                        value                   │
+               │  9.62           8.99   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.3            8.73   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.11           7.39   Within 0.3 of predicted │
+               │                        value                   │
+               │  8.73           8.41   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.44           4.89   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.26           7.34   Within 0.1 of predicted │
+               │                        value                   │
+               │  4.68           4.93   Within 0.3 of predicted │
+               │                        value                   │
+               │  4.81           3.8    More than 0.3 from      │
+               │                        predicted value         │
+               │  7.2            6.14   More than 0.3 from      │
+               │                        predicted value         │
+               │  1.39           3.83   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.63           9.37   Within 0.3 of predicted │
+               │                        value                   │
+               │  7.61           7.85   Within 0.3 of predicted │
+               │                        value                   │
+               │  7.2            7.09   Within 0.2 of predicted │
+               │                        value                   │
+               │  8.36           8.1    Within 0.3 of predicted │
+               │                        value                   │
+               │  3.16           4.35   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.9            6.3    More than 0.3 from      │
+               │                        predicted value         │
+               │  4.17           4.57   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.47           4.19   Within 0.3 of predicted │
+               │                        value                   │
+               │  8.26           6.79   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.46           5.37   Within 0.1 of predicted │
+               │                        value                   │
+               │  8.25           8.16   Within 0.1 of predicted │
+               │                        value                   │
+               │  6.8            6.65   Within 0.2 of predicted │
+               │                        value                   │
+               │  7.95           8.23   Within 0.3 of predicted │
+               │                        value                   │
+               │  9.21           8.52   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.32           6.49   Within 0.2 of predicted │
+               │                        value                   │
+               │  7.12           6.9    Within 0.3 of predicted │
+               │                        value                   │
+               │  8.59           8.06   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.28           7.35   Within 0.1 of predicted │
+               │                        value                   │
+               │  6.82           5.51   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.62           5.5    More than 0.3 from      │
+               │                        predicted value         │
+               │  6.76           6.18   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.44           6.17   Within 0.3 of predicted │
+               │                        value                   │
+               │  7.24           5.45   More than 0.3 from      │
+               │                        predicted value         │
+               │  2.77           4.58   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.22           3.79   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.36           7.11   Within 0.3 of predicted │
+               │                        value                   │
+               │  4.65           4.23   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.3            6.12   Within 0.2 of predicted │
+               │                        value                   │
+               │  6.11           5.73   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.67           7.01   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.1            3.61   More than 0.3 from      │
+               │                        predicted value         │
+               │  1.63           3.82   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.75           5.35   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.7            7.36   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.88           6.13   Within 0.3 of predicted │
+               │                        value                   │
+               │  5.83           3.83   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.27           7.68   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.24           4.2    More than 0.3 from      │
+               │                        predicted value         │
+               │  5.6            5.33   Within 0.3 of predicted │
+               │                        value                   │
+               │  7.14           7.12   Within 0.1 of predicted │
+               │                        value                   │
+               │  8.32           8      More than 0.3 from      │
+               │                        predicted value         │
+               │  5.8            6.16   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.82           7      More than 0.3 from      │
+               │                        predicted value         │
+               │  5.49           5.01   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.63           8.91   More than 0.3 from      │
+               │                        predicted value         │
+               │  2.98           3.78   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.01           4.19   Within 0.2 of predicted │
+               │                        value                   │
+               │  8.23           8.16   Within 0.1 of predicted │
+               │                        value                   │
+               │  4.81           5.07   Within 0.3 of predicted │
+               │                        value                   │
+               │  9.39           8.89   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.95           5.42   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.98           8.53   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.26           8.66   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.77           7.45   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.49           7.18   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.28           8.07   Within 0.3 of predicted │
+               │                        value                   │
+               │  7.81           7.76   Within 0.1 of predicted │
+               │                        value                   │
+               │  6.69           6.81   Within 0.2 of predicted │
+               │                        value                   │
+               │  9.52           9.23   Within 0.3 of predicted │
+               │                        value                   │
+               │  6.35           6.57   Within 0.3 of predicted │
+               │                        value                   │
+               │  8.89           8.56   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.15           4.92   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.98           7.72   Within 0.3 of predicted │
+               │                        value                   │
+               │  7.73           7.87   Within 0.2 of predicted │
+               │                        value                   │
+               │  6.13           7.15   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.2            5.25   Within 0.1 of predicted │
+               │                        value                   │
+               │  7.3            6.98   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.85           6.21   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.84           6.24   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.11           6.81   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.69           3.74   Within 0.1 of predicted │
+               │                        value                   │
+               │  7.33           7.04   Within 0.3 of predicted │
+               │                        value                   │
+               │  7.27           7.46   Within 0.2 of predicted │
+               │                        value                   │
+               │  9.47           9.45   Within 0.1 of predicted │
+               │                        value                   │
+               │  1.89           4.01   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.02           4.74   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.79           8.59   Within 0.3 of predicted │
+               │                        value                   │
+               │  6.89           7.21   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.14           7.13   Within 0.1 of predicted │
+               │                        value                   │
+               │  6.53           7.25   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.95           5.13   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.78           8.65   Within 0.2 of predicted │
+               │                        value                   │
+               │  7.19           6.52   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.21           5.55   More than 0.3 from      │
+               │                        predicted value         │
+               │  2.01           4.58   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.45           4.91   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.88           9      Within 0.2 of predicted │
+               │                        value                   │
+               │  7.08           7.22   Within 0.2 of predicted │
+               │                        value                   │
+               │  4.26           4.65   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.81           5.56   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.61           7.58   Within 0.1 of predicted │
+               │                        value                   │
+               │  7.39           6.99   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.5            6.54   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.93           5.34   More than 0.3 from      │
+               │                        predicted value         │
+               │ 11             10      More than 0.3 from      │
+               │                        predicted value         │
+               │  5.88           5.82   Within 0.1 of predicted │
+               │                        value                   │
+               │  6.17           5.61   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.01           7.01   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.19           8.57   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.27           6.74   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.69           5.59   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.87           6.46   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.63           4.72   Within 0.1 of predicted │
+               │                        value                   │
+               │  8.07           6.71   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.14           8.5    More than 0.3 from      │
+               │                        predicted value         │
+               │  6.03           5.7    More than 0.3 from      │
+               │                        predicted value         │
+               │  7.26           7.01   Within 0.3 of predicted │
+               │                        value                   │
+               │  5.49           6.08   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.19           8.71   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.54           7.86   More than 0.3 from      │
+               │                        predicted value         │
+               │  1.61           3.16   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.99           6.86   Within 0.2 of predicted │
+               │                        value                   │
+               │  6.6            5.68   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.95           8.91   Within 0.1 of predicted │
+               │                        value                   │
+               │  5.7            5.37   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.57           7.49   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.32           9.02   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.45           7.72   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.56           8.15   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.35           7.97   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.79           5.53   Within 0.3 of predicted │
+               │                        value                   │
+               │  5.89           4.2    More than 0.3 from      │
+               │                        predicted value         │
+               │  5.76           6.62   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.96           5.95   Within 0.1 of predicted │
+               │                        value                   │
+               │  6.08           6.1    Within 0.1 of predicted │
+               │                        value                   │
+               │  6.05           3.79   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.71           7.3    More than 0.3 from      │
+               │                        predicted value         │
+               │  4.36           4.98   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.51           6.6    Within 0.1 of predicted │
+               │                        value                   │
+               │  4.74           5.12   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.44           6.44   Within 0.1 of predicted │
+               │                        value                   │
+               │  6.49           5.87   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.72           5.83   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.33           6.37   Within 0.1 of predicted │
+               │                        value                   │
+               │  4.79           4.17   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.81           3.42   More than 0.3 from      │
+               │                        predicted value         │
+               │  1.53           3.51   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.46           8.36   Within 0.1 of predicted │
+               │                        value                   │
+               │  4.83           4.9    Within 0.1 of predicted │
+               │                        value                   │
+               │  3.07           5.01   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.44           6.69   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.13           7.23   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.23           4.79   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.57           6.74   Within 0.2 of predicted │
+               │                        value                   │
+               │  8.95           8.73   Within 0.3 of predicted │
+               │                        value                   │
+               │  4.34           4.7    More than 0.3 from      │
+               │                        predicted value         │
+               │  4.08           5.15   More than 0.3 from      │
+               │                        predicted value         │
+               │  0.693          2.61   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.49           6.05   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.15           9.38   Within 0.3 of predicted │
+               │                        value                   │
+               │  6.48           6.47   Within 0.1 of predicted │
+               │                        value                   │
+               │  8.49           8.04   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.02           5.9    Within 0.2 of predicted │
+               │                        value                   │
+               │  0.833          3.25   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.57           6.77   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.46           6.82   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.62           7.31   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.01           6.3    Within 0.3 of predicted │
+               │                        value                   │
+               │  8.71           8.73   Within 0.1 of predicted │
+               │                        value                   │
+               │  0.742          3.13   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.05           7.09   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.24           5.68   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.39           4.84   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.9            8.72   Within 0.2 of predicted │
+               │                        value                   │
+               │  8.28           8.37   Within 0.1 of predicted │
+               │                        value                   │
+               │  8.44           6.9    More than 0.3 from      │
+               │                        predicted value         │
+               │  5.86           3.8    More than 0.3 from      │
+               │                        predicted value         │
+               │  8.04           6.68   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.74           7.73   Within 0.1 of predicted │
+               │                        value                   │
+               │  7.67           7.04   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.92           9.24   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.24           7.65   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.56           7.69   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.64           6.08   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.65           4.73   Within 0.1 of predicted │
+               │                        value                   │
+               │  6.75           6.56   Within 0.2 of predicted │
+               │                        value                   │
+               │  4.56           4.75   Within 0.2 of predicted │
+               │                        value                   │
+               │  5.13           4.73   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.22           4.02   Within 0.2 of predicted │
+               │                        value                   │
+               │  6.34           6.25   Within 0.1 of predicted │
+               │                        value                   │
+               │  6.92           7.28   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.53           6.78   Within 0.3 of predicted │
+               │                        value                   │
+               │  3.97           4.95   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.52           6.17   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.12           5.89   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.05           8.42   More than 0.3 from      │
+               │                        predicted value         │
+               │ -0.693          4.73   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.82           6.97   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.29           7.53   Within 0.3 of predicted │
+               │                        value                   │
+               │  5.85           6.03   Within 0.2 of predicted │
+               │                        value                   │
+               │  7.61           6.36   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.63           5.38   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.3            6.99   More than 0.3 from      │
+               │                        predicted value         │
+               │  0.531          3.27   More than 0.3 from      │
+               │                        predicted value         │
+               │  9              8.06   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.84           4.92   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.73           5.95   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.54           4.62   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.14           4.08   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.06           7.47   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.07           5.76   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.41           3.74   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.29           7.68   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.44           7.39   Within 0.1 of predicted │
+               │                        value                   │
+               │  5.63           5.91   Within 0.3 of predicted │
+               │                        value                   │
+               │  4.69           5.06   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.82           4.71   Within 0.2 of predicted │
+               │                        value                   │
+               │  5.9            7.16   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.65           6.41   Within 0.3 of predicted │
+               │                        value                   │
+               │  4.66           6.75   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.17           6.35   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.26           4.79   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.72           7.31   More than 0.3 from      │
+               │                        predicted value         │
+               │  0              3.36   More than 0.3 from      │
+               │                        predicted value         │
+               │  1.72           3.58   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.32           5.34   Within 0.1 of predicted │
+               │                        value                   │
+               │  7.57           7.66   Within 0.1 of predicted │
+               │                        value                   │
+               │  5.35           5.74   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.97           6.1    Within 0.2 of predicted │
+               │                        value                   │
+               │  4.65           4.82   Within 0.2 of predicted │
+               │                        value                   │
+               │  8.5            8.83   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.62           6.12   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.65           8.65   Within 0.1 of predicted │
+               │                        value                   │
+               │  7.83           7.82   Within 0.1 of predicted │
+               │                        value                   │
+               │  3.1            3.53   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.96           6.02   Within 0.1 of predicted │
+               │                        value                   │
+               │  6.56           6.56   Within 0.1 of predicted │
+               │                        value                   │
+               │  2.42           5.34   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.93           8.31   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.93           5.98   Within 0.1 of predicted │
+               │                        value                   │
+               │  8.06           7.72   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.18           4.44   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.23           7.99   Within 0.3 of predicted │
+               │                        value                   │
+               │  4.5            4.67   Within 0.2 of predicted │
+               │                        value                   │
+               │  6.59           6.47   Within 0.2 of predicted │
+               │                        value                   │
+               │  7.36           7.25   Within 0.2 of predicted │
+               │                        value                   │
+               │  3.91           3.9    Within 0.1 of predicted │
+               │                        value                   │
+               │  5.03           5.44   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.33           7.04   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.26           6.89   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.83           7.77   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.67           8.01   More than 0.3 from      │
+               │                        predicted value         │
+               │  9              8.56   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.71           8.04   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.45           4.2    Within 0.3 of predicted │
+               │                        value                   │
+               │  5.4            6.96   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.06           6.3    More than 0.3 from      │
+               │                        predicted value         │
+               │  6.53           5.76   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.78           8.91   Within 0.2 of predicted │
+               │                        value                   │
+               │  8.95           8.8    Within 0.2 of predicted │
+               │                        value                   │
+               │  9.83           9.07   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.15           6.89   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.24           7.05   Within 0.2 of predicted │
+               │                        value                   │
+               │  5.64           5.11   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.41           6.36   Within 0.1 of predicted │
+               │                        value                   │
+               │  6.65           6.84   Within 0.2 of predicted │
+               │                        value                   │
+               │  1.25           3.75   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.98           7.98   Within 0.1 of predicted │
+               │                        value                   │
+               │  9.11           8.74   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.02           6.2    Within 0.2 of predicted │
+               │                        value                   │
+               │  6.06           5.91   Within 0.2 of predicted │
+               │                        value                   │
+               │  7.57           5.93   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.28           7.64   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.69           5.32   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.45           4.5    More than 0.3 from      │
+               │                        predicted value         │
+               │  5.64           6.04   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.5            6.35   More than 0.3 from      │
+               │                        predicted value         │
+               │  2.64           3.77   More than 0.3 from      │
+               │                        predicted value         │
+               │  9.27           9.38   Within 0.2 of predicted │
+               │                        value                   │
+               │  5.34           6.61   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.14           4.05   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.72           7.32   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.3            7.64   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.93           7.24   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.28           5.32   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.81           5.02   More than 0.3 from      │
+               │                        predicted value         │
+               │ -1.2            3.92   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.04           7.48   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.49           4.74   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.61           6.71   Within 0.1 of predicted │
+               │                        value                   │
+               │  6.19           6.96   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.86           7.69   Within 0.2 of predicted │
+               │                        value                   │
+               │  2.3            3.12   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.08           5.55   More than 0.3 from      │
+               │                        predicted value         │
+               │  0.788          4.45   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.11           3.75   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.13           7.99   Within 0.2 of predicted │
+               │                        value                   │
+               │  9.13           8.64   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.47           6.81   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.38           4.28   Within 0.2 of predicted │
+               │                        value                   │
+               │  7.23           7.05   Within 0.2 of predicted │
+               │                        value                   │
+               │  7.07           7.7    More than 0.3 from      │
+               │                        predicted value         │
+               │  5.76           5.78   Within 0.1 of predicted │
+               │                        value                   │
+               │  1.46           3.82   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.95           4.69   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.6            6.92   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.38           3.85   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.02           8.34   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.84           4.58   Within 0.3 of predicted │
+               │                        value                   │
+               │  3.6            5.17   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.97           8.19   Within 0.3 of predicted │
+               │                        value                   │
+               │  8.07           8.08   Within 0.1 of predicted │
+               │                        value                   │
+               │  2.62           3.52   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.79           6.25   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.87           7.07   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.09           6.62   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.44           7.12   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.39           6.84   More than 0.3 from      │
+               │                        predicted value         │
+               │  6.7            7.14   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.62           6.96   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.95           5.62   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.05           7.07   Within 0.1 of predicted │
+               │                        value                   │
+               │  7.23           6.44   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.13           4.95   Within 0.2 of predicted │
+               │                        value                   │
+               │  7.36           7.61   Within 0.3 of predicted │
+               │                        value                   │
+               │  8.04           8.14   Within 0.1 of predicted │
+               │                        value                   │
+               │  5.41           5.9    More than 0.3 from      │
+               │                        predicted value         │
+               │  9.85           9.46   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.28           7.09   Within 0.2 of predicted │
+               │                        value                   │
+               │  7.82           7.95   Within 0.2 of predicted │
+               │                        value                   │
+               │  6.02           6.21   Within 0.2 of predicted │
+               │                        value                   │
+               │  4.19           3.83   More than 0.3 from      │
+               │                        predicted value         │
+               │  4.92           4.19   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.41           5.57   Within 0.2 of predicted │
+               │                        value                   │
+               │  8.8            8.35   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.35           5.92   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.75           8.08   More than 0.3 from      │
+               │                        predicted value         │
+               │ 10.1            9.44   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.69           6.12   More than 0.3 from      │
+               │                        predicted value         │
+               │  5.88           6.33   More than 0.3 from      │
+               │                        predicted value         │
+               │  3.06           5.16   More than 0.3 from      │
+               │                        predicted value         │
+               │  2.62           3.05   More than 0.3 from      │
+               │                        predicted value         │
+               │  8              8.08   Within 0.1 of predicted │
+               │                        value                   │
+               │  3.68           3.85   Within 0.2 of predicted │
+               │                        value                   │
+               │  5.45           4.18   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.4            7.4    Within 0.1 of predicted │
+               │                        value                   │
+               │  4.4            5.7    More than 0.3 from      │
+               │                        predicted value         │
+               │  7.86           7.72   Within 0.2 of predicted │
+               │                        value                   │
+               │  8.55           8.14   More than 0.3 from      │
+               │                        predicted value         │
+               │  7.52           7.39   Within 0.2 of predicted │
+               │                        value                   │
+               │  5.43           6.1    More than 0.3 from      │
+               │                        predicted value         │
+               │  7.08           7.83   More than 0.3 from      │
+               │                        predicted value         │
+               │  8.94           7.29   More than 0.3 from      │
+               │                        predicted value         │
+               └────────────────────────────────────────────────┘
+
+Column names: Actual, Predictions, Accuracy
 
 # importance plot
 
@@ -1010,4 +2248,8 @@ importance_plot <- ggplot(rf_importance_df, aes(x= reorder(Feature, -Importance)
   labs(title = "Feature Importance", x = "Feature", y = "Importance") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1, size=7))+
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"))
+
+importance_plot
 ```
+
+![](README_files/figure-markdown_github/unnamed-chunk-9-1.png)

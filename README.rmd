@@ -18,6 +18,7 @@ library(corrplot)
 library(gridExtra)
 library(broom)
 library(huxtable)
+library(xtable)
 
 source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\column_mutations.R")
 source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\data_loading.R")
@@ -125,10 +126,9 @@ auction_table <- full_join(auction_example, auction_example_goods, by = c("mooc_
     filter(purchase_id< "MOOC10/10.1/20")
 
 
-hux_auction_table <- huxtable(auction_table)
-latex_auction_table <- to_latex(hux_auction_table)
-
-
+auction_tab <- options(xtable.comment=FALSE) %>% as.data.frame()
+auction_tab <- xtable(auction_table)
+auction_tab
 
 ```
 
@@ -140,7 +140,7 @@ latex_auction_table <- to_latex(hux_auction_table)
 Mean_auction_total <- mean(ml_df$auction_tot)
 sd_auction_total <- sd(ml_df$auction_tot)
 
-summary(model_df)
+
 
 
 # trying out plots 
@@ -175,7 +175,7 @@ total_auction <- ggplot(trial_plots, aes(x = year, y = auction_tot)) +
         axis.title.x = element_text(margin = margin(t = 10)),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
         plot.margin = margin(15, 10, 15, 10))
-
+total_auction
 # plotting all goods
 household_items <- c("beds", "chairs", "china", "clocks", "coatrack", "cups", "irons", "lamps", "tables", "balance")
 household_items <- paste0("total_", household_items)
@@ -216,6 +216,7 @@ household_goods <- ggplot(all_goods_household, aes(x=time_period, y=value, fill=
         axis.title.y = element_text(margin = margin(r = 10)),
         axis.title.x = element_text(margin = margin(t = 10)),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
+household_goods
 
 # kitchen items 
 
@@ -241,6 +242,8 @@ kitchen_goods <- ggplot(all_goods_kitchen, aes(x=time_period, y=value, fill= kit
         axis.title.x = element_text(margin = margin(t = 10)),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
         plot.margin = margin(15, 10, 15, 10))
+
+kitchen_goods
 
 # farming items
 
@@ -271,6 +274,8 @@ farming_goods <- ggplot(all_goods_farm, aes(x=time_period, y=value, fill= farmin
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
         plot.margin = margin(15, 10, 15, 10))
 
+farming_goods
+
 # select items
 
 all_goods_select <- trial_plots %>% 
@@ -295,6 +300,7 @@ select_goods <- ggplot(all_goods_select, aes(x=time_period, y=value, fill= selec
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
         plot.margin = margin(15, 10, 15, 10))
 
+ select_goods
  
 # focus on 5 most common goods and how bundle changes over time 
 
@@ -321,6 +327,7 @@ big_five_boxplots <- ggplot(big_five_df, aes(x = time_period, y = value, fill = 
         axis.text.x = element_blank(),
         plot.margin = margin(15, 10, 15, 10))
 
+big_five_boxplots
 
 # attendance
 
@@ -360,7 +367,9 @@ attendance_plot <- ggplot(attendance_df, aes(x = time_period, y = number, fill =
         axis.title.x = element_text(margin = margin(t = 10)),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
         plot.margin = margin(15, 10, 15, 10))
-    
+   
+attendance_plot
+
 # bivariate analysis 
 
 auction_size <- scatter_plotter(trial_plots$auction_size, "Auction values vs auction\n size","Auction size")
@@ -371,7 +380,7 @@ horses <- scatter_plotter(trial_plots$total_horses, "Auction values vs horse\n p
 men <- scatter_plotter(trial_plots$men_total, "Auction values vs titled\n men attendance","Total number of titled\n men per auction")
 
 bivariat_plot <- grid.arrange(auction_size, cattle, slaves, sheep, horses, men, ncol = 3, nrow = 2)
-
+bivariat_plot
 
 ```
 
@@ -401,7 +410,7 @@ men_attend_logged <- model_df %>% mutate(men_total=log(men_total)) %>%
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"))
 
 distribution_plots <- grid.arrange(auction_unlogged, auction_logged, cattle_unlogged, cattle_logged, men_attend_unlogged, men_attend_logged, ncol = 2, nrow = 3)
-    
+distribution_plots
 
 ```
 
@@ -411,15 +420,7 @@ distribution_plots <- grid.arrange(auction_unlogged, auction_logged, cattle_unlo
 
 reg <- lm(auction_tot ~ ., data = ml_df)
 summary(reg)
-Title <- "Auction total value regression"
-Label <- "Auctiont total"
-reg_tidy <- tidy(reg)
 
-output_reg <- huxreg(reg_tidy, note = "%stars%.") %>%
-  set_caption(Title)
-output_reg <- output_reg %>% slice(-1, -(nrow(output_reg) - 1))
-
-latex_reg <- to_latex(output_reg)
 
 # comparison
 residuals <- reg$residuals
@@ -468,7 +469,7 @@ knn_plot <- ggplot(knn_fit)+
          x="Neighbours")+
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
-
+knn_plot
 # k = 5 has the lowest RMSE
 #  k=5 RMSE = 1.345573  Rsquared = 0.5987131 MAE = 0.9381762  
 
@@ -484,7 +485,7 @@ knn_model <- train(
   tuneGrid = data.frame(k = k),
   metric = "RMSE"
 )
-knn_model
+
 
 # Make predictions on the testing data
 predictions_knn <- predict(knn_model, newdata = testing_data)
@@ -510,7 +511,7 @@ knn_predictions_plot <- ggplot(prediction_knn_df, aes(x = Actual, y = Predicted,
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
 
-
+knn_predictions_plot
 
 
 ```
@@ -590,7 +591,7 @@ rf_plot <- ggplot(rf_predictions, aes(x = Actual, y = Predictions, color = Accur
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
     
 
-
+rf_predictions
 
 ```
 
@@ -609,6 +610,6 @@ importance_plot <- ggplot(rf_importance_df, aes(x= reorder(Feature, -Importance)
   theme(axis.text.x = element_text(angle = 45, hjust = 1, size=7))+
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"))
 
-
+importance_plot
 ```
 
