@@ -1,26 +1,50 @@
 ---
-title: "Predicting Auction Values"
-author: "Tessa Hubble"
-date: "June 2023"
-# date: "`r Sys.Date()`"
-bibliography: Tex/ref.bib       # Do not edit: Keep this naming convention and location.
+title: "Predicting Total Auction Values in the Cape Colony"
+documentclass: elsarticle
+Thesis_FP: no
 output:
-  pagedown::html_paged:
-    # template: wp_paged.html
-    # css: ['wp.css', 'wp-fonts.css', 'wp-page.css']
-    css: ["Template/default-fonts-Texevier.css", "Template/default-page-Texevier.css", "Template/default-Texevier.css"]
-    csl: Template/harvard-stellenbosch-university.csl # referencing format used.
-    template: ["Template/paged-Texevier.html"]
-
-    toc: true
-    # change to true for a self-contained document, but it'll be a litte slower for Pandoc to render
-    self_contained: TRUE
+  pdf_document:
+    keep_tex: yes
+    template: Tex/TexDefault.txt
+    fig_width: 3.5
+    fig_height: 3.5
+  html_document:
+    df_print: paged
+Author1: Tessa Hubble
+Ref1: Stellenbosch University, South Africa
+Email1: 21559953\@sun.ac.za
+BottomRFooter: \footnotesize Page \thepage
+addtoprule: yes
+addfootrule: yes
+margin: 2.3
+bottom: 2
+top: 2.5
+HardSet_layout: yes
+linenumbers: no
+bibliography: Tex/ref.bib
+csl: "Tex/harvard-stellenbosch-university.csl"
+RemovePreprintSubmittedTo: yes
+Journal: Journal of Finance
+toc: no
+numbersections: yes
+fontsize: 11pt
+linestretch: 1.2
+link-citations: yes
+AddTitle: yes
 abstract: |
-    Predicting total auction values from a Cape Colony auction dataset between 1720 and 1820. 
+  Predicting total auction values from a Cape Colony auction dataset between 1720 and 1820.
 ---
 
-```{r setup, include=FALSE}
+<!-- First: Set your default preferences for chunk options: -->
 
+<!-- If you want a chunk's code to be printed, set echo = TRUE. message = FALSE stops R printing ugly package loading details in your final paper too. I also suggest setting warning = FALSE and checking for warnings in R, else you might find ugly warnings in your paper. -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.width = 6, fig.height = 5, fig.pos="H", fig.pos = 'H')
+
+source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\data_loading.R")
+source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\column_mutations.R")
+source("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\code\\title_finders.R")
 
 library(tidyverse)
 library(ranger)
@@ -118,20 +142,21 @@ ml_df <- model_df %>%
   mutate(across(everything(), ~ifelse(. != 0, log(.), .)))
     
 
-
 ```
 
-\newpage
 
-# Introduction {.unnumbered}
+<!-- ############################## -->
+<!-- # Start Writing here: -->
+<!-- ############################## -->
+
+# Introduction \label{Introduction}
 
 Over the first 150 years of the Cape Colony, deceased estate auctions were an important means of exchange for the burgeoning population present. The only other means of purchasing goods was through ships that docked along the coast. From livestock and furniture to slaves, a wide variety of goods were obtained through auctions. Although auction rolls from this time period have been transcribed, inconsistent spelling and errors are pervasive. 30 types of goods have been identified and tagged throughout the auction rolls. This project aims to use this subset of goods within auctions to predict total auction values. Focusing on approximately 1400 auctions between 1720 and 1820, two different machine learning techniques will be used to predict total auction values. Being able to assess the total auction value based on a subset of goods can be an important tool within historical data where there is limited information. Exploratory data analysis will provide context and support for the features included in the models. Throughout the exploratory data analysis and subsequent models, it becomes clear that the number of slaves, ....... consistently place upward pressure on total auction values.  The performance of a k-nearest neighbours model and random forest model will be compared to that of a linear regression to assess accuracy. (give brief results)
 
 # Auction data
 Table 1 below provides an example of one auction in 1770. From this auction roll, one can see the goods sold, the price and the type of good sold. A buyer_id column exists as well. Within this column, some names include titles such as "de Wede" (widow) or "mijnheer" (mister) which enables one to determine how many titled men or women attend an auction. It is clear from this auction that only a few goods are tagged. The tagged/ subset group of goods will be as features therefore the accuracy of the machine learning models included may be hampered by limited presence of these goods across auctions. 
 
-
-```{r Table1, warning=FALSE, message=FALSE, results='hide', echo=FALSE }
+```{r Table1,  warning =  FALSE, fig.align = 'center'}
 auction_example <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data\\Full_Rec_Mooc_Purchases.csv") %>% arrange(mooc_id) %>% 
     select(mooc_id, purchase_id, price, buyer_id, goods) %>% 
     filter(mooc_id=="MOOC10/10.1")
@@ -427,14 +452,14 @@ auction_logged <- model_df %>% mutate(auction_tot=log(auction_tot)) %>%
     labs(title = "Distribution of logged\n total auction values",
          x = "Logged total auction value", y = "Density") +
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"))
-cattle_unlogged <- unlogged_distribution(model_df$cattle, "Distribution of number\n of cattle purchases", "Total cattle purchases per auction")
-cattle_logged <- model_df %>% mutate(cattle=log(cattle)) %>% 
+cattle_unlogged <- unlogged_distribution(model_df$total_cattle, "Distribution of number\n of cattle purchases", "Total cattle purchases per auction")
+cattle_logged <- model_df %>% mutate(cattle=log(total_cattle)) %>% 
      ggplot(aes(x=cattle))+
     geom_density()+
     labs(title = "Distribution of logged\n cattle purchases",
-         x = "Logged cattle purchases per auction", y = "Density") +
+         x = "Logged cattle purchases\n per auction", y = "Density") +
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"))
-men_attend_unlogged <- unlogged_distribution(model_df$cattle, "Distribution of titled\n men auction attendance", "Titled men attendance\n per auction")
+men_attend_unlogged <- unlogged_distribution(model_df$men_total, "Distribution of titled\n men auction attendance", "Titled men attendance\n per auction")
 men_attend_logged <- model_df %>% mutate(men_total=log(men_total)) %>% 
      ggplot(aes(x=men_total))+
     geom_density()+
@@ -532,7 +557,7 @@ prediction_knn_df <- prediction_knn_df %>%
                                    ifelse(abs(Predicted-Actual)<0.3, "Within 0.3 of predicted value", 
                                           "More than 0.3 from predicted value"))))
 
-knn_predictions_plot <- ggplot(prediction_knn_df, aes(x = Actual, y = Predicted, colour=accuracy)) +
+knn_predictions_plot <- ggplot(prediction_knn_df, aes(x = Actual, y = Predicted, colour=Accuracy)) +
   geom_point() +
     geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "black") +
   labs(title = "knn model: predictions vs actual values", x = "Actual", y = "Predicted")+
@@ -542,7 +567,7 @@ knn_predictions_plot <- ggplot(prediction_knn_df, aes(x = Actual, y = Predicted,
 knn_predictions_plot
 ```
 
-## Random Forest Model
+# Random Forest Model
 
 Random forest models include multiple decision trees to make predictions. Decision trees are built independently on a subset of data to introduce diversity among trees and reduce overfitting. Additionally, random features are selected at each node of the tree to cover a wider breadth of the data and include more robust predictions. Once the decision trees are trained, predictions of each tree are aggregated to generate predicitons. The randomness of random data and feature selection decreases variance in predictions and aggregating tree-level predictions minimises bias introduced at within trees. Tuning parameters such as the number of trees within the random forest and the number of features randomly selected at each node should improve predictions. Furthermore, the node size can also be tuned as it refers to the minimum number of observations required at a terminal node to ensure another split.
 
@@ -563,10 +588,10 @@ training_rf <- ranger(
   importance= "permutation",
   seed = 123
 )
-training_rf
+
 default_rmse <- sqrt(training_rf$prediction.error) # RMSE: 0.94
 rf_importance <- ranger::importance(training_rf)
-sort(rf_importance, decreasing = TRUE)
+
 
 # importance plot
 
@@ -576,7 +601,7 @@ rf_importance_df <- data.frame(
 colnames(rf_importance_df) <- c("Feature", "Importance")
 
 
-importance_plot <- ggplot(importance_df, aes(x= reorder(Feature, -Importance), y = Importance)) +
+importance_plot <- ggplot(rf_importance_df, aes(x= reorder(Feature, -Importance), y = Importance)) +
   geom_bar(stat = "identity", fill = "#C20008") +
   labs(title = "Feature Importance", x = "Feature", y = "Importance") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1, size=7))+
@@ -590,41 +615,37 @@ After completing a grid search to tune parameters, the default model is found to
 ```{r Figure13}
 
 # parameter grid
-parameter_grid <- expand.grid(
-  mtry = c(floor(n_features / 3)),
-  num.trees = c(100, 300, 500),
-  min.node.size = c(1, 5, 10)
-)
+#parameter_grid <- expand.grid(
+#  mtry = c(floor(n_features / 3)),
+#  num.trees = c(100, 300, 500),
+#  min.node.size = c(1, 5, 10))
 
-results <- lapply(1:nrow(parameter_grid), function(i) {
-  model <- ranger(
-    auction_tot ~ .,
-    data = training_data,
-    num.trees = parameter_grid$num.trees[i],
-    mtry = parameter_grid$mtry[i],
-    min.node.size = parameter_grid$min.node.size[i],
-    respect.unordered.factors = "order",
-    importance = "permutation",
-    seed = 123
-  )
-  predictions <- predict(model, data = testing_data)$predictions
-  rmse <- sqrt(mean((predictions - testing_data$auction_tot)^2))
-  list(model = model, rmse = rmse)
-})
+#results <- lapply(1:nrow(parameter_grid), function(i) {
+#  model <- ranger(
+#    auction_tot ~ .,
+#    data = training_data,
+#    num.trees = parameter_grid$num.trees[i],
+#    mtry = parameter_grid$mtry[i],
+#    min.node.size = parameter_grid$min.node.size[i],
+#    respect.unordered.factors = "order",
+#    importance = "permutation",
+#    seed = 123
+#  )
+#  predictions <- predict(model, data = testing_data)$predictions
+#  rmse <- sqrt(mean((predictions - testing_data$auction_tot)^2))
+#  list(model = model, rmse = rmse)
+#})
 
-best_model_index <- which.min(sapply(results, function(x) x$rmse))
-best_model <- results[[best_model_index]]$model
+#best_model_index <- which.min(sapply(results, function(x) x$rmse))
+#best_model <- results[[best_model_index]]$model
 
-train_predictions <- predict(best_model, data = training_data)$predictions
-rmse_train <- sqrt(mean((train_predictions - training_data$auction_tot)^2)) # RMSE: 0.68
+#train_predictions <- predict(best_model, data = training_data)$predictions
+#rmse_train <- sqrt(mean((train_predictions - training_data$auction_tot)^2)) # RMSE: 0.68
 
 # baseline model is the best
 
 default_predictions <- predict(training_rf, data = testing_data)$predictions
 rmse_default_test <- sqrt(mean((default_predictions - training_data$auction_tot)^2)) # 2.68
-
-# Print the R-squared on the testing data
-print(rsquared_test)
 
 
 # plot
@@ -664,6 +685,7 @@ output_reg <- huxreg(reg_tidy, note = "%stars%.") %>%
 output_reg <- output_reg %>% slice(-1, -(nrow(output_reg) - 1))
 
 latex_reg <- to_latex(output_reg)
+latex_reg
 
 # comparison
 residuals <- reg$residuals
@@ -674,3 +696,5 @@ r_squared <- summary(reg)$r.squared # 0.71
 # Critiques 
 
 Although the linear regression performed better than the knn and random forest model, all three models have low predictive accuracy. It is clear that the subset of goods used to predict total auction values, are sufficient predictors of total auction values. 
+
+# Conclusion

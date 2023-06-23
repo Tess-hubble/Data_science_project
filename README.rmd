@@ -16,11 +16,13 @@ library(caret)
 library(tidyr)
 library(corrplot)
 library(gridExtra)
+library(broom)
+library(huxtable)
+
 
 
 # loading and merging data
 
-art <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data\\priceseries_art_products_purch_rec.csv")
 purchases <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data\\Full_Rec_Mooc_Purchases.csv") %>% select(mooc_id, buyer_id)
 auctions <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data\\Full_Rec_Mooc.csv") %>% 
     select(mooc_id, date, auction_tot) %>% 
@@ -29,25 +31,6 @@ final_df <- data_loader("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data
 merged_df <- merger(final_df, auctions) %>% 
     filter(unit_price>0)
 
-# auction example table
-auction_example <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data\\Full_Rec_Mooc_Purchases.csv") %>% arrange(mooc_id) %>% 
-    select(mooc_id, purchase_id, price, buyer_id, goods) %>% 
-    filter(mooc_id=="MOOC10/10.1")
-auction_example_goods <- data_auction("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data") %>% select(-bundle, -unit_price, -count) %>% mutate(year = substr(date, 1, 4))
-auction_table <- full_join(auction_example, auction_example_goods, by = c("mooc_id", "purchase_id")) %>% 
-    mutate(year="1770") %>% 
-    select(-date)
-
-# summing total value of items within good type per auction
-total_value_good_auction <- total_purchase_value(goods = c("books", "art_products", "balance", 
-                                                           "beds", "cattle", "chairs", "china", 
-                                                           "clocks", "coatrack", "cups", "guns", 
-                                                           "hammers", "horse_cart", "horses", "irons", 
-                                                           "jewlery", "lamps", "oven", "plates", 
-                                                           "pot", "plough", "sheep", "slaves", "tables", 
-                                                           "utensils", "wagons")) %>% 
-    spread(key = type, value = total_value, fill = 0)
-       
     
 # summing the number of items within a good type per auction 
 goods <- c("books", "art_products", "balance", "beds", "cattle", "chairs", "china", "clocks", 
@@ -86,8 +69,7 @@ auction_size <- merged_df %>%
     distinct(mooc_id, .keep_all=TRUE) %>% 
     dplyr::select(mooc_id, date, auction_tot, auction_size) 
 
-interim_df <- left_join(total_value_good_auction, total_number_good_auction, "mooc_id")
-pen_ultimate_df <- left_join(interim_df, auction_size, "mooc_id")
+pen_ultimate_df <- left_join(total_number_good_auction, auction_size, "mooc_id")
 
 
 # counting attendance by titled men and women per auction
@@ -124,7 +106,25 @@ ml_df <- model_df %>%
     na.omit() %>% 
   mutate(across(everything(), ~ifelse(. != 0, log(.), .)))
     
-ml_df$auction_size <- as.numeric(ml_df$auction_size)
+
+```
+
+# example
+```{r}
+# auction example table
+auction_example <- read_csv("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data\\Full_Rec_Mooc_Purchases.csv") %>% arrange(mooc_id) %>% 
+    select(mooc_id, purchase_id, price, buyer_id, goods) %>% 
+    filter(mooc_id=="MOOC10/10.1")
+auction_example_goods <- data_auction("C:\\Users\\tessa\\OneDrive\\Desktop\\Masters 2023\\Data science\\Project\\data") %>% select(-bundle, -unit_price, -count) %>% mutate(year = substr(date, 1, 4))
+auction_table <- full_join(auction_example, auction_example_goods, by = c("mooc_id", "purchase_id")) %>% 
+    select(-date, -year, -buyer_id)
+
+
+hux_auction_table <- huxtable(auction_table)
+latex_auction_table <- to_latex(hux_auction_table)
+
+
+
 ```
 
 
@@ -132,8 +132,8 @@ ml_df$auction_size <- as.numeric(ml_df$auction_size)
 
 ```{r}
 
-Mean_auction_total <- mean(model_df$auction_tot)
-sd_auction_total <- sd(model_df$auction_tot)
+Mean_auction_total <- mean(ml_df$auction_tot)
+sd_auction_total <- sd(ml_df$auction_tot)
 
 summary(model_df)
 
@@ -204,7 +204,7 @@ household_goods <- ggplot(all_goods_household, aes(x=time_period, y=value, fill=
     geom_bar(stat="identity")+
     scale_fill_manual(values = c("#FFB400", "#FFC740", "#C20008", "#FF020D", "#13AFEF", "#009944", "#8C4799", "#FF6600", "#A6BDDB", "#00B33C"))+
      labs(title = "Number of houshold goods per auction over time",
-       x = "Year", y = "Good value (Rix-dollars)", 
+       x = "Year", y = "Total number of household goods", 
        fill = "Household goods") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"),
@@ -226,9 +226,9 @@ all_goods_kitchen <- trial_plots %>%
 
 kitchen_goods <- ggplot(all_goods_kitchen, aes(x=time_period, y=value, fill= kitchen_goods)) +
     geom_bar(stat="identity")+
-    scale_fill_manual(values = c("#FFB400", "#13AFEF", "#A6BDDB", "#00B33C" ))+
+    scale_fill_manual(values = c("#FFB400", "#FFC740", "#C20008", "#FF020D"))+
      labs(title = "Number of kitchen goods per auction over time",
-       x = "Year", y = "Good value (Rix-dollars)", 
+       x = "Year", y = "Total number of kitchen goods", 
        fill = "Kitchen goods") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"),
@@ -255,10 +255,10 @@ all_goods_farm <- trial_plots %>%
 
 farming_goods <- ggplot(all_goods_farm, aes(x=time_period, y=value, fill= farming_goods)) +
     geom_bar(stat="identity")+
-    scale_fill_manual(values = c("#FFB400", "#FFC740", "#C20008", "#FF020D", "#13AFEF", "#009944", "#8C4799", "#FF6600"))+
-     labs(title = "Value of farming goods per auction over time",
-       x = "Year", y = "Good value (Rix-dollars)", 
-       fill = "Farming goods") +
+    scale_fill_manual(values = c("#FFB400", "#FFC740","#8C4799" , "#FF020D", "#13AFEF", "#009944","#C20008" , "#FF6600"))+ 
+     labs(title = "Number of farming goods per auction over time",
+       x = "Year", y = "Total number of farming goods", 
+       fill = "Farming goods")+
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"),
         axis.title.y = element_text(margin = margin(r = 10)),
@@ -279,9 +279,9 @@ all_goods_select <- trial_plots %>%
 
 select_goods <- ggplot(all_goods_select, aes(x=time_period, y=value, fill= select_goods)) +
     geom_bar(stat="identity")+
-    scale_fill_manual(values = c("#FFB400", "#C20008", "#009944"))+
-     labs(title = "Value of select goods per auction over time",
-       x = "Year", y = "Good value (Rix-dollars)", 
+    scale_fill_manual(values = c("#FFB400", "#C20008", "#FF020D"))+
+     labs(title = "Number of select goods per auction over time",
+       x = "Year", y = "Total number of select goods", 
        fill = "Select goods") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"),
@@ -309,7 +309,7 @@ big_five_boxplots <- ggplot(big_five_df, aes(x = time_period, y = value, fill = 
        x = "Time Period",
        y = "Number of purchases",
        fill = "Good type") +
-  scale_fill_manual(values = c("#FFB400", "#C20008", "#A6BDDB", "#00B33C", "#FF6600")) +
+  scale_fill_manual(values = c("#FFB400", "#FFC740", "#C20008", "#FF020D", "#13AFEF")) +
   theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
         axis.title.y = element_text(margin = margin(r = 10)),
         axis.title.x = element_text(margin = margin(t = 10)),
@@ -349,7 +349,7 @@ attendance_plot <- ggplot(attendance_df, aes(x = time_period, y = number, fill =
        x = "Time Period",
        y = "Average attendance",
        fill = "Titled") +
-  scale_fill_manual(values = c("#00B33C", "#13AFEF")) +
+  scale_fill_manual(values = c("#FFC740", "#C20008")) +
   theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
         axis.title.y = element_text(margin = margin(r = 10)),
         axis.title.x = element_text(margin = margin(t = 10)),
@@ -391,12 +391,12 @@ auction_logged <- model_df %>% mutate(auction_tot=log(auction_tot)) %>%
     labs(title = "Distribution of logged\n total auction values",
          x = "Logged total auction value", y = "Density") +
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"))
-cattle_unlogged <- unlogged_distribution(model_df$cattle, "Distribution of cattle\n values", "Total cattle value per auction")
+cattle_unlogged <- unlogged_distribution(model_df$cattle, "Distribution of number\n of cattle purchases", "Total cattle purchases per auction")
 cattle_logged <- model_df %>% mutate(cattle=log(cattle)) %>% 
      ggplot(aes(x=cattle))+
     geom_density()+
-    labs(title = "Distribution of logged\n cattle values",
-         x = "Logged cattle value", y = "Density") +
+    labs(title = "Distribution of logged\n cattle purchases",
+         x = "Logged cattle purchases per auction", y = "Density") +
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face="bold"))
 men_attend_unlogged <- unlogged_distribution(model_df$cattle, "Distribution of titled\n men auction attendance", "Titled men attendance\n per auction")
 men_attend_logged <- model_df %>% mutate(men_total=log(men_total)) %>% 
@@ -411,23 +411,27 @@ distribution_plots <- grid.arrange(auction_unlogged, auction_logged, cattle_unlo
 
 ```
 
-stick to tuning two parameters: mtry(number of variables randomly sampled at each split) & ntree(number of trees to grow)
--two elements of randomness: random sub-sample obtained via bootstrapping on which a single tree is built & random set of features selected for each tree
-- randomness: decreases variance in prediction at cost of creating slight bias in each tree but aggregating the trees using voting tends to eliminate bias = both bias and variance are minimised 
-- can choose the way each tree is build using hyperparameters
 
-# number of trees in random forest: 10p
-# mtry (split variable randomisation): helps to balance low tree correlation with reasonable predictive strength - However, when there are fewer relevant predictors (e.g., noisy data) a higher value of  mtry
-#  Node size is probably the most common hyperparameter to control tree complexity: if your data has many noisy predictors and higher  mtry
-  values are performing best, then performance may improve by increasing node size (i.e., decreasing tree depth and complexity
-  # The sample size parameter determines how many observations are drawn for the training of each tree. Decreasing the sample size leads to more diverse trees and thereby lower between-tree correlation, which can have a positive effect on the prediction accuracy. Consequently, if there are a few dominating features in your data set, reducing the sample size can also help to minimize between-tree correlation- Assess 3–4 values of sample sizes ranging from 25%–100% 
-
-  tends to perform better because it makes it more likely to select those features with the strongest signal
 # regression
 ```{r}
 
 reg <- lm(auction_tot ~ ., data = ml_df)
 summary(reg)
+Title <- "Auction total value regression"
+Label <- "Auctiont total"
+reg_tidy <- tidy(reg)
+
+output_reg <- huxreg(reg_tidy, note = "%stars%.") %>%
+  set_caption(Title)
+output_reg <- output_reg %>% slice(-1, -(nrow(output_reg) - 1))
+
+latex_reg <- to_latex(output_reg)
+
+# comparison
+residuals <- reg$residuals
+rmse <- sqrt(mean(residuals^2)) # 1.13
+r_squared <- summary(reg)$r.squared # 0.71
+    
 ```
 
 
@@ -463,14 +467,16 @@ knn_fit <- train(
   tuneGrid = hyper_grid,
   metric = "RMSE"
 )
-    
+
+
 knn_plot <- ggplot(knn_fit)+
     labs(title= "Optimal k-value", 
          x="Neighbours")+
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
+
 # k = 5 has the lowest RMSE
-# RMSE is 1.16
+#  k=5 RMSE = 1.345573  Rsquared = 0.5987131 MAE = 0.9381762  
 
 library(caret)
 
@@ -484,24 +490,33 @@ knn_model <- train(
   tuneGrid = data.frame(k = k),
   metric = "RMSE"
 )
-knn_model # RMSE is 1.16
+knn_model
 
 # Make predictions on the testing data
 predictions_knn <- predict(knn_model, newdata = testing_data)
-rmse_knn_test <- RMSE(predictions_knn, testing_data$auction_tot) # RMSE is 0.93
+RMSE(predictions_knn, testing_data$auction_tot) # 1.17
+MAE(predictions_knn, testing_data$auction_tot) # 0.83
+R2(predictions_knn, testing_data$auction_tot) # r-squared: 0.66
 
 # plot
 prediction_knn_df <- data.frame(
   Actual = testing_data$auction_tot,
   Predicted = predictions_knn
-)
+) 
+prediction_knn_df <- prediction_knn_df %>% 
+    mutate(accuracy= ifelse(abs(Predicted-Actual)<0.1, "Within 0.1 of predicted value", 
+                            ifelse(abs(Predicted-Actual)<0.2, "Within 0.2 of predicted value", 
+                                   ifelse(abs(Predicted-Actual)<0.3, "Within 0.3 of predicted value", 
+                                          "More than 0.3 from predicted value"))))
 
-knn_predictions_plot <- ggplot(prediction_knn_df, aes(x = Actual, y = Predicted)) +
+knn_predictions_plot <- ggplot(prediction_knn_df, aes(x = Actual, y = Predicted, colour=accuracy)) +
   geom_point() +
-  geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "#C20008") +
-  labs(title = "Predictions vs Actual Values", x = "Actual", y = "Predicted")+
+    geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "black") +
+  labs(title = "knn model: predictions vs actual values", x = "Actual", y = "Predicted")+
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
+
+
 
 
 ```
@@ -524,11 +539,10 @@ training_rf <- ranger(
   seed = 123
 )
 training_rf
-default_rmse <- sqrt(training_rf$prediction.error) # RMSE: 0.94
+default_rmse <- sqrt(training_rf$prediction.error) # RMSE: 1.1
 rf_importance <- ranger::importance(training_rf)
 sort(rf_importance, decreasing = TRUE)
 
-# lowering RMSE
 
 # parameter grid
 parameter_grid <- expand.grid(
@@ -556,19 +570,28 @@ results <- lapply(1:nrow(parameter_grid), function(i) {
 best_model_index <- which.min(sapply(results, function(x) x$rmse))
 best_model <- results[[best_model_index]]$model
 
-predictions_rf <- predict(best_model, data = testing_data)$predictions
-rmse_rf <- sqrt(mean((predictions_rf - testing_data$auction_tot)^2)) # RMSE:0.769
+train_predictions <- predict(best_model, data = training_data)$predictions
+rmse_train <- sqrt(mean((train_predictions - training_data$auction_tot)^2)) # RMSE: 0.68
 
-rf_predictions <- data.frame(
-  Actual = testing_data$auction_tot,
-  Predictions = predictions_rf
-)
+# baseline model is the best
+default_predictions <- predict(training_rf, data = testing_data)$predictions
+rmse_default_test <- sqrt(mean((default_predictions - training_data$auction_tot)^2)) # 2.68
+
 
 # plot
-rf_plot <- ggplot(rf_predictions, aes(x = Actual, y = Predictions)) +
+rf_predictions <- data.frame(
+  Actual = testing_data$auction_tot,
+  Predictions = default_predictions
+) %>% 
+    mutate(Accuracy= ifelse(abs(Predictions-Actual)<0.1, "Within 0.1 of predicted value", 
+                            ifelse(abs(Predictions-Actual)<0.2, "Within 0.2 of predicted value", 
+                                   ifelse(abs(Predictions-Actual)<0.3, "Within 0.3 of predicted value", 
+                                          "More than 0.3 from predicted value"))))
+
+rf_plot <- ggplot(rf_predictions, aes(x = Actual, y = Predictions, color = Accuracy)) +
   geom_point() +
-    geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "#C20008") +
-  labs(title = "Predictions vs Actual Values", x = "Actual", y = "Predicted")+
+    geom_abline(intercept = 0, slope = 1, linetype = "dashed") +
+  labs(title = "Random forest: predictions vs actual values", x = "Actual", y = "Predicted")+
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"),
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
     
@@ -586,10 +609,12 @@ rf_importance_df <- data.frame(
 colnames(rf_importance_df) <- c("Feature", "Importance")
 
 
-importance_plot <- ggplot(importance_df, aes(x= reorder(Feature, -Importance), y = Importance)) +
+importance_plot <- ggplot(rf_importance_df, aes(x= reorder(Feature, -Importance), y = Importance)) +
   geom_bar(stat = "identity", fill = "#C20008" ) +
   labs(title = "Feature Importance", x = "Feature", y = "Importance") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1, size=7))+
     theme(plot.title = element_text(hjust = 0.5, vjust = 2, face = "bold"))
+
+
 ```
 
